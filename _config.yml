@@ -1,0 +1,104 @@
+# GitHub Pages Configuration for The Book of Joa
+title: "The Book of Joa"
+description: "The Ultimate Open-Source Religion - Free for Eternity"
+url: "https://bookofjoa.github.io"
+baseurl: "/bookofjoa"
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Force index.md as homepage
+permalink: /:title/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Markdown processor
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+header_pages:
+  - README.md
+
+# Social links
+github_username: bookofjoa
+
+# SEO
+author: "Humanity (Open Source)"
+twitter:
+  username: bookofjoa
+  card: summary_large_image
+
+# Collections for chapters
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:name/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - book-structure/validation/
+  - book-structure/templates/
+  - "*.docx"
+
+# Include
+include:
+  - _pages
+  - assets
+
+# Site settings
+show_downloads: true
+show_excerpts: true
+
+# Book specific settings
+book:
+  total_chapters: 72
+  total_verses: 3636
+  license: "GPL-3.0"
+  status: "Complete"
+  sections:
+    - name: "Foundation Reality"
+      chapters: "1-18"
+      verses: 648
+      path: "book-structure/chapters/foundation/"
+    - name: "Relationship Mastery" 
+      chapters: "19-30"
+      verses: 600
+      path: "book-structure/chapters/relationships/"
+    - name: "Personal Excellence"
+      chapters: "31-42"
+      verses: 600
+      path: "book-structure/chapters/personal/"
+    - name: "Financial & Career Mastery"
+      chapters: "43-54"
+      verses: 600
+      path: "book-structure/chapters/financial/"
+    - name: "Wisdom Integration"
+      chapters: "55-66"
+      verses: 792
+      path: "book-structure/chapters/wisdom/"
+    - name: "Life Navigation"
+      chapters: "67-72"
+      verses: 396
+      path: "book-structure/chapters/navigation/"
