@@ -1,25 +1,193 @@
 ---
 layout: default
 title: "Chapter 2: The Prayer Revolution"
-description: "Foundation Reality Section"
+description: "Foundation Reality Section - 36 verses on prayer as action"
 section: "Foundation Reality"
 chapter_number: 2
 total_verses: 36
 nav_order: 2
 ---
 
-<div class="wrapper">
+<meta name="chapter_number" content="2">
+<meta name="chapter_title" content="The Prayer Revolution">
+<meta name="section" content="foundation">
 
-<div class="section-header">
-<h1>📖 Chapter 2: The Prayer Revolution</h1>
-<p><em>Foundation Reality Section • 36 verses</em></p>
+<style>
+/* Chapter-specific styling */
+.chapter-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.chapter-header {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.chapter-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1), transparent, rgba(255,255,255,0.1));
+  pointer-events: none;
+}
+
+.chapter-nav-clean {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 15px 25px;
+  margin: 25px 0;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.nav-arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.3);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  min-width: 150px;
+}
+
+.nav-arrow:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.nav-arrow.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.chapter-selector {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(240, 147, 251, 0.3);
+}
+
+.chapter-selector:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(240, 147, 251, 0.4);
+}
+
+.verse {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 6px solid #3498db;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.verse:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.verse::before {
+  content: "✨";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.3em;
+  transition: all 0.3s ease;
+}
+
+.verse:hover::before {
+  transform: rotate(180deg) scale(1.2);
+}
+
+.verse-number {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.chapter-footer {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #667eea;
+}
+
+@media (max-width: 768px) {
+  .chapter-nav-clean {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nav-arrow {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .chapter-container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+</style>
+
+<div class="chapter-container">
+
+<div class="chapter-header">
+<img src="../../../assets/logo-white.svg" alt="The Book of Joa Logo" width="80" style="border-radius: 50%; background: white; padding: 8px; margin-bottom: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); border: 2px solid rgba(255,255,255,0.5);">
+<h1>🙏 Chapter 2: The Prayer Revolution</h1>
+<p><em>Foundation Reality Section • 36 verses on prayer as action</em></p>
 </div>
 
-<div class="chapter-nav">
-<a href="../../../index.html">🏠 Home</a>
-<a href="README.html">📚 Foundation Reality</a>
-<a href="chapter-01.html">← Previous</a>
-<a href="chapter-03.html">Next →</a>
+<div class="chapter-nav-clean">
+<a href="chapter-01-this-book-is-for-you.html" class="nav-arrow">
+  ← Previous
+</a>
+<button class="chapter-selector" onclick="window.location.href='../index.html'">
+  📖 Browse All Chapters
+</button>
+<a href="chapter-03-no-priests-needed.html" class="nav-arrow">
+  Next →
+</a>
 </div>
 
 <div class="verse">
@@ -203,16 +371,21 @@ nav_order: 2
 </div>
 
 <div class="chapter-footer">
-<h3>🎯 Chapter 2 Complete</h3>
-<p><strong>36 verses of foundation reality</strong></p>
-<p><em>Continue your journey of reality-based wisdom</em></p>
+<h3>🙏 Chapter 2 Complete</h3>
+<p><strong>36 verses on prayer as action established</strong></p>
+<p><em>Next: Learn why you don't need priests or intermediaries - direct connection to truth</em></p>
 </div>
 
-<div class="chapter-nav">
-<a href="../../../index.html">🏠 Home</a>
-<a href="README.html">📚 Foundation Reality</a>
-<a href="chapter-01.html">← Previous</a>
-<a href="chapter-03.html">Next →</a>
+<div class="chapter-nav-clean">
+<a href="../../../index.html" class="nav-arrow">
+  🏠 Home
+</a>
+<button class="chapter-selector" onclick="window.location.href='../index.html'">
+  📖 Browse All Chapters
+</button>
+<a href="chapter-03-no-priests-needed.html" class="nav-arrow">
+  Next Chapter →
+</a>
 </div>
 
 </div>
