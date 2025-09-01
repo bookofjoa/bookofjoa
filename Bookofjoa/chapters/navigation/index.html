@@ -1,0 +1,304 @@
+---
+layout: default
+title: "Life Navigation - The Book of Joa"
+description: "Ultimate life challenges and navigation"
+---
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
+<link rel="shortcut icon" href="../../assets/favicon.ico">
+
+<style>
+/* Section Index Page Styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.top-nav {
+  background: #34495e;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-nav {
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.book-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d4af37;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #d4af37, #f4d03f, #d4af37);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes goldGlow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.back-btn {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-left: auto;
+}
+
+.back-btn:hover {
+  background: rgba(255,255,255,0.25);
+  text-decoration: none;
+  color: white;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 36px;
+  color: #34495e;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #666;
+  margin: 0 0 20px 0;
+}
+
+.section-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #34495e;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.chapter-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  border-left: 4px solid #34495e;
+  transition: all 0.3s ease;
+}
+
+.chapter-card:hover {
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+}
+
+.chapter-number {
+  font-size: 14px;
+  color: #34495e;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.chapter-title {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.chapter-description {
+  color: #666;
+  margin: 0 0 15px 0;
+  font-style: italic;
+}
+
+.chapter-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verse-count {
+  font-size: 12px;
+  color: #888;
+}
+
+.read-btn {
+  background: #34495e;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.read-btn:hover {
+  background: #34495edd;
+  text-decoration: none;
+  color: white;
+  transform: translateX(2px);
+}
+
+@media (max-width: 768px) {
+  .chapters-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-stats {
+    gap: 20px;
+  }
+  
+  .chapter-card {
+    padding: 20px;
+  }
+}
+</style>
+
+<div class="top-nav">
+  <div class="nav-container">
+    <img src="../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+    <h1 class="book-title">The Book of Joa</h1>
+    <a href="../../index.html" class="back-btn">← Back to Home</a>
+  </div>
+</div>
+
+<div class="main-content">
+  <div class="section-header">
+    <h1 class="section-title">Life Navigation</h1>
+    <p class="section-description">Ultimate life challenges and navigation</p>
+    <div class="section-stats">
+      <div class="stat-item">
+        <p class="stat-number">6</p>
+        <p class="stat-label">Chapters</p>
+      </div>
+      <div class="stat-item">
+        <p class="stat-number">384</p>
+        <p class="stat-label">Total Verses</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chapters-grid">
+    
+            <div class="chapter-card">
+                <div class="chapter-number">😌 67</div>
+                <h3 class="chapter-title">Handling Stress</h3>
+                <p class="chapter-description">pressure management techniques</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">64 verses</span>
+                    <a href="chapter-67-handling-stress.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🚨 68</div>
+                <h3 class="chapter-title">Managing Crisis</h3>
+                <p class="chapter-description">emergency response wisdom</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">64 verses</span>
+                    <a href="chapter-68-managing-crisis.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🔄 69</div>
+                <h3 class="chapter-title">Dealing with Failure</h3>
+                <p class="chapter-description">resilience and recovery</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">64 verses</span>
+                    <a href="chapter-69-dealing-with-failure.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">😊 70</div>
+                <h3 class="chapter-title">Finding Happiness</h3>
+                <p class="chapter-description">sustainable joy and fulfillment</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">64 verses</span>
+                    <a href="chapter-70-finding-happiness.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🌅 71</div>
+                <h3 class="chapter-title">Preparing for Death</h3>
+                <p class="chapter-description">mortality acceptance and wisdom</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">64 verses</span>
+                    <a href="chapter-71-preparing-for-death.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">♾️ 72</div>
+                <h3 class="chapter-title">The Infinite Journey</h3>
+                <p class="chapter-description">continuous growth and evolution</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">64 verses</span>
+                    <a href="chapter-72-the-infinite-journey.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+  </div>
+</div>

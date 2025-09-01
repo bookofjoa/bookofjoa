@@ -1,0 +1,358 @@
+---
+layout: default
+title: "Personal Excellence - The Book of Joa"
+description: "Individual development for personal excellence"
+---
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
+<link rel="shortcut icon" href="../../assets/favicon.ico">
+
+<style>
+/* Section Index Page Styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.top-nav {
+  background: #2ecc71;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-nav {
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.book-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d4af37;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #d4af37, #f4d03f, #d4af37);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes goldGlow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.back-btn {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin-left: auto;
+}
+
+.back-btn:hover {
+  background: rgba(255,255,255,0.25);
+  text-decoration: none;
+  color: white;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 36px;
+  color: #2ecc71;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #666;
+  margin: 0 0 20px 0;
+}
+
+.section-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2ecc71;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.chapter-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  border-left: 4px solid #2ecc71;
+  transition: all 0.3s ease;
+}
+
+.chapter-card:hover {
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+}
+
+.chapter-number {
+  font-size: 14px;
+  color: #2ecc71;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.chapter-title {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.chapter-description {
+  color: #666;
+  margin: 0 0 15px 0;
+  font-style: italic;
+}
+
+.chapter-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verse-count {
+  font-size: 12px;
+  color: #888;
+}
+
+.read-btn {
+  background: #2ecc71;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.read-btn:hover {
+  background: #2ecc71dd;
+  text-decoration: none;
+  color: white;
+  transform: translateX(2px);
+}
+
+@media (max-width: 768px) {
+  .chapters-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-stats {
+    gap: 20px;
+  }
+  
+  .chapter-card {
+    padding: 20px;
+  }
+}
+</style>
+
+<div class="top-nav">
+  <div class="nav-container">
+    <img src="../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+    <h1 class="book-title">The Book of Joa</h1>
+    <a href="../../index.html" class="back-btn">← Back to Home</a>
+  </div>
+</div>
+
+<div class="main-content">
+  <div class="section-header">
+    <h1 class="section-title">Personal Excellence</h1>
+    <p class="section-description">Individual development for personal excellence</p>
+    <div class="section-stats">
+      <div class="stat-item">
+        <p class="stat-number">12</p>
+        <p class="stat-label">Chapters</p>
+      </div>
+      <div class="stat-item">
+        <p class="stat-number">600</p>
+        <p class="stat-label">Total Verses</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="chapters-grid">
+    
+            <div class="chapter-card">
+                <div class="chapter-number">🏃 31</div>
+                <h3 class="chapter-title">Physical Health</h3>
+                <p class="chapter-description">body wellness and vitality</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-31-physical-health.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🧠 32</div>
+                <h3 class="chapter-title">Mental Health</h3>
+                <p class="chapter-description">psychological wellbeing</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-32-mental-health.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">💝 33</div>
+                <h3 class="chapter-title">Emotional Intelligence</h3>
+                <p class="chapter-description">emotional mastery skills</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-33-emotional-intelligence.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">📚 34</div>
+                <h3 class="chapter-title">Learning Systems</h3>
+                <p class="chapter-description">effective knowledge acquisition</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-34-learning-systems.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🎯 35</div>
+                <h3 class="chapter-title">Skill Mastery</h3>
+                <p class="chapter-description">competence development</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-35-skill-mastery.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">⏰ 36</div>
+                <h3 class="chapter-title">Time Management</h3>
+                <p class="chapter-description">productivity optimization</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-36-time-management.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🏆 37</div>
+                <h3 class="chapter-title">Goal Achievement</h3>
+                <p class="chapter-description">systematic success strategies</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-37-goal-achievement.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🔄 38</div>
+                <h3 class="chapter-title">Habit Formation</h3>
+                <p class="chapter-description">behavior change mastery</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-38-habit-formation.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🤔 39</div>
+                <h3 class="chapter-title">Decision Making</h3>
+                <p class="chapter-description">wise choice principles</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-39-decision-making.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🧩 40</div>
+                <h3 class="chapter-title">Problem Solving</h3>
+                <p class="chapter-description">systematic solution finding</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-40-problem-solving.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">💡 41</div>
+                <h3 class="chapter-title">Creative Thinking</h3>
+                <p class="chapter-description">innovation and imagination</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-41-creative-thinking.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+            <div class="chapter-card">
+                <div class="chapter-number">🌱 42</div>
+                <h3 class="chapter-title">Personal Growth</h3>
+                <p class="chapter-description">continuous self-improvement</p>
+                <div class="chapter-meta">
+                    <span class="verse-count">50 verses</span>
+                    <a href="chapter-42-personal-growth.html" class="read-btn">Read Chapter</a>
+                </div>
+            </div>
+  </div>
+</div>
