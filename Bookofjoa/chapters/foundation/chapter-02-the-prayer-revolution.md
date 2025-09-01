@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Chapter 2: The Prayer Revolution"
-description: "Foundation Reality - 37 verses on prayer as action"
+description: "Foundation Reality - 10 verses on prayer as action"
 section: "Foundation Reality"
 chapter_number: 2
-total_verses: 37
+total_verses: 10
 nav_order: 2
 ---
 
@@ -17,7 +17,7 @@ nav_order: 2
 <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
 
 <style>
-/* Clean Consistent Spiritual Reading Design */
+/* Enhanced Spiritual Reading Design with Visual Consistency */
 * {
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ body {
   min-height: 100vh;
 }
 
-/* Clean Top Navigation - No Extra Overlays */
+/* Consistent Top Navigation - Fixed Gradient Issues */
 .top-nav {
   background: #667eea;
   border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -148,7 +148,7 @@ body {
 
 /* Enhanced Main Content */
 .main-content {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px 25px;
   background: rgba(255,255,255,0.95);
@@ -197,20 +197,20 @@ body {
   margin: 0;
 }
 
-/* Enhanced Verse Styling */
+/* Enhanced Verse Styling for Better Readability */
 .verse {
   background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(248,249,250,0.9) 100%);
-  margin: 20px 0;
-  padding: 25px;
-  border-radius: 10px;
+  margin: 25px 0;
+  padding: 30px;
+  border-radius: 12px;
   border-left: 4px solid #667eea;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,0.2);
 }
 
 .verse:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
   background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
 }
@@ -219,19 +219,19 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: #667eea;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   display: block;
 }
 
 .verse-text {
   margin: 0;
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #2c3e50;
   text-align: justify;
 }
 
-/* Clean Bottom Navigation - Matching Header Style */
+/* Consistent Bottom Navigation */
 .bottom-nav {
   background: #667eea;
   border-top: 1px solid rgba(255,255,255,0.2);
@@ -241,7 +241,7 @@ body {
 }
 
 .bottom-nav-container {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 25px;
   display: flex;
@@ -276,34 +276,6 @@ body {
   transition: width 0.5s ease;
 }
 
-/* Consistent Footer Buttons - Same as Header */
-.bottom-nav .nav-btn {
-  background: rgba(255,255,255,0.15);
-  color: white;
-  border: 1px solid rgba(255,255,255,0.3);
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  font-family: inherit;
-}
-
-.bottom-nav .nav-btn:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.5);
-  transform: translateY(-1px);
-}
-
-.bottom-nav .nav-btn:disabled {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.15);
-  cursor: not-allowed;
-  transform: none;
-  opacity: 0.6;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
@@ -333,7 +305,7 @@ body {
   }
   
   .verse {
-    padding: 20px;
+    padding: 25px;
   }
   
   .nav-controls {
@@ -344,33 +316,10 @@ body {
     padding: 6px 12px;
     font-size: 13px;
   }
-  
-  .progress-bar {
-    width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .chapter-main-title {
-    font-size: 22px;
-  }
-  
-  .nav-controls {
-    gap: 6px;
-  }
-  
-  .nav-btn {
-    padding: 5px 10px;
-    font-size: 12px;
-  }
-  
-  .progress-bar {
-    width: 120px;
-  }
 }
 </style>
 
-<!-- Clean Top Navigation -->
+<!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
@@ -395,196 +344,61 @@ body {
   <div class="chapter-header">
     <span class="chapter-emoji">🙏</span>
     <h1 class="chapter-main-title">Chapter 2: The Prayer Revolution</h1>
-    <p class="chapter-description">Foundation Reality • 37 verses on prayer as action</p>
+    <p class="chapter-description">Foundation Reality • 10 verses on prayer as action</p>
   </div>
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Traditional prayer asks invisible beings for help while you remain passive. Revolutionary prayer means taking direct action to solve problems and help others. Your hands become the answer to every prayer you would have spoken.</p>
+<p class="verse-text">Joa teaches that prayer as action begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Instead of praying for world peace, work for conflict resolution in your community. Mediate disputes between neighbors, teach communication skills to couples, or volunteer with organizations that prevent violence through education and intervention.</p>
+<p class="verse-text">The practice of prayer as action requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Instead of praying for the hungry, feed people directly. Volunteer at food banks, donate to effective hunger relief organizations, or grow extra vegetables to share with neighbors. Your actions create measurable results.</p>
+<p class="verse-text">True prayer as action involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Instead of praying for the sick, learn first aid, donate blood, or support medical research. Visit lonely patients in hospitals, drive elderly neighbors to appointments, or fundraise for disease prevention programs.</p>
+<p class="verse-text">Effective prayer as action means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Instead of praying for guidance, develop your decision-making skills through research, consultation with experts, and careful analysis of options. Your intelligence and effort provide better guidance than supernatural intervention.</p>
+<p class="verse-text">The foundation of prayer as action rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Instead of praying for strength, build physical and emotional resilience through exercise, meditation, therapy, and supportive relationships. Your own development creates the strength you need for life's challenges.</p>
+<p class="verse-text">Wise prayer as action involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Instead of praying for forgiveness, make direct amends to people you've harmed. Apologize sincerely, change harmful behaviors, and work to repair damage you've caused through your actions rather than words.</p>
+<p class="verse-text">Sustainable prayer as action requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Instead of praying for patience, practice mindfulness, stress management, and perspective-taking skills. Learn to pause before reacting, consider others' viewpoints, and respond thoughtfully rather than impulsively.</p>
+<p class="verse-text">Advanced prayer as action includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">Instead of praying for love, become more loving through kind actions, generous listening, and genuine care for others' wellbeing. Love grows through practice, not through requesting it from external sources.</p>
+<p class="verse-text">The application of prayer as action means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Instead of praying for wisdom, study human knowledge, learn from others' experiences, and think critically about complex problems. Wisdom develops through education, reflection, and applying lessons learned.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 11</span>
-<p class="verse-text">Instead of praying for prosperity, develop valuable skills, create helpful products or services, and manage money wisely. Economic security comes from competence and contribution, not supernatural intervention.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 12</span>
-<p class="verse-text">Instead of praying for protection, take practical safety measures, maintain good health habits, and build strong support networks. Your preparation and relationships provide real security.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 13</span>
-<p class="verse-text">Instead of praying for understanding, engage in honest dialogue with people who hold different views. Listen carefully, ask thoughtful questions, and seek common ground while respecting differences.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 14</span>
-<p class="verse-text">Prayer through action creates visible change in the world, transforming spiritual energy into practical solutions that address real problems and measurable improvements in human conditions.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 15</span>
-<p class="verse-text">When you help others through direct action, you become the answer to prayers that might otherwise remain unanswered, creating a cycle of practical compassion that strengthens communities.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 16</span>
-<p class="verse-text">Revolutionary prayer requires courage to act rather than hope for divine intervention, taking personal responsibility for creating the changes you want to see in your life and community.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 17</span>
-<p class="verse-text">This approach to prayer honors the divine spark within human beings by expressing it through loving action rather than passive waiting for external rescue or intervention.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 18</span>
-<p class="verse-text">Action-based prayer produces verifiable results that can be measured, improved, and shared with others, creating a foundation for genuine faith based on evidence rather than wishful thinking.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 19</span>
-<p class="verse-text">Instead of praying for others to change, focus on changing yourself first. Become the person you wish others would be, demonstrating through your actions the qualities you hope to see in the world.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 20</span>
-<p class="verse-text">Prayer through service connects you directly with the suffering and joy of other human beings, creating empathy and understanding that transcends religious, cultural, and economic boundaries.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 21</span>
-<p class="verse-text">This revolutionary approach to prayer requires no special buildings, rituals, or intermediaries. Anywhere you can help another person becomes a sacred space for expressing your deepest spiritual values.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 22</span>
-<p class="verse-text">Action-based prayer transforms religious practice from a private, individual activity into a public, community-building force that creates tangible improvements in human welfare and social cooperation.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 23</span>
-<p class="verse-text">Instead of praying for miracles, create miracles through consistent acts of kindness, competence, and courage that demonstrate the extraordinary potential within ordinary human beings.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 24</span>
-<p class="verse-text">Revolutionary prayer practices include volunteering, mentoring, teaching, healing, creating beauty, solving problems, and any action that reduces suffering while increasing human flourishing.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 25</span>
-<p class="verse-text">This approach honors all authentic spiritual traditions while transcending their limitations, focusing on the universal human capacity for love, wisdom, and service regardless of specific beliefs.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 26</span>
-<p class="verse-text">Prayer through action requires no faith in supernatural claims, only confidence in human potential and commitment to expressing your highest values through practical service to others.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 27</span>
-<p class="verse-text">Instead of praying for personal gain, focus on contributing to the common good. Your own needs are met naturally when you help create a world where everyone's basic needs are satisfied.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 28</span>
-<p class="verse-text">Action-based prayer creates positive feedback loops where helping others enhances your own wellbeing, skills, and sense of purpose, demonstrating the practical wisdom of selfless service.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 29</span>
-<p class="verse-text">This revolutionary understanding of prayer transforms every helpful action into a spiritual practice, making your entire life a continuous expression of your deepest values and aspirations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 30</span>
-<p class="verse-text">Instead of praying for supernatural intervention in global problems, join with others in practical efforts to address climate change, poverty, injustice, and other challenges facing humanity.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 31</span>
-<p class="verse-text">Revolutionary prayer requires developing the skills, knowledge, and relationships necessary to create real change rather than simply hoping for improvement without taking effective action.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 32</span>
-<p class="verse-text">Prayer through action honors the memory of those who suffered and died by working to prevent similar suffering for others, transforming grief and anger into constructive force for positive change.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 33</span>
-<p class="verse-text">This approach to prayer creates immediate, visible results that inspire others to join in practical efforts for community improvement, multiplying the impact of individual actions.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 34</span>
-<p class="verse-text">Action-based prayer demonstrates respect for human intelligence and capability by using these gifts to solve problems rather than abdicating responsibility to supernatural forces.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 35</span>
-<p class="verse-text">Revolutionary prayer transforms religious energy from passive waiting into active engagement with the world's challenges, creating a spirituality of competence and contribution.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 36</span>
-<p class="verse-text">Instead of praying for personal enlightenment, work to enlighten others through education, mentoring, and sharing knowledge that helps people make better decisions for themselves and their communities.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 37</span>
-<p class="verse-text">Prayer through action creates measurable improvements in your life and the lives of others. Your hands, mind, and heart become instruments of healing, justice, and love in the real world.</p>
+<p class="verse-text">True understanding of prayer as action leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
 </div>
 </div>
 
-<!-- Clean Bottom Navigation - Consistent with Header -->
+<!-- Consistent Bottom Navigation -->
 <div class="bottom-nav">
   <div class="bottom-nav-container">
     <button class="nav-btn" onclick="prevChapter()" >‹ Previous Chapter</button>

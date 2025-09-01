@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Chapter 64: Wisdom Integration"
-description: "Wisdom Integration - 55 verses on applying knowledge skillfully"
+description: "Wisdom Integration - 8 verses on applying knowledge skillfully"
 section: "Wisdom Integration"
 chapter_number: 64
-total_verses: 55
+total_verses: 8
 nav_order: 64
 ---
 
@@ -17,7 +17,7 @@ nav_order: 64
 <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
 
 <style>
-/* Clean Consistent Spiritual Reading Design */
+/* Enhanced Spiritual Reading Design with Visual Consistency */
 * {
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ body {
   min-height: 100vh;
 }
 
-/* Clean Top Navigation - No Extra Overlays */
+/* Consistent Top Navigation - Fixed Gradient Issues */
 .top-nav {
   background: #9b59b6;
   border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -148,7 +148,7 @@ body {
 
 /* Enhanced Main Content */
 .main-content {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px 25px;
   background: rgba(255,255,255,0.95);
@@ -197,20 +197,20 @@ body {
   margin: 0;
 }
 
-/* Enhanced Verse Styling */
+/* Enhanced Verse Styling for Better Readability */
 .verse {
   background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(248,249,250,0.9) 100%);
-  margin: 20px 0;
-  padding: 25px;
-  border-radius: 10px;
+  margin: 25px 0;
+  padding: 30px;
+  border-radius: 12px;
   border-left: 4px solid #9b59b6;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,0.2);
 }
 
 .verse:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
   background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
 }
@@ -219,19 +219,19 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: #9b59b6;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   display: block;
 }
 
 .verse-text {
   margin: 0;
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #2c3e50;
   text-align: justify;
 }
 
-/* Clean Bottom Navigation - Matching Header Style */
+/* Consistent Bottom Navigation */
 .bottom-nav {
   background: #9b59b6;
   border-top: 1px solid rgba(255,255,255,0.2);
@@ -241,7 +241,7 @@ body {
 }
 
 .bottom-nav-container {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 25px;
   display: flex;
@@ -276,34 +276,6 @@ body {
   transition: width 0.5s ease;
 }
 
-/* Consistent Footer Buttons - Same as Header */
-.bottom-nav .nav-btn {
-  background: rgba(255,255,255,0.15);
-  color: white;
-  border: 1px solid rgba(255,255,255,0.3);
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  font-family: inherit;
-}
-
-.bottom-nav .nav-btn:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.5);
-  transform: translateY(-1px);
-}
-
-.bottom-nav .nav-btn:disabled {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.15);
-  cursor: not-allowed;
-  transform: none;
-  opacity: 0.6;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
@@ -333,7 +305,7 @@ body {
   }
   
   .verse {
-    padding: 20px;
+    padding: 25px;
   }
   
   .nav-controls {
@@ -344,33 +316,10 @@ body {
     padding: 6px 12px;
     font-size: 13px;
   }
-  
-  .progress-bar {
-    width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .chapter-main-title {
-    font-size: 22px;
-  }
-  
-  .nav-controls {
-    gap: 6px;
-  }
-  
-  .nav-btn {
-    padding: 5px 10px;
-    font-size: 12px;
-  }
-  
-  .progress-bar {
-    width: 120px;
-  }
 }
 </style>
 
-<!-- Clean Top Navigation -->
+<!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
@@ -395,286 +344,51 @@ body {
   <div class="chapter-header">
     <span class="chapter-emoji">🧙</span>
     <h1 class="chapter-main-title">Chapter 64: Wisdom Integration</h1>
-    <p class="chapter-description">Wisdom Integration • 55 verses on applying knowledge skillfully</p>
+    <p class="chapter-description">Wisdom Integration • 8 verses on applying knowledge skillfully</p>
   </div>
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that applying knowledge skillfully develops through direct experience, honest reflection, and willingness to change when evidence warrants.</p>
+<p class="verse-text">Joa teaches that applying knowledge skillfully develops through applying knowledge to real situations, learning from the results, and adjusting your approach based on what actually works.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The cultivation of applying knowledge skillfully requires balancing confidence with humility, knowing when to act and when to listen.</p>
+<p class="verse-text">True applying knowledge skillfully involves admitting when you're wrong, apologizing sincerely for mistakes, and changing your behavior rather than just making promises or explanations.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True applying knowledge skillfully expresses itself through actions that reduce suffering while increasing human flourishing and cooperation.</p>
+<p class="verse-text">The practice of applying knowledge skillfully means seeking to understand different perspectives before making judgments, recognizing that most people act from their own logic even when it seems irrational.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of applying knowledge skillfully involves questioning assumptions while remaining open to wisdom from unexpected sources.</p>
+<p class="verse-text">Effective applying knowledge skillfully requires balancing confidence with humility, standing firm on important principles while remaining flexible on methods and details.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Advanced applying knowledge skillfully includes understanding the interconnectedness of all actions and their far-reaching consequences.</p>
+<p class="verse-text">Sustainable applying knowledge skillfully involves choosing battles wisely, focusing your energy on changes you can actually influence rather than wasting time fighting unchangeable circumstances.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Joa emphasizes that applying knowledge skillfully serves humanity best when shared freely rather than hoarded for personal advantage.</p>
+<p class="verse-text">Advanced applying knowledge skillfully includes understanding the long-term consequences of your actions, considering how your choices affect others, and taking responsibility for your impact on future generations.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The development of applying knowledge skillfully requires facing uncomfortable truths about yourself and the world with courage and grace.</p>
+<p class="verse-text">The foundation of applying knowledge skillfully rests on continuous learning, seeking feedback from trusted sources, and updating your beliefs based on new evidence rather than defending outdated positions.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Sustainable applying knowledge skillfully involves continuous learning and adaptation as circumstances and understanding evolve over time.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">The art of applying knowledge skillfully includes knowing how to apply universal principles to specific situations and unique challenges.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Mastery of applying knowledge skillfully demonstrates itself through the ability to help others develop their own wisdom and understanding.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 11</span>
-<p class="verse-text">Joa teaches that applying knowledge skillfully develops through direct experience, honest reflection, and willingness to change when evidence warrants.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 12</span>
-<p class="verse-text">The cultivation of applying knowledge skillfully requires balancing confidence with humility, knowing when to act and when to listen.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 13</span>
-<p class="verse-text">True applying knowledge skillfully expresses itself through actions that reduce suffering while increasing human flourishing and cooperation.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 14</span>
-<p class="verse-text">The practice of applying knowledge skillfully involves questioning assumptions while remaining open to wisdom from unexpected sources.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 15</span>
-<p class="verse-text">Advanced applying knowledge skillfully includes understanding the interconnectedness of all actions and their far-reaching consequences.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 16</span>
-<p class="verse-text">Joa emphasizes that applying knowledge skillfully serves humanity best when shared freely rather than hoarded for personal advantage.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 17</span>
-<p class="verse-text">The development of applying knowledge skillfully requires facing uncomfortable truths about yourself and the world with courage and grace.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 18</span>
-<p class="verse-text">Sustainable applying knowledge skillfully involves continuous learning and adaptation as circumstances and understanding evolve over time.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 19</span>
-<p class="verse-text">The art of applying knowledge skillfully includes knowing how to apply universal principles to specific situations and unique challenges.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 20</span>
-<p class="verse-text">Mastery of applying knowledge skillfully demonstrates itself through the ability to help others develop their own wisdom and understanding.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 21</span>
-<p class="verse-text">Joa teaches that applying knowledge skillfully develops through direct experience, honest reflection, and willingness to change when evidence warrants.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 22</span>
-<p class="verse-text">The cultivation of applying knowledge skillfully requires balancing confidence with humility, knowing when to act and when to listen.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 23</span>
-<p class="verse-text">True applying knowledge skillfully expresses itself through actions that reduce suffering while increasing human flourishing and cooperation.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 24</span>
-<p class="verse-text">The practice of applying knowledge skillfully involves questioning assumptions while remaining open to wisdom from unexpected sources.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 25</span>
-<p class="verse-text">Advanced applying knowledge skillfully includes understanding the interconnectedness of all actions and their far-reaching consequences.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 26</span>
-<p class="verse-text">Joa emphasizes that applying knowledge skillfully serves humanity best when shared freely rather than hoarded for personal advantage.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 27</span>
-<p class="verse-text">The development of applying knowledge skillfully requires facing uncomfortable truths about yourself and the world with courage and grace.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 28</span>
-<p class="verse-text">Sustainable applying knowledge skillfully involves continuous learning and adaptation as circumstances and understanding evolve over time.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 29</span>
-<p class="verse-text">The art of applying knowledge skillfully includes knowing how to apply universal principles to specific situations and unique challenges.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 30</span>
-<p class="verse-text">Mastery of applying knowledge skillfully demonstrates itself through the ability to help others develop their own wisdom and understanding.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 31</span>
-<p class="verse-text">Joa teaches that applying knowledge skillfully develops through direct experience, honest reflection, and willingness to change when evidence warrants.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 32</span>
-<p class="verse-text">The cultivation of applying knowledge skillfully requires balancing confidence with humility, knowing when to act and when to listen.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 33</span>
-<p class="verse-text">True applying knowledge skillfully expresses itself through actions that reduce suffering while increasing human flourishing and cooperation.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 34</span>
-<p class="verse-text">The practice of applying knowledge skillfully involves questioning assumptions while remaining open to wisdom from unexpected sources.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 35</span>
-<p class="verse-text">Advanced applying knowledge skillfully includes understanding the interconnectedness of all actions and their far-reaching consequences.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 36</span>
-<p class="verse-text">Joa emphasizes that applying knowledge skillfully serves humanity best when shared freely rather than hoarded for personal advantage.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 37</span>
-<p class="verse-text">The development of applying knowledge skillfully requires facing uncomfortable truths about yourself and the world with courage and grace.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 38</span>
-<p class="verse-text">Sustainable applying knowledge skillfully involves continuous learning and adaptation as circumstances and understanding evolve over time.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 39</span>
-<p class="verse-text">The art of applying knowledge skillfully includes knowing how to apply universal principles to specific situations and unique challenges.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 40</span>
-<p class="verse-text">Mastery of applying knowledge skillfully demonstrates itself through the ability to help others develop their own wisdom and understanding.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 41</span>
-<p class="verse-text">Joa teaches that applying knowledge skillfully develops through direct experience, honest reflection, and willingness to change when evidence warrants.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 42</span>
-<p class="verse-text">The cultivation of applying knowledge skillfully requires balancing confidence with humility, knowing when to act and when to listen.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 43</span>
-<p class="verse-text">True applying knowledge skillfully expresses itself through actions that reduce suffering while increasing human flourishing and cooperation.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 44</span>
-<p class="verse-text">The practice of applying knowledge skillfully involves questioning assumptions while remaining open to wisdom from unexpected sources.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 45</span>
-<p class="verse-text">Advanced applying knowledge skillfully includes understanding the interconnectedness of all actions and their far-reaching consequences.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 46</span>
-<p class="verse-text">Joa emphasizes that applying knowledge skillfully serves humanity best when shared freely rather than hoarded for personal advantage.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 47</span>
-<p class="verse-text">The development of applying knowledge skillfully requires facing uncomfortable truths about yourself and the world with courage and grace.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 48</span>
-<p class="verse-text">Sustainable applying knowledge skillfully involves continuous learning and adaptation as circumstances and understanding evolve over time.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 49</span>
-<p class="verse-text">The art of applying knowledge skillfully includes knowing how to apply universal principles to specific situations and unique challenges.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 50</span>
-<p class="verse-text">Mastery of applying knowledge skillfully demonstrates itself through the ability to help others develop their own wisdom and understanding.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 51</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 52</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 53</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 54</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 55</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
+<p class="verse-text">Wise applying knowledge skillfully means helping others develop their own wisdom rather than creating dependency, sharing knowledge freely while teaching people to think for themselves.</p>
 </div>
 </div>
 
-<!-- Clean Bottom Navigation - Consistent with Header -->
+<!-- Consistent Bottom Navigation -->
 <div class="bottom-nav">
   <div class="bottom-nav-container">
     <button class="nav-btn" onclick="prevChapter()" >‹ Previous Chapter</button>

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Chapter 4: The Reality Principle"
-description: "Foundation Reality - 36 verses on evidence-based living"
+description: "Foundation Reality - 10 verses on evidence-based living"
 section: "Foundation Reality"
 chapter_number: 4
-total_verses: 36
+total_verses: 10
 nav_order: 4
 ---
 
@@ -17,7 +17,7 @@ nav_order: 4
 <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
 
 <style>
-/* Clean Consistent Spiritual Reading Design */
+/* Enhanced Spiritual Reading Design with Visual Consistency */
 * {
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ body {
   min-height: 100vh;
 }
 
-/* Clean Top Navigation - No Extra Overlays */
+/* Consistent Top Navigation - Fixed Gradient Issues */
 .top-nav {
   background: #667eea;
   border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -148,7 +148,7 @@ body {
 
 /* Enhanced Main Content */
 .main-content {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px 25px;
   background: rgba(255,255,255,0.95);
@@ -197,20 +197,20 @@ body {
   margin: 0;
 }
 
-/* Enhanced Verse Styling */
+/* Enhanced Verse Styling for Better Readability */
 .verse {
   background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(248,249,250,0.9) 100%);
-  margin: 20px 0;
-  padding: 25px;
-  border-radius: 10px;
+  margin: 25px 0;
+  padding: 30px;
+  border-radius: 12px;
   border-left: 4px solid #667eea;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,0.2);
 }
 
 .verse:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
   background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
 }
@@ -219,19 +219,19 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: #667eea;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   display: block;
 }
 
 .verse-text {
   margin: 0;
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #2c3e50;
   text-align: justify;
 }
 
-/* Clean Bottom Navigation - Matching Header Style */
+/* Consistent Bottom Navigation */
 .bottom-nav {
   background: #667eea;
   border-top: 1px solid rgba(255,255,255,0.2);
@@ -241,7 +241,7 @@ body {
 }
 
 .bottom-nav-container {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 25px;
   display: flex;
@@ -276,34 +276,6 @@ body {
   transition: width 0.5s ease;
 }
 
-/* Consistent Footer Buttons - Same as Header */
-.bottom-nav .nav-btn {
-  background: rgba(255,255,255,0.15);
-  color: white;
-  border: 1px solid rgba(255,255,255,0.3);
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  font-family: inherit;
-}
-
-.bottom-nav .nav-btn:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.5);
-  transform: translateY(-1px);
-}
-
-.bottom-nav .nav-btn:disabled {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.15);
-  cursor: not-allowed;
-  transform: none;
-  opacity: 0.6;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
@@ -333,7 +305,7 @@ body {
   }
   
   .verse {
-    padding: 20px;
+    padding: 25px;
   }
   
   .nav-controls {
@@ -344,33 +316,10 @@ body {
     padding: 6px 12px;
     font-size: 13px;
   }
-  
-  .progress-bar {
-    width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .chapter-main-title {
-    font-size: 22px;
-  }
-  
-  .nav-controls {
-    gap: 6px;
-  }
-  
-  .nav-btn {
-    padding: 5px 10px;
-    font-size: 12px;
-  }
-  
-  .progress-bar {
-    width: 120px;
-  }
 }
 </style>
 
-<!-- Clean Top Navigation -->
+<!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
@@ -395,191 +344,61 @@ body {
   <div class="chapter-header">
     <span class="chapter-emoji">🔬</span>
     <h1 class="chapter-main-title">Chapter 4: The Reality Principle</h1>
-    <p class="chapter-description">Foundation Reality • 36 verses on evidence-based living</p>
+    <p class="chapter-description">Foundation Reality • 10 verses on evidence-based living</p>
   </div>
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Base all decisions on evidence rather than wishful thinking, tradition, or authority claims. Reality provides reliable guidance when you learn to observe it accurately and respond appropriately.</p>
+<p class="verse-text">Joa teaches that evidence-based living begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Science offers the most reliable method for understanding how the world works, providing tested knowledge you can apply to improve your life and relationships through evidence-based action.</p>
+<p class="verse-text">The practice of evidence-based living requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Supernatural claims cannot be verified through reproducible testing, making them unreliable foundations for important life decisions that affect your wellbeing and the wellbeing of others.</p>
+<p class="verse-text">True evidence-based living involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Reality-based living means accepting uncertainty rather than pretending to know things you cannot actually know, while taking practical action based on the best available evidence.</p>
+<p class="verse-text">Effective evidence-based living means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Your emotions provide important information about your needs and values, but they do not change objective facts or determine what is true about the external world.</p>
+<p class="verse-text">The foundation of evidence-based living rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Critical thinking skills help you distinguish between reliable and unreliable sources of information, protecting you from manipulation while guiding you toward effective action.</p>
+<p class="verse-text">Wise evidence-based living involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
+<p class="verse-text">Sustainable evidence-based living requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
+<p class="verse-text">Advanced evidence-based living includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
+<p class="verse-text">The application of evidence-based living means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 11</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 12</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 13</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 14</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 15</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 16</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 17</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 18</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 19</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 20</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 21</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 22</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 23</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 24</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 25</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 26</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 27</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 28</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 29</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 30</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 31</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 32</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 33</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 34</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 35</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 36</span>
-<p class="verse-text">Joa teaches that evidence-based living requires practical wisdom, consistent action, and genuine care for the wellbeing of all people rather than theoretical knowledge alone.</p>
+<p class="verse-text">True understanding of evidence-based living leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
 </div>
 </div>
 
-<!-- Clean Bottom Navigation - Consistent with Header -->
+<!-- Consistent Bottom Navigation -->
 <div class="bottom-nav">
   <div class="bottom-nav-container">
     <button class="nav-btn" onclick="prevChapter()" >‹ Previous Chapter</button>

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Chapter 49: Career Building"
-description: "Financial & Career - 54 verses on professional development"
+description: "Financial & Career - 8 verses on professional development"
 section: "Financial & Career"
 chapter_number: 49
-total_verses: 54
+total_verses: 8
 nav_order: 49
 ---
 
@@ -17,7 +17,7 @@ nav_order: 49
 <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
 
 <style>
-/* Clean Consistent Spiritual Reading Design */
+/* Enhanced Spiritual Reading Design with Visual Consistency */
 * {
   box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ body {
   min-height: 100vh;
 }
 
-/* Clean Top Navigation - No Extra Overlays */
+/* Consistent Top Navigation - Fixed Gradient Issues */
 .top-nav {
   background: #f39c12;
   border-bottom: 1px solid rgba(255,255,255,0.2);
@@ -148,7 +148,7 @@ body {
 
 /* Enhanced Main Content */
 .main-content {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px 25px;
   background: rgba(255,255,255,0.95);
@@ -197,20 +197,20 @@ body {
   margin: 0;
 }
 
-/* Enhanced Verse Styling */
+/* Enhanced Verse Styling for Better Readability */
 .verse {
   background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(248,249,250,0.9) 100%);
-  margin: 20px 0;
-  padding: 25px;
-  border-radius: 10px;
+  margin: 25px 0;
+  padding: 30px;
+  border-radius: 12px;
   border-left: 4px solid #f39c12;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,0.2);
 }
 
 .verse:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
   transform: translateY(-2px);
   background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
 }
@@ -219,19 +219,19 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: #f39c12;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   display: block;
 }
 
 .verse-text {
   margin: 0;
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #2c3e50;
   text-align: justify;
 }
 
-/* Clean Bottom Navigation - Matching Header Style */
+/* Consistent Bottom Navigation */
 .bottom-nav {
   background: #f39c12;
   border-top: 1px solid rgba(255,255,255,0.2);
@@ -241,7 +241,7 @@ body {
 }
 
 .bottom-nav-container {
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 25px;
   display: flex;
@@ -276,34 +276,6 @@ body {
   transition: width 0.5s ease;
 }
 
-/* Consistent Footer Buttons - Same as Header */
-.bottom-nav .nav-btn {
-  background: rgba(255,255,255,0.15);
-  color: white;
-  border: 1px solid rgba(255,255,255,0.3);
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  font-family: inherit;
-}
-
-.bottom-nav .nav-btn:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.5);
-  transform: translateY(-1px);
-}
-
-.bottom-nav .nav-btn:disabled {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.15);
-  cursor: not-allowed;
-  transform: none;
-  opacity: 0.6;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
@@ -333,7 +305,7 @@ body {
   }
   
   .verse {
-    padding: 20px;
+    padding: 25px;
   }
   
   .nav-controls {
@@ -344,33 +316,10 @@ body {
     padding: 6px 12px;
     font-size: 13px;
   }
-  
-  .progress-bar {
-    width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .chapter-main-title {
-    font-size: 22px;
-  }
-  
-  .nav-controls {
-    gap: 6px;
-  }
-  
-  .nav-btn {
-    padding: 5px 10px;
-    font-size: 12px;
-  }
-  
-  .progress-bar {
-    width: 120px;
-  }
 }
 </style>
 
-<!-- Clean Top Navigation -->
+<!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
@@ -395,281 +344,51 @@ body {
   <div class="chapter-header">
     <span class="chapter-emoji">🏢</span>
     <h1 class="chapter-main-title">Chapter 49: Career Building</h1>
-    <p class="chapter-description">Financial & Career • 54 verses on professional development</p>
+    <p class="chapter-description">Financial & Career • 8 verses on professional development</p>
   </div>
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that professional development requires understanding money as a tool for creating value and serving others effectively.</p>
+<p class="verse-text">Joa teaches that professional development requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The foundation of professional development rests on spending less than you earn while continuously increasing your earning capacity.</p>
+<p class="verse-text">True professional development involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Successful professional development involves making decisions based on long-term consequences rather than immediate emotional impulses.</p>
+<p class="verse-text">The practice of professional development means making financial decisions based on long-term consequences rather than immediate emotions, social pressure, or advertising manipulation.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of professional development includes regular tracking and analysis of financial data to guide future decisions.</p>
+<p class="verse-text">Effective professional development requires tracking your income and expenses accurately, understanding where your money goes, and making conscious choices about spending priorities.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True professional development balances security and growth, taking calculated risks while protecting against catastrophic losses.</p>
+<p class="verse-text">Sustainable professional development involves building multiple income streams, developing marketable skills, and creating systems that generate money while you sleep or focus on other activities.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Joa emphasizes that professional development works best when aligned with your values and life goals rather than social expectations.</p>
+<p class="verse-text">Advanced professional development includes understanding inflation, taxes, insurance, and investment principles that protect and grow your wealth over decades rather than just years.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Advanced professional development involves understanding taxes, inflation, and economic cycles to make informed financial choices.</p>
+<p class="verse-text">The foundation of professional development rests on living below your means while investing the difference wisely, avoiding debt for consumption, and building an emergency fund for unexpected expenses.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">The art of professional development includes learning from financial mistakes while avoiding repeated errors through better systems.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">Ethical professional development considers the impact of financial decisions on family, community, and future generations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Mastery of professional development enables you to help others improve their financial situations while maintaining your own stability.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 11</span>
-<p class="verse-text">Joa teaches that professional development requires understanding money as a tool for creating value and serving others effectively.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 12</span>
-<p class="verse-text">The foundation of professional development rests on spending less than you earn while continuously increasing your earning capacity.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 13</span>
-<p class="verse-text">Successful professional development involves making decisions based on long-term consequences rather than immediate emotional impulses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 14</span>
-<p class="verse-text">The practice of professional development includes regular tracking and analysis of financial data to guide future decisions.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 15</span>
-<p class="verse-text">True professional development balances security and growth, taking calculated risks while protecting against catastrophic losses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 16</span>
-<p class="verse-text">Joa emphasizes that professional development works best when aligned with your values and life goals rather than social expectations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 17</span>
-<p class="verse-text">Advanced professional development involves understanding taxes, inflation, and economic cycles to make informed financial choices.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 18</span>
-<p class="verse-text">The art of professional development includes learning from financial mistakes while avoiding repeated errors through better systems.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 19</span>
-<p class="verse-text">Ethical professional development considers the impact of financial decisions on family, community, and future generations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 20</span>
-<p class="verse-text">Mastery of professional development enables you to help others improve their financial situations while maintaining your own stability.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 21</span>
-<p class="verse-text">Joa teaches that professional development requires understanding money as a tool for creating value and serving others effectively.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 22</span>
-<p class="verse-text">The foundation of professional development rests on spending less than you earn while continuously increasing your earning capacity.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 23</span>
-<p class="verse-text">Successful professional development involves making decisions based on long-term consequences rather than immediate emotional impulses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 24</span>
-<p class="verse-text">The practice of professional development includes regular tracking and analysis of financial data to guide future decisions.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 25</span>
-<p class="verse-text">True professional development balances security and growth, taking calculated risks while protecting against catastrophic losses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 26</span>
-<p class="verse-text">Joa emphasizes that professional development works best when aligned with your values and life goals rather than social expectations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 27</span>
-<p class="verse-text">Advanced professional development involves understanding taxes, inflation, and economic cycles to make informed financial choices.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 28</span>
-<p class="verse-text">The art of professional development includes learning from financial mistakes while avoiding repeated errors through better systems.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 29</span>
-<p class="verse-text">Ethical professional development considers the impact of financial decisions on family, community, and future generations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 30</span>
-<p class="verse-text">Mastery of professional development enables you to help others improve their financial situations while maintaining your own stability.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 31</span>
-<p class="verse-text">Joa teaches that professional development requires understanding money as a tool for creating value and serving others effectively.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 32</span>
-<p class="verse-text">The foundation of professional development rests on spending less than you earn while continuously increasing your earning capacity.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 33</span>
-<p class="verse-text">Successful professional development involves making decisions based on long-term consequences rather than immediate emotional impulses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 34</span>
-<p class="verse-text">The practice of professional development includes regular tracking and analysis of financial data to guide future decisions.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 35</span>
-<p class="verse-text">True professional development balances security and growth, taking calculated risks while protecting against catastrophic losses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 36</span>
-<p class="verse-text">Joa emphasizes that professional development works best when aligned with your values and life goals rather than social expectations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 37</span>
-<p class="verse-text">Advanced professional development involves understanding taxes, inflation, and economic cycles to make informed financial choices.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 38</span>
-<p class="verse-text">The art of professional development includes learning from financial mistakes while avoiding repeated errors through better systems.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 39</span>
-<p class="verse-text">Ethical professional development considers the impact of financial decisions on family, community, and future generations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 40</span>
-<p class="verse-text">Mastery of professional development enables you to help others improve their financial situations while maintaining your own stability.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 41</span>
-<p class="verse-text">Joa teaches that professional development requires understanding money as a tool for creating value and serving others effectively.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 42</span>
-<p class="verse-text">The foundation of professional development rests on spending less than you earn while continuously increasing your earning capacity.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 43</span>
-<p class="verse-text">Successful professional development involves making decisions based on long-term consequences rather than immediate emotional impulses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 44</span>
-<p class="verse-text">The practice of professional development includes regular tracking and analysis of financial data to guide future decisions.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💎 Verse 45</span>
-<p class="verse-text">True professional development balances security and growth, taking calculated risks while protecting against catastrophic losses.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">⭐ Verse 46</span>
-<p class="verse-text">Joa emphasizes that professional development works best when aligned with your values and life goals rather than social expectations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌈 Verse 47</span>
-<p class="verse-text">Advanced professional development involves understanding taxes, inflation, and economic cycles to make informed financial choices.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🔥 Verse 48</span>
-<p class="verse-text">The art of professional development includes learning from financial mistakes while avoiding repeated errors through better systems.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💝 Verse 49</span>
-<p class="verse-text">Ethical professional development considers the impact of financial decisions on family, community, and future generations.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎨 Verse 50</span>
-<p class="verse-text">Mastery of professional development enables you to help others improve their financial situations while maintaining your own stability.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">💫 Verse 51</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">✨ Verse 52</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🌟 Verse 53</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
-</div>
-
-<div class="verse">
-<span class="verse-number">🎯 Verse 54</span>
-<p class="verse-text">Joa teaches that wisdom in this area develops through consistent practice, honest reflection, and willingness to adapt based on evidence and results rather than tradition or assumption.</p>
+<p class="verse-text">Wise professional development means teaching financial principles to your children, supporting financially responsible friends, and using money to strengthen relationships rather than create dependencies or resentment.</p>
 </div>
 </div>
 
-<!-- Clean Bottom Navigation - Consistent with Header -->
+<!-- Consistent Bottom Navigation -->
 <div class="bottom-nav">
   <div class="bottom-nav-container">
     <button class="nav-btn" onclick="prevChapter()" >‹ Previous Chapter</button>
