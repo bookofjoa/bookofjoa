@@ -3,97 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search - The Book of Joa</title>
+    <title>Advanced Search - The Book of Joa</title>
     <style>
         body {
             font-family: 'Georgia', 'Times New Roman', serif;
             line-height: 1.8;
             color: #2c3e50;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #4facfe 100%);
             background-attachment: fixed;
             margin: 0;
             padding: 20px;
-            animation: gradientShift 15s ease infinite;
+            animation: gradientShift 20s ease infinite;
         }
 
         @keyframes gradientShift {
-            0% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); }
-            25% { background: linear-gradient(135deg, #f093fb 0%, #f5576c 50%, #4facfe 100%); }
-            50% { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 50%, #a8edea 100%); }
-            75% { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 50%, #667eea 100%); }
-            100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); }
+            0% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #4facfe 100%); }
+            25% { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 50%, #a8edea 100%); }
+            50% { background: linear-gradient(135deg, #a8edea 0%, #c3cfe2 50%, #667eea 100%); }
+            75% { background: linear-gradient(135deg, #c3cfe2 0%, #667eea 50%, #764ba2 100%); }
+            100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #4facfe 100%); }
         }
 
         .wrapper {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 25px;
             background: white;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-            border-radius: 10px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            z-index: 1;
         }
 
         .header {
             text-align: center;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 30px;
-            border-radius: 15px;
-            margin-bottom: 30px;
+            padding: 40px 30px;
+            border-radius: 20px;
+            margin: 20px 0 35px 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
+            pointer-events: none;
         }
 
         .header h1 {
             margin: 0;
             font-size: 2.5em;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 2;
+        }
+
+        .header p {
+            margin: 15px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.95;
+            position: relative;
+            z-index: 2;
         }
 
         .search-container {
-            margin: 30px 0;
+            margin: 35px 0;
             text-align: center;
         }
 
-        .search-box {
-            width: 100%;
-            max-width: 600px;
-            padding: 20px 25px;
-            border: 3px solid #667eea;
-            border-radius: 30px;
-            font-size: 18px;
-            outline: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        .search-input-group {
+            display: flex;
+            max-width: 700px;
+            margin: 0 auto;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border-radius: 50px;
+            overflow: hidden;
+            background: white;
         }
 
-        .search-box:focus {
-            border-color: #f093fb;
-            box-shadow: 0 0 25px rgba(240, 147, 251, 0.4);
-            transform: scale(1.02);
+        .search-box {
+            flex: 1;
+            padding: 20px 30px;
+            border: none;
+            font-size: 18px;
+            outline: none;
+            background: transparent;
+        }
+
+        .search-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border: none;
+            padding: 20px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .search-btn:hover {
+            background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
         }
 
         .search-filters {
             display: flex;
             justify-content: center;
             gap: 15px;
-            margin: 20px 0;
+            margin: 25px 0;
             flex-wrap: wrap;
         }
 
         .filter-btn {
             background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
             border: 2px solid transparent;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border-radius: 25px;
             cursor: pointer;
             transition: all 0.3s ease;
             font-weight: bold;
             color: #2c3e50;
+            font-size: 14px;
         }
 
         .filter-btn.active {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
 
         .filter-btn:hover {
@@ -102,102 +159,254 @@
         }
 
         .search-stats {
-            text-align: center;
-            margin: 20px 0;
-            padding: 15px;
             background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-            border-radius: 10px;
+            padding: 15px 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            text-align: center;
             font-weight: bold;
+            color: #2c3e50;
         }
 
         .results-container {
-            margin-top: 30px;
+            margin: 30px 0;
+        }
+
+        .result-section {
+            margin: 35px 0;
+        }
+
+        .result-section h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
         }
 
         .result-item {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-            margin: 20px 0;
-            padding: 25px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+            border: 1px solid #e0e6ff;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
+            padding: 25px;
+            margin: 20px 0;
             cursor: pointer;
-            border-left: 5px solid #667eea;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
         }
 
         .result-item:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+            background: linear-gradient(135deg, #fff 0%, #f0f8ff 100%);
+            border-color: #667eea;
         }
 
-        .result-chapter {
-            font-size: 14px;
-            color: #667eea;
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .chapter-number, .chapter-info {
             font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .section-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .chapter-result h4 {
+            color: #2c3e50;
+            margin: 10px 0;
+            font-size: 1.3em;
+        }
+
+        .chapter-description {
+            color: #666;
+            margin: 10px 0;
+            font-style: italic;
+        }
+
+        .verse-content {
+            margin: 15px 0;
+        }
+
+        .verse-label {
+            font-weight: bold;
+            color: #f5576c;
+            font-size: 1.1em;
+            display: block;
             margin-bottom: 8px;
         }
 
-        .result-title {
-            font-size: 18px;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-
-        .result-content {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #444;
-            margin-bottom: 15px;
-        }
-
-        .result-highlight {
-            background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
-            color: white;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-weight: bold;
+        .verse-content p {
+            margin: 0;
+            line-height: 1.7;
+            font-size: 1.05em;
         }
 
         .result-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 12px;
+            margin-top: 15px;
+            font-size: 0.9em;
             color: #666;
-            border-top: 1px solid rgba(0,0,0,0.1);
-            padding-top: 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .match-type {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .relevance-score {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        mark {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .search-tips {
+            background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+            padding: 35px;
+            border-radius: 20px;
+            margin: 30px 0;
+            border: 2px solid #667eea;
+        }
+
+        .search-tips h3 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 25px 0;
+        }
+
+        .tip-item {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-top: 4px solid #667eea;
+        }
+
+        .tip-item h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .popular-searches {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .popular-searches h4 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .search-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .search-suggestion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .search-suggestion:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
         }
 
         .no-results {
             text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-            border-radius: 15px;
-            margin: 30px 0;
+            padding: 50px 30px;
+            background: linear-gradient(135deg, #fff5f5 0%, #f8f9ff 100%);
+            border-radius: 20px;
+            border: 2px solid #f093fb;
         }
 
         .no-results h3 {
-            color: #e74c3c;
-            margin-bottom: 15px;
+            color: #f5576c;
+            margin-bottom: 20px;
+        }
+
+        .suggestions {
+            margin-top: 25px;
+        }
+
+        .suggestion-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .suggestion-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
         }
 
         .loading {
             text-align: center;
-            padding: 40px;
-            font-size: 18px;
+            padding: 50px;
             color: #667eea;
         }
 
         .spinner {
-            display: inline-block;
             width: 40px;
             height: 40px;
-            border: 4px solid #f3f3f3;
+            border: 4px solid #e3f2fd;
             border-top: 4px solid #667eea;
             border-radius: 50%;
             animation: spin 1s linear infinite;
-            margin-right: 15px;
+            margin: 0 auto 20px;
         }
 
         @keyframes spin {
@@ -205,379 +414,560 @@
             100% { transform: rotate(360deg); }
         }
 
-        .search-tips {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-            padding: 20px;
-            border-radius: 12px;
-            margin: 20px 0;
-            border-left: 5px solid #667eea;
-        }
-
-        .back-link {
+        .back-btn {
             display: inline-block;
-            margin: 20px 0;
-            padding: 12px 25px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            text-decoration: none;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            color: #2c3e50;
+            padding: 12px 20px;
             border-radius: 25px;
+            text-decoration: none;
             font-weight: bold;
+            margin-bottom: 20px;
             transition: all 0.3s ease;
+            border: 2px solid transparent;
         }
 
-        .back-link:hover {
+        .back-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            border-color: #667eea;
+            text-decoration: none;
+            color: #2c3e50;
         }
 
+        /* Responsive Design */
         @media (max-width: 768px) {
-            .search-filters {
+            .wrapper {
+                margin: 10px;
+                padding: 20px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .search-input-group {
                 flex-direction: column;
-                align-items: center;
+                border-radius: 15px;
+            }
+            
+            .search-box, .search-btn {
+                border-radius: 0;
+            }
+            
+            .search-btn {
+                border-radius: 0 0 15px 15px;
+            }
+            
+            .search-filters {
+                gap: 10px;
             }
             
             .filter-btn {
-                width: 200px;
+                padding: 10px 16px;
+                font-size: 13px;
             }
             
-            .result-meta {
+            .tips-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .result-item {
+                padding: 20px;
+            }
+            
+            .result-header {
                 flex-direction: column;
-                gap: 5px;
                 align-items: flex-start;
+            }
+            
+            .search-buttons {
+                gap: 10px;
+            }
+            
+            .search-suggestion {
+                padding: 10px 16px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .search-box {
+                padding: 15px 20px;
+                font-size: 16px;
+            }
+            
+            .search-btn {
+                padding: 15px 20px;
+                font-size: 16px;
             }
         }
     </style>
 </head>
 <body>
     <div class="wrapper">
+        <a href="index.html" class="back-btn">← Back to Home</a>
+        
         <div class="header">
-            <h1>🔍 Search The Book of Joa</h1>
-            <p>Find wisdom across all 72 chapters and 3,636 verses</p>
+            <h1>🔍 Advanced Search</h1>
+            <p>Search across all 72 chapters and 3,636+ verses of The Book of Joa</p>
         </div>
 
-        <a href="index.html" class="back-link">← Back to Home</a>
-
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search for wisdom, topics, or specific verses..." id="searchInput" autofocus>
+            <div class="search-input-group">
+                <input type="text" 
+                       id="searchBox" 
+                       class="search-box" 
+                       placeholder="Search for wisdom, keywords, or phrases..."
+                       autocomplete="off">
+                <button id="searchBtn" class="search-btn">🔍 Search</button>
+            </div>
         </div>
 
         <div class="search-filters">
-            <button class="filter-btn active" data-section="all">All Sections</button>
-            <button class="filter-btn" data-section="foundation">Foundation</button>
-            <button class="filter-btn" data-section="relationships">Relationships</button>
-            <button class="filter-btn" data-section="personal">Personal</button>
-            <button class="filter-btn" data-section="financial">Financial</button>
-            <button class="filter-btn" data-section="wisdom">Wisdom</button>
-            <button class="filter-btn" data-section="navigation">Navigation</button>
+            <button class="filter-btn" data-filter="foundation">📖 Foundation</button>
+            <button class="filter-btn" data-filter="relationships">💕 Relationships</button>
+            <button class="filter-btn" data-filter="personal">🌱 Personal</button>
+            <button class="filter-btn" data-filter="financial">💰 Financial</button>
+            <button class="filter-btn" data-filter="wisdom">🌟 Wisdom</button>
+            <button class="filter-btn" data-filter="navigation">🧭 Navigation</button>
         </div>
 
-        <div class="search-tips">
-            <h3>🎯 Search Tips</h3>
-            <ul>
-                <li><strong>Keywords:</strong> Try "love", "money", "happiness", "relationships", etc.</li>
-                <li><strong>Phrases:</strong> Use quotes for exact phrases like "human equality"</li>
-                <li><strong>Sections:</strong> Filter by life areas using the buttons above</li>
-                <li><strong>Verses:</strong> Search will find relevant verses across all chapters</li>
-            </ul>
-        </div>
-
-        <div class="search-stats" id="searchStats" style="display: none;"></div>
-
-        <div class="results-container" id="resultsContainer"></div>
+        <div id="searchStats"></div>
+        <div id="searchResults"></div>
     </div>
 
+    <!-- Load search data -->
+    <script src="assets/js/search-data.js"></script>
     <script>
-        // Sample search data - In a real implementation, this would be loaded from a database or API
-        const searchData = [
-            {
-                chapter: 1,
-                section: "foundation",
-                title: "This Book Is For You",
-                verse: 1,
-                content: "This book contains no supernatural claims, no magical promises, and no requests for money. Every principle is scientifically grounded, logically sound, and measurable in real life.",
-                keywords: ["supernatural", "magical", "money", "scientific", "grounded", "measurable", "real life"]
-            },
-            {
-                chapter: 1,
-                section: "foundation", 
-                title: "This Book Is For You",
-                verse: 2,
-                content: "Religious predators promise imaginary afterlives in exchange for real money today. They exploit human hope and desperation for profit. This book warns you against such manipulation and provides reality-based alternatives that actually work.",
-                keywords: ["religious", "predators", "afterlives", "money", "exploit", "hope", "manipulation", "reality-based", "alternatives"]
-            },
-            {
-                chapter: 1,
-                section: "foundation",
-                title: "This Book Is For You", 
-                verse: 5,
-                content: "Truth is free and belongs to all humanity. Anyone charging money for basic spiritual wisdom is a predator exploiting your natural desire for meaning and connection. Real wisdom costs nothing but your attention and effort.",
-                keywords: ["truth", "free", "humanity", "money", "spiritual", "wisdom", "predator", "meaning", "connection", "attention", "effort"]
-            },
-            {
-                chapter: 19,
-                section: "relationships",
-                title: "How to Choose Life Partners",
-                verse: 1,
-                content: "Choose partners based on character, not appearance, wealth, or social status. Look for kindness, honesty, emotional intelligence, and shared values. Physical attraction fades, but good character grows stronger with time.",
-                keywords: ["partners", "character", "appearance", "wealth", "status", "kindness", "honesty", "emotional intelligence", "values", "attraction", "love"]
-            },
-            {
-                chapter: 20,
-                section: "relationships", 
-                title: "Building Lasting Love",
-                verse: 1,
-                content: "Love is not a feeling but a decision to consistently act in ways that benefit your partner's growth, happiness, and wellbeing. Feelings come and go, but love as action creates lasting bonds.",
-                keywords: ["love", "feeling", "decision", "partner", "growth", "happiness", "wellbeing", "action", "lasting", "bonds"]
-            },
-            {
-                chapter: 43,
-                section: "financial",
-                title: "Money Reality", 
-                verse: 1,
-                content: "Money is a tool for creating security, freedom, and opportunities to help others. It is not evil or spiritual. Your relationship with money reflects your values and priorities in life.",
-                keywords: ["money", "tool", "security", "freedom", "opportunities", "help", "evil", "spiritual", "relationship", "values", "priorities"]
-            },
-            {
-                chapter: 70,
-                section: "navigation",
-                title: "Finding Happiness",
-                verse: 1, 
-                content: "Happiness comes from meaningful relationships, purposeful work, physical health, and contributing to something larger than yourself. It cannot be bought, consumed, or achieved through external validation alone.",
-                keywords: ["happiness", "relationships", "purposeful", "work", "health", "contributing", "bought", "consumed", "external", "validation"]
+        // Advanced Search Functionality
+        let searchData = null;
+        let currentResults = [];
+        let searchHistory = [];
+        
+        // Initialize search when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.BookOfJoaSearchData) {
+                searchData = window.BookOfJoaSearchData;
+                initializeAdvancedSearch();
+                console.log('🔍 Advanced search initialized with', searchData.stats.total_verses, 'verses');
+            } else {
+                console.error('Search data not loaded');
+                setTimeout(() => {
+                    if (window.BookOfJoaSearchData) {
+                        searchData = window.BookOfJoaSearchData;
+                        initializeAdvancedSearch();
+                    }
+                }, 1000);
             }
-        ];
-
-        let currentFilter = 'all';
-        let searchTimeout;
-
-        // Initialize search functionality
-        function initSearch() {
-            const searchInput = document.getElementById('searchInput');
-            const filterBtns = document.querySelectorAll('.filter-btn');
+        });
+        
+        function initializeAdvancedSearch() {
+            const searchBox = document.getElementById('searchBox');
+            const searchBtn = document.getElementById('searchBtn');
             
-            // Search input handler
-            searchInput.addEventListener('input', function() {
+            // Add real-time search
+            let searchTimeout;
+            searchBox.addEventListener('input', function() {
                 clearTimeout(searchTimeout);
                 searchTimeout = setTimeout(() => {
-                    performSearch(this.value.trim());
+                    if (this.value.trim().length > 2) {
+                        performAdvancedSearch(this.value.trim());
+                    } else if (this.value.trim().length === 0) {
+                        showSearchTips();
+                    }
                 }, 300);
             });
-
-            // Filter button handlers
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    // Update active filter
-                    filterBtns.forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    currentFilter = this.dataset.section;
-                    
-                    // Re-run search with new filter
-                    performSearch(searchInput.value.trim());
-                });
+            
+            // Add enter key support
+            searchBox.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    performAdvancedSearch(this.value.trim());
+                }
             });
-
+            
+            // Add search button click
+            if (searchBtn) {
+                searchBtn.addEventListener('click', function() {
+                    performAdvancedSearch(searchBox.value.trim());
+                });
+            }
+            
+            // Initialize filter buttons
+            initializeFilters();
+            
             // Show initial tips
             showSearchTips();
         }
-
-        // Perform search
-        function performSearch(query) {
-            const resultsContainer = document.getElementById('resultsContainer');
-            const searchStats = document.getElementById('searchStats');
-
-            if (!query) {
-                resultsContainer.innerHTML = '';
-                searchStats.style.display = 'none';
-                showSearchTips();
-                return;
-            }
-
-            // Show loading
-            showLoading();
-
-            // Simulate search delay for better UX
-            setTimeout(() => {
-                const results = searchInData(query);
-                displayResults(results, query);
-                updateSearchStats(results.length, query);
-            }, 500);
-        }
-
-        // Search in data
-        function searchInData(query) {
-            const queryLower = query.toLowerCase();
-            const queryWords = queryLower.split(' ').filter(word => word.length > 2);
+        
+        function performAdvancedSearch(query) {
+            if (!query || !searchData) return;
             
-            return searchData.filter(item => {
-                // Apply section filter
-                if (currentFilter !== 'all' && item.section !== currentFilter) {
-                    return false;
-                }
-
-                // Search in content and keywords
-                const contentMatch = item.content.toLowerCase().includes(queryLower);
-                const titleMatch = item.title.toLowerCase().includes(queryLower);
-                const keywordMatch = item.keywords.some(keyword => 
-                    keyword.toLowerCase().includes(queryLower) ||
-                    queryWords.some(word => keyword.toLowerCase().includes(word))
-                );
-
-                return contentMatch || titleMatch || keywordMatch;
-            }).sort((a, b) => {
-                // Sort by relevance (simple scoring)
-                const scoreA = calculateRelevanceScore(a, queryLower, queryWords);
-                const scoreB = calculateRelevanceScore(b, queryLower, queryWords);
-                return scoreB - scoreA;
-            });
+            showLoading();
+            
+            setTimeout(() => {
+                const results = searchInAllContent(query);
+                displayAdvancedResults(results, query);
+                updateSearchStats(results.length, query);
+                addToSearchHistory(query);
+            }, 100);
         }
-
-        // Calculate relevance score
-        function calculateRelevanceScore(item, query, queryWords) {
+        
+        function searchInAllContent(query) {
+            const queryWords = query.toLowerCase().split(/\s+/);
+            const results = [];
+            const activeFilters = getActiveFilters();
+            
+            // Search in verses (primary search)
+            searchData.verses.forEach(verse => {
+                // Apply section filter if active
+                if (activeFilters.length > 0 && !activeFilters.includes(verse.section)) {
+                    return;
+                }
+                
+                const score = calculateRelevanceScore(verse, queryWords);
+                if (score > 0) {
+                    results.push({
+                        type: 'verse',
+                        data: verse,
+                        score: score,
+                        matchType: getMatchType(verse, queryWords)
+                    });
+                }
+            });
+            
+            // Search in chapter titles
+            searchData.chapters.forEach(chapter => {
+                // Apply section filter if active
+                if (activeFilters.length > 0 && !activeFilters.includes(chapter.section)) {
+                    return;
+                }
+                
+                const titleScore = calculateTitleScore(chapter, queryWords);
+                if (titleScore > 0) {
+                    results.push({
+                        type: 'chapter',
+                        data: chapter,
+                        score: titleScore + 10, // Boost chapter title matches
+                        matchType: 'title'
+                    });
+                }
+            });
+            
+            // Sort by relevance score
+            results.sort((a, b) => b.score - a.score);
+            
+            return results.slice(0, 100); // Limit to top 100 results
+        }
+        
+        function calculateRelevanceScore(verse, queryWords) {
+            const text = verse.text.toLowerCase();
+            const title = verse.chapter_title.toLowerCase();
+            const keywords = verse.keywords || [];
+            
             let score = 0;
-            const content = item.content.toLowerCase();
-            const title = item.title.toLowerCase();
-
-            // Title matches are more important
-            if (title.includes(query)) score += 10;
-            if (content.includes(query)) score += 5;
-
-            // Keyword matches
+            
             queryWords.forEach(word => {
-                if (title.includes(word)) score += 3;
-                if (content.includes(word)) score += 1;
-                item.keywords.forEach(keyword => {
-                    if (keyword.toLowerCase().includes(word)) score += 2;
+                // Exact phrase match (highest score)
+                if (text.includes(queryWords.join(' '))) {
+                    score += 20;
+                }
+                
+                // Individual word matches
+                if (text.includes(word)) {
+                    score += 5;
+                    
+                    // Boost for word at beginning of sentence
+                    if (text.includes('. ' + word) || text.startsWith(word)) {
+                        score += 3;
+                    }
+                }
+                
+                // Title matches (high score)
+                if (title.includes(word)) {
+                    score += 15;
+                }
+                
+                // Keyword matches
+                if (keywords.includes(word)) {
+                    score += 8;
+                }
+                
+                // Word starts with query (partial match)
+                const words = text.split(/\s+/);
+                words.forEach(textWord => {
+                    if (textWord.startsWith(word)) {
+                        score += 3;
+                    }
                 });
             });
-
+            
             return score;
         }
-
-        // Display search results
-        function displayResults(results, query) {
-            const resultsContainer = document.getElementById('resultsContainer');
-
-            if (results.length === 0) {
-                resultsContainer.innerHTML = `
-                    <div class="no-results">
-                        <h3>No results found</h3>
-                        <p>Try different keywords or check a different section. The search looks through all verses for relevant content.</p>
-                        <p><strong>Suggestions:</strong></p>
-                        <ul>
-                            <li>Try broader terms like "love", "money", "happiness"</li>
-                            <li>Check different sections using the filter buttons</li>
-                            <li>Look for synonyms or related concepts</li>
-                        </ul>
-                    </div>
-                `;
-                return;
+        
+        function calculateTitleScore(chapter, queryWords) {
+            const title = chapter.title.toLowerCase();
+            const description = chapter.description.toLowerCase();
+            
+            let score = 0;
+            
+            queryWords.forEach(word => {
+                if (title.includes(word)) {
+                    score += 20;
+                }
+                if (description.includes(word)) {
+                    score += 10;
+                }
+            });
+            
+            return score;
+        }
+        
+        function getMatchType(verse, queryWords) {
+            const text = verse.text.toLowerCase();
+            const fullQuery = queryWords.join(' ');
+            
+            if (text.includes(fullQuery)) {
+                return 'exact_phrase';
+            } else if (queryWords.every(word => text.includes(word))) {
+                return 'all_words';
+            } else {
+                return 'partial';
             }
-
-            const resultsHTML = results.map(result => {
-                const highlightedContent = highlightSearchTerms(result.content, query);
-                const sectionName = getSectionDisplayName(result.section);
-                
-                return `
-                    <div class="result-item" onclick="openChapter(${result.chapter}, '${result.section}')">
-                        <div class="result-chapter">Chapter ${result.chapter} • ${sectionName}</div>
-                        <div class="result-title">${result.title}</div>
-                        <div class="result-content">${highlightedContent}</div>
-                        <div class="result-meta">
-                            <span>Verse ${result.verse}</span>
-                            <span>Click to read full chapter →</span>
+        }
+        
+        function displayAdvancedResults(results, query) {
+            const resultsDiv = document.getElementById('searchResults');
+            
+            if (results.length === 0) {
+                resultsDiv.innerHTML = `
+                    <div class="no-results">
+                        <h3>🔍 No results found for "${query}"</h3>
+                        <p>Try different keywords or check the suggestions below:</p>
+                        <div class="suggestions">
+                            ${generateSearchSuggestions(query)}
                         </div>
                     </div>
                 `;
-            }).join('');
-
-            resultsContainer.innerHTML = resultsHTML;
-        }
-
-        // Highlight search terms in content
-        function highlightSearchTerms(content, query) {
-            const queryWords = query.toLowerCase().split(' ').filter(word => word.length > 2);
-            let highlighted = content;
-
-            queryWords.forEach(word => {
-                const regex = new RegExp(`(${word})`, 'gi');
-                highlighted = highlighted.replace(regex, '<span class="result-highlight">$1</span>');
-            });
-
-            return highlighted;
-        }
-
-        // Get section display name
-        function getSectionDisplayName(section) {
-            const sectionNames = {
-                'foundation': 'Foundation Reality',
-                'relationships': 'Relationship Mastery', 
-                'personal': 'Personal Excellence',
-                'financial': 'Financial & Career',
-                'wisdom': 'Wisdom Integration',
-                'navigation': 'Life Navigation'
-            };
-            return sectionNames[section] || section;
-        }
-
-        // Update search statistics
-        function updateSearchStats(count, query) {
-            const searchStats = document.getElementById('searchStats');
-            const filterText = currentFilter === 'all' ? 'all sections' : getSectionDisplayName(currentFilter);
+                return;
+            }
             
-            searchStats.innerHTML = `
-                Found <strong>${count}</strong> result${count !== 1 ? 's' : ''} for "<strong>${query}</strong>" in ${filterText}
-            `;
-            searchStats.style.display = 'block';
+            let html = '<div class="results-container">';
+            
+            // Group results by type
+            const verseResults = results.filter(r => r.type === 'verse');
+            const chapterResults = results.filter(r => r.type === 'chapter');
+            
+            // Show chapter matches first
+            if (chapterResults.length > 0) {
+                html += '<div class="result-section"><h3>📖 Chapter Matches</h3>';
+                chapterResults.forEach(result => {
+                    html += renderChapterResult(result, query);
+                });
+                html += '</div>';
+            }
+            
+            // Show verse matches
+            if (verseResults.length > 0) {
+                html += '<div class="result-section"><h3>📝 Verse Matches</h3>';
+                verseResults.forEach(result => {
+                    html += renderVerseResult(result, query);
+                });
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            resultsDiv.innerHTML = html;
         }
-
-        // Show loading state
-        function showLoading() {
-            const resultsContainer = document.getElementById('resultsContainer');
-            resultsContainer.innerHTML = `
-                <div class="loading">
-                    <div class="spinner"></div>
-                    Searching through 3,636 verses...
-                </div>
-            `;
-        }
-
-        // Show search tips
-        function showSearchTips() {
-            const resultsContainer = document.getElementById('resultsContainer');
-            resultsContainer.innerHTML = `
-                <div style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); border-radius: 15px; margin: 30px 0;">
-                    <h3 style="color: #667eea; margin-bottom: 20px;">🔍 Start Your Search</h3>
-                    <p>Enter keywords above to find relevant verses across all chapters of The Book of Joa.</p>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 25px;">
-                        <button onclick="document.getElementById('searchInput').value='love'; performSearch('love');" style="padding: 12px; background: #667eea; color: white; border: none; border-radius: 8px; cursor: pointer;">Search "love"</button>
-                        <button onclick="document.getElementById('searchInput').value='money'; performSearch('money');" style="padding: 12px; background: #f093fb; color: white; border: none; border-radius: 8px; cursor: pointer;">Search "money"</button>
-                        <button onclick="document.getElementById('searchInput').value='happiness'; performSearch('happiness');" style="padding: 12px; background: #4facfe; color: white; border: none; border-radius: 8px; cursor: pointer;">Search "happiness"</button>
-                        <button onclick="document.getElementById('searchInput').value='relationships'; performSearch('relationships');" style="padding: 12px; background: #f5576c; color: white; border: none; border-radius: 8px; cursor: pointer;">Search "relationships"</button>
+        
+        function renderChapterResult(result, query) {
+            const chapter = result.data;
+            return `
+                <div class="result-item chapter-result" onclick="openChapter('${chapter.url}')">
+                    <div class="result-header">
+                        <span class="chapter-number">Chapter ${chapter.number}</span>
+                        <span class="section-badge">${chapter.section_name}</span>
+                    </div>
+                    <h4>${highlightSearchTerms(chapter.title, query)}</h4>
+                    <p class="chapter-description">${highlightSearchTerms(chapter.description, query)}</p>
+                    <div class="result-meta">
+                        <span>📝 ${chapter.total_verses} verses</span>
+                        <span class="match-type">Title Match</span>
                     </div>
                 </div>
             `;
         }
-
-        // Open chapter
-        function openChapter(chapterNum, section) {
-            // Get chapter info to build URL
-            const chapters = {
-                1: { title: "This Book Is For You", section: "foundation" },
-                19: { title: "How to Choose Life Partners", section: "relationships" },
-                20: { title: "Building Lasting Love", section: "relationships" },
-                43: { title: "Money Reality", section: "financial" },
-                70: { title: "Finding Happiness", section: "navigation" }
+        
+        function renderVerseResult(result, query) {
+            const verse = result.data;
+            return `
+                <div class="result-item verse-result" onclick="openChapter('${verse.chapter_url}')">
+                    <div class="result-header">
+                        <span class="chapter-info">Chapter ${verse.chapter_number}: ${verse.chapter_title}</span>
+                        <span class="section-badge">${verse.section_name}</span>
+                    </div>
+                    <div class="verse-content">
+                        <span class="verse-label">${verse.verse_label}</span>
+                        <p>${highlightSearchTerms(verse.text, query)}</p>
+                    </div>
+                    <div class="result-meta">
+                        <span class="match-type">${getMatchTypeLabel(result.matchType)}</span>
+                        <span class="relevance-score">Score: ${result.score}</span>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function getMatchTypeLabel(matchType) {
+            const labels = {
+                'exact_phrase': '🎯 Exact Match',
+                'all_words': '✅ All Words',
+                'partial': '📝 Partial Match',
+                'title': '📖 Title Match'
             };
+            return labels[matchType] || 'Match';
+        }
+        
+        function highlightSearchTerms(text, query) {
+            if (!query) return text;
             
-            const chapter = chapters[chapterNum];
-            if (chapter) {
-                const filename = `chapter-${chapterNum.toString().padStart(2, '0')}-${chapter.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.html`;
-                window.location.href = `Bookofjoa/chapters/${section}/${filename}`;
+            const queryWords = query.toLowerCase().split(/\s+/);
+            let highlightedText = text;
+            
+            queryWords.forEach(word => {
+                const regex = new RegExp(`(${escapeRegex(word)})`, 'gi');
+                highlightedText = highlightedText.replace(regex, '<mark>$1</mark>');
+            });
+            
+            return highlightedText;
+        }
+        
+        function escapeRegex(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+        
+        function generateSearchSuggestions(query) {
+            // Get popular keywords
+            const popularKeywords = ['love', 'happiness', 'money', 'relationships', 'prayer', 'truth', 'wisdom', 'peace'];
+            const suggestions = popularKeywords.slice(0, 5);
+            
+            return suggestions.map(keyword => 
+                `<button class="suggestion-btn" onclick="performAdvancedSearch('${keyword}')">${keyword}</button>`
+            ).join('');
+        }
+        
+        function initializeFilters() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Toggle active state
+                    this.classList.toggle('active');
+                    
+                    // If search has been performed, re-filter results
+                    const searchBox = document.getElementById('searchBox');
+                    if (searchBox.value.trim()) {
+                        performAdvancedSearch(searchBox.value.trim());
+                    }
+                });
+            });
+        }
+        
+        function getActiveFilters() {
+            const activeBtns = document.querySelectorAll('.filter-btn.active');
+            return Array.from(activeBtns).map(btn => btn.dataset.filter);
+        }
+        
+        function updateSearchStats(resultCount, query) {
+            const statsDiv = document.getElementById('searchStats');
+            if (statsDiv && searchData) {
+                statsDiv.innerHTML = `
+                    <div class="search-stats">
+                        <span>Found <strong>${resultCount}</strong> results for "<em>${query}</em>"</span>
+                        <span>Searched across <strong>${searchData.stats.total_verses}</strong> verses in <strong>${searchData.stats.total_chapters}</strong> chapters</span>
+                    </div>
+                `;
             }
         }
-
-        // Initialize when page loads
-        document.addEventListener('DOMContentLoaded', initSearch);
+        
+        function addToSearchHistory(query) {
+            if (!searchHistory.includes(query)) {
+                searchHistory.unshift(query);
+                if (searchHistory.length > 10) {
+                    searchHistory = searchHistory.slice(0, 10);
+                }
+            }
+        }
+        
+        function showLoading() {
+            const resultsDiv = document.getElementById('searchResults');
+            resultsDiv.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>🔍 Searching through all chapters...</p>
+                </div>
+            `;
+        }
+        
+        function showSearchTips() {
+            const resultsDiv = document.getElementById('searchResults');
+            if (!resultsDiv) return;
+            
+            resultsDiv.innerHTML = `
+                <div class="search-tips">
+                    <h3>🔍 Advanced Search Features</h3>
+                    <div class="tips-grid">
+                        <div class="tip-item">
+                            <h4>📖 Comprehensive Coverage</h4>
+                            <p>Search across all <strong>${searchData ? searchData.stats.total_chapters : '72'}</strong> chapters and <strong>${searchData ? searchData.stats.total_verses : '3,636'}</strong> verses</p>
+                        </div>
+                        <div class="tip-item">
+                            <h4>🎯 Smart Matching</h4>
+                            <p>Finds exact phrases, individual words, and related concepts with relevance scoring</p>
+                        </div>
+                        <div class="tip-item">
+                            <h4>📝 Real-time Results</h4>
+                            <p>See results as you type (minimum 3 characters)</p>
+                        </div>
+                        <div class="tip-item">
+                            <h4>🏷️ Section Filtering</h4>
+                            <p>Filter by Foundation, Relationships, Personal, Financial, Wisdom, or Navigation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="popular-searches">
+                        <h4>🌟 Popular Searches</h4>
+                        <div class="search-buttons">
+                            <button onclick="performAdvancedSearch('love')" class="search-suggestion">💕 Love</button>
+                            <button onclick="performAdvancedSearch('money')" class="search-suggestion">💰 Money</button>
+                            <button onclick="performAdvancedSearch('happiness')" class="search-suggestion">😊 Happiness</button>
+                            <button onclick="performAdvancedSearch('prayer')" class="search-suggestion">🙏 Prayer</button>
+                            <button onclick="performAdvancedSearch('truth')" class="search-suggestion">🔍 Truth</button>
+                            <button onclick="performAdvancedSearch('wisdom')" class="search-suggestion">🌟 Wisdom</button>
+                            <button onclick="performAdvancedSearch('relationships')" class="search-suggestion">💕 Relationships</button>
+                            <button onclick="performAdvancedSearch('success')" class="search-suggestion">🎯 Success</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function openChapter(url) {
+            window.location.href = url;
+        }
+        
+        // Initialize search on page load
+        setTimeout(() => {
+            console.log('🌟 Welcome to The Book of Joa Advanced Search! 🔍✨');
+        }, 1000);
     </script>
 </body>
 </html>
