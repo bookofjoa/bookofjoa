@@ -12,35 +12,42 @@ nav_order: 58
 <meta name="chapter_title" content="Humility Practice">
 <meta name="section" content="wisdom">
 
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+
 <style>
-/* Clean Bible/Quran App Inspired Design */
+/* Perfect Spiritual Reading App Design */
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Georgia', 'Times New Roman', serif;
-  line-height: 1.7;
+  line-height: 1.8;
   color: #2c3e50;
   margin: 0;
   padding: 0;
-  background: #f8f9fa;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
 }
 
+/* Enhanced Top Navigation */
 .top-nav {
-  background: white;
-  border-bottom: 1px solid #e0e0e0;
+  background: linear-gradient(135deg, #9b59b6 0%, #9b59b6dd 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
   padding: 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
 }
 
 .nav-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 18px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,160 +56,244 @@ body {
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 15px;
-}
-
-.hamburger-btn {
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  padding: 8px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  color: #2c3e50;
-}
-
-.hamburger-btn:hover {
-  background: #f0f0f0;
+  gap: 20px;
 }
 
 .logo-nav {
-  height: 40px;
+  height: 45px;
   width: auto;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
 }
 
 .book-title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-  color: #2c3e50;
+  color: #d4af37;
   margin: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  background: linear-gradient(45deg, #d4af37, #f4d03f, #d4af37);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes goldGlow {
+  0% {
+    background-position: 0% 50%;
+    filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.5));
+  }
+  100% {
+    background-position: 100% 50%;
+    filter: drop-shadow(0 0 20px rgba(212, 175, 55, 0.8));
+  }
 }
 
 .chapter-info {
   text-align: center;
   flex: 1;
+  max-width: 400px;
 }
 
 .chapter-number {
-  font-size: 14px;
-  color: #666;
+  font-size: 16px;
+  color: rgba(255,255,255,0.9);
   margin: 0;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 .chapter-title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  color: #2c3e50;
-  margin: 2px 0 0 0;
+  color: #ffffff;
+  margin: 3px 0 0 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .nav-controls {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .nav-btn {
-  background: #9b59b6;
+  background: rgba(255,255,255,0.2);
   color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 6px;
+  border: 2px solid rgba(255,255,255,0.3);
+  padding: 10px 18px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .nav-btn:hover {
-  opacity: 0.9;
+  background: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .nav-btn:disabled {
-  background: #cbd5e0;
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.1);
   cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
+/* Enhanced Main Content */
 .main-content {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: 30px 20px;
-  background: white;
-  min-height: calc(100vh - 140px);
+  padding: 40px 25px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .chapter-header {
   text-align: center;
-  margin-bottom: 40px;
-  padding: 30px 20px;
-  background: linear-gradient(135deg, #9b59b615, #9b59b605);
-  border-radius: 12px;
-  border: 1px solid #9b59b620;
+  margin-bottom: 50px;
+  padding: 40px 25px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(248,249,250,0.9) 100%);
+  border-radius: 15px;
+  border: 2px solid #9b59b640;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.chapter-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, #9b59b610, transparent);
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(30deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(30deg); }
 }
 
 .chapter-emoji {
-  font-size: 48px;
-  margin-bottom: 15px;
+  font-size: 60px;
+  margin-bottom: 20px;
   display: block;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 
 .chapter-main-title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   color: #2c3e50;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
   line-height: 1.3;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 1;
 }
 
 .chapter-description {
-  font-size: 16px;
+  font-size: 18px;
   color: #666;
   font-style: italic;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
+/* Enhanced Verse Styling */
 .verse {
-  background: white;
-  margin: 20px 0;
-  padding: 25px;
-  border-radius: 10px;
-  border-left: 4px solid #9b59b6;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  transition: all 0.3s ease;
+  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
+  margin: 25px 0;
+  padding: 30px;
+  border-radius: 12px;
+  border-left: 5px solid #9b59b6;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255,255,255,0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.verse::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #9b59b6, #9b59b680, #9b59b6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .verse:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transform: translateY(-1px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,249,250,1) 100%);
+}
+
+.verse:hover::before {
+  opacity: 1;
 }
 
 .verse-number {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   color: #9b59b6;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   display: block;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .verse-text {
   margin: 0;
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 18px;
+  line-height: 1.8;
   color: #2c3e50;
+  text-align: justify;
 }
 
+/* Enhanced Bottom Navigation */
 .bottom-nav {
-  background: white;
-  border-top: 1px solid #e0e0e0;
-  padding: 15px 0;
-  margin-top: 40px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,249,250,0.95) 100%);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding: 25px 0;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
 }
 
 .bottom-nav-container {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -214,57 +305,101 @@ body {
 }
 
 .progress-text {
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
-  margin: 0 0 5px 0;
+  margin: 0 0 8px 0;
+  font-weight: 500;
 }
 
 .progress-bar {
-  width: 200px;
-  height: 4px;
-  background: #e0e0e0;
-  border-radius: 2px;
+  width: 250px;
+  height: 6px;
+  background: linear-gradient(90deg, #e0e0e0, #f0f0f0);
+  border-radius: 3px;
   overflow: hidden;
   margin: 0 auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .progress-fill {
   height: 100%;
-  background: #9b59b6;
-  transition: width 0.3s ease;
+  background: linear-gradient(90deg, #9b59b6, #9b59b6cc, #9b59b6);
+  transition: width 0.5s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  animation: progressGlow 2s ease-in-out infinite alternate;
 }
 
+@keyframes progressGlow {
+  0% { box-shadow: 0 0 5px #9b59b680; }
+  100% { box-shadow: 0 0 15px #9b59b6cc; }
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
-    padding: 12px 15px;
+    padding: 15px 20px;
   }
   
   .chapter-info {
-    max-width: 200px;
+    max-width: 250px;
   }
   
   .chapter-title {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  
+  .book-title {
+    font-size: 18px;
   }
   
   .main-content {
-    padding: 20px 15px;
+    padding: 25px 20px;
+    margin: 20px 15px;
+    border-radius: 15px;
   }
   
+  .chapter-main-title {
+    font-size: 26px;
+  }
+  
+  .verse {
+    padding: 25px;
+  }
+  
+  .nav-controls {
+    gap: 10px;
+  }
+  
+  .nav-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
   .chapter-main-title {
     font-size: 24px;
   }
   
-  .verse {
-    padding: 20px;
+  .nav-controls {
+    gap: 8px;
+  }
+  
+  .nav-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  
+  .progress-bar {
+    width: 200px;
   }
 }
 </style>
 
+<!-- Enhanced Top Navigation (No Hamburger!) -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <button class="hamburger-btn" onclick="window.location.href='../../../index.html'">☰</button>
       <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
@@ -281,6 +416,7 @@ body {
   </div>
 </div>
 
+<!-- Enhanced Main Content -->
 <div class="main-content">
   <div class="chapter-header">
     <span class="chapter-emoji">🙏</span>
@@ -559,6 +695,7 @@ body {
 </div>
 </div>
 
+<!-- Enhanced Bottom Navigation -->
 <div class="bottom-nav">
   <div class="bottom-nav-container">
     <button class="nav-btn" onclick="prevChapter()" >‹ Previous Chapter</button>
@@ -582,4 +719,9 @@ function prevChapter() {
 function nextChapter() {
   window.location.href = "../wisdom/chapter-59-patience-mastery.html";
 }
+
+// Smooth scroll to top when navigating
+window.addEventListener('load', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 </script>
