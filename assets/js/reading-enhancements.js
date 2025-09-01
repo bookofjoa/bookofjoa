@@ -60,13 +60,258 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
         
+        // Search button
+        const searchBtn = document.createElement('button');
+        searchBtn.innerHTML = '🔍';
+        searchBtn.title = 'Search All Chapters';
+        searchBtn.addEventListener('click', () => {
+            // Navigate to search page with proper path resolution
+            const currentPath = window.location.pathname;
+            const searchPath = currentPath.includes('/chapters/') ? '../../../search.html' : 'search.html';
+            window.location.href = searchPath;
+        });
+        
         toolsContainer.appendChild(darkModeBtn);
         toolsContainer.appendChild(focusModeBtn);
         toolsContainer.appendChild(fontUpBtn);
         toolsContainer.appendChild(fontDownBtn);
         toolsContainer.appendChild(scrollTopBtn);
+        toolsContainer.appendChild(searchBtn);
         
         document.body.appendChild(toolsContainer);
+    }
+
+    // Add Quran.com-style navigation arrows
+    function addNavigationArrows() {
+        // Get current page info from meta tags or URL
+        const currentChapter = getCurrentChapterInfo();
+        if (!currentChapter) return;
+        
+        // Create navigation container
+        const navContainer = document.createElement('div');
+        navContainer.className = 'quran-style-nav';
+        
+        // Previous chapter arrow
+        if (currentChapter.prev) {
+            const prevBtn = document.createElement('button');
+            prevBtn.className = 'nav-arrow prev-arrow';
+            prevBtn.innerHTML = `
+                <div class="arrow-icon">←</div>
+                <div class="nav-text">
+                    <div class="nav-label">Previous</div>
+                    <div class="nav-title">${currentChapter.prev.title}</div>
+                </div>
+            `;
+            prevBtn.addEventListener('click', () => {
+                window.location.href = currentChapter.prev.url;
+            });
+            navContainer.appendChild(prevBtn);
+        }
+        
+        // Chapter selector dropdown
+        const chapterSelector = document.createElement('div');
+        chapterSelector.className = 'chapter-selector';
+        chapterSelector.innerHTML = `
+            <button class="selector-btn">
+                <span>Chapter ${currentChapter.number}</span>
+                <span class="dropdown-icon">▼</span>
+            </button>
+            <div class="chapter-dropdown">
+                ${generateChapterList(currentChapter.number)}
+            </div>
+        `;
+        navContainer.appendChild(chapterSelector);
+        
+        // Next chapter arrow
+        if (currentChapter.next) {
+            const nextBtn = document.createElement('button');
+            nextBtn.className = 'nav-arrow next-arrow';
+            nextBtn.innerHTML = `
+                <div class="nav-text">
+                    <div class="nav-label">Next</div>
+                    <div class="nav-title">${currentChapter.next.title}</div>
+                </div>
+                <div class="arrow-icon">→</div>
+            `;
+            nextBtn.addEventListener('click', () => {
+                window.location.href = currentChapter.next.url;
+            });
+            navContainer.appendChild(nextBtn);
+        }
+        
+        // Insert navigation at top and bottom of content
+        const wrapper = document.querySelector('.wrapper');
+        if (wrapper) {
+            wrapper.insertBefore(navContainer.cloneNode(true), wrapper.firstChild);
+            wrapper.appendChild(navContainer);
+        }
+        
+        // Add dropdown functionality
+        addDropdownFunctionality();
+    }
+    
+    // Get current chapter information
+    function getCurrentChapterInfo() {
+        // Try to get from meta tags first
+        const chapterMeta = document.querySelector('meta[name="chapter_number"]');
+        const titleMeta = document.querySelector('meta[name="chapter_title"]');
+        
+        let chapterNumber = null;
+        let chapterTitle = '';
+        
+        if (chapterMeta) {
+            chapterNumber = parseInt(chapterMeta.content);
+        } else {
+            // Parse from URL or page title
+            const path = window.location.pathname;
+            const match = path.match(/chapter-(\d+)/);
+            if (match) {
+                chapterNumber = parseInt(match[1]);
+            }
+        }
+        
+        if (titleMeta) {
+            chapterTitle = titleMeta.content;
+        } else {
+            // Get from page title
+            const h1 = document.querySelector('h1');
+            if (h1) {
+                chapterTitle = h1.textContent.replace(/^Chapter \d+:\s*/, '');
+            }
+        }
+        
+        if (!chapterNumber) return null;
+        
+        return {
+            number: chapterNumber,
+            title: chapterTitle,
+            prev: chapterNumber > 1 ? getChapterInfo(chapterNumber - 1) : null,
+            next: chapterNumber < 72 ? getChapterInfo(chapterNumber + 1) : null
+        };
+    }
+    
+    // Get chapter info by number
+    function getChapterInfo(chapterNum) {
+        const chapters = {
+            1: { title: "This Book Is For You", section: "foundation" },
+            2: { title: "The Prayer Revolution", section: "foundation" },
+            3: { title: "No Priests Needed", section: "foundation" },
+            4: { title: "The Reality Principle", section: "foundation" },
+            5: { title: "The Equality Law", section: "foundation" },
+            6: { title: "The Harm Prevention", section: "foundation" },
+            7: { title: "Anti-Violence Absolute", section: "foundation" },
+            8: { title: "Anti-Slavery Absolute", section: "foundation" },
+            9: { title: "The Jealousy Killer", section: "foundation" },
+            10: { title: "The Ego Death", section: "foundation" },
+            11: { title: "The Focus Power", section: "foundation" },
+            12: { title: "Universal Friendship", section: "foundation" },
+            13: { title: "The Compassion Practice", section: "foundation" },
+            14: { title: "The Justice Commitment", section: "foundation" },
+            15: { title: "The Truth Seeking", section: "foundation" },
+            16: { title: "The Peace Making", section: "foundation" },
+            17: { title: "The Hope Cultivation", section: "foundation" },
+            18: { title: "The Unity Vision", section: "foundation" },
+            19: { title: "How to Choose Life Partners", section: "relationships" },
+            20: { title: "Building Lasting Love", section: "relationships" },
+            21: { title: "Handling Relationship Conflict", section: "relationships" },
+            22: { title: "When Relationships End", section: "relationships" },
+            23: { title: "Family Relationships", section: "relationships" },
+            24: { title: "Parenting Excellence", section: "relationships" },
+            25: { title: "Teen Guidance", section: "relationships" },
+            26: { title: "Friendship Skills", section: "relationships" },
+            27: { title: "Social Skills Mastery", section: "relationships" },
+            28: { title: "Dealing with Difficult People", section: "relationships" },
+            29: { title: "Building Community", section: "relationships" },
+            30: { title: "Leadership Without Authority", section: "relationships" },
+            31: { title: "Physical Health", section: "personal" },
+            32: { title: "Mental Health", section: "personal" },
+            33: { title: "Emotional Intelligence", section: "personal" },
+            34: { title: "Learning Systems", section: "personal" },
+            35: { title: "Skill Mastery", section: "personal" },
+            36: { title: "Time Management", section: "personal" },
+            37: { title: "Goal Achievement", section: "personal" },
+            38: { title: "Habit Formation", section: "personal" },
+            39: { title: "Decision Making", section: "personal" },
+            40: { title: "Problem Solving", section: "personal" },
+            41: { title: "Creative Thinking", section: "personal" },
+            42: { title: "Personal Growth", section: "personal" },
+            43: { title: "Money Reality", section: "financial" },
+            44: { title: "Earning Excellence", section: "financial" },
+            45: { title: "Saving Systems", section: "financial" },
+            46: { title: "Investment Intelligence", section: "financial" },
+            47: { title: "Debt Destruction", section: "financial" },
+            48: { title: "Budget Mastery", section: "financial" },
+            49: { title: "Career Building", section: "financial" },
+            50: { title: "Entrepreneurship Path", section: "financial" },
+            51: { title: "Wealth Building", section: "financial" },
+            52: { title: "Financial Protection", section: "financial" },
+            53: { title: "Teaching Money", section: "financial" },
+            54: { title: "Money and Happiness", section: "financial" },
+            55: { title: "Truth and Honesty", section: "wisdom" },
+            56: { title: "Integrity Living", section: "wisdom" },
+            57: { title: "Courage Development", section: "wisdom" },
+            58: { title: "Humility Practice", section: "wisdom" },
+            59: { title: "Patience Mastery", section: "wisdom" },
+            60: { title: "Forgiveness Power", section: "wisdom" },
+            61: { title: "Gratitude Habit", section: "wisdom" },
+            62: { title: "Compassion Action", section: "wisdom" },
+            63: { title: "Justice Seeking", section: "wisdom" },
+            64: { title: "Wisdom Integration", section: "wisdom" },
+            65: { title: "Character Building", section: "wisdom" },
+            66: { title: "Legacy Creation", section: "wisdom" },
+            67: { title: "Handling Stress", section: "navigation" },
+            68: { title: "Managing Crisis", section: "navigation" },
+            69: { title: "Dealing with Failure", section: "navigation" },
+            70: { title: "Finding Happiness", section: "navigation" },
+            71: { title: "Preparing for Death", section: "navigation" },
+            72: { title: "The Infinite Journey", section: "navigation" }
+        };
+        
+        const chapter = chapters[chapterNum];
+        if (!chapter) return null;
+        
+        const filename = `chapter-${chapterNum.toString().padStart(2, '0')}-${chapter.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.html`;
+        
+        return {
+            number: chapterNum,
+            title: chapter.title,
+            url: `../${chapter.section}/${filename}`,
+            section: chapter.section
+        };
+    }
+    
+    // Generate chapter list for dropdown
+    function generateChapterList(currentChapter) {
+        let html = '';
+        for (let i = 1; i <= 72; i++) {
+            const chapter = getChapterInfo(i);
+            if (chapter) {
+                const isActive = i === currentChapter ? ' class="active"' : '';
+                html += `<a href="${chapter.url}"${isActive}>
+                    <span class="chapter-num">Chapter ${i}</span>
+                    <span class="chapter-title">${chapter.title}</span>
+                </a>`;
+            }
+        }
+        return html;
+    }
+    
+    // Add dropdown functionality
+    function addDropdownFunctionality() {
+        document.querySelectorAll('.chapter-selector').forEach(selector => {
+            const btn = selector.querySelector('.selector-btn');
+            const dropdown = selector.querySelector('.chapter-dropdown');
+            
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                dropdown.classList.toggle('show');
+            });
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', () => {
+                dropdown.classList.remove('show');
+            });
+        });
     }
 
     // Dark mode functionality
@@ -118,27 +363,89 @@
             // Only if not typing in an input
             if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
             
+            const currentChapter = getCurrentChapterInfo();
+            
             switch(e.key) {
                 case 'd':
                 case 'D':
                     toggleDarkMode();
+                    showKeyboardHint('Dark mode toggled');
                     break;
                 case 'f':
                 case 'F':
                     toggleFocusMode();
+                    showKeyboardHint('Focus mode toggled');
                     break;
                 case '+':
                 case '=':
                     changeFontSize(1.1);
+                    showKeyboardHint('Font size increased');
                     break;
                 case '-':
                     changeFontSize(0.9);
+                    showKeyboardHint('Font size decreased');
                     break;
                 case 'Home':
                     window.scrollTo({ top: 0, behavior: 'smooth' });
+                    showKeyboardHint('Scrolled to top');
+                    break;
+                case 'ArrowLeft':
+                    if (currentChapter && currentChapter.prev) {
+                        window.location.href = currentChapter.prev.url;
+                    }
+                    break;
+                case 'ArrowRight':
+                    if (currentChapter && currentChapter.next) {
+                        window.location.href = currentChapter.next.url;
+                    }
+                    break;
+                case 'h':
+                case 'H':
+                    showKeyboardHelp();
+                    break;
+                case 's':
+                case 'S':
+                    // Navigate to search page
+                    const currentPath = window.location.pathname;
+                    const searchPath = currentPath.includes('/chapters/') ? '../../../search.html' : 'search.html';
+                    window.location.href = searchPath;
                     break;
             }
         });
+    }
+    
+    // Show keyboard hint
+    function showKeyboardHint(message) {
+        let hint = document.querySelector('.keyboard-hint');
+        if (!hint) {
+            hint = document.createElement('div');
+            hint.className = 'keyboard-hint';
+            document.body.appendChild(hint);
+        }
+        
+        hint.textContent = message;
+        hint.classList.add('show');
+        
+        setTimeout(() => {
+            hint.classList.remove('show');
+        }, 2000);
+    }
+    
+    // Show keyboard help
+    function showKeyboardHelp() {
+        const helpText = `
+Keyboard Shortcuts:
+← → Navigate chapters
+S - Search all chapters
+D - Toggle dark mode
+F - Toggle focus mode
++ - Increase font size
+- - Decrease font size
+H - Show this help
+Home - Scroll to top
+        `.trim();
+        
+        showToast(helpText);
     }
 
     // Toast notification system
@@ -225,6 +532,7 @@
         
         addProgressBar();
         addReadingTools();
+        addNavigationArrows();
         addVerseInteractions();
         addKeyboardShortcuts();
         addHighlightStyles();
@@ -233,7 +541,7 @@
         // Show welcome message for first-time visitors
         if (!localStorage.getItem('welcomeShown')) {
             setTimeout(() => {
-                showToast('Welcome to The Book of Joa! Press D for dark mode, F for focus mode ✨');
+                showToast('Welcome to The Book of Joa! Press S to search, D for dark mode, H for help ✨');
                 localStorage.setItem('welcomeShown', 'true');
             }, 2000);
         }

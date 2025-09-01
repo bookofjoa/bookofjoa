@@ -1,104 +1,93 @@
 # GitHub Pages Configuration for The Book of Joa
-title: "The Book of Joa"
-description: "The Ultimate Open-Source Religion - Free for Eternity"
+title: "The Book of Joa - Ultimate Open Source Religion"
+description: "The world's first completely violence-free, exploitation-free, equality-absolute spiritual wisdom system. Made by humans, for humans."
 url: "https://bookofjoa.github.io"
 baseurl: "/bookofjoa"
 
-# Theme
-theme: jekyll-theme-minimal
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-# Force index.md as homepage
-permalink: /:title/
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-
-# Markdown processor
+# Build settings
 markdown: kramdown
 highlighter: rouge
+sass:
+  sass_dir: assets/css
+  style: compressed
 
-# Navigation
-header_pages:
-  - README.md
-
-# Social links
-github_username: bookofjoa
-
-# SEO
-author: "Humanity (Open Source)"
-twitter:
-  username: bookofjoa
-  card: summary_large_image
-
-# Collections for chapters
+# Collections
 collections:
   chapters:
     output: true
     permalink: /:collection/:name/
 
-# Default layouts
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+author: "Book of Joa Contributors"
+twitter:
+  username: bookofjoa
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+
+# Social links
+social:
+  name: The Book of Joa
+  links:
+    - https://github.com/bookofjoa/bookofjoa
+
+# Default front matter
 defaults:
-  - scope:
-      path: ""
-      type: "chapters"
-    values:
-      layout: "chapter"
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
+      author: "Book of Joa Contributors"
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "default"
+      author: "Book of Joa Contributors"
 
 # Exclude from processing
 exclude:
-  - book-structure/validation/
-  - book-structure/templates/
-  - "*.docx"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - .gitignore
+  - userinput.py
 
 # Include
 include:
   - _pages
   - assets
 
-# Site settings
-show_downloads: true
-show_excerpts: true
+# GitHub Pages specific
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
 
-# Book specific settings
-book:
-  total_chapters: 72
-  total_verses: 3636
-  license: "GPL-3.0"
-  status: "Complete"
-  sections:
-    - name: "Foundation Reality"
-      chapters: "1-18"
-      verses: 648
-      path: "book-structure/chapters/foundation/"
-    - name: "Relationship Mastery" 
-      chapters: "19-30"
-      verses: 600
-      path: "book-structure/chapters/relationships/"
-    - name: "Personal Excellence"
-      chapters: "31-42"
-      verses: 600
-      path: "book-structure/chapters/personal/"
-    - name: "Financial & Career Mastery"
-      chapters: "43-54"
-      verses: 600
-      path: "book-structure/chapters/financial/"
-    - name: "Wisdom Integration"
-      chapters: "55-66"
-      verses: 792
-      path: "book-structure/chapters/wisdom/"
-    - name: "Life Navigation"
-      chapters: "67-72"
-      verses: 396
-      path: "book-structure/chapters/navigation/"
+# Security
+safe: true
+incremental: false
+lsi: false
+highlighter: rouge
+gist:
+  noscript: false
+
+# Performance
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false

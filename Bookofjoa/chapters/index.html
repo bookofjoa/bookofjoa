@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Index - The Book of Joa</title>
+    <link rel="stylesheet" href="../../assets/css/style.scss">
+    <style>
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); }
+            25% { background: linear-gradient(135deg, #f093fb 0%, #f5576c 50%, #4facfe 100%); }
+            50% { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 50%, #a8edea 100%); }
+            75% { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 50%, #667eea 100%); }
+            100% { background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); }
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .search-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .search-box {
+            width: 100%;
+            max-width: 500px;
+            padding: 15px 20px;
+            border: 2px solid #667eea;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-box:focus {
+            border-color: #f093fb;
+            box-shadow: 0 0 20px rgba(240, 147, 251, 0.3);
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .section-title {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .chapter-card {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .chapter-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            border-color: #667eea;
+        }
+
+        .chapter-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .chapter-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .chapter-description {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .verse-count {
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .read-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .read-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .progress-overview {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .progress-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .navigation-help {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .chapters-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .progress-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>📚 The Book of Joa - Chapter Index</h1>
+            <p>Navigate through all 72 chapters of practical wisdom</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search chapters by title or topic..." id="searchBox">
+        </div>
+
+        <div class="navigation-help">
+            <h3>🎯 Navigation Tips</h3>
+            <p><strong>Keyboard Shortcuts:</strong> Use ← → arrow keys to navigate between chapters, press H for help</p>
+            <p><strong>Quick Access:</strong> Click any chapter card to start reading, or use the dropdown in chapter pages</p>
+        </div>
+
+        <div class="progress-overview">
+            <h2>📊 Complete Book Overview</h2>
+            <div class="progress-stats">
+                <div class="stat-item">
+                    <div class="stat-number">72</div>
+                    <div class="stat-label">Total Chapters</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3,636</div>
+                    <div class="stat-label">Total Verses</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Life Sections</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Free Forever</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Foundation Reality Section -->
+        <div class="section">
+            <div class="section-title">🌟 Foundation Reality (Chapters 1-18)</div>
+            <div class="chapters-grid" id="foundationChapters"></div>
+        </div>
+
+        <!-- Relationship Mastery Section -->
+        <div class="section">
+            <div class="section-title">💕 Relationship Mastery (Chapters 19-30)</div>
+            <div class="chapters-grid" id="relationshipChapters"></div>
+        </div>
+
+        <!-- Personal Excellence Section -->
+        <div class="section">
+            <div class="section-title">🚀 Personal Excellence (Chapters 31-42)</div>
+            <div class="chapters-grid" id="personalChapters"></div>
+        </div>
+
+        <!-- Financial & Career Mastery Section -->
+        <div class="section">
+            <div class="section-title">💰 Financial & Career Mastery (Chapters 43-54)</div>
+            <div class="chapters-grid" id="financialChapters"></div>
+        </div>
+
+        <!-- Wisdom Integration Section -->
+        <div class="section">
+            <div class="section-title">🧠 Wisdom Integration (Chapters 55-66)</div>
+            <div class="chapters-grid" id="wisdomChapters"></div>
+        </div>
+
+        <!-- Life Navigation Section -->
+        <div class="section">
+            <div class="section-title">🧭 Life Navigation (Chapters 67-72)</div>
+            <div class="chapters-grid" id="navigationChapters"></div>
+        </div>
+
+        <div style="text-align: center; margin: 40px 0; padding: 20px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); border-radius: 15px;">
+            <h3>🏠 <a href="../../index.html" style="color: #667eea;">Return to Home</a></h3>
+            <p><em>Made with ❤️ for All Humanity • Free Forever • GPL-3.0 Licensed</em></p>
+        </div>
+    </div>
+
+    <script>
+        // Chapter data
+        const chapters = {
+            foundation: [
+                { num: 1, title: "This Book Is For You", verses: 36, desc: "Reality-based approach to spiritual wisdom" },
+                { num: 2, title: "The Prayer Revolution", verses: 36, desc: "Prayer as action, not superstition" },
+                { num: 3, title: "No Priests Needed", verses: 36, desc: "Direct access to wisdom without intermediaries" },
+                { num: 4, title: "The Reality Principle", verses: 36, desc: "Evidence-based truth over magical thinking" },
+                { num: 5, title: "The Equality Law", verses: 36, desc: "Absolute equality for all humans" },
+                { num: 6, title: "The Harm Prevention", verses: 36, desc: "Protecting others from all forms of harm" },
+                { num: 7, title: "Anti-Violence Absolute", verses: 36, desc: "Zero tolerance for violence in any form" },
+                { num: 8, title: "Anti-Slavery Absolute", verses: 36, desc: "Freedom from all forms of exploitation" },
+                { num: 9, title: "The Jealousy Killer", verses: 36, desc: "Overcoming destructive jealousy patterns" },
+                { num: 10, title: "The Ego Death", verses: 36, desc: "Transcending ego for genuine connection" },
+                { num: 11, title: "The Focus Power", verses: 36, desc: "Developing laser-sharp concentration" },
+                { num: 12, title: "Universal Friendship", verses: 36, desc: "Building connections across all boundaries" },
+                { num: 13, title: "The Compassion Practice", verses: 36, desc: "Active compassion in daily life" },
+                { num: 14, title: "The Justice Commitment", verses: 36, desc: "Fighting for fairness and equality" },
+                { num: 15, title: "The Truth Seeking", verses: 36, desc: "Pursuing truth with courage and honesty" },
+                { num: 16, title: "The Peace Making", verses: 36, desc: "Creating harmony in conflict situations" },
+                { num: 17, title: "The Hope Cultivation", verses: 36, desc: "Maintaining hope through difficult times" },
+                { num: 18, title: "The Unity Vision", verses: 36, desc: "Seeing humanity as one interconnected family" }
+            ],
+            relationships: [
+                { num: 19, title: "How to Choose Life Partners", verses: 50, desc: "Finding compatible long-term relationships" },
+                { num: 20, title: "Building Lasting Love", verses: 50, desc: "Nurturing deep, enduring romantic connections" },
+                { num: 21, title: "Handling Relationship Conflict", verses: 50, desc: "Resolving disputes with wisdom and compassion" },
+                { num: 22, title: "When Relationships End", verses: 50, desc: "Graceful endings and healing from breakups" },
+                { num: 23, title: "Family Relationships", verses: 50, desc: "Strengthening bonds with family members" },
+                { num: 24, title: "Parenting Excellence", verses: 50, desc: "Raising children with love and wisdom" },
+                { num: 25, title: "Teen Guidance", verses: 50, desc: "Supporting teenagers through challenging years" },
+                { num: 26, title: "Friendship Skills", verses: 50, desc: "Building and maintaining meaningful friendships" },
+                { num: 27, title: "Social Skills Mastery", verses: 50, desc: "Connecting effectively with all types of people" },
+                { num: 28, title: "Dealing with Difficult People", verses: 50, desc: "Managing challenging personalities with grace" },
+                { num: 29, title: "Building Community", verses: 50, desc: "Creating supportive social networks" },
+                { num: 30, title: "Leadership Without Authority", verses: 50, desc: "Inspiring others through example and service" }
+            ],
+            personal: [
+                { num: 31, title: "Physical Health", verses: 50, desc: "Maintaining optimal physical wellbeing" },
+                { num: 32, title: "Mental Health", verses: 50, desc: "Protecting and nurturing psychological wellness" },
+                { num: 33, title: "Emotional Intelligence", verses: 50, desc: "Understanding and managing emotions effectively" },
+                { num: 34, title: "Learning Systems", verses: 50, desc: "Efficient methods for acquiring new knowledge" },
+                { num: 35, title: "Skill Mastery", verses: 50, desc: "Developing expertise in chosen areas" },
+                { num: 36, title: "Time Management", verses: 50, desc: "Using time wisely for maximum impact" },
+                { num: 37, title: "Goal Achievement", verses: 50, desc: "Setting and reaching meaningful objectives" },
+                { num: 38, title: "Habit Formation", verses: 50, desc: "Building positive routines that stick" },
+                { num: 39, title: "Decision Making", verses: 50, desc: "Making wise choices under pressure" },
+                { num: 40, title: "Problem Solving", verses: 50, desc: "Systematic approaches to overcoming challenges" },
+                { num: 41, title: "Creative Thinking", verses: 50, desc: "Unleashing innovation and original ideas" },
+                { num: 42, title: "Personal Growth", verses: 50, desc: "Continuous self-improvement and development" }
+            ],
+            financial: [
+                { num: 43, title: "Money Reality", verses: 50, desc: "Understanding money's true role in life" },
+                { num: 44, title: "Earning Excellence", verses: 50, desc: "Maximizing income through value creation" },
+                { num: 45, title: "Saving Systems", verses: 50, desc: "Building wealth through disciplined saving" },
+                { num: 46, title: "Investment Intelligence", verses: 50, desc: "Growing money through smart investments" },
+                { num: 47, title: "Debt Destruction", verses: 50, desc: "Eliminating debt and achieving financial freedom" },
+                { num: 48, title: "Budget Mastery", verses: 50, desc: "Controlling expenses and optimizing spending" },
+                { num: 49, title: "Career Building", verses: 50, desc: "Advancing professionally with strategic planning" },
+                { num: 50, title: "Entrepreneurship Path", verses: 50, desc: "Starting and growing successful businesses" },
+                { num: 51, title: "Wealth Building", verses: 50, desc: "Creating long-term financial security" },
+                { num: 52, title: "Financial Protection", verses: 50, desc: "Safeguarding assets and managing risks" },
+                { num: 53, title: "Teaching Money", verses: 50, desc: "Educating others about financial wisdom" },
+                { num: 54, title: "Money and Happiness", verses: 50, desc: "Finding balance between wealth and wellbeing" }
+            ],
+            wisdom: [
+                { num: 55, title: "Truth and Honesty", verses: 66, desc: "Living with integrity and authentic communication" },
+                { num: 56, title: "Integrity Living", verses: 66, desc: "Aligning actions with values consistently" },
+                { num: 57, title: "Courage Development", verses: 66, desc: "Building bravery for life's challenges" },
+                { num: 58, title: "Humility Practice", verses: 66, desc: "Balancing confidence with openness to learning" },
+                { num: 59, title: "Patience Mastery", verses: 66, desc: "Developing calm persistence in difficult times" },
+                { num: 60, title: "Forgiveness Power", verses: 66, desc: "Releasing resentment for personal freedom" },
+                { num: 61, title: "Gratitude Habit", verses: 66, desc: "Cultivating appreciation for life's gifts" },
+                { num: 62, title: "Compassion Action", verses: 66, desc: "Translating empathy into helpful behavior" },
+                { num: 63, title: "Justice Seeking", verses: 66, desc: "Working for fairness in all situations" },
+                { num: 64, title: "Wisdom Integration", verses: 66, desc: "Applying knowledge effectively in daily life" },
+                { num: 65, title: "Character Building", verses: 66, desc: "Developing strong moral foundation" },
+                { num: 66, title: "Legacy Creation", verses: 66, desc: "Building something meaningful for future generations" }
+            ],
+            navigation: [
+                { num: 67, title: "Handling Stress", verses: 66, desc: "Managing pressure and maintaining balance" },
+                { num: 68, title: "Managing Crisis", verses: 66, desc: "Navigating emergencies with wisdom and calm" },
+                { num: 69, title: "Dealing with Failure", verses: 66, desc: "Learning and recovering from setbacks" },
+                { num: 70, title: "Finding Happiness", verses: 66, desc: "Discovering genuine joy and contentment" },
+                { num: 71, title: "Preparing for Death", verses: 66, desc: "Facing mortality with peace and purpose" },
+                { num: 72, title: "The Infinite Journey", verses: 66, desc: "Understanding life's continuous evolution" }
+            ]
+        };
+
+        // Generate chapter cards
+        function generateChapterCards(sectionData, containerId, sectionName) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+
+            sectionData.forEach(chapter => {
+                const card = document.createElement('div');
+                card.className = 'chapter-card';
+                card.onclick = () => {
+                    const filename = `chapter-${chapter.num.toString().padStart(2, '0')}-${chapter.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}.html`;
+                    window.location.href = `${sectionName}/${filename}`;
+                };
+
+                card.innerHTML = `
+                    <div class="chapter-number">Chapter ${chapter.num}</div>
+                    <div class="chapter-title">${chapter.title}</div>
+                    <div class="chapter-description">${chapter.desc}</div>
+                    <div class="stats">
+                        <span class="verse-count">${chapter.verses} verses</span>
+                        <button class="read-btn">Read Now →</button>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        // Search functionality
+        function setupSearch() {
+            const searchBox = document.getElementById('searchBox');
+            searchBox.addEventListener('input', function() {
+                const query = this.value.toLowerCase();
+                const cards = document.querySelectorAll('.chapter-card');
+
+                cards.forEach(card => {
+                    const title = card.querySelector('.chapter-title').textContent.toLowerCase();
+                    const desc = card.querySelector('.chapter-description').textContent.toLowerCase();
+                    
+                    if (title.includes(query) || desc.includes(query)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        }
+
+        // Initialize the page
+        function init() {
+            generateChapterCards(chapters.foundation, 'foundationChapters', 'foundation');
+            generateChapterCards(chapters.relationships, 'relationshipChapters', 'relationships');
+            generateChapterCards(chapters.personal, 'personalChapters', 'personal');
+            generateChapterCards(chapters.financial, 'financialChapters', 'financial');
+            generateChapterCards(chapters.wisdom, 'wisdomChapters', 'wisdom');
+            generateChapterCards(chapters.navigation, 'navigationChapters', 'navigation');
+            setupSearch();
+        }
+
+        // Start when page loads
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
