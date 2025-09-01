@@ -140,10 +140,13 @@
         }
         
         // Insert navigation at top and bottom of content
-        const wrapper = document.querySelector('.wrapper');
+        const wrapper = document.querySelector('.chapter-container') || document.querySelector('.wrapper');
         if (wrapper) {
-            wrapper.insertBefore(navContainer.cloneNode(true), wrapper.firstChild);
-            wrapper.appendChild(navContainer);
+            // Only add if not already present
+            if (!wrapper.querySelector('.quran-style-nav')) {
+                wrapper.insertBefore(navContainer.cloneNode(true), wrapper.firstChild);
+                wrapper.appendChild(navContainer);
+            }
         }
         
         // Add dropdown functionality

@@ -12,17 +12,215 @@ nav_order: 1
 <meta name="chapter_title" content="This Book Is For You">
 <meta name="section" content="foundation">
 
-<div class="wrapper">
+<style>
+/* Chapter-specific styling */
+.chapter-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  position: relative;
+}
 
-<div class="section-header">
+.chapter-header {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.chapter-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(255,255,255,0.1), transparent, rgba(255,255,255,0.1));
+  pointer-events: none;
+}
+
+.chapter-nav-clean {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 15px 25px;
+  margin: 25px 0;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.nav-arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.3);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  min-width: 150px;
+}
+
+.nav-arrow:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.nav-arrow.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.chapter-selector {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(240, 147, 251, 0.3);
+}
+
+.chapter-selector:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(240, 147, 251, 0.4);
+}
+
+.verse {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 6px solid #3498db;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.verse:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.verse::before {
+  content: "✨";
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.3em;
+  transition: all 0.3s ease;
+}
+
+.verse:hover::before {
+  transform: rotate(180deg) scale(1.2);
+}
+
+.verse-number {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.chapter-footer {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #667eea;
+}
+
+.values-section {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 15px;
+  border-left: 5px solid #f39c12;
+}
+
+.values-section h2 {
+  color: #e67e22;
+  margin-bottom: 20px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.value-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.value-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .chapter-nav-clean {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nav-arrow {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .chapter-container {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+</style>
+
+<div class="chapter-container">
+
+<div class="chapter-header">
+<img src="../../../assets/logo-white.svg" alt="The Book of Joa Logo" width="80" style="border-radius: 50%; background: white; padding: 8px; margin-bottom: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); border: 2px solid rgba(255,255,255,0.5);">
 <h1>📖 Chapter 1: This Book Is For You</h1>
 <p><em>Foundation Reality Section • 36 verses establishing reality-based approach</em></p>
 </div>
 
-<div class="chapter-nav">
-<a href="../../../index.html">🏠 Home</a>
-<a href="README.html">📚 Foundation Section</a>
-<a href="chapter-02-the-prayer-revolution.html">Next Chapter →</a>
+<div class="chapter-nav-clean">
+<span class="nav-arrow disabled">
+  ← Previous
+</span>
+<button class="chapter-selector" onclick="window.location.href='../index.html'">
+  📖 Browse All Chapters
+</button>
+<a href="chapter-02-the-prayer-revolution.html" class="nav-arrow">
+  Next →
+</a>
 </div>
 
 <div class="verse">
@@ -205,16 +403,60 @@ nav_order: 1
 <p>This book is your companion in the greatest adventure possible - becoming the best version of yourself while helping others do the same. Welcome to the reality-based path to human excellence and universal love.</p>
 </div>
 
+<!-- Core Values Section -->
+<div class="values-section" id="values">
+<h2>🎯 Core Values of The Book of Joa</h2>
+<p>These values guide every principle in this book and must never be violated:</p>
+
+<div class="values-grid">
+<div class="value-item">
+<h3>🌍 Absolute Equality</h3>
+<p>Every human being has equal worth and potential. No hierarchies, no chosen people, no special status.</p>
+</div>
+
+<div class="value-item">
+<h3>🚫 Zero Violence</h3>
+<p>No harm, coercion, punishment, or exploitation of any kind. Violence-free solutions to all problems.</p>
+</div>
+
+<div class="value-item">
+<h3>🔬 Reality-Based Truth</h3>
+<p>All guidance is scientifically grounded, logically sound, and measurable in real life.</p>
+</div>
+
+<div class="value-item">
+<h3>🆓 Universal Access</h3>
+<p>Free forever, belongs to all humanity. No one can commercialize or control this wisdom.</p>
+</div>
+
+<div class="value-item">
+<h3>🔒 Privacy Protection</h3>
+<p>Anonymous contributions, no tracking, no data collection. Your spiritual journey remains private.</p>
+</div>
+
+<div class="value-item">
+<h3>🙏 Prayer as Action</h3>
+<p>Prayer means helping people in practical, measurable ways - not supernatural requests.</p>
+</div>
+</div>
+</div>
+
 <div class="chapter-footer">
 <h3>🎯 Chapter 1 Complete</h3>
 <p><strong>36 verses establishing reality-based approach</strong></p>
-<p><em>Core values: Equality, harm prevention, reality-based truth, universal accessibility</em></p>
+<p><em>Next: Learn about The Prayer Revolution - how prayer means action, not superstition</em></p>
 </div>
 
-<div class="chapter-nav">
-<a href="../../../index.html">🏠 Home</a>
-<a href="README.html">📚 Foundation Section</a>
-<a href="chapter-02-the-prayer-revolution.html">Next Chapter →</a>
+<div class="chapter-nav-clean">
+<a href="../../../index.html" class="nav-arrow">
+  🏠 Home
+</a>
+<button class="chapter-selector" onclick="window.location.href='../index.html'">
+  📖 Browse All Chapters
+</button>
+<a href="chapter-02-the-prayer-revolution.html" class="nav-arrow">
+  Next Chapter →
+</a>
 </div>
 
 </div>
