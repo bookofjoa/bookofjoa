@@ -4,6 +4,10 @@ description: "The world's first completely violence-free, exploitation-free, equ
 url: "https://bookofjoa.github.io"
 baseurl: "/bookofjoa"
 
+# GitHub Pages settings
+remote_theme: minima
+theme: minima
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
