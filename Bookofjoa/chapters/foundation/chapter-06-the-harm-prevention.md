@@ -13,8 +13,8 @@ nav_order: 6
 <meta name="section" content="foundation">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
 /* Enhanced Spiritual Reading Design with Visual Consistency */
@@ -317,13 +317,73 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
@@ -348,53 +408,53 @@ body {
   </div>
 
   <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that non-violence principles begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">Non-violence is both a practical strategy and an ethical principle that recognizes violence creates more problems than it solves. This means choosing approaches that address conflicts, protect safety, and create change without causing unnecessary harm to people or communities. Non-violence requires courage, creativity, and persistence to find solutions that respect everyone's dignity while effectively addressing genuine problems. True strength lies in the ability to resolve conflicts and protect what matters without resorting to harmful methods.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The practice of non-violence principles requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">Harm prevention begins with recognizing early warning signs of potential violence and taking proactive steps to address underlying causes before they escalate. This includes creating safe spaces for people to express concerns, providing support for those experiencing stress or trauma, and building communities where people feel heard and valued. Prevention is more effective and less costly than responding to violence after it occurs.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True non-violence principles involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Personal non-violence means managing your own anger, frustration, and fear in ways that don't harm others or yourself. This involves developing emotional regulation skills, learning healthy ways to express difficult feelings, and seeking help when you feel overwhelmed by negative emotions. Taking responsibility for your emotional responses protects your relationships and prevents you from causing harm you would later regret.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective non-violence principles means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
+<span class="verse-number">Verse 4</span>
+<p class="verse-text">Effective conflict resolution emphasizes understanding different perspectives, addressing underlying needs rather than surface positions, and creating solutions that work for everyone involved. This approach requires patience, empathy, and skill in communication, but it produces more durable and satisfying outcomes than approaches based on dominance or manipulation. Learn and practice these skills to handle conflicts constructively.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">The foundation of non-violence principles rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
+<span class="verse-number">Verse 5</span>
+<p class="verse-text">Protecting the vulnerable requires special attention to preventing violence against children, elderly people, individuals with disabilities, and others who may have limited ability to protect themselves. This responsibility belongs to everyone in the community, not just parents, caregivers, or authorities. Create environments where vulnerable people are safe, respected, and supported to develop their full potential without fear of abuse or neglect.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Wise non-violence principles involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
+<span class="verse-number">Verse 6</span>
+<p class="verse-text">Domestic violence prevention requires recognizing that intimate partner violence is never acceptable regardless of circumstances, stress levels, or relationship problems. This includes physical violence, emotional abuse, financial control, sexual coercion, and threats or intimidation. Everyone deserves relationships based on mutual respect, trust, and equality. If you are experiencing or perpetrating domestic violence, seek professional help immediately to break these destructive patterns and create safety for everyone involved.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Sustainable non-violence principles requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
+<span class="verse-number">Verse 7</span>
+<p class="verse-text">Community violence prevention involves creating social conditions that reduce the likelihood of violence through education, economic opportunity, mental health support, and conflict resolution resources. This means investing in schools, job training, healthcare, and community programs rather than only responding to violence after it occurs. Strong, connected communities where people know and support each other are more effective at preventing violence than isolated communities relying solely on law enforcement.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Advanced non-violence principles includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
+<span class="verse-number">Verse 8</span>
+<p class="verse-text">Institutional violence prevention requires examining laws, policies, and practices that create or permit harm to individuals or groups. This includes reforming criminal justice systems, healthcare systems, educational systems, and workplace policies to eliminate practices that cause unnecessary suffering or violate human dignity. Institutions should protect and serve all people fairly rather than privileging some groups while harming others.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">The application of non-violence principles means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
+<span class="verse-number">Verse 9</span>
+<p class="verse-text">Bystander intervention means taking appropriate action when you witness or become aware of potential or actual violence. This includes directly intervening when safe to do so, calling for help from authorities or other resources, providing support to those who have been harmed, and speaking up against attitudes and behaviors that contribute to violence. Everyone has a role in creating communities where violence is neither tolerated nor ignored.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">True understanding of non-violence principles leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
+<span class="verse-number">Verse 10</span>
+<p class="verse-text">The ultimate goal of harm prevention is creating societies where everyone can live without fear of violence, where conflicts are resolved peacefully, and where people support each other's safety and wellbeing. This requires ongoing work to address the root causes of violence including inequality, trauma, social isolation, and lack of resources for managing stress and conflict. Building peaceful communities is everyone's responsibility and everyone's benefit.</p>
 </div>
 </div>
 

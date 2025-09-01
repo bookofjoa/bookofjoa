@@ -13,8 +13,8 @@ nav_order: 2
 <meta name="section" content="foundation">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
 /* Enhanced Spiritual Reading Design with Visual Consistency */
@@ -317,21 +317,81 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
-    </div>
-    
+</div>
+
     <div class="chapter-info">
       <p class="chapter-number">Chapter 2</p>
       <p class="chapter-title">The Prayer Revolution</p>
-    </div>
-    
+</div>
+
     <div class="nav-controls">
       <button class="nav-btn" onclick="prevChapter()" >‹ Prev</button>
       <button class="nav-btn" onclick="nextChapter()" >Next ›</button>
@@ -345,56 +405,56 @@ body {
     <span class="chapter-emoji">🙏</span>
     <h1 class="chapter-main-title">Chapter 2: The Prayer Revolution</h1>
     <p class="chapter-description">Foundation Reality • 10 verses on prayer as action</p>
-  </div>
-
-  <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that prayer as action begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The practice of prayer as action requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">True prayer is not passive wishful thinking but active engagement with reality and purposeful steps toward positive change. This means replacing requests for divine intervention with personal commitment to be the change you want to see. Prayer becomes a practice of reflection, planning, and action rather than hoping external forces will solve problems for you. When you pray for peace, you commit to peaceful behavior. When you pray for justice, you engage in just actions. This transforms prayer from dependency into empowerment, from fantasy into practical wisdom.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True prayer as action involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">Prayer as action involves developing clear intentions followed by concrete steps toward fulfilling those intentions. Begin by honestly assessing what you can actually influence versus what lies beyond your control. Focus your energy on areas where your efforts can make a real difference. This practice helps you distinguish between productive concern and wasteful worry, between authentic action and performative gestures. Regular reflection on your values and goals keeps you aligned with what truly matters rather than getting distracted by urgent but unimportant demands on your attention.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective prayer as action means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Effective prayer as action requires taking responsibility for your role in both problems and solutions. This means acknowledging your mistakes without dwelling in guilt, and recognizing your capabilities without falling into grandiosity. When facing challenges, ask what you can learn, how you can grow, and what specific actions you can take to improve the situation. This approach transforms difficulties into opportunities for development and strengthens your ability to handle future challenges with greater wisdom and skill.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">The foundation of prayer as action rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
+<span class="verse-number">Verse 4</span>
+<p class="verse-text">Prayer as action includes seeking wisdom from diverse sources and remaining open to changing your approach when evidence suggests better methods. This practice involves studying the experiences of others who have faced similar challenges, consulting reliable sources of information, and testing different strategies to see what works best in your specific circumstances. Flexibility and humility in your approach increases your effectiveness while protecting you from the trap of repeating unsuccessful patterns simply because they feel familiar or comfortable.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Wise prayer as action involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
+<span class="verse-number">Verse 5</span>
+<p class="verse-text">Community-focused prayer as action recognizes that individual wellbeing is interconnected with collective wellbeing. This means working to create conditions where everyone can thrive, not just seeking personal advantage. When you pray for abundance, you work to ensure fair distribution of resources. When you pray for safety, you advocate for policies and practices that protect everyone, especially those most vulnerable. This perspective transforms self-interest into enlightened community interest, creating sustainable progress rather than temporary personal gain at others' expense.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Sustainable prayer as action requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
+<span class="verse-number">Verse 6</span>
+<p class="verse-text">Prayer as action in relationships means building connections through honest communication, mutual respect, and shared problem-solving rather than manipulation or control. This involves listening genuinely to understand others' perspectives, expressing your own needs clearly without demanding specific responses, and working together to find solutions that serve everyone involved. When conflicts arise, approach them as opportunities to deepen understanding and strengthen relationships rather than battles to be won or lost.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Advanced prayer as action includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
+<span class="verse-number">Verse 7</span>
+<p class="verse-text">Sustainable prayer as action requires balancing personal needs with community responsibility, recognizing that long-term individual fulfillment depends on the health of our relationships and environment. This means making choices that serve both your immediate wellbeing and the wellbeing of future generations. Consider the broader impact of your decisions on family, community, and environment, seeking ways to meet your needs while contributing positively to the common good.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">The application of prayer as action means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
+<span class="verse-number">Verse 8</span>
+<p class="verse-text">Advanced prayer as action includes developing emotional intelligence and critical thinking skills while maintaining healthy boundaries and self-respect. This means learning to recognize and manage your emotions effectively, evaluating information objectively, and making decisions based on evidence rather than impulse or social pressure. Healthy boundaries protect your wellbeing while allowing for genuine connection and mutual support in relationships.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">True understanding of prayer as action leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
+<span class="verse-number">Verse 9</span>
+<p class="verse-text">Prayer as action in social justice means working actively to create systems that treat every person with dignity and respect, recognizing that discrimination and oppression harm everyone involved. This includes examining your own biases, supporting policies that promote equality, and using your voice and resources to advocate for those who face barriers to full participation in society. Social justice is not abstract idealism but practical work to build inclusive communities.</p>
+</div>
+
+<div class="verse">
+<span class="verse-number">Verse 10</span>
+<p class="verse-text">The ultimate expression of prayer as action is creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control. This means designing institutions, communities, and personal relationships where power is shared appropriately, decisions are made with input from those affected, and benefits and responsibilities are distributed fairly. This ongoing work requires constant attention to how individual choices and collective systems affect all members of society.</p>
 </div>
 </div>
 
@@ -408,8 +468,8 @@ body {
       <div class="progress-bar">
         <div class="progress-fill" style="width: 3%"></div>
       </div>
-    </div>
-    
+</div>
+
     <button class="nav-btn" onclick="nextChapter()" >Next Chapter ›</button>
   </div>
 </div>

@@ -13,8 +13,8 @@ nav_order: 4
 <meta name="section" content="foundation">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
 /* Enhanced Spiritual Reading Design with Visual Consistency */
@@ -317,13 +317,73 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
@@ -348,53 +408,53 @@ body {
   </div>
 
   <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that evidence-based living begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">Reality-based living means accepting facts as they are rather than as you wish they were, and making decisions based on evidence rather than wishful thinking, tradition, or social pressure. This approach requires intellectual honesty about both opportunities and limitations, strengths and weaknesses, progress and setbacks. By grounding your choices in observable reality, you can navigate life's challenges more effectively and achieve more reliable results in your relationships, work, and personal development.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The practice of evidence-based living requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">Evidence-based thinking involves gathering information from reliable sources, testing ideas against real-world results, and updating your understanding when new evidence becomes available. This means distinguishing between opinions and facts, correlation and causation, possibility and probability. Develop habits of verification, seek diverse perspectives, and maintain healthy skepticism about claims that seem too good to be true or that confirm your existing biases.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True evidence-based living involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Personal accountability forms the foundation of effective decision-making and healthy relationships. Take responsibility for your choices and their consequences while helping others develop the same capacity for self-direction. This creates environments of mutual respect and shared responsibility rather than blame, dependency, or control. When problems arise, focus on what can be learned and what can be done differently rather than who is at fault.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective evidence-based living means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
+<span class="verse-number">Verse 4</span>
+<p class="verse-text">Intellectual humility involves being confident in your current understanding while remaining open to new information and better approaches. The strongest knowledge comes from direct observation, repeated experience, scientific investigation, and collective wisdom tested over time. However, even well-established knowledge must remain flexible enough to incorporate new discoveries and changing circumstances. The mark of wisdom is holding convictions firmly while staying genuinely open to evidence that might require revising those convictions.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">The foundation of evidence-based living rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
+<span class="verse-number">Verse 5</span>
+<p class="verse-text">Universal human equality provides the factual and ethical foundation for all reality-based thinking and living. Evidence consistently demonstrates that every person possesses inherent worth and dignity regardless of their background, beliefs, or circumstances. This principle is not mere opinion but a conclusion supported by anthropology, psychology, and moral philosophy. When systems or ideologies contradict this basic equality, they contradict reality itself and inevitably create unnecessary suffering and inefficiency.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Wise evidence-based living involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
+<span class="verse-number">Verse 6</span>
+<p class="verse-text">Evidence-based problem-solving emphasizes cooperation, dialogue, and mutual benefit rather than dominance, manipulation, or force. When conflicts arise, gather relevant information from all parties involved, seek to understand different perspectives, and work toward solutions that address underlying needs rather than just surface positions. This approach produces more durable and satisfying outcomes because all stakeholders have input in creating solutions they can support.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Sustainable evidence-based living requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
+<span class="verse-number">Verse 7</span>
+<p class="verse-text">Sustainable decision-making requires balancing individual needs with community welfare, recognizing that long-term personal happiness depends on the health of our relationships and environment. Evidence shows that individual and collective wellbeing are interconnected rather than competing. Make choices that serve both your immediate needs and the broader good, seeking solutions that strengthen rather than weaken the social and environmental systems that support everyone's flourishing.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Advanced evidence-based living includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
+<span class="verse-number">Verse 8</span>
+<p class="verse-text">Develop emotional intelligence, critical thinking skills, and empathy while maintaining healthy boundaries and self-respect. Learn to recognize and manage your emotions effectively, evaluate information objectively, and respond to others with compassion without losing sight of your own needs and values. These skills enable you to make better decisions under pressure and build stronger relationships based on mutual understanding and respect.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">The application of evidence-based living means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
+<span class="verse-number">Verse 9</span>
+<p class="verse-text">Reality-based ethics means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression create harm that extends far beyond their immediate targets. Evidence consistently shows that inclusive, just communities are more prosperous, stable, and innovative than those based on inequality and exclusion. Working for justice is not just morally right but practically effective for creating conditions where everyone can contribute their best.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">True understanding of evidence-based living leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
+<span class="verse-number">Verse 10</span>
+<p class="verse-text">The ultimate goal of evidence-based living is creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control. This means designing communities, institutions, and personal relationships where power is shared appropriately, decisions include input from those affected, and benefits are distributed justly. This ongoing work requires constant attention to how individual choices and collective systems impact all members of society, especially those with less power or resources.</p>
 </div>
 </div>
 

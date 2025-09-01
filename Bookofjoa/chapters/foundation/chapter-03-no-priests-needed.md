@@ -13,8 +13,8 @@ nav_order: 3
 <meta name="section" content="foundation">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
 /* Enhanced Spiritual Reading Design with Visual Consistency */
@@ -317,13 +317,73 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
@@ -348,53 +408,53 @@ body {
   </div>
 
   <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that direct spiritual connection begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">Spiritual growth and ethical living do not require intermediaries, institutions, or authorities to interpret truth for you. Your direct connection to wisdom, compassion, and moral clarity comes through honest self-reflection, study of human experience, and practice of beneficial principles. Religious leaders can offer guidance and community, but they cannot access truth that is unavailable to you through your own sincere inquiry and practice. Trust your ability to discern right from wrong, to learn from experience, and to develop wisdom through thoughtful engagement with life's challenges.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The practice of direct spiritual connection requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">Question all inherited beliefs and cultural assumptions, including those you find comfortable or convenient. Keep what serves human flourishing and discard what causes unnecessary suffering, regardless of how traditional or popular those beliefs might be. This process requires intellectual courage and emotional honesty, as you may discover that some cherished beliefs are unsupported by evidence or harmful in practice. True wisdom emerges from this ongoing process of examination, not from accepting ideas simply because they are familiar or sanctioned by authority.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True direct spiritual connection involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Personal responsibility forms the foundation of spiritual maturity and ethical development. Take ownership of your choices, their consequences, and your responses to circumstances beyond your control. Help others develop this same sense of agency while avoiding the trap of enabling destructive behavior or taking responsibility for what belongs to them. This balance creates communities of empowered individuals who support each other's growth rather than perpetuating cycles of dependency, blame, or control.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective direct spiritual connection means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
+<span class="verse-number">Verse 4</span>
+<p class="verse-text">Base your understanding of reality on direct observation, reliable evidence, and the collective wisdom of diverse communities tested over time. Remain open to changing your mind when presented with better information or more effective approaches. This intellectual humility protects you from the dangers of dogmatism while building confidence in your ability to navigate life's complexities. True knowledge grows through this balance of conviction and flexibility, certainty and openness to new learning.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">The foundation of direct spiritual connection rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
+<span class="verse-number">Verse 5</span>
+<p class="verse-text">Universal human equality provides the ethical foundation for all spiritual and moral development. Every person possesses inherent worth and dignity regardless of their background, beliefs, or circumstances. This principle guides you toward justice, compassion, and respect in all your relationships and social commitments. When spiritual or religious teachings contradict this fundamental equality, question those teachings rather than compromising your commitment to treating all people with dignity and respect.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Wise direct spiritual connection involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
+<span class="verse-number">Verse 6</span>
+<p class="verse-text">Authentic spiritual practice emphasizes cooperation, dialogue, and mutual benefit rather than dominance, manipulation, or force. When conflicts arise, approach them with curiosity about what you can learn rather than certainty about who is right. Listen genuinely to understand different perspectives, express your views clearly without demanding agreement, and work together toward solutions that respect everyone's fundamental needs and dignity.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Sustainable direct spiritual connection requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
+<span class="verse-number">Verse 7</span>
+<p class="verse-text">Sustainable spiritual development requires balancing individual growth with community responsibility, recognizing that personal fulfillment is deeply connected to the health of our relationships and environment. Your spiritual practice should strengthen your ability to contribute positively to your community while maintaining your individual integrity and authenticity. True spiritual maturity manifests as increased capacity for both self-care and service to others.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Advanced direct spiritual connection includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
+<span class="verse-number">Verse 8</span>
+<p class="verse-text">Develop emotional intelligence, critical thinking skills, and empathy while maintaining healthy boundaries and self-respect. Learn to recognize and manage your emotions effectively, evaluate information objectively, and respond to others with compassion without losing sight of your own needs and values. These skills enable you to navigate relationships and challenges with wisdom rather than reactivity, creating better outcomes for everyone involved.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">The application of direct spiritual connection means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
+<span class="verse-number">Verse 9</span>
+<p class="verse-text">Genuine spiritual connection manifests through treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved in these systems. This commitment extends beyond personal interactions to working for social justice and institutional change. When spiritual teachings are used to justify inequality or harm, those teachings have been corrupted by human prejudice rather than illuminated by divine wisdom.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">True understanding of direct spiritual connection leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
+<span class="verse-number">Verse 10</span>
+<p class="verse-text">The ultimate goal of spiritual development is creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control. This means designing communities, institutions, and personal relationships where power is shared appropriately, decisions include input from those affected, and benefits are distributed justly. This work requires ongoing attention to how individual choices and collective systems impact all members of society, especially those with less power or resources.</p>
 </div>
 </div>
 

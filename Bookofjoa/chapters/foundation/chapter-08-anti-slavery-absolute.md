@@ -13,8 +13,8 @@ nav_order: 8
 <meta name="section" content="foundation">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
 /* Enhanced Spiritual Reading Design with Visual Consistency */
@@ -317,13 +317,73 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
@@ -348,18 +408,18 @@ body {
   </div>
 
   <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that human freedom and dignity begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">Human freedom and dignity are fundamental rights that cannot be legitimately bought, sold, or taken away under any circumstances. Slavery, human trafficking, forced labor, and all forms of treating people as property are absolute violations of human equality and must be opposed wherever they occur. This principle applies regardless of economic conditions, cultural traditions, or legal systems that might attempt to justify such exploitation. Every person has the inherent right to make their own choices about their life, work, and relationships.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The practice of human freedom and dignity requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">Modern forms of slavery include human trafficking, forced labor, debt bondage, child labor, forced marriage, and other systems that deny people freedom of movement, choice, or fair compensation for their work. These practices persist in many industries including agriculture, manufacturing, domestic work, and commercial sexual exploitation. Everyone has a responsibility to recognize these forms of exploitation, avoid supporting businesses that use forced labor, and advocate for policies that protect vulnerable populations from exploitation.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True human freedom and dignity involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Economic freedom means ensuring that all workers have genuine choices about their employment, fair compensation for their labor, safe working conditions, and the right to organize for better treatment. This includes supporting living wages, workplace safety regulations, and labor rights that protect workers from exploitation. Economic systems that trap people in poverty or dangerous working conditions without alternatives are forms of economic coercion that violate human dignity and freedom.</p>
 </div>
 
 <div class="verse">

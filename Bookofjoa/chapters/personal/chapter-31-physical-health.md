@@ -13,8 +13,8 @@ nav_order: 31
 <meta name="section" content="personal">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
 /* Enhanced Spiritual Reading Design with Visual Consistency */
@@ -317,13 +317,73 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
@@ -348,43 +408,43 @@ body {
   </div>
 
   <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that body wellness and vitality requires honest self-assessment combined with self-compassion, acknowledging your flaws without harsh self-judgment while committing to growth.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">Physical health forms the foundation for mental clarity, emotional stability, and spiritual growth. Your body is the vehicle through which you experience life and serve others, making its care both a practical necessity and an ethical responsibility. Optimal health requires understanding how your body works and making informed choices about nutrition, exercise, sleep, and stress management. This isn't about perfection or extreme measures, but about consistent, sustainable practices that support your long-term wellbeing and enable you to contribute your best to the world.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True body wellness and vitality involves developing skills systematically through deliberate practice, seeking feedback, and learning from both successes and failures with equal attention.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">Brain-derived neurotrophic factor (BDNF) is crucial for neural health, learning, memory, and emotional regulation. You can naturally increase BDNF through regular exercise, particularly aerobic activity and strength training, quality sleep, intermittent fasting, and consuming foods rich in omega-3 fatty acids like fish, walnuts, and flaxseeds. Chronic stress, poor sleep, and excessive processed food consumption reduce BDNF levels, impairing cognitive function and emotional resilience. Protecting and enhancing your brain health is essential for maintaining mental sharpness and emotional balance throughout life.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of body wellness and vitality means taking care of your physical health through proper nutrition, regular exercise, adequate sleep, and stress management as the foundation for everything else.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Coffee and dark chocolate, when consumed mindfully, can support physical and mental health. Coffee provides beneficial antioxidants and can enhance cognitive performance, but timing and quantity matter - consume it before 2 PM to avoid sleep disruption, limit to 1-2 cups daily, and avoid adding excessive sugar or artificial ingredients. Dark chocolate (70% cacao or higher) contains flavonoids that support cardiovascular health and may improve mood and cognitive function. Both should be enjoyed in moderation as part of a balanced diet, not as substitutes for proper nutrition and healthy lifestyle habits.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective body wellness and vitality requires setting boundaries with people who drain your energy, waste your time, or undermine your goals while surrounding yourself with supportive influences.</p>
+<span class="verse-number">Verse 4</span>
+<p class="verse-text">Regular exercise is medicine for both body and mind, improving cardiovascular health, strengthening bones and muscles, enhancing immune function, and supporting mental health through increased BDNF, endorphins, and neurotransmitter balance. Find activities you enjoy and can sustain long-term - this might include walking, swimming, cycling, weight training, yoga, or team sports. Consistency matters more than intensity; even 30 minutes of moderate activity most days provides significant health benefits. Exercise also improves sleep quality, stress resilience, and cognitive function while reducing risk of chronic diseases.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable body wellness and vitality involves pursuing goals that align with your values and strengths rather than chasing achievements that others expect or that society promotes.</p>
+<span class="verse-number">Verse 5</span>
+<p class="verse-text">Quality sleep is essential for physical recovery, immune function, memory consolidation, and emotional regulation. Aim for 7-9 hours nightly and maintain consistent sleep and wake times, even on weekends. Create a sleep-conducive environment that is cool, dark, and quiet, avoid screens for at least an hour before bed, and establish a relaxing bedtime routine. Poor sleep disrupts hormones, impairs cognitive function, weakens immune response, and increases risk of chronic diseases. Sleep is not laziness but a biological necessity for optimal health and performance.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Advanced body wellness and vitality includes developing emotional regulation skills, learning to delay gratification, and building resilience to handle setbacks without giving up on important objectives.</p>
+<span class="verse-number">Verse 6</span>
+<p class="verse-text">Nutrition should focus on whole, minimally processed foods that provide essential nutrients while supporting sustained energy and optimal brain function. Emphasize vegetables, fruits, lean proteins, healthy fats, and complex carbohydrates while limiting refined sugars, processed foods, and excessive alcohol. Stay adequately hydrated, eat mindfully without distractions, and pay attention to how different foods affect your energy, mood, and concentration. Good nutrition is an investment in your immediate wellbeing and long-term health, not a punishment or restriction.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of body wellness and vitality rests on continuous learning, staying curious about new ideas, and adapting your approaches based on results rather than stubbornly sticking to ineffective methods.</p>
+<span class="verse-number">Verse 7</span>
+<p class="verse-text">Stress management is crucial for both physical and mental health, as chronic stress contributes to inflammation, weakened immunity, cardiovascular problems, and mental health issues. Develop a toolkit of healthy stress management techniques including deep breathing, meditation, progressive muscle relaxation, time in nature, creative activities, and social connection. Regular stress management practice builds resilience and prevents stress from accumulating to harmful levels. Learn to recognize your early stress signals and respond proactively rather than waiting until stress becomes overwhelming.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Wise body wellness and vitality means investing in relationships, experiences, and skills that compound over time rather than pursuing short-term pleasures that interfere with long-term wellbeing.</p>
+<span class="verse-number">Verse 8</span>
+<p class="verse-text">Preventive healthcare involves regular check-ups, screenings, and proactive health monitoring to catch potential problems early when they are most treatable. Build relationships with healthcare providers you trust, stay current with recommended vaccinations and screenings for your age and risk factors, and don't ignore persistent symptoms or changes in your body. Advocate for your health by asking questions, seeking second opinions when appropriate, and staying informed about health topics relevant to your circumstances. Prevention is more effective and less costly than treatment after problems develop.</p>
 </div>
 </div>
 

@@ -13,11 +13,11 @@ nav_order: 1
 <meta name="section" content="foundation">
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
-<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="../../../assets/logo.svg">
+<link rel="icon" type="image/x-icon" href="../../../assets/logo.ico">
 
 <style>
-/* Enhanced Spiritual Reading Design with Visual Consistency */
+/* Professional Chapter Design */
 * {
   box-sizing: border-box;
 }
@@ -28,19 +28,19 @@ body {
   color: #2c3e50;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #f8f9fa;
   min-height: 100vh;
 }
 
-/* Consistent Top Navigation - Fixed Gradient Issues */
+/* Professional Navigation */
 .top-nav {
-  background: #667eea;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
+  background: #2c3e50;
+  border-bottom: 1px solid #34495e;
   padding: 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
 .nav-container {
@@ -61,32 +61,17 @@ body {
 .logo-nav {
   height: 40px;
   width: auto;
-  filter: brightness(0) invert(1);
+  border-radius: 8px;
+  background: white;
+  padding: 4px;
 }
 
 .book-title {
   font-size: 20px;
-  font-weight: bold;
-  color: #d4af37;
+  font-weight: 600;
+  color: #ecf0f1;
   margin: 0;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  background: linear-gradient(45deg, #d4af37, #f4d03f, #d4af37);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: goldGlow 3s ease-in-out infinite alternate;
-}
-
-@keyframes goldGlow {
-  0% {
-    background-position: 0% 50%;
-    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
-  }
-  100% {
-    background-position: 100% 50%;
-    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.7));
-  }
+  letter-spacing: 0.5px;
 }
 
 .chapter-info {
@@ -118,56 +103,52 @@ body {
   gap: 12px;
 }
 
-/* Consistent Navigation Buttons */
+/* Professional Navigation Buttons */
 .nav-btn {
-  background: rgba(255,255,255,0.15);
+  background: #34495e;
   color: white;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid #4a5f7a;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   font-family: inherit;
 }
 
 .nav-btn:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.5);
-  transform: translateY(-1px);
+  background: #4a5f7a;
+  border-color: #5d6d7e;
 }
 
 .nav-btn:disabled {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.15);
+  background: #7f8c8d;
+  border-color: #95a5a6;
   cursor: not-allowed;
-  transform: none;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
-/* Enhanced Main Content */
+/* Professional Main Content */
 .main-content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 30px 25px;
-  background: rgba(255,255,255,0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-  border: 1px solid rgba(255,255,255,0.2);
+  padding: 40px 30px;
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
 }
 
 .chapter-header {
   text-align: center;
   margin-bottom: 40px;
-  padding: 35px 25px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(248,249,250,0.8) 100%);
-  border-radius: 12px;
-  border: 1px solid #667eea30;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  padding: 30px 25px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #2c3e50;
 }
 
 .chapter-emoji {
@@ -197,29 +178,27 @@ body {
   margin: 0;
 }
 
-/* Enhanced Verse Styling for Better Readability */
+/* Professional Verse Styling */
 .verse {
-  background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(248,249,250,0.9) 100%);
-  margin: 25px 0;
-  padding: 30px;
-  border-radius: 12px;
-  border-left: 4px solid #667eea;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
-  border: 1px solid rgba(255,255,255,0.2);
+  background: white;
+  margin: 20px 0;
+  padding: 24px;
+  border-radius: 6px;
+  border-left: 4px solid #2c3e50;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+  border: 1px solid #e9ecef;
 }
 
 .verse:hover {
-  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .verse-number {
-  font-weight: bold;
-  font-size: 18px;
-  color: #667eea;
-  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2c3e50;
+  margin-bottom: 12px;
   display: block;
 }
 
@@ -231,13 +210,13 @@ body {
   text-align: justify;
 }
 
-/* Consistent Bottom Navigation */
+/* Professional Bottom Navigation */
 .bottom-nav {
-  background: #667eea;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  background: #2c3e50;
+  border-top: 1px solid #34495e;
   padding: 15px 0;
   margin-top: 40px;
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.15);
 }
 
 .bottom-nav-container {
@@ -317,13 +296,73 @@ body {
     font-size: 13px;
   }
 }
+
+/* Hide useless reading tool buttons */
+.reading-tools button:not(.search-btn):not(.nav-arrow) {
+    display: none !important;
+}
+
+/* Position search button top left */
+.search-btn {
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 9999 !important;
+    background: #2c3e50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-btn:hover {
+    background: #34495e !important;
+    transform: scale(1.1) !important;
+}
+
+/* Position navigation arrow bottom right */
+.nav-arrow {
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 30px !important;
+    z-index: 9999 !important;
+    background: #d4af37 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-arrow:hover {
+    background: #f4d03f !important;
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Hide other unwanted buttons */
+.reading-tools button[title*="Dark Mode"],
+.reading-tools button[title*="Focus Mode"],
+.reading-tools button[title*="Font"],
+.reading-tools button[title*="Bookmark"] {
+    display: none !important;
+}
 </style>
 
 <!-- Consistent Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo-white.svg" alt="The Book of Joa" class="logo-nav">
+      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
@@ -344,57 +383,57 @@ body {
   <div class="chapter-header">
     <span class="chapter-emoji">📖</span>
     <h1 class="chapter-main-title">Chapter 1: This Book Is For You</h1>
-    <p class="chapter-description">Foundation Reality • 10 verses on reality-based approach</p>
+    <p class="chapter-description">Foundation Reality • Comprehensive guidance on practical wisdom for modern life</p>
   </div>
 
   <div class="verse">
-<span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that reality-based approach begins with accepting reality as it is, not as we wish it were, and making decisions based on evidence rather than wishful thinking or tradition.</p>
+<span class="verse-number">Verse 1</span>
+<p class="verse-text">This book is designed for people who seek practical wisdom for modern life challenges. Whether you're navigating relationships, career decisions, financial planning, or personal growth, these teachings provide evidence-based guidance that transcends traditional religious boundaries. The principles here have been tested by human experience across cultures and generations, offering tools that work regardless of your background, beliefs, or current circumstances. This is not about perfect adherence to dogma, but about developing practical wisdom that helps you make better decisions, build stronger relationships, and contribute positively to your community while staying true to your authentic self.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">The practice of reality-based approach requires questioning inherited beliefs and cultural assumptions, keeping what serves human flourishing and discarding what causes unnecessary suffering.</p>
+<span class="verse-number">Verse 2</span>
+<p class="verse-text">The reality-based approach begins with accepting life as it actually is, not as we wish it were or as others tell us it should be. This means acknowledging both the beauty and the difficulties of human existence without romanticizing struggle or denying genuine hardship. By grounding our decisions in observable facts rather than wishful thinking, inherited assumptions, or social pressure, we can navigate life's complexities with greater clarity and effectiveness. This approach requires intellectual honesty, emotional courage, and the willingness to continuously learn and adapt as we gain new information and experience.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">True reality-based approach involves taking responsibility for your choices and their consequences while helping others do the same, creating accountability rather than blame.</p>
+<span class="verse-number">Verse 3</span>
+<p class="verse-text">Personal responsibility forms the foundation of meaningful growth and healthy relationships. This means taking ownership of your choices, their consequences, and your responses to circumstances beyond your control. True responsibility is not about self-blame or carrying burdens that belong to others, but about recognizing your power to influence your life through your decisions, attitudes, and actions. When we help others develop this same sense of agency while avoiding the trap of enabling destructive behavior, we create communities of empowered individuals who support each other's growth rather than perpetuating cycles of dependency or blame.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective reality-based approach means basing your worldview on observations, experience, and evidence while remaining open to changing your mind when presented with better information.</p>
+<span class="verse-number">Verse 4</span>
+<p class="verse-text">Wisdom requires balancing confidence in our current understanding with openness to new information and perspectives. The most reliable knowledge comes from direct observation, repeated experience, scientific investigation, and the collective wisdom of diverse communities tested over time. However, this foundation of knowledge must remain flexible enough to incorporate new discoveries, changing circumstances, and insights from unexpected sources. The mark of intellectual maturity is being able to hold strong convictions while remaining genuinely open to evidence that might require adjusting those convictions.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">The foundation of reality-based approach rests on treating all humans as equally valuable regardless of their gender, race, religion, sexual orientation, or economic status.</p>
+<span class="verse-number">Verse 5</span>
+<p class="verse-text">Human equality forms the cornerstone of ethical living and social progress. This means recognizing that every person possesses inherent worth and dignity regardless of their gender, race, religion, sexual orientation, economic status, education level, or cultural background. This principle extends beyond mere tolerance to active respect for diverse perspectives and experiences. When we truly embrace human equality, we create communities where everyone can contribute their unique gifts, where decisions are made with consideration for how they affect all members, and where systematic barriers to opportunity and respect are actively dismantled through thoughtful, persistent effort.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Wise reality-based approach involves solving problems through cooperation, dialogue, and mutual benefit rather than through dominance, manipulation, or force.</p>
+<span class="verse-number">Verse 6</span>
+<p class="verse-text">Effective problem-solving requires cooperation, honest dialogue, and seeking solutions that benefit everyone involved rather than relying on dominance, manipulation, or force. This approach recognizes that sustainable solutions emerge when all stakeholders have voice in the process and stake in the outcome. Collaborative problem-solving takes more time initially but creates more durable results because people are more likely to support and maintain solutions they helped create. This doesn't mean avoiding necessary conflicts or difficult conversations, but rather engaging with them constructively, focusing on interests rather than positions, and working toward outcomes that respect everyone's fundamental needs and dignity.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Sustainable reality-based approach requires balancing individual needs with community welfare, recognizing that personal happiness depends on the health of our relationships and environment.</p>
+<span class="verse-number">Verse 7</span>
+<p class="verse-text">Sustainable living requires balancing individual needs with community welfare, recognizing that personal happiness is deeply connected to the health of our relationships, communities, and environment. This balance is not a zero-sum game where individual fulfillment must be sacrificed for collective good, but rather an understanding that individual and collective flourishing are mutually reinforcing. When communities are healthy, individuals have better opportunities for growth and contribution. When individuals are healthy and fulfilled, they have more capacity to contribute to community wellbeing. This perspective guides us toward choices that serve both personal development and social progress.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Advanced reality-based approach includes developing emotional intelligence, critical thinking skills, and empathy while maintaining boundaries and self-respect.</p>
+<span class="verse-number">Verse 8</span>
+<p class="verse-text">Personal development involves cultivating emotional intelligence, critical thinking skills, and empathy while maintaining healthy boundaries and self-respect. Emotional intelligence includes understanding and managing our own emotions as well as recognizing and responding appropriately to others' emotions. Critical thinking helps us evaluate information objectively, identify assumptions and biases, and make decisions based on evidence rather than impulse or social pressure. Empathy allows us to understand others' perspectives and experiences without losing sight of our own needs and values. Healthy boundaries protect our wellbeing while allowing for genuine connection and mutual support in relationships.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">The application of reality-based approach means treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved.</p>
+<span class="verse-number">Verse 9</span>
+<p class="verse-text">Ethical action requires treating every person with dignity and respect, recognizing that violence, discrimination, and oppression diminish everyone involved in these systems. This understanding extends beyond personal interactions to examining and working to change institutional practices that create or perpetuate inequality and injustice. When some people are denied opportunities, safety, or respect, the entire community loses the potential contributions of those individuals and must divert resources to managing the conflicts and problems that inequality creates. Creating inclusive, just communities requires ongoing attention to how our individual choices and collective systems affect all members of society.</p>
 </div>
 
 <div class="verse">
-<span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">True understanding of reality-based approach leads to creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control.</p>
+<span class="verse-number">Verse 10</span>
+<p class="verse-text">The ultimate goal is creating systems and relationships based on fairness, transparency, and mutual benefit rather than exploitation or control. This means designing institutions, communities, and personal relationships where power is shared appropriately, decisions are made with input from those affected, and benefits and responsibilities are distributed fairly. It requires ongoing vigilance against the tendency for power to concentrate and for systems to serve the interests of those with the most influence rather than the common good. Building fair and sustainable systems is a continuous process of evaluation, adjustment, and improvement, guided by evidence about what actually works to promote human flourishing and environmental sustainability.</p>
 </div>
 </div>
 
