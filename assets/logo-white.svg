@@ -1,10 +1,9 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Transparent background with subtle border -->
-  <circle cx="100" cy="100" r="90" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <!-- Completely transparent background -->
   
-  <!-- Book symbol -->
+  <!-- Book symbol with transparent background -->
   <rect x="70" y="60" width="60" height="80" rx="8" fill="#667eea"/>
-  <rect x="75" y="65" width="50" height="70" rx="4" fill="white"/>
+  <rect x="75" y="65" width="50" height="70" rx="4" fill="rgba(255,255,255,0.9)"/>
   
   <!-- Pages -->
   <line x1="85" y1="80" x2="115" y2="80" stroke="#667eea" stroke-width="2"/>

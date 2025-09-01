@@ -34,7 +34,7 @@ body {
 
 /* Consistent Top Navigation - Fixed Gradient Issues */
 .top-nav {
-  background: #9b59b6;
+  background: #667eea;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   padding: 0;
   position: sticky;
@@ -233,7 +233,7 @@ body {
 
 /* Consistent Bottom Navigation */
 .bottom-nav {
-  background: #9b59b6;
+  background: #667eea;
   border-top: 1px solid rgba(255,255,255,0.2);
   padding: 15px 0;
   margin-top: 40px;
