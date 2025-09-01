@@ -17,7 +17,7 @@ nav_order: 26
 <link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
 
 <style>
-/* Perfect Spiritual Reading App Design */
+/* Clean Consistent Spiritual Reading Design */
 * {
   box-sizing: border-box;
 }
@@ -32,22 +32,21 @@ body {
   min-height: 100vh;
 }
 
-/* Enhanced Top Navigation */
+/* Clean Top Navigation - No Extra Overlays */
 .top-nav {
-  background: linear-gradient(135deg, #e74c3c 0%, #e74c3cdd 100%);
+  background: #e74c3c;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   padding: 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .nav-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 18px 25px;
+  padding: 15px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,17 +59,17 @@ body {
 }
 
 .logo-nav {
-  height: 45px;
+  height: 40px;
   width: auto;
-  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+  filter: brightness(0) invert(1);
 }
 
 .book-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #d4af37;
   margin: 0;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
   background: linear-gradient(45deg, #d4af37, #f4d03f, #d4af37);
   background-size: 200% 200%;
   -webkit-background-clip: text;
@@ -82,11 +81,11 @@ body {
 @keyframes goldGlow {
   0% {
     background-position: 0% 50%;
-    filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.5));
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
   }
   100% {
     background-position: 100% 50%;
-    filter: drop-shadow(0 0 20px rgba(212, 175, 55, 0.8));
+    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.7));
   }
 }
 
@@ -97,19 +96,17 @@ body {
 }
 
 .chapter-number {
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(255,255,255,0.9);
   margin: 0;
   font-weight: 500;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 .chapter-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #ffffff;
-  margin: 3px 0 0 0;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  margin: 2px 0 0 0;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -118,176 +115,129 @@ body {
 .nav-controls {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
 }
 
+/* Consistent Navigation Buttons */
 .nav-btn {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.15);
   color: white;
-  border: 2px solid rgba(255,255,255,0.3);
-  padding: 10px 18px;
-  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 16px;
+  border-radius: 6px;
   cursor: pointer;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: inherit;
 }
 
 .nav-btn:hover {
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.25);
   border-color: rgba(255,255,255,0.5);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transform: translateY(-1px);
 }
 
 .nav-btn:disabled {
-  background: rgba(255,255,255,0.1);
-  border-color: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.15);
   cursor: not-allowed;
   transform: none;
-  box-shadow: none;
+  opacity: 0.6;
 }
 
 /* Enhanced Main Content */
 .main-content {
   max-width: 850px;
   margin: 0 auto;
-  padding: 40px 25px;
+  padding: 30px 25px;
   background: rgba(255,255,255,0.95);
   backdrop-filter: blur(10px);
-  border-radius: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
   border: 1px solid rgba(255,255,255,0.2);
 }
 
 .chapter-header {
   text-align: center;
-  margin-bottom: 50px;
-  padding: 40px 25px;
-  background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(248,249,250,0.9) 100%);
-  border-radius: 15px;
-  border: 2px solid #e74c3c40;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.08);
-  position: relative;
-  overflow: hidden;
-}
-
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: linear-gradient(45deg, transparent, #e74c3c10, transparent);
-  animation: shimmer 4s linear infinite;
-}
-
-@keyframes shimmer {
-  0% { transform: translateX(-100%) translateY(-100%) rotate(30deg); }
-  100% { transform: translateX(100%) translateY(100%) rotate(30deg); }
+  margin-bottom: 40px;
+  padding: 35px 25px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(248,249,250,0.8) 100%);
+  border-radius: 12px;
+  border: 1px solid #e74c3c30;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
 }
 
 .chapter-emoji {
-  font-size: 60px;
-  margin-bottom: 20px;
+  font-size: 50px;
+  margin-bottom: 15px;
   display: block;
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
   animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-8px); }
 }
 
 .chapter-main-title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   color: #2c3e50;
-  margin: 0 0 15px 0;
+  margin: 0 0 12px 0;
   line-height: 1.3;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  position: relative;
-  z-index: 1;
 }
 
 .chapter-description {
-  font-size: 18px;
+  font-size: 16px;
   color: #666;
   font-style: italic;
   margin: 0;
-  position: relative;
-  z-index: 1;
 }
 
 /* Enhanced Verse Styling */
 .verse {
-  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
-  margin: 25px 0;
-  padding: 30px;
-  border-radius: 12px;
-  border-left: 5px solid #e74c3c;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  transition: all 0.4s ease;
-  backdrop-filter: blur(5px);
+  background: linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(248,249,250,0.9) 100%);
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 4px solid #e74c3c;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
   border: 1px solid rgba(255,255,255,0.2);
-  position: relative;
-  overflow: hidden;
-}
-
-.verse::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #e74c3c, #e74c3c80, #e74c3c);
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .verse:hover {
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
-  transform: translateY(-3px);
-  background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,249,250,1) 100%);
-}
-
-.verse:hover::before {
-  opacity: 1;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,249,250,0.95) 100%);
 }
 
 .verse-number {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   color: #e74c3c;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   display: block;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .verse-text {
   margin: 0;
-  font-size: 18px;
-  line-height: 1.8;
+  font-size: 17px;
+  line-height: 1.7;
   color: #2c3e50;
   text-align: justify;
 }
 
-/* Enhanced Bottom Navigation */
+/* Clean Bottom Navigation - Matching Header Style */
 .bottom-nav {
-  background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,249,250,0.95) 100%);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(0,0,0,0.1);
-  padding: 25px 0;
-  margin-top: 50px;
-  border-radius: 15px;
-  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+  background: #e74c3c;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding: 15px 0;
+  margin-top: 40px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
 }
 
 .bottom-nav-container {
@@ -305,80 +255,85 @@ body {
 }
 
 .progress-text {
-  font-size: 16px;
-  color: #666;
-  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: rgba(255,255,255,0.9);
+  margin: 0 0 6px 0;
   font-weight: 500;
 }
 
 .progress-bar {
-  width: 250px;
-  height: 6px;
-  background: linear-gradient(90deg, #e0e0e0, #f0f0f0);
-  border-radius: 3px;
+  width: 200px;
+  height: 4px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
   overflow: hidden;
   margin: 0 auto;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #e74c3c, #e74c3ccc, #e74c3c);
+  background: linear-gradient(90deg, #d4af37, #f4d03f, #d4af37);
   transition: width 0.5s ease;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  animation: progressGlow 2s ease-in-out infinite alternate;
 }
 
-@keyframes progressGlow {
-  0% { box-shadow: 0 0 5px #e74c3c80; }
-  100% { box-shadow: 0 0 15px #e74c3ccc; }
+/* Consistent Footer Buttons - Same as Header */
+.bottom-nav .nav-btn {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.bottom-nav .nav-btn:hover {
+  background: rgba(255,255,255,0.25);
+  border-color: rgba(255,255,255,0.5);
+  transform: translateY(-1px);
+}
+
+.bottom-nav .nav-btn:disabled {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.15);
+  cursor: not-allowed;
+  transform: none;
+  opacity: 0.6;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-container {
-    padding: 15px 20px;
+    padding: 12px 20px;
   }
   
   .chapter-info {
-    max-width: 250px;
+    max-width: 200px;
   }
   
   .chapter-title {
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .book-title {
-    font-size: 18px;
+    font-size: 16px;
   }
   
   .main-content {
-    padding: 25px 20px;
-    margin: 20px 15px;
-    border-radius: 15px;
+    padding: 20px 15px;
+    margin: 15px;
+    border-radius: 12px;
   }
   
   .chapter-main-title {
-    font-size: 26px;
+    font-size: 24px;
   }
   
   .verse {
-    padding: 25px;
-  }
-  
-  .nav-controls {
-    gap: 10px;
-  }
-  
-  .nav-btn {
-    padding: 8px 14px;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 480px) {
-  .chapter-main-title {
-    font-size: 24px;
+    padding: 20px;
   }
   
   .nav-controls {
@@ -391,12 +346,31 @@ body {
   }
   
   .progress-bar {
-    width: 200px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chapter-main-title {
+    font-size: 22px;
+  }
+  
+  .nav-controls {
+    gap: 6px;
+  }
+  
+  .nav-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .progress-bar {
+    width: 120px;
   }
 }
 </style>
 
-<!-- Enhanced Top Navigation (No Hamburger!) -->
+<!-- Clean Top Navigation -->
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
@@ -416,7 +390,7 @@ body {
   </div>
 </div>
 
-<!-- Enhanced Main Content -->
+<!-- Main Content -->
 <div class="main-content">
   <div class="chapter-header">
     <span class="chapter-emoji">👥</span>
@@ -695,7 +669,7 @@ body {
 </div>
 </div>
 
-<!-- Enhanced Bottom Navigation -->
+<!-- Clean Bottom Navigation - Consistent with Header -->
 <div class="bottom-nav">
   <div class="bottom-nav-container">
     <button class="nav-btn" onclick="prevChapter()" >‹ Previous Chapter</button>
