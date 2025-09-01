@@ -349,52 +349,52 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that conflict resolution skills requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Conflict resolution requires absolute equality where neither partner uses supremacy tactics - no one gets to 'win' through intimidation, manipulation, or gender-based authority claims.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of conflict resolution skills, making genuine love and trust impossible.</p>
+<p class="verse-text">Violence during conflicts - throwing objects, aggressive door slamming, threatening gestures, or intimidating behavior - escalates normal disagreements into abuse requiring immediate intervention.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Both partners must share responsibility for creating and resolving conflicts rather than one always initiating difficult conversations while the other avoids or refuses engagement.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of conflict resolution skills means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Reject toxic dynamics where one partner handles all emotional labor while the other dismisses concerns as 'nagging' or refuses conflict resolution participation.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True conflict resolution skills involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Protect your relationship from family members who insert themselves into conflicts, take sides, or offer unwanted advice that undermines private couple problem-solving.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Joa emphasizes that conflict resolution skills flourishes when both partners support each other's dreams, careers, and personal growth without jealousy or attempts to control or diminish the other.</p>
+<p class="verse-text">Support your partner's right to express concerns during conflicts without dismissing feelings, minimizing experiences, or shutting down conversations to avoid relationship work.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of conflict resolution skills rests on honest communication where both partners can express their needs, concerns, and boundaries without fear of retaliation or dismissal.</p>
+<p class="verse-text">Create safe communication spaces where both can express needs and frustrations without fear of retaliation, character attacks, or having vulnerabilities weaponized later.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Financial decisions in conflict resolution skills should be made together with transparency, where both partners understand the family's economic situation and participate in planning for the future.</p>
+<p class="verse-text">Financial disagreements require full transparency about money concerns and priorities rather than unilateral decisions or hiding financial information from your partner.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">Domestic violence in any form - hitting, pushing, throwing objects, or threatening harm - is never acceptable and immediately destroys any possibility of genuine conflict resolution skills.</p>
+<p class="verse-text">Domestic violence escalation often begins with property destruction or wall-punching during arguments - these behaviors warn of potential physical violence requiring professional intervention.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Healthy conflict resolution skills means both partners take turns caring for children, elderly family members, and household maintenance based on schedules, skills, and energy rather than assumed gender roles.</p>
+<p class="verse-text">Healthy conflict resolution means both partners take turns initiating conversations, listening actively, apologizing when wrong, and working toward solutions rather than just venting anger.</p>
 </div>
 
 <div class="verse">

@@ -349,52 +349,52 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that partner selection wisdom requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Look for partners who demonstrate emotional stability, kindness to service workers, and respectful behavior during stress rather than focusing only on superficial attractions or status symbols.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of partner selection wisdom, making genuine love and trust impossible.</p>
+<p class="verse-text">Observe how potential partners treat their family members during disagreements - this reveals their conflict resolution style, emotional regulation, and respect for people they're closest to.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Choose someone whose life goals, financial values, career ambitions, and family plans genuinely align with yours rather than hoping fundamental differences will resolve over time.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of partner selection wisdom means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Avoid partners who show controlling behaviors, jealousy over friendships, attempts to isolate you from support systems, or pressure for physical intimacy before you're ready.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True partner selection wisdom involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Both male and female supremacy attitudes are red flags - seek partners who believe in equal partnerships, shared responsibilities, and mutual respect in all life areas.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Joa emphasizes that partner selection wisdom flourishes when both partners support each other's dreams, careers, and personal growth without jealousy or attempts to control or diminish the other.</p>
+<p class="verse-text">Watch how they handle disagreements during dating - do they listen, compromise, apologize when wrong, or become defensive, blame others, and use silent treatment manipulation?</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of partner selection wisdom rests on honest communication where both partners can express their needs, concerns, and boundaries without fear of retaliation or dismissal.</p>
+<p class="verse-text">Never choose someone based primarily on wealth, status, or financial support ability - this hypergamous thinking prevents authentic love and creates unhealthy dependency patterns.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Financial decisions in partner selection wisdom should be made together with transparency, where both partners understand the family's economic situation and participate in planning for the future.</p>
+<p class="verse-text">Look for someone who encourages your dreams, celebrates your successes without jealousy, and supports your growth rather than trying to diminish or control your potential.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">Domestic violence in any form - hitting, pushing, throwing objects, or threatening harm - is never acceptable and immediately destroys any possibility of genuine partner selection wisdom.</p>
+<p class="verse-text">Identify domestic violence potential early through warning signs: possessiveness, explosive anger, cruel treatment of animals, or stories of 'crazy' exes they claim were abusive.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Healthy partner selection wisdom means both partners take turns caring for children, elderly family members, and household maintenance based on schedules, skills, and energy rather than assumed gender roles.</p>
+<p class="verse-text">Choose someone who takes equal responsibility for household planning, cooking, cleaning, and childcare rather than expecting you to handle all domestic management automatically.</p>
 </div>
 
 <div class="verse">

@@ -349,52 +349,52 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that relationship sustainability requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Relationship sustainability requires both partners to actively choose love daily through small actions - making coffee, leaving notes, asking about each other's day rather than relying on initial passion.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of relationship sustainability, making genuine love and trust impossible.</p>
+<p class="verse-text">Absolute equality means neither male nor female supremacy in decision-making, with both partners having equal say in major choices regardless of income or traditional role expectations.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Violence of any kind - physical hitting, emotional manipulation, psychological intimidation, sexual coercion, or financial control - immediately destroys relationship foundations and requires intervention.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of relationship sustainability means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Household responsibilities should be distributed based on availability, preferences, and fairness rather than gender assumptions - both partners contribute to all life management areas equally.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True relationship sustainability involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Reject the harmful dynamic where one partner bears all financial stress while the other handles only domestic duties - modern partnerships require both people contributing to all areas.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Joa emphasizes that relationship sustainability flourishes when both partners support each other's dreams, careers, and personal growth without jealousy or attempts to control or diminish the other.</p>
+<p class="verse-text">Protect your partner from family interference by setting clear boundaries with relatives who show disrespect, offer unwanted advice, or attempt to control relationship decisions.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of relationship sustainability rests on honest communication where both partners can express their needs, concerns, and boundaries without fear of retaliation or dismissal.</p>
+<p class="verse-text">Support each other's individual dreams and career growth without jealousy - celebrate promotions, encourage skill development, and make sacrifices to help your partner achieve goals.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Financial decisions in relationship sustainability should be made together with transparency, where both partners understand the family's economic situation and participate in planning for the future.</p>
+<p class="verse-text">Honest communication requires creating safe spaces where both partners can express needs, concerns, and boundaries without facing retaliation, dismissal, or emotional punishment.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💝 Verse 9</span>
-<p class="verse-text">Domestic violence in any form - hitting, pushing, throwing objects, or threatening harm - is never acceptable and immediately destroys any possibility of genuine relationship sustainability.</p>
+<p class="verse-text">Financial transparency means both partners understand the complete family financial picture with equal participation in major money decisions regardless of earning differences.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎨 Verse 10</span>
-<p class="verse-text">Healthy relationship sustainability means both partners take turns caring for children, elderly family members, and household maintenance based on schedules, skills, and energy rather than assumed gender roles.</p>
+<p class="verse-text">Domestic violence includes not just physical harm but also property destruction, threatening violence, intimidation tactics, or creating fear through aggressive behavior during arguments.</p>
 </div>
 
 <div class="verse">
