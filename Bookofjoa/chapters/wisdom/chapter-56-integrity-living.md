@@ -38,33 +38,24 @@ nav_order: 56
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 56
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 56
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 56
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 56
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life aligns your actions with your stated values and beliefs, creating consistency between what you say you believe and how you actually live.</p>
+<p>Joa aligns your actions with your stated values and beliefs, creating consistency between what you say you believe and how you actually live.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life maintains the same ethical standards whether you're being watched or not, recognizing that true character is revealed in private moments.</p>
+<p>Joa maintains the same ethical standards whether you're being watched or not, recognizing that true character is revealed in private moments.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life treats all people with equal respect and dignity regardless of their social status, wealth, appearance, or ability to benefit you.</p>
+<p>Joa treats all people with equal respect and dignity regardless of their social status, wealth, appearance, or ability to benefit you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Honor your financial obligations promptly and completely, paying debts, bills, and agreed-upon amounts without requiring reminders or enforcement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life maintains confidentiality when others trust you with sensitive information, protecting their privacy even when sharing would benefit you socially.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa maintains confidentiality when others trust you with sensitive information, protecting their privacy even when sharing would benefit you socially.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Stand up for your principles even when it's unpopular, costly, or socially awkward. Integrity requires courage to do right regardless of consequences.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life admits when you don't know something rather than pretending to have expertise you lack, maintaining intellectual honesty in all interactions.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa admits when you don't know something rather than pretending to have expertise you lack, maintaining intellectual honesty in all interactions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Return lost or misplaced items to their rightful owners, even when you could legally or practically keep them without consequences.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life gives credit where it's due, acknowledging others' contributions and avoiding the temptation to take unearned recognition or praise.</p>
+<p>Joa gives credit where it's due, acknowledging others' contributions and avoiding the temptation to take unearned recognition or praise.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life follows through on your stated intentions and goals, taking concrete action rather than just talking about what you plan to do.</p>
+<p>Joa follows through on your stated intentions and goals, taking concrete action rather than just talking about what you plan to do.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life maintains honesty in small matters as well as large ones, recognizing that integrity is built through consistent truthfulness in daily interactions.</p>
+<p>Joa maintains honesty in small matters as well as large ones, recognizing that integrity is built through consistent truthfulness in daily interactions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Keep your temper under control even when provoked, responding to conflict and frustration in ways that align with your values about human dignity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life honors your commitments to yourself, following through on personal goals and self-improvement efforts with the same dedication you show others.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa honors your commitments to yourself, following through on personal goals and self-improvement efforts with the same dedication you show others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Maintain fairness in your dealings with others, avoiding favoritism, discrimination, or the abuse of power or position for personal advantage.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life practices what you preach, living according to the advice and standards you recommend to others rather than exempting yourself from them.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa practices what you preach, living according to the advice and standards you recommend to others rather than exempting yourself from them.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Accept criticism and feedback gracefully, looking for truth in negative comments rather than becoming defensive or retaliating against the messenger.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life maintains consistency between your public persona and private behavior, avoiding the exhaustion and deception that come from living double lives.</p>
+<p>Joa maintains consistency between your public persona and private behavior, avoiding the exhaustion and deception that come from living double lives.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life maintains ethical standards in your professional life, refusing to participate in dishonest, harmful, or exploitative business practices.</p>
+<p>Joa maintains ethical standards in your professional life, refusing to participate in dishonest, harmful, or exploitative business practices.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life maintains consistency in your relationships, treating partners, friends, and family members with the same respect whether you're happy or upset with them.</p>
+<p>Joa maintains consistency in your relationships, treating partners, friends, and family members with the same respect whether you're happy or upset with them.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Follow rules and laws even when you disagree with them or when enforcement is unlikely, recognizing that selective compliance undermines social order.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life maintains honesty about your capabilities and limitations, neither overselling your abilities nor underselling your potential contributions.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa maintains honesty about your capabilities and limitations, neither overselling your abilities nor underselling your potential contributions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Protect the vulnerable and speak up for those who cannot speak for themselves, using your voice and resources to defend those who need protection.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life maintains consistency in your work ethic, giving your best effort regardless of who's watching, what you're being paid, or how you feel.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa maintains consistency in your work ethic, giving your best effort regardless of who's watching, what you're being paid, or how you feel.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Honor your parents and elders while maintaining your own integrity, showing respect without compromising your values or enabling harmful behavior.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life maintains financial integrity by living within your means, avoiding debt you cannot repay, and being honest about your financial situation.</p>
+<p>Joa maintains financial integrity by living within your means, avoiding debt you cannot repay, and being honest about your financial situation.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life maintains emotional integrity by acknowledging and processing your feelings honestly rather than suppressing or manipulating them for social advantage.</p>
+<p>Joa maintains emotional integrity by acknowledging and processing your feelings honestly rather than suppressing or manipulating them for social advantage.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life maintains integrity in your communication by saying what you mean and meaning what you say, avoiding manipulation through ambiguity or deception.</p>
+<p>Joa maintains integrity in your communication by saying what you mean and meaning what you say, avoiding manipulation through ambiguity or deception.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Respect the environment and shared resources, using only what you need and cleaning up after yourself in both private and public spaces.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life maintains consistency in your standards for yourself and others, neither being hypercritical of others nor giving yourself unfair advantages.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa maintains consistency in your standards for yourself and others, neither being hypercritical of others nor giving yourself unfair advantages.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Honor your commitments to learning and growth, following through on educational goals and self-improvement efforts even when motivation wanes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life maintains integrity in your use of technology and social media, representing yourself honestly and treating others with the same respect online as offline.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa maintains integrity in your use of technology and social media, representing yourself honestly and treating others with the same respect online as offline.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Keep your agreements about time, showing up when expected and respecting others' schedules as much as you want your own time respected.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life maintains consistency between your stated priorities and your actual time and energy allocation, aligning your actions with your declared values.</p>
+<p>Joa maintains consistency between your stated priorities and your actual time and energy allocation, aligning your actions with your declared values.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life maintains integrity in your relationships by being faithful to your commitments and honest about your feelings and intentions.</p>
+<p>Joa maintains integrity in your relationships by being faithful to your commitments and honest about your feelings and intentions.</p>
 </div>
 
 <div class="verse">
@@ -622,37 +638,37 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life maintains consistency in your treatment of animals and nature, showing the same compassion and respect whether others are watching or not.</p>
+<p>Joa maintains consistency in your treatment of animals and nature, showing the same compassion and respect whether others are watching or not.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Honor your health commitments by following through on medical advice, exercise plans, and dietary choices that support your long-term wellbeing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life maintains integrity in your use of shared resources, taking only your fair share and contributing appropriately to collective efforts.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa maintains integrity in your use of shared resources, taking only your fair share and contributing appropriately to collective efforts.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Keep your living space and personal appearance in good order, recognizing that self-respect is reflected in how you care for yourself and your environment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life maintains consistency in your generosity and kindness, helping others based on need and ability rather than mood or convenience.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa maintains consistency in your generosity and kindness, helping others based on need and ability rather than mood or convenience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Honor your commitments to personal growth by continuing to learn, change, and improve even when it's difficult or when others resist your development.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 51</span></h3>
-<p>The ultimate life maintains integrity in your use of power and influence, using your advantages to help others rather than exploit them for personal gain.</p>
+<p>Joa maintains integrity in your use of power and influence, using your advantages to help others rather than exploit them for personal gain.</p>
 </div>
 
 <div class="verse">
@@ -662,7 +678,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 53</span></h3>
-<p>The ultimate life maintains consistency between your emergency values and your everyday choices, living according to what you know is right rather than what's convenient.</p>
+<p>Joa maintains consistency between your emergency values and your everyday choices, living according to what you know is right rather than what's convenient.</p>
 </div>
 
 <div class="verse">
@@ -672,37 +688,37 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 55</span></h3>
-<p>The ultimate life maintains integrity in your decision-making process, considering long-term consequences and ethical implications rather than just immediate benefits.</p>
+<p>Joa maintains integrity in your decision-making process, considering long-term consequences and ethical implications rather than just immediate benefits.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
 <p>Keep your promises to children and dependents with special care, recognizing that your reliability shapes their ability to trust and feel secure.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
-<p>The ultimate life maintains consistency in your response to success and failure, staying humble in victory and resilient in defeat.</p>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
+<p>Joa maintains consistency in your response to success and failure, staying humble in victory and resilient in defeat.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
 <p>Honor your commitments to truth-seeking by continuing to question, learn, and grow rather than becoming rigid in your beliefs or assumptions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
-<p>The ultimate life maintains integrity in your use of language, speaking clearly and honestly rather than using words to manipulate, confuse, or deceive.</p>
+<h3><span class="verse-number">💫 Verse 59</span></h3>
+<p>Joa maintains integrity in your use of language, speaking clearly and honestly rather than using words to manipulate, confuse, or deceive.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
+<h3><span class="verse-number">💫 Verse 60</span></h3>
 <p>Respect the dignity of work by giving your best effort regardless of the task, recognizing that all honest work contributes to human flourishing.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 61</span></h3>
-<p>The ultimate life maintains consistency between your stated beliefs about human equality and your actual treatment of people from different backgrounds.</p>
+<p>Joa maintains consistency between your stated beliefs about human equality and your actual treatment of people from different backgrounds.</p>
 </div>
 
 <div class="verse">
@@ -712,7 +728,7 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 63</span></h3>
-<p>The ultimate life maintains integrity in your response to temptation, making choices based on your values rather than immediate desires or social pressure.</p>
+<p>Joa maintains integrity in your response to temptation, making choices based on your values rather than immediate desires or social pressure.</p>
 </div>
 
 <div class="verse">
@@ -722,11 +738,11 @@ nav_order: 56
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 65</span></h3>
-<p>The ultimate life maintains consistency in your pursuit of excellence, striving to do your best work whether the task is important or mundane.</p>
+<p>Joa maintains consistency in your pursuit of excellence, striving to do your best work whether the task is important or mundane.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
+<h3><span class="verse-number">💫 Verse 66</span></h3>
 <p>Honor the interconnectedness of all life by living with integrity in every area, recognizing that your character affects not just you but everyone around you.</p>
 </div>
 

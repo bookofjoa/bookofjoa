@@ -38,33 +38,24 @@ nav_order: 19
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 19
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 19
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 19
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 19
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life chooses partners based on character, compatibility, and shared values rather than superficial attractions, social status, or family pressure. True partnership requires mutual respect, emotional maturity, and commitment to each other's growth.</p>
+<p>Joa chooses partners based on character, compatibility, and shared values rather than superficial attractions, social status, or family pressure. True partnership requires mutual respect, emotional maturity, and commitment to each other's growth.</p>
 </div>
 
 <div class="verse">
@@ -412,12 +428,12 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life seeks partners who have done their own emotional healing work and take responsibility for their feelings, reactions, and personal growth rather than expecting you to fix their problems or manage their emotions.</p>
+<p>Joa seeks partners who have done their own emotional healing work and take responsibility for their feelings, reactions, and personal growth rather than expecting you to fix their problems or manage their emotions.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>Shared values about money, family, career, and life priorities create the foundation for lasting partnership. The ultimate life discusses these important topics honestly before making long-term commitments to avoid future conflicts and disappointments.</p>
+<p>Shared values about money, family, career, and life priorities create the foundation for lasting partnership. Joa discusses these important topics honestly before making long-term commitments to avoid future conflicts and disappointments.</p>
 </div>
 
 <div class="verse">
@@ -426,28 +442,28 @@ nav_order: 19
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life avoids partners who use manipulation, guilt, threats, or emotional blackmail to get their way. Healthy relationships are built on honest communication, negotiation, and mutual respect for each other's autonomy.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa avoids partners who use manipulation, guilt, threats, or emotional blackmail to get their way. Healthy relationships are built on honest communication, negotiation, and mutual respect for each other's autonomy.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Look for emotional intelligence - the ability to recognize, understand, and manage emotions in themselves and respond appropriately to your feelings. This skill is essential for navigating the inevitable challenges of long-term partnership.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life chooses partners who have their own interests, friendships, and goals rather than expecting you to be their entire world. Healthy relationships require two complete individuals who choose to share their lives.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa chooses partners who have their own interests, friendships, and goals rather than expecting you to be their entire world. Healthy relationships require two complete individuals who choose to share their lives.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Observe how potential partners handle stress, disappointment, and conflict. Their coping strategies during difficult times will significantly impact your relationship's quality and your own well-being over the years.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life seeks partners who are genuinely interested in your thoughts, feelings, and experiences rather than just waiting for their turn to talk or trying to impress you with their own stories.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa seeks partners who are genuinely interested in your thoughts, feelings, and experiences rather than just waiting for their turn to talk or trying to impress you with their own stories.</p>
 </div>
 
 <div class="verse">
@@ -457,7 +473,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life avoids partners who have unresolved addictions, untreated mental health issues, or patterns of destructive behavior that they refuse to acknowledge or address through professional help.</p>
+<p>Joa avoids partners who have unresolved addictions, untreated mental health issues, or patterns of destructive behavior that they refuse to acknowledge or address through professional help.</p>
 </div>
 
 <div class="verse">
@@ -467,7 +483,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life chooses partners who respect your boundaries, accept "no" as an answer, and don't pressure you into activities, commitments, or intimacy that makes you uncomfortable.</p>
+<p>Joa chooses partners who respect your boundaries, accept "no" as an answer, and don't pressure you into activities, commitments, or intimacy that makes you uncomfortable.</p>
 </div>
 
 <div class="verse">
@@ -476,28 +492,28 @@ nav_order: 19
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life looks for partners who share your vision of what a good relationship looks like - whether you prefer lots of togetherness or more independence, traditional roles or egalitarian partnership.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa looks for partners who share your vision of what a good relationship looks like - whether you prefer lots of togetherness or more independence, traditional roles or egalitarian partnership.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Choose someone who handles money in ways that align with your values and goals. Financial incompatibility - different attitudes toward spending, saving, and financial priorities - destroys many otherwise good relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life seeks partners who are curious about the world, committed to personal growth, and open to learning new things rather than being closed-minded or resistant to change and development.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa seeks partners who are curious about the world, committed to personal growth, and open to learning new things rather than being closed-minded or resistant to change and development.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Look for someone who treats their commitments seriously and follows through on promises. Reliability in small matters indicates trustworthiness in larger life decisions and long-term partnership responsibilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life avoids partners who speak disrespectfully about their ex-partners, family members, or friends. How they talk about others when they're not present reveals how they might talk about you.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa avoids partners who speak disrespectfully about their ex-partners, family members, or friends. How they talk about others when they're not present reveals how they might talk about you.</p>
 </div>
 
 <div class="verse">
@@ -507,7 +523,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life seeks partners who have realistic expectations about relationships and understand that love requires ongoing effort, compromise, and commitment rather than just romantic feelings.</p>
+<p>Joa seeks partners who have realistic expectations about relationships and understand that love requires ongoing effort, compromise, and commitment rather than just romantic feelings.</p>
 </div>
 
 <div class="verse">
@@ -517,7 +533,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life chooses partners who can apologize sincerely when they make mistakes, take responsibility for their actions, and make genuine efforts to change problematic behaviors.</p>
+<p>Joa chooses partners who can apologize sincerely when they make mistakes, take responsibility for their actions, and make genuine efforts to change problematic behaviors.</p>
 </div>
 
 <div class="verse">
@@ -526,28 +542,28 @@ nav_order: 19
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life looks for partners who have similar spiritual or philosophical beliefs, or at least respect your beliefs even if they don't share them. Fundamental worldview differences create ongoing conflict.</p>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
+<p>Joa looks for partners who have similar spiritual or philosophical beliefs, or at least respect your beliefs even if they don't share them. Fundamental worldview differences create ongoing conflict.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Choose someone who makes you feel comfortable being your authentic self rather than requiring you to pretend to be someone different to earn their love and acceptance.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life seeks partners who have demonstrated the ability to maintain long-term commitments in other areas of life - friendships, jobs, education, or personal goals - rather than a pattern of abandoning responsibilities.</p>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
+<p>Joa seeks partners who have demonstrated the ability to maintain long-term commitments in other areas of life - friendships, jobs, education, or personal goals - rather than a pattern of abandoning responsibilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
 <p>Look for someone who handles disagreements constructively by listening to your perspective, expressing their own views respectfully, and working together to find solutions that work for both of you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life avoids partners who try to isolate you from family and friends, control your activities, or make you feel guilty for having interests and relationships outside the romantic partnership.</p>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
+<p>Joa avoids partners who try to isolate you from family and friends, control your activities, or make you feel guilty for having interests and relationships outside the romantic partnership.</p>
 </div>
 
 <div class="verse">
@@ -557,7 +573,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life seeks partners who demonstrate kindness, generosity, and compassion toward others rather than selfishness, cruelty, or indifference to other people's needs and feelings.</p>
+<p>Joa seeks partners who demonstrate kindness, generosity, and compassion toward others rather than selfishness, cruelty, or indifference to other people's needs and feelings.</p>
 </div>
 
 <div class="verse">
@@ -567,7 +583,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life chooses partners based on how they make you feel about yourself - confident, supported, and loved - rather than anxious, insecure, or constantly trying to earn their approval.</p>
+<p>Joa chooses partners based on how they make you feel about yourself - confident, supported, and loved - rather than anxious, insecure, or constantly trying to earn their approval.</p>
 </div>
 
 <div class="verse">
@@ -576,28 +592,28 @@ nav_order: 19
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life understands that choosing a life partner is one of the most important decisions you'll make. Take time to know someone well in various circumstances before making long-term commitments.</p>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
+<p>Joa understands that choosing a life partner is one of the most important decisions you'll make. Take time to know someone well in various circumstances before making long-term commitments.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
 <p>Look for someone who brings out your best qualities and inspires you to grow and improve rather than enabling your worst habits or encouraging you to settle for less than your potential.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life seeks partners who have learned from their past relationships and can articulate what they've discovered about themselves and what they want in future partnerships.</p>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
+<p>Joa seeks partners who have learned from their past relationships and can articulate what they've discovered about themselves and what they want in future partnerships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
 <p>Choose someone who demonstrates emotional stability and resilience during challenging times rather than falling apart, becoming abusive, or abandoning responsibilities when life gets difficult.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life looks for partners who respect your need for personal space, individual friendships, and time alone rather than requiring constant togetherness or feeling threatened by your independence.</p>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
+<p>Joa looks for partners who respect your need for personal space, individual friendships, and time alone rather than requiring constant togetherness or feeling threatened by your independence.</p>
 </div>
 
 <div class="verse">
@@ -607,7 +623,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life chooses partners who are sexually compatible with you and comfortable discussing intimacy openly and honestly rather than avoiding these important conversations or having mismatched needs.</p>
+<p>Joa chooses partners who are sexually compatible with you and comfortable discussing intimacy openly and honestly rather than avoiding these important conversations or having mismatched needs.</p>
 </div>
 
 <div class="verse">
@@ -617,7 +633,7 @@ nav_order: 19
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life seeks partners who have healthy coping mechanisms for stress and difficult emotions rather than using alcohol, drugs, shopping, or other destructive behaviors to manage their feelings.</p>
+<p>Joa seeks partners who have healthy coping mechanisms for stress and difficult emotions rather than using alcohol, drugs, shopping, or other destructive behaviors to manage their feelings.</p>
 </div>
 
 <div class="verse">
@@ -626,28 +642,33 @@ nav_order: 19
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life looks for partners who are honest about their flaws and limitations rather than pretending to be perfect or hiding important information about their past, health, or circumstances.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa looks for partners who are honest about their flaws and limitations rather than pretending to be perfect or hiding important information about their past, health, or circumstances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Seek someone who respects your time and keeps their commitments rather than being chronically late, canceling plans frequently, or treating your schedule as less important than their own.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life chooses partners who demonstrate gratitude and appreciation for what they have rather than constantly complaining, comparing themselves to others, or focusing on what's missing from their lives.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa chooses partners who demonstrate gratitude and appreciation for what they have rather than constantly complaining, comparing themselves to others, or focusing on what's missing from their lives.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
 <p>Look for someone who has the courage to have difficult conversations and address problems directly rather than avoiding conflict, giving silent treatment, or expecting you to read their mind.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life understands that perfect partners don't exist, but compatible partners who share your values, treat you with respect, and are committed to growing together can create beautiful, lasting relationships.</p>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
+<p>Joa understands that perfect partners don't exist, but compatible partners who share your values, treat you with respect, and are committed to growing together can create beautiful, lasting relationships.</p>
+</div>
+
+<div class="verse">
+<h3><span class="verse-number">💫 Verse 51</span></h3>
+<p>Joa teaches that sustainable relationships require emotional intelligence, shared values, and commitment to mutual growth rather than romantic idealization or unrealistic expectations.</p>
 </div>
 
 <div class="chapter-footer">

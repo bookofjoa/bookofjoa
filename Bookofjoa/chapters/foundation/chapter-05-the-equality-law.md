@@ -38,33 +38,24 @@ nav_order: 5
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 5
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 5
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 5
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 5
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -426,27 +442,27 @@ nav_order: 5
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Religious beliefs do not make anyone superior or inferior to others. People of all faiths and no faith have equal capacity for wisdom, compassion, and ethical behavior. No religion has exclusive access to truth or morality.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Economic status reflects circumstances and opportunities, not human worth or moral value. Poor people are not inferior to wealthy people in intelligence, character, or deserving of respect and dignity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>National origin does not determine human value or capability. People from all countries and cultures have equal potential for achievement and equal rights to life, liberty, and the pursuit of happiness.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Sexual orientation and gender identity are natural variations in human diversity. LGBTQ+ individuals have identical worth, rights, and capacity for love, contribution, and happiness as all other humans.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Age does not diminish human worth or rights. Children, adults, and elderly people all deserve respect, protection, and opportunities appropriate to their developmental stage and capabilities.</p>
 </div>
 
@@ -476,27 +492,27 @@ nav_order: 5
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Language, accent, and communication style do not determine intelligence or worth. People who speak differently or have communication challenges deserve patience, respect, and equal opportunities for participation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Family background and social class do not determine human potential or worth. People from all family situations have equal capacity for growth, achievement, and positive contribution to society.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Political beliefs and ideological differences do not make people superior or inferior to others. Citizens across the political spectrum have equal rights to participate in democratic processes and express their views.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Professional status and job type do not determine human worth. People in all occupations - from janitors to CEOs - deserve equal respect, dignity, and fair compensation for their contributions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Geographic location does not determine human value or capability. People from rural and urban areas, different regions and climates, all have equal potential and deserve equal opportunities and respect.</p>
 </div>
 
@@ -526,27 +542,27 @@ nav_order: 5
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Listen to and learn from people whose experiences differ from yours, especially those who face discrimination or marginalization. Their perspectives will help you understand equality more deeply and act more effectively.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Teach children about human equality from an early age through your words, actions, and the diverse relationships you model. Help them develop empathy and respect for all people regardless of differences.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Recognize that equality of opportunity requires addressing systemic barriers and historical disadvantages that prevent some groups from competing on a level playing field. True equality sometimes requires different treatment to achieve equal outcomes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
 <p>Celebrate human diversity as a source of strength, creativity, and resilience rather than a threat to unity. Our differences in background, perspective, and experience make humanity more capable and interesting.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Reject all ideologies, religions, and political movements that promote human inequality or claim that some groups are naturally superior to others. These beliefs always lead to oppression, conflict, and human suffering.</p>
 </div>
 
@@ -576,7 +592,7 @@ nav_order: 5
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Live the equality law every day through your thoughts, words, and actions. Treat every human being as your equal in worth and dignity, and work tirelessly to create a world where this equality is recognized and protected for all.</p>
 </div>
 

@@ -38,33 +38,24 @@ nav_order: 71
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 71
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 71
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 71
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 71
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,17 +418,12 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>### Section 1: Reality Foundation (Verses 1-22)</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">💫 Verse 1</span></h3>
 <p>Death is the universal human experience that comes to every person regardless of background, wealth, status, or beliefs, requiring acceptance and preparation.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that death gives life meaning and urgency, motivating us to use our limited time serving ourselves and all humanity.</p>
+<p>Joa recognizes that death gives life meaning and urgency, motivating us to use our limited time serving ourselves and all humanity.</p>
 </div>
 
 <div class="verse">
@@ -422,7 +433,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life understands that death preparation is not morbid but practical, helping you live more fully while reducing burden on others.</p>
+<p>Joa understands that death preparation is not morbid but practical, helping you live more fully while reducing burden on others.</p>
 </div>
 
 <div class="verse">
@@ -431,28 +442,28 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life recognizes that death can be peaceful or painful, natural or sudden, requiring both practical and emotional preparation.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa recognizes that death can be peaceful or painful, natural or sudden, requiring both practical and emotional preparation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Religious and cultural beliefs about afterlife vary widely, but preparation for death serves everyone regardless of spiritual beliefs or lack thereof.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life understands that death preparation includes both practical matters and psychological acceptance of mortality's reality.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa understands that death preparation includes both practical matters and psychological acceptance of mortality's reality.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Grief and loss are inevitable parts of human experience that begin with our own mortality awareness and extend to losing others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life recognizes that death can come at any age, requiring preparation throughout life rather than waiting until old age.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa recognizes that death can come at any age, requiring preparation throughout life rather than waiting until old age.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +473,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life understands that death preparation serves the living by reducing confusion, conflict, and suffering for surviving family and friends.</p>
+<p>Joa understands that death preparation serves the living by reducing confusion, conflict, and suffering for surviving family and friends.</p>
 </div>
 
 <div class="verse">
@@ -472,7 +483,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life recognizes that death equalizes all humans, reminding us that status and wealth matter less than character and love.</p>
+<p>Joa recognizes that death equalizes all humans, reminding us that status and wealth matter less than character and love.</p>
 </div>
 
 <div class="verse">
@@ -481,39 +492,33 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life understands that death timing is often unpredictable, making present-moment living and relationship maintenance essential.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa understands that death timing is often unpredictable, making present-moment living and relationship maintenance essential.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Suffering during dying can often be minimized through medical care, emotional support, and spiritual practices, but not always eliminated entirely.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life recognizes that death preparation includes helping others prepare for their own mortality and supporting them through loss.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa recognizes that death preparation includes helping others prepare for their own mortality and supporting them through loss.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Children and vulnerable people need special protection and explanation about death that provides honesty without causing unnecessary trauma.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life understands that death awareness can either increase fear and anxiety or deepen appreciation and love for life.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa understands that death awareness can either increase fear and anxiety or deepen appreciation and love for life.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
 <p>Financial, legal, and medical death preparation protects survivors from additional stress during grief and loss periods.</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life recognizes that death gives life its preciousness, making every moment and relationship more valuable and meaningful.
-### Section 2: Practical Implementation (Verses 23-44)</p>
 </div>
 
 <div class="verse">
@@ -523,7 +528,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life discusses death preferences with family members and close friends, ensuring they understand your values and wishes for end-of-life care.</p>
+<p>Joa discusses death preferences with family members and close friends, ensuring they understand your values and wishes for end-of-life care.</p>
 </div>
 
 <div class="verse">
@@ -532,28 +537,28 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life writes letters or records messages for important people in your life, expressing love and sharing final thoughts.</p>
+<h3><span class="verse-number">💫 Verse 25</span></h3>
+<p>Joa writes letters or records messages for important people in your life, expressing love and sharing final thoughts.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Consider organ donation and body disposition preferences, making decisions that reflect your values while respecting cultural and family considerations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life addresses unfinished business including unresolved conflicts, unexpressed gratitude, and incomplete important projects.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa addresses unfinished business including unresolved conflicts, unexpressed gratitude, and incomplete important projects.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Develop spiritual or philosophical practices that provide comfort and meaning when contemplating mortality and life's temporary nature.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life creates systems for sharing important knowledge, skills, and wisdom that can benefit others after your death.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa creates systems for sharing important knowledge, skills, and wisdom that can benefit others after your death.</p>
 </div>
 
 <div class="verse">
@@ -563,7 +568,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life practices meditation, prayer, or reflection that helps process death anxiety and develop acceptance of mortality.</p>
+<p>Joa practices meditation, prayer, or reflection that helps process death anxiety and develop acceptance of mortality.</p>
 </div>
 
 <div class="verse">
@@ -573,7 +578,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life lives according to your deepest values daily, ensuring your actions align with how you want to be remembered.</p>
+<p>Joa lives according to your deepest values daily, ensuring your actions align with how you want to be remembered.</p>
 </div>
 
 <div class="verse">
@@ -582,28 +587,28 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life maintains physical and mental health that supports quality of life and potentially easier dying process.</p>
+<h3><span class="verse-number">💫 Verse 35</span></h3>
+<p>Joa maintains physical and mental health that supports quality of life and potentially easier dying process.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Develop courage and acceptance practices that help you face mortality without being paralyzed by fear or denial.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life contributes to causes and communities that will continue serving humanity after your individual life ends.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa contributes to causes and communities that will continue serving humanity after your individual life ends.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Practice gratitude for life experiences, relationships, and opportunities, focusing on appreciation rather than regret about limited time.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life seeks forgiveness and offers forgiveness for past hurts, clearing emotional obstacles to peaceful dying.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa seeks forgiveness and offers forgiveness for past hurts, clearing emotional obstacles to peaceful dying.</p>
 </div>
 
 <div class="verse">
@@ -613,7 +618,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life maintains hope and joy despite mortality awareness, celebrating life while accepting its temporary nature.</p>
+<p>Joa maintains hope and joy despite mortality awareness, celebrating life while accepting its temporary nature.</p>
 </div>
 
 <div class="verse">
@@ -622,39 +627,33 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life builds death preparation that serves equality by ensuring all people have access to dignified dying regardless of economic status.
-### Section 3: Mastery Integration (Verses 45-66)</p>
-</div>
-
-<div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
 <p>Master death preparation by helping others face mortality with wisdom and peace, creating communities where death is discussed openly and prepared for thoughtfully.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life integrates death awareness into daily living, using mortality as motivation for authentic relationships and meaningful choices.</p>
+<h3><span class="verse-number">💫 Verse 44</span></h3>
+<p>Joa integrates death awareness into daily living, using mortality as motivation for authentic relationships and meaningful choices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 45</span></h3>
 <p>Develop expertise in death preparation areas that match your interests and background, becoming a resource for others facing mortality.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life builds death preparation systems that serve equality and justice, ensuring dignified dying for all people regardless of circumstances.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa builds death preparation systems that serve equality and justice, ensuring dignified dying for all people regardless of circumstances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Master the balance between death acceptance and life engagement, neither becoming morbid nor falling into death denial.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life creates death preparation that inspires rather than frightens, showing how mortality awareness can deepen life appreciation.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa creates death preparation that inspires rather than frightens, showing how mortality awareness can deepen life appreciation.</p>
 </div>
 
 <div class="verse">
@@ -664,7 +663,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 52</span></h3>
-<p>The ultimate life uses death preparation to build empathy and compassion for all people facing mortality and loss.</p>
+<p>Joa uses death preparation to build empathy and compassion for all people facing mortality and loss.</p>
 </div>
 
 <div class="verse">
@@ -674,7 +673,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 54</span></h3>
-<p>The ultimate life builds death preparation that serves long-term human flourishing, ensuring your dying contributes positively to community.</p>
+<p>Joa builds death preparation that serves long-term human flourishing, ensuring your dying contributes positively to community.</p>
 </div>
 
 <div class="verse">
@@ -683,28 +682,28 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
-<p>The ultimate life develops death courage that faces mortality honestly while maintaining commitment to life and service to others.</p>
+<h3><span class="verse-number">💫 Verse 54</span></h3>
+<p>Joa develops death courage that faces mortality honestly while maintaining commitment to life and service to others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
+<h3><span class="verse-number">💫 Verse 55</span></h3>
 <p>Master death legacy by ensuring your life and death contribute to humanity's advancement toward greater love, wisdom, and equality.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
-<p>The ultimate life maintains death dignity that honors your values and treats all people with respect during the dying process.</p>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
+<p>Joa maintains death dignity that honors your values and treats all people with respect during the dying process.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
 <p>Develop death peace that comes from living authentically and serving others, enabling peaceful acceptance of life's end.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
-<p>The ultimate life builds death healing that addresses both personal mortality fears and community trauma around loss and dying.</p>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
+<p>Joa builds death healing that addresses both personal mortality fears and community trauma around loss and dying.</p>
 </div>
 
 <div class="verse">
@@ -714,7 +713,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 62</span></h3>
-<p>The ultimate life creates death wisdom that helps others understand mortality's role in creating life's meaning and urgency.</p>
+<p>Joa creates death wisdom that helps others understand mortality's role in creating life's meaning and urgency.</p>
 </div>
 
 <div class="verse">
@@ -724,7 +723,7 @@ nav_order: 71
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 64</span></h3>
-<p>The ultimate life builds death integration that uses mortality awareness to strengthen character, relationships, and service to humanity.</p>
+<p>Joa builds death integration that uses mortality awareness to strengthen character, relationships, and service to humanity.</p>
 </div>
 
 <div class="verse">
@@ -733,8 +732,8 @@ nav_order: 71
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
-<p>The ultimate life achieves death mastery that transforms mortality awareness into deeper love for all humans and stronger commitment to leaving the world more equal, just, and loving than you found it.
+<h3><span class="verse-number">💫 Verse 64</span></h3>
+<p>Joa achieves death mastery that transforms mortality awareness into deeper love for all humans and stronger commitment to leaving the world more equal, just, and loving than you found it.
 ## Cross-References
 - **Foundation**: Chapters 4 (reality principle), 17 (hope cultivation), 18 (unity vision)
 - **Wisdom Integration**: Chapters 56 (integrity living), 60 (forgiveness power), 66 (legacy creation)

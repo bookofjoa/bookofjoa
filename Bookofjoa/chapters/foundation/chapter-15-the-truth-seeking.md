@@ -38,33 +38,24 @@ nav_order: 15
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 15
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 15
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 15
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 15
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,12 +418,12 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>Truth is the foundation of wisdom, justice, and human progress. The ultimate life commits to seeking evidence-based understanding rather than accepting comfortable beliefs, popular opinions, or inherited assumptions.</p>
+<p>Truth is the foundation of wisdom, justice, and human progress. Joa commits to seeking evidence-based understanding rather than accepting comfortable beliefs, popular opinions, or inherited assumptions.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life approaches all claims with healthy skepticism, asking for evidence, considering alternative explanations, and remaining open to changing your mind when presented with better information.</p>
+<p>Joa approaches all claims with healthy skepticism, asking for evidence, considering alternative explanations, and remaining open to changing your mind when presented with better information.</p>
 </div>
 
 <div class="verse">
@@ -417,7 +433,7 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life recognizes that personal experience, while valuable, can be misleading due to cognitive biases, limited perspective, and the tendency to see patterns where none exist.</p>
+<p>Joa recognizes that personal experience, while valuable, can be misleading due to cognitive biases, limited perspective, and the tendency to see patterns where none exist.</p>
 </div>
 
 <div class="verse">
@@ -426,28 +442,28 @@ nav_order: 15
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life seeks diverse perspectives and expert opinions when trying to understand complex issues, recognizing that no single viewpoint contains complete truth about multifaceted problems.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa seeks diverse perspectives and expert opinions when trying to understand complex issues, recognizing that no single viewpoint contains complete truth about multifaceted problems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Intellectual humility acknowledges the limits of your knowledge and the possibility that you might be wrong about important beliefs, creating openness to learning and growth throughout life.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life distinguishes between facts (verifiable observations) and opinions (personal interpretations), values evidence over authority, and changes beliefs when evidence contradicts them.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa distinguishes between facts (verifiable observations) and opinions (personal interpretations), values evidence over authority, and changes beliefs when evidence contradicts them.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>Confirmation bias leads you to seek information that supports existing beliefs while ignoring contradictory evidence. The ultimate life actively seeks disconfirming information to test your assumptions.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Confirmation bias leads you to seek information that supports existing beliefs while ignoring contradictory evidence. Joa actively seeks disconfirming information to test your assumptions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life recognizes that truth-seeking requires emotional courage to face uncomfortable realities, challenge cherished beliefs, and accept that the world may not match your preferences.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa recognizes that truth-seeking requires emotional courage to face uncomfortable realities, challenge cherished beliefs, and accept that the world may not match your preferences.</p>
 </div>
 
 <div class="verse">
@@ -457,7 +473,7 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life practices intellectual honesty by admitting when you don't know something, acknowledging uncertainty, and avoiding the temptation to pretend knowledge you don't possess.</p>
+<p>Joa practices intellectual honesty by admitting when you don't know something, acknowledging uncertainty, and avoiding the temptation to pretend knowledge you don't possess.</p>
 </div>
 
 <div class="verse">
@@ -467,7 +483,7 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life understands that truth-seeking is an ongoing process rather than a destination, requiring continuous learning, questioning, and refinement of understanding as new evidence emerges.</p>
+<p>Joa understands that truth-seeking is an ongoing process rather than a destination, requiring continuous learning, questioning, and refinement of understanding as new evidence emerges.</p>
 </div>
 
 <div class="verse">
@@ -476,28 +492,28 @@ nav_order: 15
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life recognizes that some questions may not have clear answers, some problems may not have perfect solutions, and uncertainty is a natural part of the human condition.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa recognizes that some questions may not have clear answers, some problems may not have perfect solutions, and uncertainty is a natural part of the human condition.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Truth-telling in relationships requires honesty about your feelings, needs, and experiences while also being tactful and considerate of others' emotional well-being and dignity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life supports transparency in government, business, and institutions, recognizing that secrecy often enables corruption, abuse, and decisions that harm the public interest.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa supports transparency in government, business, and institutions, recognizing that secrecy often enables corruption, abuse, and decisions that harm the public interest.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Statistical literacy helps you understand research findings, evaluate claims about effectiveness or risk, and avoid being misled by misleading presentations of data or cherry-picked results.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life recognizes that truth can be uncomfortable, inconvenient, or challenging to accepted beliefs, but facing reality is essential for making wise decisions and solving problems effectively.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa recognizes that truth can be uncomfortable, inconvenient, or challenging to accepted beliefs, but facing reality is essential for making wise decisions and solving problems effectively.</p>
 </div>
 
 <div class="verse">
@@ -507,17 +523,17 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life understands that truth-seeking requires resources - time, education, and access to information - and works to ensure that everyone has opportunities to develop critical thinking skills.</p>
+<p>Joa understands that truth-seeking requires resources - time, education, and access to information - and works to ensure that everyone has opportunities to develop critical thinking skills.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>Conspiracy theories often appeal to people's desire for simple explanations and sense of special knowledge, but the ultimate life evaluates these claims using the same evidence-based standards as any other hypothesis.</p>
+<p>Conspiracy theories often appeal to people's desire for simple explanations and sense of special knowledge, but Joa evaluates these claims using the same evidence-based standards as any other hypothesis.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life practices epistemic humility by recognizing that human knowledge is always incomplete, provisional, and subject to revision as new evidence and better theories emerge.</p>
+<p>Joa practices epistemic humility by recognizing that human knowledge is always incomplete, provisional, and subject to revision as new evidence and better theories emerge.</p>
 </div>
 
 <div class="verse">
@@ -526,28 +542,28 @@ nav_order: 15
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life supports academic freedom and independent research that can investigate controversial topics without political or economic pressure to reach predetermined conclusions.</p>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
+<p>Joa supports academic freedom and independent research that can investigate controversial topics without political or economic pressure to reach predetermined conclusions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>Eyewitness testimony, while important, can be unreliable due to memory limitations, emotional stress, and unconscious biases. The ultimate life seeks corroborating evidence when possible.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Eyewitness testimony, while important, can be unreliable due to memory limitations, emotional stress, and unconscious biases. Joa seeks corroborating evidence when possible.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life recognizes that truth-seeking can be emotionally difficult when evidence contradicts beliefs that provide comfort, meaning, or social belonging, but intellectual integrity requires following evidence wherever it leads.</p>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
+<p>Joa recognizes that truth-seeking can be emotionally difficult when evidence contradicts beliefs that provide comfort, meaning, or social belonging, but intellectual integrity requires following evidence wherever it leads.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>Philosophical truth about meaning, values, and ethics may not be as clear-cut as scientific truth, but the ultimate life still applies reason, evidence, and careful thinking to these important questions.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Philosophical truth about meaning, values, and ethics may not be as clear-cut as scientific truth, but Joa still applies reason, evidence, and careful thinking to these important questions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life understands that truth-seeking is both an individual responsibility and a collective endeavor that benefits from diverse perspectives, open debate, and collaborative investigation.</p>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
+<p>Joa understands that truth-seeking is both an individual responsibility and a collective endeavor that benefits from diverse perspectives, open debate, and collaborative investigation.</p>
 </div>
 
 <div class="verse">
@@ -557,7 +573,7 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life recognizes that truth-seeking requires balancing confidence in well-established facts with appropriate uncertainty about complex, controversial, or rapidly evolving areas of knowledge.</p>
+<p>Joa recognizes that truth-seeking requires balancing confidence in well-established facts with appropriate uncertainty about complex, controversial, or rapidly evolving areas of knowledge.</p>
 </div>
 
 <div class="verse">
@@ -567,7 +583,7 @@ nav_order: 15
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life understands that truth-seeking is not about winning arguments or proving superiority but about understanding reality more accurately to make better decisions and solve problems more effectively.</p>
+<p>Joa understands that truth-seeking is not about winning arguments or proving superiority but about understanding reality more accurately to make better decisions and solve problems more effectively.</p>
 </div>
 
 <div class="verse">
@@ -576,8 +592,8 @@ nav_order: 15
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The truth seeking transforms you into a seeker of reality, a challenger of false beliefs, and a guardian of intellectual integrity. This commitment to truth is essential to the ultimate life.</p>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
+<p>The truth seeking transforms you into a seeker of reality, a challenger of false beliefs, and a guardian of intellectual integrity. This commitment to truth is essential to Joa.</p>
 </div>
 
 <div class="chapter-footer">

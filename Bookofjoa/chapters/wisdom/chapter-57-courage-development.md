@@ -38,33 +38,24 @@ nav_order: 57
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 57
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 57
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 57
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 57
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life recognizes that courage is not the absence of fear but the decision to act according to your values despite feeling afraid.</p>
+<p>Joa recognizes that courage is not the absence of fear but the decision to act according to your values despite feeling afraid.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life speaks up for what's right even when your voice shakes, recognizing that moral courage often requires overcoming social anxiety and peer pressure.</p>
+<p>Joa speaks up for what's right even when your voice shakes, recognizing that moral courage often requires overcoming social anxiety and peer pressure.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life takes calculated risks for meaningful goals, weighing potential losses against possible gains while refusing to let fear prevent all forward movement.</p>
+<p>Joa takes calculated risks for meaningful goals, weighing potential losses against possible gains while refusing to let fear prevent all forward movement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Stand up to bullies and abusers even when you're afraid, protecting yourself and others from harm regardless of the personal cost or social consequences.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life admits when you're wrong or when you've made mistakes, showing the courage to face criticism and take responsibility for your actions.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa admits when you're wrong or when you've made mistakes, showing the courage to face criticism and take responsibility for your actions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Pursue your dreams and goals despite uncertainty about outcomes, recognizing that courage means acting without guarantees of success or safety.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life has difficult conversations that need to happen, addressing conflicts and problems directly rather than hoping they'll resolve themselves.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa has difficult conversations that need to happen, addressing conflicts and problems directly rather than hoping they'll resolve themselves.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Defend people who are being treated unfairly, even when it's socially awkward or when you might face retaliation for speaking up.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life tries new things despite the possibility of failure or embarrassment, understanding that growth requires stepping into unknown territory.</p>
+<p>Joa tries new things despite the possibility of failure or embarrassment, understanding that growth requires stepping into unknown territory.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life sets boundaries with difficult people, saying no to unreasonable demands even when you fear conflict or disapproval.</p>
+<p>Joa sets boundaries with difficult people, saying no to unreasonable demands even when you fear conflict or disapproval.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life challenges unjust systems and corrupt authorities, using your voice and actions to promote fairness even when it puts you at risk.</p>
+<p>Joa challenges unjust systems and corrupt authorities, using your voice and actions to promote fairness even when it puts you at risk.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Leave toxic relationships and situations, even when you're afraid of being alone or uncertain about what comes next.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life expresses your authentic self despite fear of rejection, sharing your true thoughts, feelings, and identity rather than hiding behind masks.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa expresses your authentic self despite fear of rejection, sharing your true thoughts, feelings, and identity rather than hiding behind masks.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Take on leadership roles when needed, stepping up to guide and serve others even when you feel unprepared or doubt your abilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life confronts your own prejudices and biases, having the courage to examine and change beliefs that may be harmful or inaccurate.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa confronts your own prejudices and biases, having the courage to examine and change beliefs that may be harmful or inaccurate.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Seek medical attention when needed, overcoming fear of doctors, procedures, or bad news to protect your health and wellbeing.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life starts over when necessary, leaving behind familiar but limiting situations to pursue better opportunities despite uncertainty.</p>
+<p>Joa starts over when necessary, leaving behind familiar but limiting situations to pursue better opportunities despite uncertainty.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life travels to new places and experience different cultures, expanding your worldview despite anxiety about unfamiliar environments.</p>
+<p>Joa travels to new places and experience different cultures, expanding your worldview despite anxiety about unfamiliar environments.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life shares your creative work with others, overcoming fear of criticism or rejection to contribute your unique gifts to the world.</p>
+<p>Joa shares your creative work with others, overcoming fear of criticism or rejection to contribute your unique gifts to the world.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Stand alone when necessary, maintaining your principles even when everyone around you disagrees or when you face social isolation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life asks for what you want and need, making requests despite fear of rejection or the discomfort of appearing needy.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa asks for what you want and need, making requests despite fear of rejection or the discomfort of appearing needy.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Face financial challenges head-on, dealing with debt, job loss, or economic uncertainty through action rather than denial or avoidance.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life changes careers or life directions when your current path no longer serves you, despite fear of starting over or disappointing others.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa changes careers or life directions when your current path no longer serves you, despite fear of starting over or disappointing others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Confront addiction and destructive habits, seeking help and making difficult changes even when the process is painful and uncertain.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life speaks in public when you have something important to say, overcoming stage fright and social anxiety to share valuable messages.</p>
+<p>Joa speaks in public when you have something important to say, overcoming stage fright and social anxiety to share valuable messages.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life reports wrongdoing when you witness it, speaking up about abuse, corruption, or illegal activity despite potential retaliation.</p>
+<p>Joa reports wrongdoing when you witness it, speaking up about abuse, corruption, or illegal activity despite potential retaliation.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life start your own business or creative project, taking entrepreneurial risks despite the high probability of failure or financial loss.</p>
+<p>Joa start your own business or creative project, taking entrepreneurial risks despite the high probability of failure or financial loss.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Seek therapy or counseling when needed, overcoming stigma and pride to get professional help for mental and emotional challenges.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life disagree with authority figures when they're wrong, respectfully challenging bosses, teachers, or leaders despite power imbalances.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa disagree with authority figures when they're wrong, respectfully challenging bosses, teachers, or leaders despite power imbalances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Learn new skills later in life, overcoming the fear of being a beginner again or the belief that you're too old to change.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life have children or commit to long-term relationships, embracing the vulnerability and responsibility that come with deep connections.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa have children or commit to long-term relationships, embracing the vulnerability and responsibility that come with deep connections.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Quit jobs or situations that compromise your values, choosing integrity over security even when the financial cost is significant.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life perform or compete in areas where you might fail publicly, risking embarrassment to pursue excellence and personal growth.</p>
+<p>Joa perform or compete in areas where you might fail publicly, risking embarrassment to pursue excellence and personal growth.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life invest in relationships with people who are different from you, overcoming prejudice and social barriers to build meaningful connections.</p>
+<p>Joa invest in relationships with people who are different from you, overcoming prejudice and social barriers to build meaningful connections.</p>
 </div>
 
 <div class="verse">
@@ -622,37 +638,37 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life challenge your own limiting beliefs about what's possible, attempting goals that seem beyond your current capabilities.</p>
+<p>Joa challenge your own limiting beliefs about what's possible, attempting goals that seem beyond your current capabilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Seek out criticism and feedback, asking for honest assessments of your work and character despite the discomfort of hearing negative evaluations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life live according to your values even when it costs you money, relationships, or social status to maintain your integrity.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa live according to your values even when it costs you money, relationships, or social status to maintain your integrity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Face aging and physical decline with grace, adapting to changing capabilities while maintaining dignity and purpose throughout life's stages.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life trust others with your vulnerabilities, sharing your fears, weaknesses, and struggles despite the risk of being hurt or rejected.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa trust others with your vulnerabilities, sharing your fears, weaknesses, and struggles despite the risk of being hurt or rejected.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Take on responsibilities that stretch your abilities, accepting roles and challenges that require you to grow beyond your current skill level.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 51</span></h3>
-<p>The ultimate life question your deepest beliefs and assumptions, having the courage to examine and potentially change fundamental aspects of your worldview.</p>
+<p>Joa question your deepest beliefs and assumptions, having the courage to examine and potentially change fundamental aspects of your worldview.</p>
 </div>
 
 <div class="verse">
@@ -662,7 +678,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 53</span></h3>
-<p>The ultimate life pursue justice for yourself and others, fighting legal battles or challenging unfair treatment despite the time, cost, and emotional toll.</p>
+<p>Joa pursue justice for yourself and others, fighting legal battles or challenging unfair treatment despite the time, cost, and emotional toll.</p>
 </div>
 
 <div class="verse">
@@ -672,37 +688,37 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 55</span></h3>
-<p>The ultimate life express love and affection openly, telling people how you feel about them despite vulnerability and the possibility of rejection.</p>
+<p>Joa express love and affection openly, telling people how you feel about them despite vulnerability and the possibility of rejection.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
 <p>Challenge yourself physically through exercise and adventure, pushing your body's limits to discover what you're truly capable of achieving.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
-<p>The ultimate life make difficult decisions quickly when delay would cause more harm, acting decisively despite incomplete information or fear of choosing wrong.</p>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
+<p>Joa make difficult decisions quickly when delay would cause more harm, acting decisively despite incomplete information or fear of choosing wrong.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
 <p>Seek out diverse perspectives and challenging ideas, exposing yourself to viewpoints that might change your mind or make you uncomfortable.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
-<p>The ultimate life take responsibility for large projects and important outcomes, accepting leadership roles despite the pressure and potential for failure.</p>
+<h3><span class="verse-number">💫 Verse 59</span></h3>
+<p>Joa take responsibility for large projects and important outcomes, accepting leadership roles despite the pressure and potential for failure.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
+<h3><span class="verse-number">💫 Verse 60</span></h3>
 <p>Face your past mistakes and their ongoing consequences, dealing with guilt, shame, and the need to make amends rather than running away.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 61</span></h3>
-<p>The ultimate life live authentically in all areas of your life, refusing to hide your true self even in environments where authenticity isn't welcomed.</p>
+<p>Joa live authentically in all areas of your life, refusing to hide your true self even in environments where authenticity isn't welcomed.</p>
 </div>
 
 <div class="verse">
@@ -712,7 +728,7 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 63</span></h3>
-<p>The ultimate life take calculated risks with your resources, investing time, money, and energy in opportunities that could significantly improve your life.</p>
+<p>Joa take calculated risks with your resources, investing time, money, and energy in opportunities that could significantly improve your life.</p>
 </div>
 
 <div class="verse">
@@ -722,11 +738,11 @@ nav_order: 57
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 65</span></h3>
-<p>The ultimate life face the possibility of failure in your most important endeavors, pursuing meaningful goals despite the risk of disappointment or loss.</p>
+<p>Joa face the possibility of failure in your most important endeavors, pursuing meaningful goals despite the risk of disappointment or loss.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
+<h3><span class="verse-number">💫 Verse 66</span></h3>
 <p>Cultivate courage as a daily practice, recognizing that bravery grows stronger through use and that each act of courage makes the next one easier.</p>
 </div>
 

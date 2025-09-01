@@ -38,33 +38,24 @@ nav_order: 28
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 28
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 28
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 28
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 28
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life recognizes that difficult people are often struggling with their own pain, trauma, or unmet needs, but this understanding doesn't require you to accept harmful behavior or sacrifice your wellbeing.</p>
+<p>Joa recognizes that difficult people are often struggling with their own pain, trauma, or unmet needs, but this understanding doesn't require you to accept harmful behavior or sacrifice your wellbeing.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life responds to difficult behavior with calm assertiveness rather than matching their energy, getting defensive, or trying to change them through argument or persuasion.</p>
+<p>Joa responds to difficult behavior with calm assertiveness rather than matching their energy, getting defensive, or trying to change them through argument or persuasion.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life limits contact with toxic people when possible, choosing to invest your time and energy in relationships that are mutually respectful and supportive.</p>
+<p>Joa limits contact with toxic people when possible, choosing to invest your time and energy in relationships that are mutually respectful and supportive.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Practice emotional detachment with difficult people by observing their behavior without absorbing their emotions or feeling responsible for fixing their problems or managing their reactions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life uses the "gray rock" method with manipulative people - becoming uninteresting and unresponsive to their attempts to create drama or get emotional reactions from you.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa uses the "gray rock" method with manipulative people - becoming uninteresting and unresponsive to their attempts to create drama or get emotional reactions from you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Document interactions with difficult people in professional or legal situations, keeping records of conversations, emails, and incidents that might be important for your protection.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life seeks support from trusted friends, family, or professionals when dealing with particularly challenging people, rather than trying to handle everything alone.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa seeks support from trusted friends, family, or professionals when dealing with particularly challenging people, rather than trying to handle everything alone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Recognize manipulation tactics like guilt-tripping, gaslighting, or emotional blackmail, and refuse to engage with these behaviors by staying focused on facts and your own boundaries.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life practices self-care when dealing with difficult people by managing your stress, maintaining your physical health, and engaging in activities that restore your emotional balance.</p>
+<p>Joa practices self-care when dealing with difficult people by managing your stress, maintaining your physical health, and engaging in activities that restore your emotional balance.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life handles workplace difficult people by maintaining professionalism, documenting problems, and using appropriate channels to address behavior that affects your work environment.</p>
+<p>Joa handles workplace difficult people by maintaining professionalism, documenting problems, and using appropriate channels to address behavior that affects your work environment.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life practices compassion for difficult people while also maintaining firm boundaries, understanding that you can care about someone without accepting their harmful behavior.</p>
+<p>Joa practices compassion for difficult people while also maintaining firm boundaries, understanding that you can care about someone without accepting their harmful behavior.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Learn to recognize your own triggers and emotional reactions to difficult people, developing strategies to stay calm and respond thoughtfully rather than reactively.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life handles difficult family members by maintaining appropriate boundaries while still participating in family events and relationships that are important to you.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa handles difficult family members by maintaining appropriate boundaries while still participating in family events and relationships that are important to you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Use the "broken record" technique with persistent difficult people - repeating your boundary or position calmly without getting drawn into lengthy explanations or justifications.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life handles criticism from difficult people by evaluating whether any feedback is valid while ignoring personal attacks or comments designed to hurt rather than help.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa handles criticism from difficult people by evaluating whether any feedback is valid while ignoring personal attacks or comments designed to hurt rather than help.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Avoid enabling difficult people's behavior by refusing to rescue them from natural consequences, make excuses for their actions, or take responsibility for their problems.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life handles difficult people's attempts to isolate you by maintaining your other relationships and support systems despite their efforts to control your social connections.</p>
+<p>Joa handles difficult people's attempts to isolate you by maintaining your other relationships and support systems despite their efforts to control your social connections.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life handles difficult people's mood swings and emotional volatility by remaining stable yourself and not trying to manage or fix their emotional states.</p>
+<p>Joa handles difficult people's mood swings and emotional volatility by remaining stable yourself and not trying to manage or fix their emotional states.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life handles difficult people in group settings by staying focused on group goals, not taking sides in their conflicts, and maintaining your own positive relationships.</p>
+<p>Joa handles difficult people in group settings by staying focused on group goals, not taking sides in their conflicts, and maintaining your own positive relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Use time limits with difficult people - setting specific durations for phone calls, visits, or meetings to protect your energy and prevent exhausting interactions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life handles difficult people's attempts to guilt or shame you by staying connected to your own values and not allowing their emotional manipulation to control your decisions.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa handles difficult people's attempts to guilt or shame you by staying connected to your own values and not allowing their emotional manipulation to control your decisions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Practice selective engagement with difficult people by choosing which battles are worth fighting and which behaviors you can simply ignore or work around.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life handles difficult people's lies or distortions by staying focused on facts, avoiding getting drawn into their version of reality, and trusting your own perceptions.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa handles difficult people's lies or distortions by staying focused on facts, avoiding getting drawn into their version of reality, and trusting your own perceptions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Develop exit strategies for interactions with difficult people - knowing how to end conversations, leave situations, or remove yourself when interactions become harmful.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life handles difficult people's attempts to make you responsible for their emotions by maintaining clear boundaries about what you will and won't take responsibility for.</p>
+<p>Joa handles difficult people's attempts to make you responsible for their emotions by maintaining clear boundaries about what you will and won't take responsibility for.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life handles difficult people's inconsistency by not relying on their promises or commitments and making backup plans for important situations.</p>
+<p>Joa handles difficult people's inconsistency by not relying on their promises or commitments and making backup plans for important situations.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life handles difficult people's attempts to triangulate relationships by refusing to get involved in their conflicts with others and maintaining direct communication.</p>
+<p>Joa handles difficult people's attempts to triangulate relationships by refusing to get involved in their conflicts with others and maintaining direct communication.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Practice mindfulness when dealing with difficult people, staying present and aware of your own reactions rather than getting caught up in their drama or chaos.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life handles difficult people's boundary violations by enforcing consequences immediately and consistently rather than making empty threats or giving multiple warnings.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa handles difficult people's boundary violations by enforcing consequences immediately and consistently rather than making empty threats or giving multiple warnings.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Seek professional help when dealing with difficult people who are abusive, threatening, or significantly impacting your mental health and quality of life.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life handles difficult people's attempts to control your behavior by staying connected to your own goals and values rather than reacting to their demands or expectations.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa handles difficult people's attempts to control your behavior by staying connected to your own goals and values rather than reacting to their demands or expectations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Practice forgiveness for difficult people without requiring reconciliation or continued relationship, understanding that forgiveness is for your own peace rather than their benefit.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life handles difficult people's jealousy or competitiveness by focusing on your own growth and success rather than trying to manage their reactions to your achievements.</p>
+<p>Joa handles difficult people's jealousy or competitiveness by focusing on your own growth and success rather than trying to manage their reactions to your achievements.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life handles difficult people's attempts to make you doubt yourself by staying connected to trusted friends and advisors who can provide reality checks and support.</p>
+<p>Joa handles difficult people's attempts to make you doubt yourself by staying connected to trusted friends and advisors who can provide reality checks and support.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 28
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life handles difficult people's crises and emergencies by offering appropriate help without getting drawn into ongoing drama or taking responsibility for their problems.</p>
+<p>Joa handles difficult people's crises and emergencies by offering appropriate help without getting drawn into ongoing drama or taking responsibility for their problems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Maintain your own integrity when dealing with difficult people by staying true to your values even when they try to provoke you into behaving badly.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life handles difficult people's attempts to punish you for setting boundaries by staying firm in your limits and not backing down due to their negative reactions.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa handles difficult people's attempts to punish you for setting boundaries by staying firm in your limits and not backing down due to their negative reactions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Practice gratitude for the lessons that difficult people teach you about boundaries, self-respect, and the importance of choosing healthy relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life handles difficult people with wisdom gained through experience, using each challenging interaction to become stronger, clearer about your values, and better at protecting your wellbeing.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa handles difficult people with wisdom gained through experience, using each challenging interaction to become stronger, clearer about your values, and better at protecting your wellbeing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that dealing with difficult people is a skill that protects your peace, preserves your energy for positive relationships, and demonstrates self-respect and healthy boundaries to others.</p>
 </div>
 

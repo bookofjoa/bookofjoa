@@ -38,33 +38,24 @@ nav_order: 40
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 40
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 40
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 40
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 40
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life approaches problems as opportunities for growth, learning, and service rather than obstacles to avoid or reasons for complaint and frustration.</p>
+<p>Joa approaches problems as opportunities for growth, learning, and service rather than obstacles to avoid or reasons for complaint and frustration.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life gathers relevant information about problems from multiple sources and perspectives before jumping to conclusions or implementing quick fixes.</p>
+<p>Joa gathers relevant information about problems from multiple sources and perspectives before jumping to conclusions or implementing quick fixes.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life considers root causes rather than just treating symptoms, understanding that surface solutions often fail to prevent problems from recurring.</p>
+<p>Joa considers root causes rather than just treating symptoms, understanding that surface solutions often fail to prevent problems from recurring.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Generate multiple potential solutions before evaluating any of them, using brainstorming techniques to expand your thinking beyond obvious approaches.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life seeks input from others who have faced similar problems or who bring different expertise and perspectives to the challenge.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa seeks input from others who have faced similar problems or who bring different expertise and perspectives to the challenge.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Use systematic problem-solving frameworks like the scientific method, design thinking, or structured analysis to approach challenges methodically.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life considers the constraints and resources available when developing solutions, working within realistic parameters while thinking creatively.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa considers the constraints and resources available when developing solutions, working within realistic parameters while thinking creatively.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Test solutions on a small scale when possible before implementing them broadly, learning from pilot programs and adjusting approaches based on results.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life maintains optimism and persistence when facing difficult problems, understanding that most challenges can be solved with sufficient effort and creativity.</p>
+<p>Joa maintains optimism and persistence when facing difficult problems, understanding that most challenges can be solved with sufficient effort and creativity.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life considers unintended consequences of potential solutions, thinking through how fixes might create new problems or affect other systems.</p>
+<p>Joa considers unintended consequences of potential solutions, thinking through how fixes might create new problems or affect other systems.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life involves stakeholders in problem-solving processes when their input is valuable and when they'll be affected by potential solutions.</p>
+<p>Joa involves stakeholders in problem-solving processes when their input is valuable and when they'll be affected by potential solutions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Consider timing and sequencing when implementing solutions, understanding that the order and pace of changes can affect their success.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life learns from failed solutions by analyzing what went wrong and using that information to develop better approaches to similar problems.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa learns from failed solutions by analyzing what went wrong and using that information to develop better approaches to similar problems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Use problem-solving as opportunities to develop skills, build relationships, and create systems that prevent similar issues in the future.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life maintains perspective on problems by considering their importance relative to larger life goals and values rather than becoming consumed by minor issues.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa maintains perspective on problems by considering their importance relative to larger life goals and values rather than becoming consumed by minor issues.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Seek win-win solutions that address multiple stakeholders' needs rather than just solving problems for yourself at others' expense.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life uses technology and tools effectively to support problem-solving while avoiding over-reliance on digital solutions for human challenges.</p>
+<p>Joa uses technology and tools effectively to support problem-solving while avoiding over-reliance on digital solutions for human challenges.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life practices problem prevention by identifying potential issues early and taking proactive steps to avoid them when possible.</p>
+<p>Joa practices problem prevention by identifying potential issues early and taking proactive steps to avoid them when possible.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life maintains ethical standards in problem-solving, choosing solutions that don't harm others or compromise your integrity for convenience.</p>
+<p>Joa maintains ethical standards in problem-solving, choosing solutions that don't harm others or compromise your integrity for convenience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Consider cultural and contextual factors when solving problems, understanding that solutions must fit the environment and people they're meant to serve.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life uses problem-solving failures as learning opportunities that build resilience and improve future problem-solving capabilities.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa uses problem-solving failures as learning opportunities that build resilience and improve future problem-solving capabilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Collaborate with others when their skills complement yours, understanding that team problem-solving often produces better results than individual efforts.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life considers long-term sustainability of solutions rather than just quick fixes that might create bigger problems later.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa considers long-term sustainability of solutions rather than just quick fixes that might create bigger problems later.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Use problem-solving as opportunities to practice patience, persistence, and other character traits that serve you in all areas of life.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life documents problem-solving processes and outcomes to create knowledge that can help with similar challenges in the future.</p>
+<p>Joa documents problem-solving processes and outcomes to create knowledge that can help with similar challenges in the future.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life uses problem-solving as opportunities to build trust and relationships by working collaboratively and transparently with others.</p>
+<p>Joa uses problem-solving as opportunities to build trust and relationships by working collaboratively and transparently with others.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life considers problem-solving as service to future generations by addressing issues that will affect people who come after you.</p>
+<p>Joa considers problem-solving as service to future generations by addressing issues that will affect people who come after you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Use systems thinking when solving complex problems, understanding how different parts interact and how changes in one area affect others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life maintains curiosity and openness when problem-solving, remaining willing to change approaches when evidence suggests better alternatives.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa maintains curiosity and openness when problem-solving, remaining willing to change approaches when evidence suggests better alternatives.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Consider problem-solving as opportunities to develop empathy by understanding how challenges affect different people in different ways.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life uses problem-solving to build community by bringing people together around shared challenges and collaborative solutions.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa uses problem-solving to build community by bringing people together around shared challenges and collaborative solutions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Practice problem-solving humility by acknowledging when you need help and when others have better expertise or perspectives than you do.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life considers problem-solving as opportunities to practice leadership by taking initiative and inspiring others to work toward solutions.</p>
+<p>Joa considers problem-solving as opportunities to practice leadership by taking initiative and inspiring others to work toward solutions.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life maintains hope and optimism during problem-solving, understanding that most challenges can be overcome with sufficient effort and collaboration.</p>
+<p>Joa maintains hope and optimism during problem-solving, understanding that most challenges can be overcome with sufficient effort and collaboration.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 40
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life uses problem-solving to build resilience and confidence by proving to yourself that you can overcome challenges and create positive change.</p>
+<p>Joa uses problem-solving to build resilience and confidence by proving to yourself that you can overcome challenges and create positive change.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Practice problem-solving generosity by sharing solutions, resources, and knowledge with others who face similar challenges.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life considers problem-solving as opportunities to align your actions with your values by choosing solutions that reflect your principles.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa considers problem-solving as opportunities to align your actions with your values by choosing solutions that reflect your principles.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Use problem-solving as opportunities to practice mindfulness and presence by staying focused on current challenges rather than being overwhelmed by future possibilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life maintains balance in problem-solving by addressing important challenges while also taking care of your own wellbeing and relationships.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa maintains balance in problem-solving by addressing important challenges while also taking care of your own wellbeing and relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that problem-solving is one of humanity's greatest strengths and that your ability to find solutions contributes to the collective human capacity to overcome challenges and create progress.</p>
 </div>
 

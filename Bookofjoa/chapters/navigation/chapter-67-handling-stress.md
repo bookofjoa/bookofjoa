@@ -38,33 +38,24 @@ nav_order: 67
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 67
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 67
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 67
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 67
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,17 +418,12 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>### Section 1: Reality Foundation (Verses 1-22)</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">💫 Verse 1</span></h3>
 <p>Stress is the body's natural response to challenges and threats, designed to help you survive but requiring management to prevent harm to health and relationships.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that everyone experiences stress regardless of background, treating all people with patience and understanding during difficult times.</p>
+<p>Joa recognizes that everyone experiences stress regardless of background, treating all people with patience and understanding during difficult times.</p>
 </div>
 
 <div class="verse">
@@ -422,7 +433,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life understands that stress often comes from trying to control things beyond your influence, focusing energy on what you can actually change.</p>
+<p>Joa understands that stress often comes from trying to control things beyond your influence, focusing energy on what you can actually change.</p>
 </div>
 
 <div class="verse">
@@ -431,28 +442,28 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life recognizes that comparing yourself to others creates unnecessary stress, focusing instead on your own growth and contribution.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa recognizes that comparing yourself to others creates unnecessary stress, focusing instead on your own growth and contribution.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Stress responses vary between individuals due to genetics, experience, and circumstances, requiring personalized approaches rather than one-size-fits-all solutions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life acknowledges that some stress comes from inequality and injustice, working to change unfair systems while protecting your own wellbeing.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa acknowledges that some stress comes from inequality and injustice, working to change unfair systems while protecting your own wellbeing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Financial pressure, relationship conflicts, health problems, and work demands are common stress sources that affect people across all demographics.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life understands that stress often signals misalignment between your values and actions, requiring examination of priorities and choices.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa understands that stress often signals misalignment between your values and actions, requiring examination of priorities and choices.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +473,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life recognizes that avoiding all stress is impossible and unhealthy, focusing on building resilience rather than elimination.</p>
+<p>Joa recognizes that avoiding all stress is impossible and unhealthy, focusing on building resilience rather than elimination.</p>
 </div>
 
 <div class="verse">
@@ -472,7 +483,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life understands that perfectionism and fear of failure create unnecessary stress, embracing learning and growth over flawless performance.</p>
+<p>Joa understands that perfectionism and fear of failure create unnecessary stress, embracing learning and growth over flawless performance.</p>
 </div>
 
 <div class="verse">
@@ -481,39 +492,33 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life recognizes that helping others manage stress benefits everyone, creating supportive communities rather than competitive environments.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa recognizes that helping others manage stress benefits everyone, creating supportive communities rather than competitive environments.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Time pressure often creates stress through poor planning and unrealistic commitments, requiring honest assessment of available resources.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life understands that stress can motivate positive action when channeled constructively rather than allowed to create anxiety and paralysis.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa understands that stress can motivate positive action when channeled constructively rather than allowed to create anxiety and paralysis.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Unresolved conflicts and communication problems create ongoing stress that affects all relationships and areas of life.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life recognizes that stress management is a learned skill that improves with practice, not a natural talent some people have.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa recognizes that stress management is a learned skill that improves with practice, not a natural talent some people have.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
 <p>Information overload and decision fatigue create modern stress requiring intentional limits on input and choices.</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life understands that stress spreads between people through emotional contagion, making your stress management important for everyone around you.
-### Section 2: Practical Implementation (Verses 23-44)</p>
 </div>
 
 <div class="verse">
@@ -523,7 +528,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life establishes regular sleep schedules with 7-9 hours nightly, recognizing that adequate rest is essential for stress resilience and emotional regulation.</p>
+<p>Joa establishes regular sleep schedules with 7-9 hours nightly, recognizing that adequate rest is essential for stress resilience and emotional regulation.</p>
 </div>
 
 <div class="verse">
@@ -532,28 +537,28 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life practices mindfulness and present-moment awareness, reducing stress caused by worrying about future events or past mistakes.</p>
+<h3><span class="verse-number">💫 Verse 25</span></h3>
+<p>Joa practices mindfulness and present-moment awareness, reducing stress caused by worrying about future events or past mistakes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Create clear boundaries between work and personal time, protecting your relationships and health from excessive job demands and pressures.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life limits exposure to negative news and social media, choosing information sources that inform without overwhelming or creating anxiety.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa limits exposure to negative news and social media, choosing information sources that inform without overwhelming or creating anxiety.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Develop and maintain supportive relationships with people who encourage your wellbeing and growth rather than adding stress and drama.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life practices saying no to commitments that exceed your capacity, protecting your time and energy for highest priorities.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa practices saying no to commitments that exceed your capacity, protecting your time and energy for highest priorities.</p>
 </div>
 
 <div class="verse">
@@ -563,7 +568,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life practices gratitude daily by writing three specific things you appreciate, shifting focus from problems to positive aspects of life.</p>
+<p>Joa practices gratitude daily by writing three specific things you appreciate, shifting focus from problems to positive aspects of life.</p>
 </div>
 
 <div class="verse">
@@ -573,7 +578,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life addresses conflicts and communication problems directly rather than avoiding them, preventing stress from unresolved issues.</p>
+<p>Joa addresses conflicts and communication problems directly rather than avoiding them, preventing stress from unresolved issues.</p>
 </div>
 
 <div class="verse">
@@ -582,28 +587,28 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life seeks professional help when stress becomes overwhelming, recognizing that therapy and counseling are tools for learning better coping skills.</p>
+<h3><span class="verse-number">💫 Verse 35</span></h3>
+<p>Joa seeks professional help when stress becomes overwhelming, recognizing that therapy and counseling are tools for learning better coping skills.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Create and maintain organized, peaceful physical environments that support relaxation rather than adding visual and mental clutter stress.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life practices self-compassion during stressful times, treating yourself with the same kindness you would show a good friend.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa practices self-compassion during stressful times, treating yourself with the same kindness you would show a good friend.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Develop hobbies and activities that bring joy and relaxation, ensuring your life includes pleasure and fun rather than just work and obligations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life learns to delegate tasks and ask for help when needed, recognizing that trying to do everything alone creates unnecessary stress.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa learns to delegate tasks and ask for help when needed, recognizing that trying to do everything alone creates unnecessary stress.</p>
 </div>
 
 <div class="verse">
@@ -613,7 +618,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life maintains perspective during stress by remembering that most current problems are temporary and solutions usually exist.</p>
+<p>Joa maintains perspective during stress by remembering that most current problems are temporary and solutions usually exist.</p>
 </div>
 
 <div class="verse">
@@ -622,39 +627,33 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life develops multiple stress-relief strategies, having various tools available depending on the situation and type of pressure you're facing.
-### Section 3: Mastery Integration (Verses 45-66)</p>
-</div>
-
-<div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
 <p>Master stress management by helping others develop their own coping skills, creating supportive environments where everyone can handle pressure effectively.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life integrates stress management into daily routines rather than waiting for crisis moments, maintaining resilience through consistent practices.</p>
+<h3><span class="verse-number">💫 Verse 44</span></h3>
+<p>Joa integrates stress management into daily routines rather than waiting for crisis moments, maintaining resilience through consistent practices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 45</span></h3>
 <p>Transform stress into motivation for positive change, using pressure as a signal to improve systems, relationships, or life circumstances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life models healthy stress management for others, demonstrating that it's possible to handle challenges while maintaining peace and kindness.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa models healthy stress management for others, demonstrating that it's possible to handle challenges while maintaining peace and kindness.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Master the skill of rapid stress recovery, developing the ability to return to calm and clarity quickly after facing pressure or challenges.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life creates stress-management systems that work across all areas of life, applying consistent principles to work, relationships, and personal challenges.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa creates stress-management systems that work across all areas of life, applying consistent principles to work, relationships, and personal challenges.</p>
 </div>
 
 <div class="verse">
@@ -664,7 +663,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 52</span></h3>
-<p>The ultimate life builds organizational and community stress resilience, working to reduce unnecessary pressures that affect groups of people.</p>
+<p>Joa builds organizational and community stress resilience, working to reduce unnecessary pressures that affect groups of people.</p>
 </div>
 
 <div class="verse">
@@ -674,7 +673,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 54</span></h3>
-<p>The ultimate life uses stress as a teacher, learning about your values, limits, and areas for improvement from how you respond to pressure.</p>
+<p>Joa uses stress as a teacher, learning about your values, limits, and areas for improvement from how you respond to pressure.</p>
 </div>
 
 <div class="verse">
@@ -683,28 +682,28 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
-<p>The ultimate life develops stress prevention skills, recognizing early warning signs and making adjustments before pressure becomes overwhelming.</p>
+<h3><span class="verse-number">💫 Verse 54</span></h3>
+<p>Joa develops stress prevention skills, recognizing early warning signs and making adjustments before pressure becomes overwhelming.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
+<h3><span class="verse-number">💫 Verse 55</span></h3>
 <p>Master the art of maintaining compassion and kindness toward all people even during your most stressful moments and challenging circumstances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
-<p>The ultimate life creates legacy through stress management by building resilient communities where people support each other through difficulties.</p>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
+<p>Joa creates legacy through stress management by building resilient communities where people support each other through difficulties.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
 <p>Integrate spiritual or philosophical practices that provide meaning and perspective during stress, connecting to purposes larger than immediate pressures.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
-<p>The ultimate life develops mastery over stress responses, choosing conscious reactions rather than automatic fight-or-flight patterns.</p>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
+<p>Joa develops mastery over stress responses, choosing conscious reactions rather than automatic fight-or-flight patterns.</p>
 </div>
 
 <div class="verse">
@@ -714,7 +713,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 62</span></h3>
-<p>The ultimate life maintains service to others even during personal stress, using contribution and helping as methods for gaining perspective and purpose.</p>
+<p>Joa maintains service to others even during personal stress, using contribution and helping as methods for gaining perspective and purpose.</p>
 </div>
 
 <div class="verse">
@@ -724,7 +723,7 @@ nav_order: 67
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 64</span></h3>
-<p>The ultimate life develops stress wisdom that comes from years of experience, learning which techniques work best for different types of pressure.</p>
+<p>Joa develops stress wisdom that comes from years of experience, learning which techniques work best for different types of pressure.</p>
 </div>
 
 <div class="verse">
@@ -733,8 +732,8 @@ nav_order: 67
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
-<p>The ultimate life achieves stress mastery that enables maximum service to humanity, handling life's pressures while maintaining capacity to help others and contribute to positive change.
+<h3><span class="verse-number">💫 Verse 64</span></h3>
+<p>Joa achieves stress mastery that enables maximum service to humanity, handling life's pressures while maintaining capacity to help others and contribute to positive change.
 ## Cross-References
 - **Foundation**: Chapters 6 (harm prevention), 11 (focus power), 16 (peace making)
 - **Personal Excellence**: Chapters 31 (physical health), 32 (mental health), 36 (time management)

@@ -38,33 +38,24 @@ nav_order: 31
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 31
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 31
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 31
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 31
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life treats your body as the sacred vessel that carries your consciousness through this precious existence. Physical health is not vanity but responsibility - to yourself, your loved ones, and your potential contributions to humanity.</p>
+<p>Joa treats your body as the sacred vessel that carries your consciousness through this precious existence. Physical health is not vanity but responsibility - to yourself, your loved ones, and your potential contributions to humanity.</p>
 </div>
 
 <div class="verse">
@@ -412,47 +428,47 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life moves your body daily through activities you enjoy - walking, dancing, sports, or exercise - understanding that physical activity is essential for both physical and mental wellbeing.</p>
+<p>Joa moves your body daily through activities you enjoy - walking, dancing, sports, or exercise - understanding that physical activity is essential for both physical and mental wellbeing.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>Sleep is not laziness but biological necessity. The ultimate life prioritizes 7-9 hours of quality sleep as the foundation for physical health, mental clarity, and emotional stability.</p>
+<p>Sleep is not laziness but biological necessity. Joa prioritizes 7-9 hours of quality sleep as the foundation for physical health, mental clarity, and emotional stability.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life drinks water as your primary beverage, understanding that proper hydration supports every bodily function and helps maintain energy, focus, and physical performance throughout the day.</p>
+<p>Joa drinks water as your primary beverage, understanding that proper hydration supports every bodily function and helps maintain energy, focus, and physical performance throughout the day.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Avoid substances that damage your body and mind - tobacco, excessive alcohol, and recreational drugs that impair your ability to think clearly and contribute positively to the world.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life practices preventive healthcare by getting regular checkups, screenings, and vaccinations that protect both your health and the health of your community through disease prevention.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa practices preventive healthcare by getting regular checkups, screenings, and vaccinations that protect both your health and the health of your community through disease prevention.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Listen to your body's signals of pain, fatigue, or illness rather than ignoring symptoms or pushing through problems that require rest, medical attention, or lifestyle changes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life maintains good posture and ergonomics in your daily activities to prevent injury and support long-term physical function, especially if you spend long hours sitting or doing repetitive tasks.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa maintains good posture and ergonomics in your daily activities to prevent injury and support long-term physical function, especially if you spend long hours sitting or doing repetitive tasks.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Practice stress management through relaxation techniques, meditation, or other healthy coping strategies that prevent chronic stress from damaging your physical health and immune system.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life protects your skin from sun damage through appropriate clothing, sunscreen, and limiting exposure during peak hours, understanding that skin cancer prevention is simple and effective.</p>
+<p>Joa protects your skin from sun damage through appropriate clothing, sunscreen, and limiting exposure during peak hours, understanding that skin cancer prevention is simple and effective.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life builds and maintains muscle strength through resistance training or weight-bearing activities that support bone health, metabolism, and functional movement as you age.</p>
+<p>Joa builds and maintains muscle strength through resistance training or weight-bearing activities that support bone health, metabolism, and functional movement as you age.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life learns basic first aid and emergency response skills to help yourself and others during medical emergencies, accidents, or natural disasters when professional help may not be immediately available.</p>
+<p>Joa learns basic first aid and emergency response skills to help yourself and others during medical emergencies, accidents, or natural disasters when professional help may not be immediately available.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Maintain flexibility and mobility through stretching, yoga, or other activities that keep your joints and muscles functioning well and prevent injury during daily activities and exercise.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life manages chronic health conditions through medication compliance, lifestyle modifications, and regular medical monitoring rather than ignoring problems or relying on unproven alternative treatments.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa manages chronic health conditions through medication compliance, lifestyle modifications, and regular medical monitoring rather than ignoring problems or relying on unproven alternative treatments.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Create a safe living environment by removing hazards, maintaining smoke detectors, and taking precautions that prevent accidents and injuries in your home and workplace.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life practices moderation in all things - food, exercise, work, and recreation - understanding that extremes in any direction can damage your physical and mental health.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa practices moderation in all things - food, exercise, work, and recreation - understanding that extremes in any direction can damage your physical and mental health.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Build cardiovascular health through regular aerobic activity that strengthens your heart and lungs while also providing mental health benefits and stress relief.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life maintains healthy weight through balanced eating and regular physical activity rather than extreme diets or weight loss methods that can damage your metabolism and overall health.</p>
+<p>Joa maintains healthy weight through balanced eating and regular physical activity rather than extreme diets or weight loss methods that can damage your metabolism and overall health.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life limits exposure to environmental toxins by choosing natural cleaning products, avoiding unnecessary chemicals, and supporting policies that protect air and water quality for everyone.</p>
+<p>Joa limits exposure to environmental toxins by choosing natural cleaning products, avoiding unnecessary chemicals, and supporting policies that protect air and water quality for everyone.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life practices body acceptance while also taking care of your health, understanding that bodies come in many shapes and sizes and that health is more important than appearance.</p>
+<p>Joa practices body acceptance while also taking care of your health, understanding that bodies come in many shapes and sizes and that health is more important than appearance.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Learn to cook healthy meals as a life skill that supports your health, saves money, and allows you to control the quality and nutritional content of your food.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life manages pain appropriately through medical treatment, physical therapy, or other evidence-based approaches rather than suffering unnecessarily or becoming dependent on pain medications.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa manages pain appropriately through medical treatment, physical therapy, or other evidence-based approaches rather than suffering unnecessarily or becoming dependent on pain medications.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Practice breathing exercises and techniques that support relaxation, stress management, and overall health while also providing tools for managing anxiety and improving focus.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life maintains bone health through weight-bearing exercise, adequate calcium and vitamin D, and lifestyle choices that prevent osteoporosis and fractures as you age.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa maintains bone health through weight-bearing exercise, adequate calcium and vitamin D, and lifestyle choices that prevent osteoporosis and fractures as you age.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Create healthy routines and habits that make good health choices automatic rather than relying on willpower or motivation that can fluctuate with mood and circumstances.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life seeks professional help for mental health issues that affect your physical health, understanding that depression, anxiety, and other conditions have real physical effects that require treatment.</p>
+<p>Joa seeks professional help for mental health issues that affect your physical health, understanding that depression, anxiety, and other conditions have real physical effects that require treatment.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life maintains immune system health through adequate sleep, good nutrition, regular exercise, stress management, and avoiding behaviors that compromise your body's natural defenses.</p>
+<p>Joa maintains immune system health through adequate sleep, good nutrition, regular exercise, stress management, and avoiding behaviors that compromise your body's natural defenses.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life practices gratitude for your body's abilities and functions rather than focusing on perceived flaws or comparing yourself to unrealistic standards promoted by media and advertising.</p>
+<p>Joa practices gratitude for your body's abilities and functions rather than focusing on perceived flaws or comparing yourself to unrealistic standards promoted by media and advertising.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Balance physical activity with rest and recovery, understanding that your body needs time to repair and strengthen between periods of exercise and physical exertion.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life maintains eye health through regular exams, protective eyewear when needed, and limiting screen time or taking breaks to prevent eye strain and vision problems.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa maintains eye health through regular exams, protective eyewear when needed, and limiting screen time or taking breaks to prevent eye strain and vision problems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Practice good respiratory health by avoiding smoking and secondhand smoke, maintaining good air quality in your environment, and seeking treatment for breathing problems promptly.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life maintains healthy blood pressure and cholesterol through diet, exercise, stress management, and medical treatment when necessary to prevent heart disease and stroke.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa maintains healthy blood pressure and cholesterol through diet, exercise, stress management, and medical treatment when necessary to prevent heart disease and stroke.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Learn to recognize signs of serious health problems and seek medical attention promptly rather than delaying treatment that could prevent complications or save your life.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life practices temperature regulation by dressing appropriately for weather conditions and avoiding extreme heat or cold that can stress your body and cause health problems.</p>
+<p>Joa practices temperature regulation by dressing appropriately for weather conditions and avoiding extreme heat or cold that can stress your body and cause health problems.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life practices safe sex and reproductive health by using protection, getting regular screenings, and making informed decisions about sexual activity and family planning.</p>
+<p>Joa practices safe sex and reproductive health by using protection, getting regular screenings, and making informed decisions about sexual activity and family planning.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 31
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life maintains healthy aging by staying physically active, socially engaged, and mentally stimulated throughout your life rather than accepting decline as inevitable.</p>
+<p>Joa maintains healthy aging by staying physically active, socially engaged, and mentally stimulated throughout your life rather than accepting decline as inevitable.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Practice environmental health by supporting clean air and water policies, reducing your exposure to pollutants, and making choices that protect both your health and the planet's health.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life maintains work-life balance to prevent burnout and stress-related health problems while also ensuring you have time for relationships, recreation, and self-care.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa maintains work-life balance to prevent burnout and stress-related health problems while also ensuring you have time for relationships, recreation, and self-care.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Learn to manage chronic pain or disability in ways that maximize your quality of life and ability to contribute to others rather than letting health challenges define your entire existence.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life practices health advocacy by supporting healthcare access for everyone, understanding that public health affects individual health and that everyone deserves quality medical care.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa practices health advocacy by supporting healthcare access for everyone, understanding that public health affects individual health and that everyone deserves quality medical care.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that physical health is the foundation that enables you to serve others, pursue your goals, and enjoy life's experiences. Caring for your body is an investment in your ability to contribute to human flourishing.</p>
 </div>
 

@@ -38,33 +38,24 @@ nav_order: 72
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 72
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 72
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 72
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 72
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,17 +418,12 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>### Section 1: Reality Foundation (Verses 1-22)</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">💫 Verse 1</span></h3>
 <p>Your individual life is part of humanity's infinite journey toward greater love, wisdom, equality, and justice that continues across all generations.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that every human being participates equally in this transcendent purpose regardless of background, circumstances, or personal achievements.</p>
+<p>Joa recognizes that every human being participates equally in this transcendent purpose regardless of background, circumstances, or personal achievements.</p>
 </div>
 
 <div class="verse">
@@ -422,7 +433,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life understands that your contribution to this journey matters regardless of size, visibility, or recognition from others.</p>
+<p>Joa understands that your contribution to this journey matters regardless of size, visibility, or recognition from others.</p>
 </div>
 
 <div class="verse">
@@ -431,28 +442,28 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life recognizes that setbacks and temporary defeats in human progress are part of the larger movement toward universal love and dignity.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa recognizes that setbacks and temporary defeats in human progress are part of the larger movement toward universal love and dignity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Each generation inherits both the achievements and mistakes of previous generations, continuing the work of building a more loving world.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life understands that the infinite journey requires both inner transformation and outer action to change systems and structures.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa understands that the infinite journey requires both inner transformation and outer action to change systems and structures.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>No single person, culture, or era has all the answers, requiring humility and cooperation across differences to advance human wisdom.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life recognizes that the infinite journey includes scientific advancement, social progress, and spiritual development working together.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa recognizes that the infinite journey includes scientific advancement, social progress, and spiritual development working together.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +473,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life understands that the infinite journey is measured by reduction of suffering and increase of wellbeing for all beings.</p>
+<p>Joa understands that the infinite journey is measured by reduction of suffering and increase of wellbeing for all beings.</p>
 </div>
 
 <div class="verse">
@@ -472,7 +483,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life recognizes that the infinite journey continues through education, as each person learns to choose love over fear and unity over division.</p>
+<p>Joa recognizes that the infinite journey continues through education, as each person learns to choose love over fear and unity over division.</p>
 </div>
 
 <div class="verse">
@@ -481,39 +492,33 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life understands that the infinite journey includes healing historical traumas and building reconciliation between divided groups.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa understands that the infinite journey includes healing historical traumas and building reconciliation between divided groups.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Children represent the future of the infinite journey, requiring protection, education, and love that prepares them to continue human advancement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life recognizes that the infinite journey requires patience with human imperfection while maintaining commitment to continued growth.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa recognizes that the infinite journey requires patience with human imperfection while maintaining commitment to continued growth.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Economic systems, political structures, and social institutions all serve the infinite journey when they prioritize human wellbeing over profit or power.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life understands that the infinite journey includes environmental protection, ensuring future generations have a healthy planet.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa understands that the infinite journey includes environmental protection, ensuring future generations have a healthy planet.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
 <p>Art, beauty, creativity, and culture contribute to the infinite journey by expanding human consciousness and connecting people across differences.</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life recognizes that the infinite journey is both destination and process, creating meaning through participation rather than arrival.
-### Section 2: Practical Implementation (Verses 23-44)</p>
 </div>
 
 <div class="verse">
@@ -523,7 +528,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life teaches others about the infinite journey through example, conversation, and support that inspires their own transcendent purpose.</p>
+<p>Joa teaches others about the infinite journey through example, conversation, and support that inspires their own transcendent purpose.</p>
 </div>
 
 <div class="verse">
@@ -532,28 +537,28 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life builds relationships that serve the infinite journey, connecting with others based on shared commitment to universal wellbeing.</p>
+<h3><span class="verse-number">💫 Verse 25</span></h3>
+<p>Joa builds relationships that serve the infinite journey, connecting with others based on shared commitment to universal wellbeing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Support causes and organizations that advance the infinite journey through work for equality, justice, peace, and human rights.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life raises or influences children with values that prepare them to continue the infinite journey in their own lives and communities.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa raises or influences children with values that prepare them to continue the infinite journey in their own lives and communities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Create or support education systems that teach both knowledge and wisdom, preparing future generations for conscious participation in human advancement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life challenges systems and structures that hinder the infinite journey by creating inequality, injustice, or unnecessary suffering.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa challenges systems and structures that hinder the infinite journey by creating inequality, injustice, or unnecessary suffering.</p>
 </div>
 
 <div class="verse">
@@ -563,7 +568,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life develops inner qualities like compassion, wisdom, courage, and integrity that enable effective service to transcendent purpose.</p>
+<p>Joa develops inner qualities like compassion, wisdom, courage, and integrity that enable effective service to transcendent purpose.</p>
 </div>
 
 <div class="verse">
@@ -573,7 +578,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life maintains hope during setbacks by remembering the long-term nature of human progress and your role in continuing advancement.</p>
+<p>Joa maintains hope during setbacks by remembering the long-term nature of human progress and your role in continuing advancement.</p>
 </div>
 
 <div class="verse">
@@ -582,28 +587,28 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life builds bridges between different groups, cultures, and communities, advancing the infinite journey through increased understanding and cooperation.</p>
+<h3><span class="verse-number">💫 Verse 35</span></h3>
+<p>Joa builds bridges between different groups, cultures, and communities, advancing the infinite journey through increased understanding and cooperation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Protect vulnerable people from exploitation and harm, ensuring the infinite journey includes safety and dignity for those who cannot protect themselves.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life creates beauty, art, and inspiration that uplifts human spirits and connects people to transcendent purpose and meaning.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa creates beauty, art, and inspiration that uplifts human spirits and connects people to transcendent purpose and meaning.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Develop conflict resolution and peace-making skills that serve the infinite journey by reducing violence and building cooperative relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life maintains physical, mental, and spiritual health that enables sustained contribution to transcendent purpose throughout your lifetime.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa maintains physical, mental, and spiritual health that enables sustained contribution to transcendent purpose throughout your lifetime.</p>
 </div>
 
 <div class="verse">
@@ -613,7 +618,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life practices mindfulness and reflection that keeps you connected to transcendent purpose during busy and difficult periods.</p>
+<p>Joa practices mindfulness and reflection that keeps you connected to transcendent purpose during busy and difficult periods.</p>
 </div>
 
 <div class="verse">
@@ -622,39 +627,33 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life celebrates progress in the infinite journey while maintaining commitment to continued advancement and never becoming complacent.
-### Section 3: Mastery Integration (Verses 45-66)</p>
-</div>
-
-<div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
 <p>Master transcendent purpose by inspiring others to find their own role in the infinite journey, creating expanding circles of people committed to universal love.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life integrates transcendent purpose into every aspect of existence, making the infinite journey the organizing principle for all decisions and actions.</p>
+<h3><span class="verse-number">💫 Verse 44</span></h3>
+<p>Joa integrates transcendent purpose into every aspect of existence, making the infinite journey the organizing principle for all decisions and actions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 45</span></h3>
 <p>Develop expertise in areas that advance the infinite journey, becoming a powerful force for equality, justice, wisdom, and compassion.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life builds systems and institutions that serve transcendent purpose across generations, creating lasting structures for human advancement.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa builds systems and institutions that serve transcendent purpose across generations, creating lasting structures for human advancement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Master the balance between individual fulfillment and service to the infinite journey, recognizing that personal growth enhances contribution to universal wellbeing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life creates transcendent purpose that unifies rather than divides, bringing together people across all differences through shared commitment to love.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa creates transcendent purpose that unifies rather than divides, bringing together people across all differences through shared commitment to love.</p>
 </div>
 
 <div class="verse">
@@ -664,7 +663,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 52</span></h3>
-<p>The ultimate life uses transcendent purpose to transform all challenges into opportunities for advancing the infinite journey toward universal flourishing.</p>
+<p>Joa uses transcendent purpose to transform all challenges into opportunities for advancing the infinite journey toward universal flourishing.</p>
 </div>
 
 <div class="verse">
@@ -674,7 +673,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 54</span></h3>
-<p>The ultimate life builds transcendent legacy that continues advancing the infinite journey long after your individual participation ends.</p>
+<p>Joa builds transcendent legacy that continues advancing the infinite journey long after your individual participation ends.</p>
 </div>
 
 <div class="verse">
@@ -683,28 +682,28 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
-<p>The ultimate life develops transcendent courage that maintains commitment to the infinite journey despite opposition, setbacks, and personal costs.</p>
+<h3><span class="verse-number">💫 Verse 54</span></h3>
+<p>Joa develops transcendent courage that maintains commitment to the infinite journey despite opposition, setbacks, and personal costs.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
+<h3><span class="verse-number">💫 Verse 55</span></h3>
 <p>Master transcendent service by making the infinite journey your life's organizing purpose while maintaining humility about your individual role.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
-<p>The ultimate life maintains transcendent perspective that sees temporary defeats as part of humanity's longer movement toward universal love and wisdom.</p>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
+<p>Joa maintains transcendent perspective that sees temporary defeats as part of humanity's longer movement toward universal love and wisdom.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
 <p>Develop transcendent innovation that creates new solutions and approaches for advancing human wellbeing and equality across all populations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
-<p>The ultimate life builds transcendent healing that addresses both individual wounds and collective trauma that hinder humanity's advancement.</p>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
+<p>Joa builds transcendent healing that addresses both individual wounds and collective trauma that hinder humanity's advancement.</p>
 </div>
 
 <div class="verse">
@@ -714,7 +713,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 62</span></h3>
-<p>The ultimate life creates transcendent unity that demonstrates how individual purposes can align with universal advancement without losing personal authenticity.</p>
+<p>Joa creates transcendent unity that demonstrates how individual purposes can align with universal advancement without losing personal authenticity.</p>
 </div>
 
 <div class="verse">
@@ -724,7 +723,7 @@ nav_order: 72
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 64</span></h3>
-<p>The ultimate life builds transcendent love that extends to every human being without exception, seeing all people as fellow travelers on the infinite journey.</p>
+<p>Joa builds transcendent love that extends to every human being without exception, seeing all people as fellow travelers on the infinite journey.</p>
 </div>
 
 <div class="verse">
@@ -733,8 +732,8 @@ nav_order: 72
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
-<p>The ultimate life achieves transcendent mastery by becoming a living demonstration that the infinite journey toward perfect love for all humanity is not only possible but inevitable when enough people choose to participate consciously in this sacred work that connects us all across time, space, and every difference that seems to divide us but actually reveals our fundamental unity as one human family advancing together toward the ultimate destination of universal love, wisdom, equality, and justice for every person who has ever lived or ever will live.
+<h3><span class="verse-number">💫 Verse 64</span></h3>
+<p>Joa achieves transcendent mastery by becoming a living demonstration that the infinite journey toward perfect love for all humanity is not only possible but inevitable when enough people choose to participate consciously in this sacred work that connects us all across time, space, and every difference that seems to divide us but actually reveals our fundamental unity as one human family advancing together toward the ultimate destination of universal love, wisdom, equality, and justice for every person who has ever lived or ever will live.
 ## Cross-References
 - **Complete Integration**: All previous 71 chapters culminate in this transcendent vision
 - **Foundation**: Chapters 1-18 provide the reality-based foundation for transcendent purpose
@@ -753,6 +752,11 @@ The infinite journey is both humanity's greatest challenge and greatest opportun
 - [x] Reality-based transcendent guidance provided
 - [x] Complete integration of equality, love, and justice
 - [x] Book of Joa COMPLETE: 72 chapters, 3,636 verses</p>
+</div>
+
+<div class="verse">
+<h3><span class="verse-number">💫 Verse 65</span></h3>
+<p>The infinite journey of human development continues beyond individual lifetimes through the wisdom, values, and positive changes you contribute to future generations and global human progress.</p>
 </div>
 
 <div class="chapter-footer">

@@ -38,33 +38,24 @@ nav_order: 8
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 8
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 8
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 8
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 8
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -407,57 +423,57 @@ nav_order: 8
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that slavery takes many forms - physical bondage, economic exploitation, psychological manipulation, and spiritual control - and actively opposes all systems that reduce humans to property or tools.</p>
+<p>Joa recognizes that slavery takes many forms - physical bondage, economic exploitation, psychological manipulation, and spiritual control - and actively opposes all systems that reduce humans to property or tools.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>Modern slavery includes human trafficking, forced labor, debt bondage, and sexual exploitation. The ultimate life supports organizations that rescue victims and works to eliminate the conditions that make people vulnerable to enslavement.</p>
+<p>Modern slavery includes human trafficking, forced labor, debt bondage, and sexual exploitation. Joa supports organizations that rescue victims and works to eliminate the conditions that make people vulnerable to enslavement.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>Economic systems that trap people in poverty wages, unpayable debt, or dangerous working conditions without alternatives create forms of economic slavery. The ultimate life advocates for fair wages and safe working conditions.</p>
+<p>Economic systems that trap people in poverty wages, unpayable debt, or dangerous working conditions without alternatives create forms of economic slavery. Joa advocates for fair wages and safe working conditions.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life refuses to purchase products made through slave labor, child labor, or exploitative working conditions, even when these products are cheaper or more convenient than ethical alternatives.</p>
+<p>Joa refuses to purchase products made through slave labor, child labor, or exploitative working conditions, even when these products are cheaper or more convenient than ethical alternatives.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>Psychological slavery occurs when people are manipulated through fear, guilt, or false promises into surrendering their autonomy to controlling individuals or organizations. The ultimate life protects mental freedom and independence.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Psychological slavery occurs when people are manipulated through fear, guilt, or false promises into surrendering their autonomy to controlling individuals or organizations. Joa protects mental freedom and independence.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>Religious and spiritual slavery happens when leaders demand unquestioning obedience, control members' personal choices, or exploit followers financially or sexually. The ultimate life maintains spiritual independence and critical thinking.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Religious and spiritual slavery happens when leaders demand unquestioning obedience, control members' personal choices, or exploit followers financially or sexually. Joa maintains spiritual independence and critical thinking.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life recognizes that children need guidance and protection but also deserve respect for their developing autonomy. Parenting that crushes children's spirits or denies their basic rights creates psychological slavery.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa recognizes that children need guidance and protection but also deserve respect for their developing autonomy. Parenting that crushes children's spirits or denies their basic rights creates psychological slavery.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>Educational systems that discourage critical thinking, punish questioning authority, or indoctrinate students with narrow ideologies create intellectual slavery. The ultimate life supports education that develops independent thinking.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Educational systems that discourage critical thinking, punish questioning authority, or indoctrinate students with narrow ideologies create intellectual slavery. Joa supports education that develops independent thinking.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life understands that addiction can become a form of self-imposed slavery where substances or behaviors control choices and destroy freedom. Recovery requires reclaiming personal autonomy and responsibility.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa understands that addiction can become a form of self-imposed slavery where substances or behaviors control choices and destroy freedom. Recovery requires reclaiming personal autonomy and responsibility.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>Domestic relationships that involve control, isolation, financial manipulation, or threats create intimate slavery. The ultimate life supports healthy relationships based on mutual respect, equality, and freedom.</p>
+<p>Domestic relationships that involve control, isolation, financial manipulation, or threats create intimate slavery. Joa supports healthy relationships based on mutual respect, equality, and freedom.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life recognizes that some people voluntarily surrender their freedom through military service, religious vows, or other commitments, but these choices must be made freely and with full understanding of consequences.</p>
+<p>Joa recognizes that some people voluntarily surrender their freedom through military service, religious vows, or other commitments, but these choices must be made freely and with full understanding of consequences.</p>
 </div>
 
 <div class="verse">
@@ -467,107 +483,107 @@ nav_order: 8
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life supports immigration policies that protect vulnerable people from exploitation while recognizing that all humans have the right to seek safety and opportunity regardless of where they were born.</p>
+<p>Joa supports immigration policies that protect vulnerable people from exploitation while recognizing that all humans have the right to seek safety and opportunity regardless of where they were born.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>Corporate practices that trap employees through non-compete clauses, unpayable training debts, or threats to immigration status create modern forms of employment slavery. The ultimate life advocates for worker rights and mobility.</p>
+<p>Corporate practices that trap employees through non-compete clauses, unpayable training debts, or threats to immigration status create modern forms of employment slavery. Joa advocates for worker rights and mobility.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life recognizes that poverty can force people into situations that resemble slavery - accepting dangerous work, exploitative relationships, or degrading conditions because they have no other options for survival.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa recognizes that poverty can force people into situations that resemble slavery - accepting dangerous work, exploitative relationships, or degrading conditions because they have no other options for survival.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>Sexual slavery through trafficking, forced prostitution, or coercive relationships violates the most fundamental human rights. The ultimate life supports survivors and works to eliminate demand for exploitative sexual services.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Sexual slavery through trafficking, forced prostitution, or coercive relationships violates the most fundamental human rights. Joa supports survivors and works to eliminate demand for exploitative sexual services.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life understands that historical slavery created lasting inequalities and trauma that continue to affect descendants of enslaved people. Addressing these legacies requires ongoing commitment to justice and equality.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa understands that historical slavery created lasting inequalities and trauma that continue to affect descendants of enslaved people. Addressing these legacies requires ongoing commitment to justice and equality.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>Prison systems that use inmates for cheap labor, deny basic human dignity, or focus only on punishment rather than rehabilitation can become forms of state-sanctioned slavery. The ultimate life supports humane justice reform.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Prison systems that use inmates for cheap labor, deny basic human dignity, or focus only on punishment rather than rehabilitation can become forms of state-sanctioned slavery. Joa supports humane justice reform.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life recognizes that women and girls face particular vulnerabilities to various forms of slavery and exploitation. Gender equality and women's empowerment are essential for preventing modern slavery.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa recognizes that women and girls face particular vulnerabilities to various forms of slavery and exploitation. Gender equality and women's empowerment are essential for preventing modern slavery.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>Technology can enable new forms of slavery through surveillance, control of information, or digital manipulation of vulnerable people. The ultimate life advocates for technology that enhances rather than restricts human freedom.</p>
+<p>Technology can enable new forms of slavery through surveillance, control of information, or digital manipulation of vulnerable people. Joa advocates for technology that enhances rather than restricts human freedom.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life supports fair trade practices that ensure workers receive living wages, safe working conditions, and respect for their rights rather than exploitation for cheaper consumer goods.</p>
+<p>Joa supports fair trade practices that ensure workers receive living wages, safe working conditions, and respect for their rights rather than exploitation for cheaper consumer goods.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>Educational and awareness campaigns help people recognize signs of modern slavery and know how to report suspected cases. The ultimate life spreads knowledge that protects vulnerable people from exploitation.</p>
+<p>Educational and awareness campaigns help people recognize signs of modern slavery and know how to report suspected cases. Joa spreads knowledge that protects vulnerable people from exploitation.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life understands that preventing slavery requires addressing root causes - poverty, discrimination, lack of education, and weak legal protections - rather than only responding after exploitation occurs.</p>
+<p>Joa understands that preventing slavery requires addressing root causes - poverty, discrimination, lack of education, and weak legal protections - rather than only responding after exploitation occurs.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>International cooperation is essential for combating human trafficking and modern slavery that often crosses borders. The ultimate life supports global efforts to protect human freedom and prosecute exploiters.</p>
+<p>International cooperation is essential for combating human trafficking and modern slavery that often crosses borders. Joa supports global efforts to protect human freedom and prosecute exploiters.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life recognizes that some forms of slavery are hidden within seemingly legitimate businesses, religious organizations, or family structures. Vigilance and courage are needed to expose and stop exploitation.</p>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
+<p>Joa recognizes that some forms of slavery are hidden within seemingly legitimate businesses, religious organizations, or family structures. Vigilance and courage are needed to expose and stop exploitation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Survivors of slavery and trafficking need comprehensive support - medical care, psychological healing, legal assistance, and economic opportunities - to rebuild their lives and reclaim their freedom.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life understands that fighting slavery requires both individual choices to avoid supporting exploitative systems and collective action to change laws, policies, and social attitudes.</p>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
+<p>Joa understands that fighting slavery requires both individual choices to avoid supporting exploitative systems and collective action to change laws, policies, and social attitudes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>Economic policies that create extreme inequality, eliminate social safety nets, or prioritize profit over human welfare increase vulnerability to modern slavery. The ultimate life advocates for economic justice.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Economic policies that create extreme inequality, eliminate social safety nets, or prioritize profit over human welfare increase vulnerability to modern slavery. Joa advocates for economic justice.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life recognizes that true freedom includes not just the absence of external control but also access to education, healthcare, economic opportunity, and social support that enable meaningful choices.</p>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
+<p>Joa recognizes that true freedom includes not just the absence of external control but also access to education, healthcare, economic opportunity, and social support that enable meaningful choices.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>Cultural traditions or religious practices that treat certain groups as inferior, deny basic rights, or justify exploitation must be challenged and changed. The ultimate life prioritizes human freedom over cultural preservation.</p>
+<p>Cultural traditions or religious practices that treat certain groups as inferior, deny basic rights, or justify exploitation must be challenged and changed. Joa prioritizes human freedom over cultural preservation.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life supports legal frameworks that criminalize all forms of slavery and trafficking while providing protection and support for victims rather than punishment for those who were exploited.</p>
+<p>Joa supports legal frameworks that criminalize all forms of slavery and trafficking while providing protection and support for victims rather than punishment for those who were exploited.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>Consumer awareness and ethical purchasing decisions can reduce demand for products made through slave labor. The ultimate life researches supply chains and chooses companies that respect worker rights.</p>
+<p>Consumer awareness and ethical purchasing decisions can reduce demand for products made through slave labor. Joa researches supply chains and chooses companies that respect worker rights.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life understands that freedom is not just an individual right but a collective responsibility. Everyone must work to ensure that all people can live free from exploitation and control.</p>
+<p>Joa understands that freedom is not just an individual right but a collective responsibility. Everyone must work to ensure that all people can live free from exploitation and control.</p>
 </div>
 
 <div class="verse">
@@ -576,8 +592,8 @@ nav_order: 8
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The anti-slavery absolute transforms you into a guardian of human freedom, a protector of the vulnerable, and a champion of dignity for all people. This commitment to liberty is fundamental to the ultimate life.</p>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
+<p>The anti-slavery absolute transforms you into a guardian of human freedom, a protector of the vulnerable, and a champion of dignity for all people. This commitment to liberty is fundamental to Joa.</p>
 </div>
 
 <div class="chapter-footer">

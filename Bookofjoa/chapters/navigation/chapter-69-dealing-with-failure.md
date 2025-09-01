@@ -38,33 +38,24 @@ nav_order: 69
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 69
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 69
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 69
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 69
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,17 +418,12 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>### Section 1: Reality Foundation (Verses 1-22)</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">💫 Verse 1</span></h3>
 <p>Failure is an inevitable part of human experience that provides essential learning opportunities, growth catalysts, and chances to develop resilience and wisdom.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that all humans experience failure regardless of background, treating everyone with compassion during setbacks and defeats.</p>
+<p>Joa recognizes that all humans experience failure regardless of background, treating everyone with compassion during setbacks and defeats.</p>
 </div>
 
 <div class="verse">
@@ -422,7 +433,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life understands that fear of failure often prevents people from taking necessary risks for growth, creativity, and positive change.</p>
+<p>Joa understands that fear of failure often prevents people from taking necessary risks for growth, creativity, and positive change.</p>
 </div>
 
 <div class="verse">
@@ -431,28 +442,28 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life recognizes that failure teaches lessons unavailable through success, providing insights about resilience, adaptability, and human nature.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa recognizes that failure teaches lessons unavailable through success, providing insights about resilience, adaptability, and human nature.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Recovery from failure requires honest assessment of what went wrong without excessive self-blame or denial of personal responsibility.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life understands that systemic inequalities cause some failures that are beyond individual control, requiring compassion rather than judgment.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa understands that systemic inequalities cause some failures that are beyond individual control, requiring compassion rather than judgment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Perfectionism and unrealistic standards create artificial failures where none actually exist, requiring realistic expectations and self-compassion.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life recognizes that failure in one area doesn't define total worth or potential, maintaining perspective about setbacks and achievements.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa recognizes that failure in one area doesn't define total worth or potential, maintaining perspective about setbacks and achievements.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +473,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life understands that failure often precedes breakthrough and innovation, requiring persistence through difficult periods.</p>
+<p>Joa understands that failure often precedes breakthrough and innovation, requiring persistence through difficult periods.</p>
 </div>
 
 <div class="verse">
@@ -472,7 +483,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life recognizes that shared failure experiences build empathy and connection between people who might otherwise remain strangers.</p>
+<p>Joa recognizes that shared failure experiences build empathy and connection between people who might otherwise remain strangers.</p>
 </div>
 
 <div class="verse">
@@ -481,39 +492,33 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life understands that failure can either build character or create bitterness, depending on how you choose to process and learn from setbacks.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa understands that failure can either build character or create bitterness, depending on how you choose to process and learn from setbacks.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Public failure often carries additional shame and humiliation that private setbacks don't include, requiring extra support and understanding.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life recognizes that helping others through failure is both service to them and preparation for your own future setbacks.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa recognizes that helping others through failure is both service to them and preparation for your own future setbacks.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Cultural attitudes toward failure vary widely, but universal human needs for dignity, support, and opportunity to recover remain constant across cultures.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life understands that failure often provides clarity about what truly matters most, stripping away superficial concerns and revealing core values.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa understands that failure often provides clarity about what truly matters most, stripping away superficial concerns and revealing core values.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
 <p>Repeated failures in similar areas may indicate need for different approaches, additional skills, external support, or adjusted goals.</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life recognizes that failure recovery requires time, patience, and gradual rebuilding rather than immediate return to previous performance levels.
-### Section 2: Practical Implementation (Verses 23-44)</p>
 </div>
 
 <div class="verse">
@@ -523,7 +528,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life analyzes failure objectively by identifying specific factors that contributed to setback, distinguishing controllable from uncontrollable elements.</p>
+<p>Joa analyzes failure objectively by identifying specific factors that contributed to setback, distinguishing controllable from uncontrollable elements.</p>
 </div>
 
 <div class="verse">
@@ -532,28 +537,28 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life maintains self-care routines during failure recovery, protecting physical health, mental wellbeing, and emotional stability.</p>
+<h3><span class="verse-number">💫 Verse 25</span></h3>
+<p>Joa maintains self-care routines during failure recovery, protecting physical health, mental wellbeing, and emotional stability.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Learn specific lessons from failure by writing down insights, changed perspectives, and new knowledge gained through the setback experience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life adjusts goals and expectations based on failure lessons, creating more realistic and achievable plans for future attempts.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa adjusts goals and expectations based on failure lessons, creating more realistic and achievable plans for future attempts.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Focus on what you can control moving forward rather than dwelling on past mistakes or circumstances beyond your influence.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life develops new skills, knowledge, or strategies based on failure analysis, using setbacks as motivation for improvement.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa develops new skills, knowledge, or strategies based on failure analysis, using setbacks as motivation for improvement.</p>
 </div>
 
 <div class="verse">
@@ -563,7 +568,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life shares failure experiences appropriately with others, providing support and reducing shame around common human struggles.</p>
+<p>Joa shares failure experiences appropriately with others, providing support and reducing shame around common human struggles.</p>
 </div>
 
 <div class="verse">
@@ -573,7 +578,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life maintains perspective during failure by remembering past recoveries and successes that prove your resilience and capability.</p>
+<p>Joa maintains perspective during failure by remembering past recoveries and successes that prove your resilience and capability.</p>
 </div>
 
 <div class="verse">
@@ -582,28 +587,28 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life rebuilds confidence gradually through small successes and achievements that demonstrate recovery and renewed capability.</p>
+<h3><span class="verse-number">💫 Verse 35</span></h3>
+<p>Joa rebuilds confidence gradually through small successes and achievements that demonstrate recovery and renewed capability.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Use failure as motivation to help others facing similar challenges, transforming personal setbacks into service and contribution.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life maintains ethical standards during failure recovery, avoiding solutions that harm others or compromise your values.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa maintains ethical standards during failure recovery, avoiding solutions that harm others or compromise your values.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Develop financial, emotional, and social resilience that enables faster recovery from various types of failure and setback.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life creates support systems before failure occurs, building relationships and resources that provide help during difficult times.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa creates support systems before failure occurs, building relationships and resources that provide help during difficult times.</p>
 </div>
 
 <div class="verse">
@@ -613,7 +618,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life maintains hope during failure by focusing on human potential for growth, change, and recovery from setbacks.</p>
+<p>Joa maintains hope during failure by focusing on human potential for growth, change, and recovery from setbacks.</p>
 </div>
 
 <div class="verse">
@@ -622,39 +627,33 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life celebrates progress and improvement rather than demanding immediate return to previous performance levels after failure.
-### Section 3: Mastery Integration (Verses 45-66)</p>
-</div>
-
-<div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
 <p>Master failure recovery by teaching others resilience skills, creating communities where setbacks are learning opportunities rather than sources of shame.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life integrates failure wisdom into all areas of life, applying lessons learned from one setback to prevent and handle future challenges.</p>
+<h3><span class="verse-number">💫 Verse 44</span></h3>
+<p>Joa integrates failure wisdom into all areas of life, applying lessons learned from one setback to prevent and handle future challenges.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 45</span></h3>
 <p>Develop expertise in helping others through failure, becoming a resource for people facing setbacks in areas where you've gained experience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life builds failure recovery systems that serve equality and justice, ensuring all people have support regardless of background or circumstances.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa builds failure recovery systems that serve equality and justice, ensuring all people have support regardless of background or circumstances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Master the balance between learning from failure and not becoming paralyzed by fear of future setbacks, maintaining courage for necessary risks.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life creates failure narratives that inspire rather than discourage, showing how setbacks can lead to greater success and contribution.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa creates failure narratives that inspire rather than discourage, showing how setbacks can lead to greater success and contribution.</p>
 </div>
 
 <div class="verse">
@@ -664,7 +663,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 52</span></h3>
-<p>The ultimate life uses failure experience to build empathy and compassion for all people struggling with setbacks and disappointments.</p>
+<p>Joa uses failure experience to build empathy and compassion for all people struggling with setbacks and disappointments.</p>
 </div>
 
 <div class="verse">
@@ -674,7 +673,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 54</span></h3>
-<p>The ultimate life builds failure resilience that serves long-term goals, using setbacks to strengthen rather than derail your life mission.</p>
+<p>Joa builds failure resilience that serves long-term goals, using setbacks to strengthen rather than derail your life mission.</p>
 </div>
 
 <div class="verse">
@@ -683,28 +682,28 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
-<p>The ultimate life develops failure wisdom that distinguishes between giving up too early and persisting too long in failing approaches.</p>
+<h3><span class="verse-number">💫 Verse 54</span></h3>
+<p>Joa develops failure wisdom that distinguishes between giving up too early and persisting too long in failing approaches.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
+<h3><span class="verse-number">💫 Verse 55</span></h3>
 <p>Master failure transformation by turning every setback into growth opportunity that serves both personal development and human advancement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
-<p>The ultimate life maintains failure courage that enables continued risk-taking for innovation, creativity, and positive change despite setback possibility.</p>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
+<p>Joa maintains failure courage that enables continued risk-taking for innovation, creativity, and positive change despite setback possibility.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
 <p>Develop failure perspective that sees individual setbacks as part of humanity's larger learning process toward greater wisdom and capability.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
-<p>The ultimate life builds failure legacy through improved resilience systems for future generations facing similar challenges and setbacks.</p>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
+<p>Joa builds failure legacy through improved resilience systems for future generations facing similar challenges and setbacks.</p>
 </div>
 
 <div class="verse">
@@ -714,7 +713,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 62</span></h3>
-<p>The ultimate life creates failure healing that addresses not just immediate recovery but long-term psychological and emotional growth.</p>
+<p>Joa creates failure healing that addresses not just immediate recovery but long-term psychological and emotional growth.</p>
 </div>
 
 <div class="verse">
@@ -724,7 +723,7 @@ nav_order: 69
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 64</span></h3>
-<p>The ultimate life builds failure service by using personal setback experience to help others avoid similar problems or recover more effectively.</p>
+<p>Joa builds failure service by using personal setback experience to help others avoid similar problems or recover more effectively.</p>
 </div>
 
 <div class="verse">
@@ -733,8 +732,8 @@ nav_order: 69
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
-<p>The ultimate life achieves failure mastery that transforms all setbacks into wisdom, strength, and increased ability to help others navigate their own challenges and difficulties.
+<h3><span class="verse-number">💫 Verse 64</span></h3>
+<p>Joa achieves failure mastery that transforms all setbacks into wisdom, strength, and increased ability to help others navigate their own challenges and difficulties.
 ## Cross-References
 - **Foundation**: Chapters 10 (ego death), 17 (hope cultivation), 18 (unity vision)
 - **Personal Excellence**: Chapters 37 (goal achievement), 38 (habit formation), 42 (personal growth)

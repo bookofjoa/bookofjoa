@@ -38,33 +38,24 @@ nav_order: 46
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 46
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 46
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 46
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 46
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life invests money to create long-term wealth that provides security for your family and resources to help others, not to dominate markets or exploit other investors.</p>
+<p>Joa invests money to create long-term wealth that provides security for your family and resources to help others, not to dominate markets or exploit other investors.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life rejects the false belief that investment success is determined by gender, race, or background. Financial markets reward knowledge, discipline, and patience regardless of personal characteristics.</p>
+<p>Joa rejects the false belief that investment success is determined by gender, race, or background. Financial markets reward knowledge, discipline, and patience regardless of personal characteristics.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life invests in companies and funds that align with your values, avoiding businesses that harm people, exploit workers, or damage the environment for profit.</p>
+<p>Joa invests in companies and funds that align with your values, avoiding businesses that harm people, exploit workers, or damage the environment for profit.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Start investing early to take advantage of compound growth, but understand that not everyone has the privilege of surplus income to invest due to systemic economic inequalities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life recognizes that some people use investment knowledge and access to maintain wealth concentration and prevent others from building financial security.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa recognizes that some people use investment knowledge and access to maintain wealth concentration and prevent others from building financial security.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Invest regularly through systematic plans rather than trying to time markets or make large investments based on emotions like fear or greed that often lead to poor decisions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life understands that investment returns come with risks, and that sustainable wealth building requires patience and discipline rather than speculation or gambling.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa understands that investment returns come with risks, and that sustainable wealth building requires patience and discipline rather than speculation or gambling.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Avoid investment strategies that depend on exploiting other investors' ignorance or desperation. Seek returns through supporting productive businesses and economic growth.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life invests in your own education and skill development as the most reliable long-term investment that cannot be taken away by market crashes or economic changes.</p>
+<p>Joa invests in your own education and skill development as the most reliable long-term investment that cannot be taken away by market crashes or economic changes.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life uses investment gains to create more opportunities for giving and community support rather than just accumulating wealth for personal consumption or status.</p>
+<p>Joa uses investment gains to create more opportunities for giving and community support rather than just accumulating wealth for personal consumption or status.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life recognizes that investment markets can be manipulated by powerful players who have access to information and resources that individual investors lack.</p>
+<p>Joa recognizes that investment markets can be manipulated by powerful players who have access to information and resources that individual investors lack.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Invest in index funds and diversified portfolios rather than trying to pick individual stocks or time markets, as this approach typically produces better long-term results.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life avoids investment strategies that require constant monitoring or create stress and anxiety that negatively affect your health and relationships.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa avoids investment strategies that require constant monitoring or create stress and anxiety that negatively affect your health and relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Understand that some people use investment success to justify harmful behaviors or to claim that their wealth proves their superiority over those with less money.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life invests in ways that support job creation, innovation, and economic development that benefits entire communities rather than just wealthy investors.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa invests in ways that support job creation, innovation, and economic development that benefits entire communities rather than just wealthy investors.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Rebalance your investment portfolio regularly to maintain your desired asset allocation and risk level as market conditions and your personal circumstances change.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life recognizes that investment opportunities often depend on having access to information, networks, and resources that are not equally available to all people.</p>
+<p>Joa recognizes that investment opportunities often depend on having access to information, networks, and resources that are not equally available to all people.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life invests in retirement accounts and tax-advantaged plans while understanding that these benefits often favor higher-income people who can afford to save more.</p>
+<p>Joa invests in retirement accounts and tax-advantaged plans while understanding that these benefits often favor higher-income people who can afford to save more.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life understands that investment success requires emotional discipline to avoid panic selling during market downturns or euphoric buying during market bubbles.</p>
+<p>Joa understands that investment success requires emotional discipline to avoid panic selling during market downturns or euphoric buying during market bubbles.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Invest in real estate, businesses, and other assets that provide both financial returns and positive community impact rather than just maximizing profits regardless of social consequences.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life recognizes that investment markets often reward short-term thinking and speculation rather than long-term value creation and sustainable business practices.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa recognizes that investment markets often reward short-term thinking and speculation rather than long-term value creation and sustainable business practices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Understand the relationship between risk and return in investments, and choose risk levels that align with your financial goals, time horizon, and ability to handle losses.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life avoids investment strategies that depend on maintaining others in poverty or ignorance, such as predatory lending or exploitative business models.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa avoids investment strategies that depend on maintaining others in poverty or ignorance, such as predatory lending or exploitative business models.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Learn about different investment vehicles - stocks, bonds, real estate, commodities - and how they perform under different economic conditions and market cycles.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life invests in ways that support environmental sustainability and social responsibility rather than just seeking maximum returns regardless of broader impact.</p>
+<p>Joa invests in ways that support environmental sustainability and social responsibility rather than just seeking maximum returns regardless of broader impact.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life uses investment knowledge to help others build wealth and financial security rather than keeping information secret to maintain competitive advantages.</p>
+<p>Joa uses investment knowledge to help others build wealth and financial security rather than keeping information secret to maintain competitive advantages.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life recognizes that investment markets can create and destroy wealth rapidly, and that sustainable financial security requires diversification beyond just financial assets.</p>
+<p>Joa recognizes that investment markets can create and destroy wealth rapidly, and that sustainable financial security requires diversification beyond just financial assets.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Invest in your local community through supporting local businesses, community development funds, and projects that create jobs and opportunities for your neighbors.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life understands that investment success can create obligations to use wealth responsibly and to support systems that provide opportunities for others.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa understands that investment success can create obligations to use wealth responsibly and to support systems that provide opportunities for others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Learn about the tax implications of different investment strategies and use legal methods to minimize taxes while ensuring you pay your fair share for public services.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life avoids investment bubbles and speculative manias by maintaining discipline and focusing on long-term value rather than short-term market excitement.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa avoids investment bubbles and speculative manias by maintaining discipline and focusing on long-term value rather than short-term market excitement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Understand that investment markets often reflect and amplify existing inequalities in society, and work to support policies that create more equitable economic systems.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life invests in education, healthcare, and infrastructure projects that benefit entire communities rather than just seeking personal financial returns.</p>
+<p>Joa invests in education, healthcare, and infrastructure projects that benefit entire communities rather than just seeking personal financial returns.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life recognizes that investment knowledge and access are forms of privilege that should be shared with others rather than hoarded for personal advantage.</p>
+<p>Joa recognizes that investment knowledge and access are forms of privilege that should be shared with others rather than hoarded for personal advantage.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 46
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life understands that investment success requires balancing optimism about human potential with realism about market risks and economic uncertainties.</p>
+<p>Joa understands that investment success requires balancing optimism about human potential with realism about market risks and economic uncertainties.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Use investment gains to create generational wealth that provides opportunities for your descendants while also supporting policies that create opportunities for all families.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life avoids investment strategies that depend on exploiting natural resources unsustainably or that contribute to environmental degradation and climate change.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa avoids investment strategies that depend on exploiting natural resources unsustainably or that contribute to environmental degradation and climate change.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Understand that investment markets are human creations that can be reformed to serve human flourishing better than they currently do through regulation and ethical practices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life invests with a long-term perspective that considers the impact of your financial choices on future generations and the sustainability of economic systems.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa invests with a long-term perspective that considers the impact of your financial choices on future generations and the sustainability of economic systems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that investment intelligence means using financial knowledge and resources to create security for yourself while contributing to a more just and prosperous world for everyone.</p>
 </div>
 

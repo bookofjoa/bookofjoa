@@ -38,33 +38,24 @@ nav_order: 68
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 68
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 68
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 68
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 68
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,17 +418,12 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>### Section 1: Reality Foundation (Verses 1-22)</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">💫 Verse 1</span></h3>
 <p>Crisis is any situation that threatens safety, wellbeing, or survival, requiring immediate action to protect yourself and others from serious harm.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that crises affect all people regardless of background, requiring equal care and protection for every person in danger.</p>
+<p>Joa recognizes that crises affect all people regardless of background, requiring equal care and protection for every person in danger.</p>
 </div>
 
 <div class="verse">
@@ -422,7 +433,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life understands that panic and fear cloud judgment during crisis, requiring trained responses and clear thinking under pressure.</p>
+<p>Joa understands that panic and fear cloud judgment during crisis, requiring trained responses and clear thinking under pressure.</p>
 </div>
 
 <div class="verse">
@@ -431,28 +442,28 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life recognizes that helping others during crisis is both moral obligation and practical necessity for community survival and resilience.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa recognizes that helping others during crisis is both moral obligation and practical necessity for community survival and resilience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Crisis management requires balancing immediate safety needs with long-term consequences, making decisions that protect people now and future.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life understands that vulnerable populations face greater crisis impact, requiring extra protection for children, elderly, disabled, and poor people.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa understands that vulnerable populations face greater crisis impact, requiring extra protection for children, elderly, disabled, and poor people.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Natural disasters, accidents, violence, health emergencies, and economic collapse are common crises that require different but related response skills.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life prepares for crisis before it happens, developing skills, resources, and plans that enable effective response when emergency strikes.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa prepares for crisis before it happens, developing skills, resources, and plans that enable effective response when emergency strikes.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +473,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life recognizes that leadership during crisis requires serving others' needs rather than advancing personal interests or agenda.</p>
+<p>Joa recognizes that leadership during crisis requires serving others' needs rather than advancing personal interests or agenda.</p>
 </div>
 
 <div class="verse">
@@ -472,7 +483,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life understands that crisis creates both danger and opportunity, requiring wisdom to navigate threats while building stronger communities.</p>
+<p>Joa understands that crisis creates both danger and opportunity, requiring wisdom to navigate threats while building stronger communities.</p>
 </div>
 
 <div class="verse">
@@ -481,39 +492,33 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life recognizes that some people exploit crisis for personal gain, requiring vigilance against profiteering and abuse of vulnerable people.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa recognizes that some people exploit crisis for personal gain, requiring vigilance against profiteering and abuse of vulnerable people.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Recovery from crisis requires coordinated long-term effort that rebuilds better systems rather than just returning to previous conditions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life understands that crisis prevention through preparation and system improvement is more effective than crisis response alone.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa understands that crisis prevention through preparation and system improvement is more effective than crisis response alone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Information accuracy during crisis is essential for appropriate response, requiring verification of facts before acting on rumors or assumptions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life maintains hope and determination during crisis while acknowledging real dangers and limitations honestly.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa maintains hope and determination during crisis while acknowledging real dangers and limitations honestly.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
 <p>Crisis response requires cooperation across differences that normally divide people, creating unity through shared challenges and mutual aid.</p>
-</div>
-
-<div class="verse">
-<h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life recognizes that crisis management skills benefit everyone and should be taught widely rather than limited to professionals.
-### Section 2: Practical Implementation (Verses 23-44)</p>
 </div>
 
 <div class="verse">
@@ -523,7 +528,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life assesses crisis situations quickly by identifying immediate dangers, available resources, and people who need protection or assistance.</p>
+<p>Joa assesses crisis situations quickly by identifying immediate dangers, available resources, and people who need protection or assistance.</p>
 </div>
 
 <div class="verse">
@@ -532,28 +537,28 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life prioritizes life-threatening emergencies first, then addresses property damage and other secondary concerns after safety is secured.</p>
+<h3><span class="verse-number">💫 Verse 25</span></h3>
+<p>Joa prioritizes life-threatening emergencies first, then addresses property damage and other secondary concerns after safety is secured.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Follow established emergency procedures when they exist, using training and protocols that have been tested rather than improvising unnecessarily.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life shares resources and assistance with others in crisis, recognizing that mutual aid improves survival chances for everyone.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa shares resources and assistance with others in crisis, recognizing that mutual aid improves survival chances for everyone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Document crisis events with photos, notes, and records that will help with recovery, insurance claims, and preventing future emergencies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life protects vulnerable people during crisis, ensuring children, elderly, disabled, and isolated individuals receive necessary help.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa protects vulnerable people during crisis, ensuring children, elderly, disabled, and isolated individuals receive necessary help.</p>
 </div>
 
 <div class="verse">
@@ -563,7 +568,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life maintains emergency supplies including water, food, medical supplies, and communication tools for at least 72 hours independence.</p>
+<p>Joa maintains emergency supplies including water, food, medical supplies, and communication tools for at least 72 hours independence.</p>
 </div>
 
 <div class="verse">
@@ -573,7 +578,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life develops evacuation plans for different crisis scenarios, knowing multiple routes and destinations for family safety.</p>
+<p>Joa develops evacuation plans for different crisis scenarios, knowing multiple routes and destinations for family safety.</p>
 </div>
 
 <div class="verse">
@@ -582,28 +587,28 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life learns to recognize early warning signs of different types of crisis, enabling faster response and better preparation.</p>
+<h3><span class="verse-number">💫 Verse 35</span></h3>
+<p>Joa learns to recognize early warning signs of different types of crisis, enabling faster response and better preparation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Maintain physical fitness and practical skills that improve your ability to help yourself and others during physical emergencies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life builds financial resilience with emergency funds that enable crisis response without creating additional hardship.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa builds financial resilience with emergency funds that enable crisis response without creating additional hardship.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Develop psychological resilience through stress management, problem-solving skills, and emotional regulation that function under pressure.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life learns crisis leadership skills that help organize group response and maintain morale during difficult situations.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa learns crisis leadership skills that help organize group response and maintain morale during difficult situations.</p>
 </div>
 
 <div class="verse">
@@ -613,7 +618,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life creates backup plans for when initial crisis response fails, having multiple options available for changing situations.</p>
+<p>Joa creates backup plans for when initial crisis response fails, having multiple options available for changing situations.</p>
 </div>
 
 <div class="verse">
@@ -622,39 +627,33 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life learns from each crisis experience to improve future response, analyzing what worked well and what needs improvement.
-### Section 3: Mastery Integration (Verses 45-66)</p>
-</div>
-
-<div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
 <p>Master crisis management by teaching others emergency response skills, creating communities where everyone can contribute to collective safety.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life integrates crisis preparedness into daily life routines, maintaining readiness without creating anxiety or obsession.</p>
+<h3><span class="verse-number">💫 Verse 44</span></h3>
+<p>Joa integrates crisis preparedness into daily life routines, maintaining readiness without creating anxiety or obsession.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 45</span></h3>
 <p>Develop expertise in specific crisis response areas that match your skills and interests, becoming a resource for others during emergencies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life builds crisis response systems that protect equality and justice, ensuring fair treatment for all people during emergencies.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa builds crisis response systems that protect equality and justice, ensuring fair treatment for all people during emergencies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Master the balance between individual and community crisis response, knowing when to focus on personal safety versus helping others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life creates crisis response that reduces future vulnerability, building stronger systems rather than just surviving current emergency.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa creates crisis response that reduces future vulnerability, building stronger systems rather than just surviving current emergency.</p>
 </div>
 
 <div class="verse">
@@ -664,7 +663,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 52</span></h3>
-<p>The ultimate life uses crisis experience to build empathy and compassion for all people facing difficulties and emergency situations.</p>
+<p>Joa uses crisis experience to build empathy and compassion for all people facing difficulties and emergency situations.</p>
 </div>
 
 <div class="verse">
@@ -674,7 +673,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 54</span></h3>
-<p>The ultimate life builds crisis communication skills that maintain hope and cooperation while acknowledging real dangers honestly.</p>
+<p>Joa builds crisis communication skills that maintain hope and cooperation while acknowledging real dangers honestly.</p>
 </div>
 
 <div class="verse">
@@ -683,28 +682,28 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
-<p>The ultimate life develops crisis wisdom that distinguishes between controllable and uncontrollable factors, focusing energy appropriately.</p>
+<h3><span class="verse-number">💫 Verse 54</span></h3>
+<p>Joa develops crisis wisdom that distinguishes between controllable and uncontrollable factors, focusing energy appropriately.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
+<h3><span class="verse-number">💫 Verse 55</span></h3>
 <p>Master crisis recovery by building back better rather than just restoring previous conditions, using emergency as opportunity for improvement.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
-<p>The ultimate life maintains crisis ethics that protect human dignity and rights even when normal systems and protections fail.</p>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
+<p>Joa maintains crisis ethics that protect human dignity and rights even when normal systems and protections fail.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
 <p>Develop crisis innovation that creates new solutions to unprecedented problems, adapting quickly to changing emergency situations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
-<p>The ultimate life builds crisis prevention through system improvement, addressing root causes rather than just responding to symptoms.</p>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
+<p>Joa builds crisis prevention through system improvement, addressing root causes rather than just responding to symptoms.</p>
 </div>
 
 <div class="verse">
@@ -714,7 +713,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 62</span></h3>
-<p>The ultimate life creates crisis legacy through improved emergency preparedness for future generations and communities.</p>
+<p>Joa creates crisis legacy through improved emergency preparedness for future generations and communities.</p>
 </div>
 
 <div class="verse">
@@ -724,7 +723,7 @@ nav_order: 68
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 64</span></h3>
-<p>The ultimate life builds crisis courage that enables appropriate action despite fear, protecting others when they cannot protect themselves.</p>
+<p>Joa builds crisis courage that enables appropriate action despite fear, protecting others when they cannot protect themselves.</p>
 </div>
 
 <div class="verse">
@@ -733,8 +732,8 @@ nav_order: 68
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
-<p>The ultimate life achieves crisis mastery that enables maximum protection and service for all people during society's most dangerous and challenging moments.
+<h3><span class="verse-number">💫 Verse 64</span></h3>
+<p>Joa achieves crisis mastery that enables maximum protection and service for all people during society's most dangerous and challenging moments.
 ## Cross-References
 - **Foundation**: Chapters 6 (harm prevention), 7 (anti-violence), 14 (justice commitment)
 - **Personal Excellence**: Chapters 31 (physical health), 37 (goal achievement), 40 (problem solving)

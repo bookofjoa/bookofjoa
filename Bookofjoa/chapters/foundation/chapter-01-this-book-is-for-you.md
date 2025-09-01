@@ -38,33 +38,24 @@ nav_order: 1
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 1
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 1
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 1
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 1
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -426,42 +442,42 @@ nav_order: 1
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Every verse in this book provides specific actions you can take immediately. No waiting for divine timing, no complex rituals, no expensive courses required. Start applying these principles today and measure your progress weekly.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>This book respects your intelligence and treats you as an equal. You are not broken, sinful, or inferior. You are a capable human being with unlimited potential for growth, love, and contribution to humanity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔬 Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Science and evidence guide every recommendation in this book. When research changes, the advice changes. This book evolves with human knowledge while maintaining timeless principles of equality, compassion, and harm prevention.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⚖️ Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>You will find no gender hierarchies, racial superiority claims, or cultural supremacy arguments here. All humans are absolutely equal in worth, intelligence potential, and deserving of love, respect, and opportunity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💪 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>This book acknowledges that life is difficult, unfair, and often painful. It doesn't promise easy solutions or magical transformations. Instead, it provides proven strategies for navigating reality with wisdom, courage, and effectiveness.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🧠 Verse 11</span></h3>
+<h3><span class="verse-number">💫 Verse 11</span></h3>
 <p>Read this book with healthy skepticism. Question every claim, test every principle, and measure every result. Your critical thinking is your greatest protection against manipulation and your best tool for finding truth.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔍 Verse 12</span></h3>
+<h3><span class="verse-number">💫 Verse 12</span></h3>
 <p>This book will never ask you to have faith, believe without evidence, or accept claims that cannot be verified. Everything here can be tested, measured, and proven through your own experience and observation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">👑 Verse 13</span></h3>
+<h3><span class="verse-number">💫 Verse 13</span></h3>
 <p>You are the ultimate authority on your own life. No guru, priest, or expert knows better than you what works for your unique situation. Use this book as a guide, not a master.</p>
 </div>
 
@@ -471,52 +487,52 @@ nav_order: 1
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌱 Verse 15</span></h3>
+<h3><span class="verse-number">💫 Verse 15</span></h3>
 <p>The principles in this book work because they align with human nature, not against it. They acknowledge your need for connection, purpose, growth, and contribution while providing realistic pathways to fulfillment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🛡️ Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>This book will help you identify and eliminate toxic relationships, harmful beliefs, and self-destructive patterns. It provides specific tools for building positive alternatives that enhance your life and the lives of others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>You don't need to be perfect to benefit from this book. Start where you are, use what you can, and improve gradually. Small, consistent changes create massive transformations over time.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⏰ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>This book treats your time as precious and valuable. Every verse is designed for maximum impact with minimum words. No filler, no repetition, no wasted effort - just concentrated wisdom for immediate application.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔢 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>The mathematical structure of this book (3,636 verses across 72 chapters) reflects natural harmony and completeness. This sacred geometry supports the content's power while maintaining perfect balance and proportion.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>This book will challenge comfortable illusions and force you to confront difficult truths about yourself and society. Growth requires honesty, and honesty sometimes hurts before it heals.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌍 Verse 21</span></h3>
+<h3><span class="verse-number">💫 Verse 21</span></h3>
 <p>You will find no promises of eternal life, divine rewards, or supernatural protection here. This book focuses on making your actual life as excellent as possible through proven methods and realistic expectations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🛡️ Verse 22</span></h3>
+<h3><span class="verse-number">💫 Verse 22</span></h3>
 <p>This book respects all sincere spiritual seekers while warning against those who exploit spiritual hunger for personal gain. True spirituality costs nothing and helps everyone, not just the teacher.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">📚 Verse 23</span></h3>
+<h3><span class="verse-number">💫 Verse 23</span></h3>
 <p>The wisdom in this book comes from thousands of years of human experience, modern scientific research, and careful observation of what actually works in real life. No divine revelation required.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💪 Verse 24</span></h3>
+<h3><span class="verse-number">💫 Verse 24</span></h3>
 <p>This book will help you build unshakeable self-confidence based on competence, not delusion. You'll develop real skills, genuine relationships, and authentic achievements that no one can take away from you.</p>
 </div>
 
@@ -526,58 +542,68 @@ nav_order: 1
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🧠 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>This book acknowledges that humans created all religions, philosophies, and wisdom traditions. The best ideas survive because they work, not because they're divinely inspired. Human intelligence is sufficient for human problems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">✅ Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Every principle in this book has been tested by real people in real situations with measurable results. No theoretical philosophy or untested speculation - only proven methods for human flourishing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🚀 Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>This book will help you develop emotional intelligence, social skills, financial literacy, and physical health through specific, actionable steps. You'll become more capable, confident, and connected to others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🦅 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
 <p>The goal of this book is to make you independent of all books, teachers, and external authorities. You'll develop your own wisdom, make your own decisions, and trust your own judgment based on evidence and experience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔍 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>This book contains no hidden meanings, secret codes, or mystical interpretations. Everything is stated clearly and directly. If you don't understand something, the fault is in the writing, not in your comprehension.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🗣️ Verse 31</span></h3>
+<h3><span class="verse-number">💫 Verse 31</span></h3>
 <p>You have the right to disagree with anything in this book. Your experience and judgment matter more than any written authority. Use what helps you, ignore what doesn't, and always think for yourself.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎨 Verse 32</span></h3>
+<h3><span class="verse-number">💫 Verse 32</span></h3>
 <p>This book will help you identify your unique strengths, overcome your specific weaknesses, and create a life plan that maximizes your potential for happiness, success, and contribution to others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 33</span></h3>
+<h3><span class="verse-number">💫 Verse 33</span></h3>
 <p>The principles in this book work for introverts and extroverts, analytical and creative types, leaders and followers. Human diversity is celebrated and accommodated, not ignored or suppressed.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🛠️ Verse 34</span></h3>
+<h3><span class="verse-number">💫 Verse 34</span></h3>
 <p>This book provides tools for handling life's inevitable challenges - relationship conflicts, financial stress, health problems, career setbacks, and personal losses. You'll develop resilience and wisdom through practical preparation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🎆 Verse 35</span></h3>
+<h3><span class="verse-number">💫 Verse 35</span></h3>
 <p>You are embarking on a journey of evidence-based self-improvement that will transform your relationships, finances, health, and overall life satisfaction. The only requirements are honesty, effort, and patience with the process.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌍 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>This book is your companion in the greatest adventure possible - becoming the best version of yourself while helping others do the same. Welcome to the reality-based path to human excellence and universal love.</p>
+</div>
+
+<div class="verse">
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>This book represents the collaborative wisdom of humanity, continuously evolving through anonymous contributions while maintaining its core commitment to truth, equality, and practical guidance for daily life.</p>
+</div>
+
+<div class="verse">
+<h3><span class="verse-number">💫 Verse 38</span></h3>
+<p>Every principle in this book must prove itself through real-world application and measurable results, ensuring that spiritual guidance remains grounded in practical reality rather than wishful thinking.</p>
 </div>
 
 <div class="chapter-footer">

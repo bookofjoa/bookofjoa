@@ -38,33 +38,24 @@ nav_order: 21
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 21
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 21
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 21
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 21
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -407,7 +423,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life approaches disagreements with curiosity about your partner's perspective rather than defensiveness about your own position. Seek to understand before seeking to be understood in every conflict situation.</p>
+<p>Joa approaches disagreements with curiosity about your partner's perspective rather than defensiveness about your own position. Seek to understand before seeking to be understood in every conflict situation.</p>
 </div>
 
 <div class="verse">
@@ -417,7 +433,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life focuses on specific behaviors and situations rather than attacking your partner's character or personality. Say "When you do X, I feel Y" instead of "You always" or "You never" statements.</p>
+<p>Joa focuses on specific behaviors and situations rather than attacking your partner's character or personality. Say "When you do X, I feel Y" instead of "You always" or "You never" statements.</p>
 </div>
 
 <div class="verse">
@@ -426,28 +442,28 @@ nav_order: 21
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life takes responsibility for your own contributions to conflicts rather than blaming your partner entirely. Acknowledge your mistakes, poor choices, or unhelpful reactions that escalated the situation.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa takes responsibility for your own contributions to conflicts rather than blaming your partner entirely. Acknowledge your mistakes, poor choices, or unhelpful reactions that escalated the situation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Express your needs and feelings directly rather than expecting your partner to guess what's wrong or using passive-aggressive behavior to communicate dissatisfaction with their actions or decisions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life avoids bringing up past grievances or unrelated issues during current conflicts. Stay focused on the specific problem you're trying to solve rather than rehashing old arguments.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa avoids bringing up past grievances or unrelated issues during current conflicts. Stay focused on the specific problem you're trying to solve rather than rehashing old arguments.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Use "I" statements to express your feelings and needs rather than "you" statements that sound accusatory. This approach reduces defensiveness and creates space for productive problem-solving.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life seeks win-win solutions that address both partners' core needs rather than compromises where both people feel unsatisfied or one person always gives in to avoid conflict.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa seeks win-win solutions that address both partners' core needs rather than compromises where both people feel unsatisfied or one person always gives in to avoid conflict.</p>
 </div>
 
 <div class="verse">
@@ -457,7 +473,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life apologizes sincerely when you've made mistakes or hurt your partner, taking full responsibility without making excuses or expecting immediate forgiveness in return.</p>
+<p>Joa apologizes sincerely when you've made mistakes or hurt your partner, taking full responsibility without making excuses or expecting immediate forgiveness in return.</p>
 </div>
 
 <div class="verse">
@@ -467,7 +483,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life recognizes when conflicts reveal deeper incompatibilities or unmet needs that require ongoing attention rather than quick fixes or surface-level solutions.</p>
+<p>Joa recognizes when conflicts reveal deeper incompatibilities or unmet needs that require ongoing attention rather than quick fixes or surface-level solutions.</p>
 </div>
 
 <div class="verse">
@@ -476,28 +492,28 @@ nav_order: 21
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life practices emotional regulation by managing your own reactions rather than expecting your partner to change their behavior to prevent you from getting upset or angry.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa practices emotional regulation by managing your own reactions rather than expecting your partner to change their behavior to prevent you from getting upset or angry.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Look for the underlying needs behind your partner's complaints or requests. Often what seems like criticism is actually an expression of unmet needs for connection, appreciation, or support.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life chooses your battles wisely by addressing issues that truly matter while letting go of minor irritations that don't significantly impact your relationship's health or happiness.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa chooses your battles wisely by addressing issues that truly matter while letting go of minor irritations that don't significantly impact your relationship's health or happiness.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Create safe spaces for difficult conversations by choosing appropriate times and places, ensuring privacy, and agreeing to listen respectfully even when discussing sensitive topics.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life practices patience during conflict resolution, understanding that complex issues may require multiple conversations and time to work through rather than immediate solutions.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa practices patience during conflict resolution, understanding that complex issues may require multiple conversations and time to work through rather than immediate solutions.</p>
 </div>
 
 <div class="verse">
@@ -507,7 +523,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life focuses on finding solutions rather than proving who's right or wrong. The goal is to resolve the issue and strengthen your relationship, not to win the argument.</p>
+<p>Joa focuses on finding solutions rather than proving who's right or wrong. The goal is to resolve the issue and strengthen your relationship, not to win the argument.</p>
 </div>
 
 <div class="verse">
@@ -517,7 +533,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life practices forgiveness for your partner's mistakes while also addressing behaviors that need to change. Forgiveness doesn't mean accepting continued harmful behavior.</p>
+<p>Joa practices forgiveness for your partner's mistakes while also addressing behaviors that need to change. Forgiveness doesn't mean accepting continued harmful behavior.</p>
 </div>
 
 <div class="verse">
@@ -526,28 +542,28 @@ nav_order: 21
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life maintains respect for your partner even during heated disagreements by avoiding insults, sarcasm, or deliberately hurtful comments designed to wound rather than communicate.</p>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
+<p>Joa maintains respect for your partner even during heated disagreements by avoiding insults, sarcasm, or deliberately hurtful comments designed to wound rather than communicate.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Address issues promptly rather than letting resentment build up over time. Small problems are easier to resolve than major grievances that have been festering for months or years.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life recognizes that some differences in personality, preferences, or values may never be fully resolved and focuses on finding ways to live with these differences peacefully.</p>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
+<p>Joa recognizes that some differences in personality, preferences, or values may never be fully resolved and focuses on finding ways to live with these differences peacefully.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
 <p>Practice empathy by trying to understand why your partner feels or acts the way they do, considering their background, experiences, and current stressors that might influence their behavior.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life avoids using your partner's vulnerabilities or insecurities against them during arguments. Information shared in trust should never become ammunition in conflicts.</p>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
+<p>Joa avoids using your partner's vulnerabilities or insecurities against them during arguments. Information shared in trust should never become ammunition in conflicts.</p>
 </div>
 
 <div class="verse">
@@ -557,7 +573,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life looks for patterns in your conflicts to identify recurring issues that need deeper attention rather than just addressing the surface symptoms of underlying problems.</p>
+<p>Joa looks for patterns in your conflicts to identify recurring issues that need deeper attention rather than just addressing the surface symptoms of underlying problems.</p>
 </div>
 
 <div class="verse">
@@ -567,7 +583,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life focuses on the present situation rather than bringing up your partner's past mistakes or failures that have already been discussed and supposedly resolved.</p>
+<p>Joa focuses on the present situation rather than bringing up your partner's past mistakes or failures that have already been discussed and supposedly resolved.</p>
 </div>
 
 <div class="verse">
@@ -576,28 +592,28 @@ nav_order: 21
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The ultimate life practices humility by admitting when you're wrong, changing your mind when presented with new information, and acknowledging your partner's valid points.</p>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
+<p>Joa practices humility by admitting when you're wrong, changing your mind when presented with new information, and acknowledging your partner's valid points.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
 <p>Create action plans for resolving conflicts that include specific steps both partners will take to address the issue and prevent similar problems in the future.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
-<p>The ultimate life maintains physical and emotional safety during conflicts by never using violence, threats, or intimidation to get your way or express your frustration.</p>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
+<p>Joa maintains physical and emotional safety during conflicts by never using violence, threats, or intimidation to get your way or express your frustration.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
 <p>Recognize when you're too tired, stressed, or emotionally overwhelmed to have productive conversations about important issues. Schedule discussions for when you can both engage constructively.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
-<p>The ultimate life practices gratitude for your partner's willingness to work through conflicts rather than avoiding difficult conversations or abandoning the relationship when problems arise.</p>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
+<p>Joa practices gratitude for your partner's willingness to work through conflicts rather than avoiding difficult conversations or abandoning the relationship when problems arise.</p>
 </div>
 
 <div class="verse">
@@ -607,7 +623,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 42</span></h3>
-<p>The ultimate life maintains hope that conflicts can be resolved through patience, effort, and commitment to finding solutions that honor both partners' needs and feelings.</p>
+<p>Joa maintains hope that conflicts can be resolved through patience, effort, and commitment to finding solutions that honor both partners' needs and feelings.</p>
 </div>
 
 <div class="verse">
@@ -617,7 +633,7 @@ nav_order: 21
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 44</span></h3>
-<p>The ultimate life learns from each conflict by identifying what triggered the disagreement and developing strategies to handle similar situations more effectively in the future.</p>
+<p>Joa learns from each conflict by identifying what triggered the disagreement and developing strategies to handle similar situations more effectively in the future.</p>
 </div>
 
 <div class="verse">
@@ -626,28 +642,28 @@ nav_order: 21
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
-<p>The ultimate life maintains perspective during conflicts by remembering your love for your partner and your commitment to the relationship even when you're frustrated or hurt.</p>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
+<p>Joa maintains perspective during conflicts by remembering your love for your partner and your commitment to the relationship even when you're frustrated or hurt.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
 <p>Develop rituals for reconnecting after conflicts - physical affection, shared activities, or verbal affirmations that help you rebuild intimacy and trust after difficult conversations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
-<p>The ultimate life recognizes that healthy conflict resolution skills benefit all your relationships, not just your romantic partnership, and practices these skills consistently.</p>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
+<p>Joa recognizes that healthy conflict resolution skills benefit all your relationships, not just your romantic partnership, and practices these skills consistently.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
 <p>Accept that some conflicts may not have perfect solutions but can be managed through ongoing communication, compromise, and mutual respect for different perspectives.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
-<p>The ultimate life understands that learning to handle conflict constructively is one of the most important skills for building lasting, intimate relationships based on trust, respect, and genuine partnership.</p>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
+<p>Joa understands that learning to handle conflict constructively is one of the most important skills for building lasting, intimate relationships based on trust, respect, and genuine partnership.</p>
 </div>
 
 <div class="chapter-footer">

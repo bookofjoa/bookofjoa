@@ -38,33 +38,24 @@ nav_order: 45
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 45
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 45
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 45
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 45
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life saves money not from greed or fear, but to create security for yourself and your loved ones while building resources to help others and contribute to positive change.</p>
+<p>Joa saves money not from greed or fear, but to create security for yourself and your loved ones while building resources to help others and contribute to positive change.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life rejects the false belief that some people are naturally better at saving due to gender, culture, or background. Financial discipline is a learnable skill available to everyone.</p>
+<p>Joa rejects the false belief that some people are naturally better at saving due to gender, culture, or background. Financial discipline is a learnable skill available to everyone.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life saves for multiple purposes: emergency funds for unexpected expenses, long-term goals like education or housing, and resources for helping others in need.</p>
+<p>Joa saves for multiple purposes: emergency funds for unexpected expenses, long-term goals like education or housing, and resources for helping others in need.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Avoid lifestyle inflation that consumes all income increases. As your earnings grow, increase your saving rate rather than just spending more on luxury items or status symbols.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life recognizes that some people use their ability to save as evidence of moral superiority over those who struggle financially due to systemic barriers or emergencies.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa recognizes that some people use their ability to save as evidence of moral superiority over those who struggle financially due to systemic barriers or emergencies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Create separate savings accounts for different goals to avoid the temptation to use emergency funds for non-emergencies or to raid long-term savings for immediate wants.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life understands that saving requires sacrifice and delayed gratification, but these disciplines create freedom and opportunities that benefit yourself and others.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa understands that saving requires sacrifice and delayed gratification, but these disciplines create freedom and opportunities that benefit yourself and others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Build an emergency fund of 3-6 months of living expenses to protect against job loss, medical bills, or other financial crises that could derail your long-term financial plans.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life saves money in ways that align with your values, avoiding investments in companies or industries that harm people or the environment.</p>
+<p>Joa saves money in ways that align with your values, avoiding investments in companies or industries that harm people or the environment.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life uses saving as a tool for independence and freedom rather than as a way to accumulate power over others or to display wealth as a status symbol.</p>
+<p>Joa uses saving as a tool for independence and freedom rather than as a way to accumulate power over others or to display wealth as a status symbol.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life recognizes that saving money provides options and reduces stress, allowing you to make decisions based on values rather than financial desperation.</p>
+<p>Joa recognizes that saving money provides options and reduces stress, allowing you to make decisions based on values rather than financial desperation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Save for your children's education and future opportunities while also supporting systems that provide quality education and opportunities for all children regardless of family wealth.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life understands that saving requires living below your means, which may mean choosing smaller homes, older cars, or fewer luxuries than your income could support.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa understands that saving requires living below your means, which may mean choosing smaller homes, older cars, or fewer luxuries than your income could support.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Use saving as preparation for economic downturns, industry changes, or personal setbacks that could affect your income or increase your expenses unexpectedly.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life saves money in diversified accounts and investments to protect against inflation, market volatility, and institutional failures that could threaten your financial security.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa saves money in diversified accounts and investments to protect against inflation, market volatility, and institutional failures that could threaten your financial security.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Understand that some people use their savings to manipulate others through economic control or to maintain power imbalances in relationships and communities.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life saves for retirement and aging expenses while also supporting social systems that provide security and dignity for all elderly people.</p>
+<p>Joa saves for retirement and aging expenses while also supporting social systems that provide security and dignity for all elderly people.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life recognizes that saving money provides the foundation for taking calculated risks, starting businesses, or pursuing opportunities that could benefit many people.</p>
+<p>Joa recognizes that saving money provides the foundation for taking calculated risks, starting businesses, or pursuing opportunities that could benefit many people.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life uses saving to create generational wealth that can provide opportunities for your descendants while also working to ensure all families have similar opportunities.</p>
+<p>Joa uses saving to create generational wealth that can provide opportunities for your descendants while also working to ensure all families have similar opportunities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Understand that saving requires making trade-offs between current consumption and future security. Make these choices consciously based on your values and long-term goals.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life saves money as insurance against personal and economic uncertainties while also supporting social insurance systems that protect everyone.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa saves money as insurance against personal and economic uncertainties while also supporting social insurance systems that protect everyone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Avoid saving money through exploitation of others, tax evasion, or participation in systems that harm communities or the environment for short-term financial gain.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life recognizes that saving money provides the resources needed to help family members, friends, and community members during their times of financial difficulty.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa recognizes that saving money provides the resources needed to help family members, friends, and community members during their times of financial difficulty.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Use saving as a tool for achieving financial independence that allows you to work for causes you believe in rather than just for the highest bidder.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life saves money in ways that support ethical businesses and sustainable practices rather than just maximizing returns regardless of social and environmental impact.</p>
+<p>Joa saves money in ways that support ethical businesses and sustainable practices rather than just maximizing returns regardless of social and environmental impact.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life recognizes that saving money provides the foundation for charitable giving and community investment that can create positive change beyond your immediate family.</p>
+<p>Joa recognizes that saving money provides the foundation for charitable giving and community investment that can create positive change beyond your immediate family.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life uses saving to prepare for economic transitions, career changes, or periods of reduced income that might be necessary for personal growth or family needs.</p>
+<p>Joa uses saving to prepare for economic transitions, career changes, or periods of reduced income that might be necessary for personal growth or family needs.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Understand that saving money can become compulsive or miserly if taken to extremes. Maintain balance between saving for the future and enjoying life in the present.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life saves money as a form of self-respect and responsibility while also recognizing that systemic issues often prevent people from saving despite their best efforts.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa saves money as a form of self-respect and responsibility while also recognizing that systemic issues often prevent people from saving despite their best efforts.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Use saving to create options for your children and family members while also supporting policies that create opportunities for all families regardless of their current wealth.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life recognizes that saving money provides the security needed to take principled stands and make ethical choices even when they might be financially costly.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa recognizes that saving money provides the security needed to take principled stands and make ethical choices even when they might be financially costly.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Save money in ways that protect against inflation and currency devaluation while understanding how these economic forces affect people with fewer resources.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life uses saving as preparation for opportunities to help others, invest in community projects, or support causes that promote justice and equality.</p>
+<p>Joa uses saving as preparation for opportunities to help others, invest in community projects, or support causes that promote justice and equality.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life saves money as a tool for creating positive change rather than just for personal security or comfort, using financial resources to benefit the broader community.</p>
+<p>Joa saves money as a tool for creating positive change rather than just for personal security or comfort, using financial resources to benefit the broader community.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 45
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life uses saving to create stability that allows for long-term thinking and planning rather than just reacting to immediate financial pressures and crises.</p>
+<p>Joa uses saving to create stability that allows for long-term thinking and planning rather than just reacting to immediate financial pressures and crises.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Save money in ways that align with your values about social justice, environmental protection, and human rights rather than just focusing on maximum financial returns.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life recognizes that saving money is a privilege that depends on having income above basic survival needs and works to ensure others have similar opportunities.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa recognizes that saving money is a privilege that depends on having income above basic survival needs and works to ensure others have similar opportunities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Use saving as a tool for building wealth that can be shared and used for positive impact rather than just accumulated for personal power or status.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life saves money as preparation for an uncertain future while also working to create systems that provide security and opportunity for everyone.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa saves money as preparation for an uncertain future while also working to create systems that provide security and opportunity for everyone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that saving money is ultimately about creating freedom, security, and opportunities to serve others rather than just accumulating wealth for its own sake.</p>
 </div>
 

@@ -38,33 +38,24 @@ nav_order: 54
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 54
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 54
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 54
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 54
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life understands that money can contribute to happiness by providing security, freedom, and opportunities to help others, but cannot replace relationships, health, or meaning as sources of fulfillment.</p>
+<p>Joa understands that money can contribute to happiness by providing security, freedom, and opportunities to help others, but cannot replace relationships, health, or meaning as sources of fulfillment.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life recognizes that some people pursue money as compensation for feelings of inadequacy, loneliness, or lack of purpose that money cannot actually address.</p>
+<p>Joa recognizes that some people pursue money as compensation for feelings of inadequacy, loneliness, or lack of purpose that money cannot actually address.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life avoids the trap of lifestyle inflation that requires ever-increasing income to maintain happiness, instead finding contentment with enough rather than always wanting more.</p>
+<p>Joa avoids the trap of lifestyle inflation that requires ever-increasing income to maintain happiness, instead finding contentment with enough rather than always wanting more.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Understand that comparing your wealth to others often decreases happiness, as there will always be people with more money, creating endless cycles of envy and dissatisfaction.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life finds happiness through using money to serve others and contribute to causes you care about rather than just spending on personal comfort and luxury.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa finds happiness through using money to serve others and contribute to causes you care about rather than just spending on personal comfort and luxury.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Money can provide the freedom to pursue meaningful work and creative projects rather than just jobs that pay bills, contributing to life satisfaction and personal fulfillment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life recognizes that financial stress and insecurity can significantly reduce happiness and health, making basic financial stability important for overall wellbeing.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa recognizes that financial stress and insecurity can significantly reduce happiness and health, making basic financial stability important for overall wellbeing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Avoid using money to buy status or social approval, as these external validations provide temporary satisfaction but don't address deeper needs for authentic connection and self-worth.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life understands that money can buy time through hiring help or purchasing convenience, and that time is often more valuable than possessions for creating happiness.</p>
+<p>Joa understands that money can buy time through hiring help or purchasing convenience, and that time is often more valuable than possessions for creating happiness.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life recognizes that some people become so focused on earning and accumulating money that they neglect relationships and activities that actually create happiness.</p>
+<p>Joa recognizes that some people become so focused on earning and accumulating money that they neglect relationships and activities that actually create happiness.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life finds happiness through financial generosity and sharing resources with others rather than hoarding wealth or using it to display superiority.</p>
+<p>Joa finds happiness through financial generosity and sharing resources with others rather than hoarding wealth or using it to display superiority.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Understand that money worries and financial anxiety can consume mental energy and attention that could be directed toward relationships and activities that create genuine happiness.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life uses money to support your physical and mental health through good food, exercise, healthcare, and stress reduction rather than sacrificing wellbeing for wealth accumulation.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa uses money to support your physical and mental health through good food, exercise, healthcare, and stress reduction rather than sacrificing wellbeing for wealth accumulation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Avoid using money to avoid personal growth or to insulate yourself from life's challenges that, while difficult, often contribute to resilience and character development.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life recognizes that money can provide security against life's uncertainties, and that this security contributes to peace of mind and overall life satisfaction.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa recognizes that money can provide security against life's uncertainties, and that this security contributes to peace of mind and overall life satisfaction.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Use wealth to create beautiful and comfortable living environments that support your wellbeing and provide spaces for relationships and activities that bring joy.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life understands that money can enable travel and cultural experiences that broaden perspective and create lasting memories, contributing to life satisfaction.</p>
+<p>Joa understands that money can enable travel and cultural experiences that broaden perspective and create lasting memories, contributing to life satisfaction.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life finds happiness through aligning your spending with your values rather than just following social expectations or marketing messages about what should make you happy.</p>
+<p>Joa finds happiness through aligning your spending with your values rather than just following social expectations or marketing messages about what should make you happy.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life recognizes that sudden wealth or financial windfalls often don't increase happiness as much as expected and can sometimes create new problems and stresses.</p>
+<p>Joa recognizes that sudden wealth or financial windfalls often don't increase happiness as much as expected and can sometimes create new problems and stresses.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Use money to invest in relationships through shared experiences, gifts, and activities that strengthen bonds with family and friends rather than just accumulating individual possessions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life understands that money can provide the foundation for pursuing passions and interests that bring joy and meaning rather than just working for survival.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa understands that money can provide the foundation for pursuing passions and interests that bring joy and meaning rather than just working for survival.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Avoid using wealth to control or manipulate others, as these behaviors damage relationships and ultimately reduce happiness for everyone involved.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life finds happiness through financial independence that allows you to make choices based on values rather than economic necessity or pressure from others.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa finds happiness through financial independence that allows you to make choices based on values rather than economic necessity or pressure from others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Money can enable you to live in safer neighborhoods, attend better schools, and access opportunities that improve quality of life, but these advantages should be available to everyone.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life recognizes that money can reduce certain types of stress and worry, but cannot eliminate all of life's challenges or guarantee happiness and fulfillment.</p>
+<p>Joa recognizes that money can reduce certain types of stress and worry, but cannot eliminate all of life's challenges or guarantee happiness and fulfillment.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life understands that money can provide comfort and convenience, but that adaptation means these improvements in living standards quickly become normal rather than sources of ongoing happiness.</p>
+<p>Joa understands that money can provide comfort and convenience, but that adaptation means these improvements in living standards quickly become normal rather than sources of ongoing happiness.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life finds happiness through using money to create stability and predictability in life rather than just pursuing excitement or novelty through expensive purchases.</p>
+<p>Joa finds happiness through using money to create stability and predictability in life rather than just pursuing excitement or novelty through expensive purchases.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Money can provide access to education and learning opportunities that contribute to personal growth and intellectual satisfaction throughout your lifetime.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life recognizes that money can enable you to be more generous with your time by reducing the need to work multiple jobs or long hours just to meet basic needs.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa recognizes that money can enable you to be more generous with your time by reducing the need to work multiple jobs or long hours just to meet basic needs.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Use wealth to create legacy and impact that will benefit others long after you're gone, as this sense of lasting contribution provides deep meaning and satisfaction.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life understands that money can provide the resources needed to recover from setbacks and failures, reducing anxiety about taking risks that could lead to growth and opportunity.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa understands that money can provide the resources needed to recover from setbacks and failures, reducing anxiety about taking risks that could lead to growth and opportunity.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Avoid using money to avoid all discomfort or challenge, as these experiences often contribute to resilience, character development, and appreciation for what you have.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life finds happiness through using money to support your physical environment in ways that promote wellbeing - good lighting, comfortable furniture, access to nature.</p>
+<p>Joa finds happiness through using money to support your physical environment in ways that promote wellbeing - good lighting, comfortable furniture, access to nature.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life recognizes that money can enable you to help others achieve their goals and dreams, and that this ability to serve provides deep satisfaction and joy.</p>
+<p>Joa recognizes that money can enable you to help others achieve their goals and dreams, and that this ability to serve provides deep satisfaction and joy.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 54
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life understands that money is most likely to contribute to happiness when it's used to meet genuine needs rather than manufactured desires created by advertising and social pressure.</p>
+<p>Joa understands that money is most likely to contribute to happiness when it's used to meet genuine needs rather than manufactured desires created by advertising and social pressure.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Avoid using money to compete with others or to prove your worth, as these motivations often lead to endless cycles of spending that don't increase actual happiness or satisfaction.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life finds happiness through using money to create work-life balance that allows time for relationships, hobbies, and activities that provide joy and meaning.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa finds happiness through using money to create work-life balance that allows time for relationships, hobbies, and activities that provide joy and meaning.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Money can provide the resources needed to maintain your health and appearance in ways that contribute to confidence and social connection, but should not become obsessions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life recognizes that the relationship between money and happiness is complex and individual, requiring conscious reflection on what truly brings you satisfaction and fulfillment.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa recognizes that the relationship between money and happiness is complex and individual, requiring conscious reflection on what truly brings you satisfaction and fulfillment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that money is ultimately a tool that can contribute to happiness when used wisely to create security, freedom, and opportunities to serve others, but cannot replace the relationships, health, and meaning that provide life's deepest satisfaction.</p>
 </div>
 

@@ -38,33 +38,24 @@ nav_order: 49
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 49
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 49
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 49
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 49
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life builds a career that serves human needs and contributes to society's wellbeing while providing personal fulfillment and financial security for yourself and your family.</p>
+<p>Joa builds a career that serves human needs and contributes to society's wellbeing while providing personal fulfillment and financial security for yourself and your family.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life develops skills that are valuable to others and that align with your natural talents, interests, and values rather than just pursuing careers based on status or income potential.</p>
+<p>Joa develops skills that are valuable to others and that align with your natural talents, interests, and values rather than just pursuing careers based on status or income potential.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life recognizes that career advancement often depends on factors beyond merit - networking, mentorship, and systemic advantages that are not equally available to all people.</p>
+<p>Joa recognizes that career advancement often depends on factors beyond merit - networking, mentorship, and systemic advantages that are not equally available to all people.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Seek mentors and sponsors who can provide guidance, opportunities, and support while also mentoring others who are earlier in their career journey.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life avoids career strategies that require compromising your integrity, harming others, or participating in systems that perpetuate inequality and injustice.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa avoids career strategies that require compromising your integrity, harming others, or participating in systems that perpetuate inequality and injustice.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Continuously learn and adapt to changing industry conditions, technology, and market demands while helping others navigate these changes rather than using knowledge advantages to exploit them.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life builds careers that create value for society rather than extracting value from communities without giving back or contributing to human flourishing.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa builds careers that create value for society rather than extracting value from communities without giving back or contributing to human flourishing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Network authentically by building genuine relationships based on mutual respect and shared interests rather than just using people for career advancement.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life recognizes that some people use their career success to claim superiority over others or to justify treating people in lower-status positions as inferior.</p>
+<p>Joa recognizes that some people use their career success to claim superiority over others or to justify treating people in lower-status positions as inferior.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life chooses career paths that align with your values and contribute positively to society rather than just maximizing income or status regardless of social impact.</p>
+<p>Joa chooses career paths that align with your values and contribute positively to society rather than just maximizing income or status regardless of social impact.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life recognizes that career success often requires balancing ambition with collaboration, competition with cooperation, and personal advancement with team success.</p>
+<p>Joa recognizes that career success often requires balancing ambition with collaboration, competition with cooperation, and personal advancement with team success.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Avoid career strategies that depend on maintaining others in subordinate positions or that require preventing others from advancing to protect your own status.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life builds careers that provide opportunities for creativity, growth, and meaningful contribution rather than just security or financial rewards.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa builds careers that provide opportunities for creativity, growth, and meaningful contribution rather than just security or financial rewards.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Understand that some career paths are more accessible to people with certain backgrounds, connections, or resources, and work to create more equitable access to opportunities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life uses career success to create opportunities for others through hiring, mentoring, investing, or supporting organizations that promote equality and justice.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa uses career success to create opportunities for others through hiring, mentoring, investing, or supporting organizations that promote equality and justice.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Maintain work-life balance that allows you to fulfill family responsibilities and personal interests rather than sacrificing relationships and wellbeing for career advancement.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life recognizes that career setbacks, job loss, and industry changes are often beyond individual control and require resilience, adaptation, and community support.</p>
+<p>Joa recognizes that career setbacks, job loss, and industry changes are often beyond individual control and require resilience, adaptation, and community support.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life avoids career paths that require exploiting others' labor, manipulating consumers, or participating in systems that harm communities or the environment.</p>
+<p>Joa avoids career paths that require exploiting others' labor, manipulating consumers, or participating in systems that harm communities or the environment.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life understands that career success should enhance your ability to serve others and contribute to positive change rather than isolating you from community needs.</p>
+<p>Joa understands that career success should enhance your ability to serve others and contribute to positive change rather than isolating you from community needs.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Develop emotional intelligence and interpersonal skills that help you work effectively with diverse groups of people and navigate complex organizational dynamics.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life builds careers that remain fulfilling and meaningful throughout your working life rather than just pursuing short-term gains that lead to long-term dissatisfaction.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa builds careers that remain fulfilling and meaningful throughout your working life rather than just pursuing short-term gains that lead to long-term dissatisfaction.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Understand that some career advancement strategies depend on conforming to systems that perpetuate inequality, and find ways to succeed while working for positive change.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life uses career platforms to advocate for important causes and to model ethical behavior rather than just focusing on personal advancement and recognition.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa uses career platforms to advocate for important causes and to model ethical behavior rather than just focusing on personal advancement and recognition.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Take calculated risks in your career when opportunities arise to create greater impact or to pursue work that better aligns with your values and goals.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life recognizes that career success often requires persistence through setbacks, rejection, and periods of slow progress that test your commitment and resilience.</p>
+<p>Joa recognizes that career success often requires persistence through setbacks, rejection, and periods of slow progress that test your commitment and resilience.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life avoids career paths that require you to become someone you don't respect or to engage in behaviors that conflict with your core values and principles.</p>
+<p>Joa avoids career paths that require you to become someone you don't respect or to engage in behaviors that conflict with your core values and principles.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life uses career success to model possibilities for others who face similar backgrounds or challenges, showing that advancement is possible through merit and effort.</p>
+<p>Joa uses career success to model possibilities for others who face similar backgrounds or challenges, showing that advancement is possible through merit and effort.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Develop expertise that serves human needs and solves real problems rather than just creating artificial demand or exploiting human psychology for profit.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life recognizes that career fulfillment comes from alignment between your work and your values rather than just from external recognition or financial rewards.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa recognizes that career fulfillment comes from alignment between your work and your values rather than just from external recognition or financial rewards.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Support workplace policies and practices that promote equality, fairness, and opportunity for all employees rather than systems that favor certain groups over others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life builds careers that contribute to innovation and progress in ways that benefit society rather than just advancing your own interests or company profits.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa builds careers that contribute to innovation and progress in ways that benefit society rather than just advancing your own interests or company profits.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Understand that career success requires both individual effort and supportive systems - education, mentorship, fair hiring practices, and economic opportunities.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life uses career achievements to open doors for others rather than closing them, creating more opportunities rather than hoarding existing ones.</p>
+<p>Joa uses career achievements to open doors for others rather than closing them, creating more opportunities rather than hoarding existing ones.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life recognizes that career paths are increasingly non-linear and that success may require multiple career changes, continuous learning, and adaptation to new realities.</p>
+<p>Joa recognizes that career paths are increasingly non-linear and that success may require multiple career changes, continuous learning, and adaptation to new realities.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 49
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life understands that career success should increase your capacity for service and contribution rather than just providing personal comfort and status.</p>
+<p>Joa understands that career success should increase your capacity for service and contribution rather than just providing personal comfort and status.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Develop skills in collaboration, communication, and conflict resolution that help you work effectively in diverse teams and complex organizational environments.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life uses career platforms to promote truth, justice, and equality rather than just advancing your own interests or maintaining systems that benefit you.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa uses career platforms to promote truth, justice, and equality rather than just advancing your own interests or maintaining systems that benefit you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Understand that career building is a lifelong process that requires continuous learning, adaptation, and commitment to serving others through your professional work.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life recognizes that career success should contribute to your overall life satisfaction and ability to make positive impact rather than becoming an end in itself.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa recognizes that career success should contribute to your overall life satisfaction and ability to make positive impact rather than becoming an end in itself.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that career building is ultimately about developing your capacity to serve others and contribute to human flourishing through your professional skills and platform.</p>
 </div>
 

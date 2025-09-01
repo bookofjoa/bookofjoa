@@ -38,33 +38,24 @@ nav_order: 58
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 58
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 58
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 58
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 58
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life recognizes that humility is not thinking less of yourself but thinking of yourself less, focusing on service and truth rather than ego gratification.</p>
+<p>Joa recognizes that humility is not thinking less of yourself but thinking of yourself less, focusing on service and truth rather than ego gratification.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life listens more than you speak, recognizing that others have valuable perspectives and experiences that can expand your understanding.</p>
+<p>Joa listens more than you speak, recognizing that others have valuable perspectives and experiences that can expand your understanding.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life gives credit where it's due, acknowledging others' contributions and avoiding the temptation to take unearned recognition or praise.</p>
+<p>Joa gives credit where it's due, acknowledging others' contributions and avoiding the temptation to take unearned recognition or praise.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Ask for help when you need it, overcoming pride and the illusion of self-sufficiency to benefit from others' knowledge and support.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life apologize sincerely when you've made mistakes, taking full responsibility without excuses or attempts to minimize your role in problems.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa apologize sincerely when you've made mistakes, taking full responsibility without excuses or attempts to minimize your role in problems.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Learn from people regardless of their age, education, or social status, recognizing that wisdom can come from unexpected sources.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life question your own assumptions and beliefs regularly, maintaining intellectual humility about the limits of your knowledge and perspective.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa question your own assumptions and beliefs regularly, maintaining intellectual humility about the limits of your knowledge and perspective.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Celebrate others' successes genuinely, feeling joy for their achievements rather than envy or the need to diminish their accomplishments.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life serve others without expecting recognition or reward, finding satisfaction in contribution rather than in being acknowledged for your efforts.</p>
+<p>Joa serve others without expecting recognition or reward, finding satisfaction in contribution rather than in being acknowledged for your efforts.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life seek to understand before seeking to be understood, prioritizing comprehension of others' viewpoints over winning arguments or proving points.</p>
+<p>Joa seek to understand before seeking to be understood, prioritizing comprehension of others' viewpoints over winning arguments or proving points.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life treat all people with equal respect regardless of their ability to benefit you, recognizing the inherent dignity of every human being.</p>
+<p>Joa treat all people with equal respect regardless of their ability to benefit you, recognizing the inherent dignity of every human being.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Learn from your failures and setbacks, viewing them as opportunities for growth rather than threats to your self-image or reputation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life share knowledge and resources freely, avoiding the hoarding of advantages that could benefit others if distributed more widely.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa share knowledge and resources freely, avoiding the hoarding of advantages that could benefit others if distributed more widely.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Acknowledge the role of luck, privilege, and others' help in your successes, avoiding the illusion that you've achieved everything through your own efforts alone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life stay curious about subjects you think you understand well, recognizing that deeper knowledge often reveals how much more there is to learn.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa stay curious about subjects you think you understand well, recognizing that deeper knowledge often reveals how much more there is to learn.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Accept compliments gracefully without deflecting or inflating them, maintaining a balanced view of your abilities and contributions.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life change your mind when presented with better evidence or reasoning, prioritizing truth over consistency or the appearance of being right.</p>
+<p>Joa change your mind when presented with better evidence or reasoning, prioritizing truth over consistency or the appearance of being right.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life practice gratitude for the advantages and opportunities you've received, recognizing how much of your success depends on factors beyond your control.</p>
+<p>Joa practice gratitude for the advantages and opportunities you've received, recognizing how much of your success depends on factors beyond your control.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life focus on what you can learn from every interaction and experience, approaching life as a student rather than an expert.</p>
+<p>Joa focus on what you can learn from every interaction and experience, approaching life as a student rather than an expert.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Accept that your perspective is limited by your experience, background, and circumstances, remaining open to viewpoints that challenge your assumptions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life practice patience with others' learning processes, remembering that you were once a beginner in areas where you now have expertise.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa practice patience with others' learning processes, remembering that you were once a beginner in areas where you now have expertise.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Avoid the temptation to correct others unless it's truly necessary, allowing people to maintain their dignity even when they make minor errors.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life recognize that your current understanding is incomplete and will continue evolving, holding your beliefs with appropriate tentativeness.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa recognize that your current understanding is incomplete and will continue evolving, holding your beliefs with appropriate tentativeness.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Seek feedback actively from people whose judgment you respect, asking for honest assessments of your performance and character.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life practice self-compassion while maintaining accountability, treating yourself with kindness while still taking responsibility for improvement.</p>
+<p>Joa practice self-compassion while maintaining accountability, treating yourself with kindness while still taking responsibility for improvement.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life acknowledge when others have taught you something valuable, giving credit to your teachers and mentors rather than claiming self-discovery.</p>
+<p>Joa acknowledge when others have taught you something valuable, giving credit to your teachers and mentors rather than claiming self-discovery.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life practice intellectual humility by saying "I don't know" when you genuinely don't, rather than guessing or making up answers.</p>
+<p>Joa practice intellectual humility by saying "I don't know" when you genuinely don't, rather than guessing or making up answers.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Learn from people you disagree with, looking for valid points in opposing viewpoints rather than dismissing them entirely.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life avoid the temptation to be the center of attention in social situations, sharing conversational space and showing interest in others.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa avoid the temptation to be the center of attention in social situations, sharing conversational space and showing interest in others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Accept that you have blind spots and biases that affect your judgment, seeking input from others to compensate for these limitations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life practice gratitude for criticism that helps you improve, even when it's delivered poorly or feels unfair in the moment.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa practice gratitude for criticism that helps you improve, even when it's delivered poorly or feels unfair in the moment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Recognize that your talents and abilities are gifts to be used in service of others, not just for personal advancement or recognition.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life avoid the need to have the last word in arguments, prioritizing resolution and understanding over winning or being right.</p>
+<p>Joa avoid the need to have the last word in arguments, prioritizing resolution and understanding over winning or being right.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life practice empathy by trying to understand why others think and act as they do, rather than judging them based on your own standards.</p>
+<p>Joa practice empathy by trying to understand why others think and act as they do, rather than judging them based on your own standards.</p>
 </div>
 
 <div class="verse">
@@ -622,37 +638,37 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life avoid taking credit for positive outcomes that resulted from team efforts, shared resources, or favorable circumstances beyond your control.</p>
+<p>Joa avoid taking credit for positive outcomes that resulted from team efforts, shared resources, or favorable circumstances beyond your control.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Practice self-reflection regularly, examining your motivations, actions, and their effects on others with honest self-assessment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life remain open to changing your goals and priorities as you learn and grow, avoiding rigid attachment to plans that no longer serve you.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa remain open to changing your goals and priorities as you learn and grow, avoiding rigid attachment to plans that no longer serve you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Acknowledge the contributions of people who support your success behind the scenes, recognizing those whose work enables your achievements.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life practice patience with your own learning process, accepting that mastery takes time and that setbacks are part of development.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa practice patience with your own learning process, accepting that mastery takes time and that setbacks are part of development.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Avoid the temptation to prove your worth through achievements or recognition, finding security in your inherent value as a human being.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 51</span></h3>
-<p>The ultimate life seek to serve rather than to be served, looking for ways to contribute to others' wellbeing and success.</p>
+<p>Joa seek to serve rather than to be served, looking for ways to contribute to others' wellbeing and success.</p>
 </div>
 
 <div class="verse">
@@ -662,7 +678,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 53</span></h3>
-<p>The ultimate life practice gratitude for the basic necessities and opportunities that many people lack, maintaining perspective on your relative advantages.</p>
+<p>Joa practice gratitude for the basic necessities and opportunities that many people lack, maintaining perspective on your relative advantages.</p>
 </div>
 
 <div class="verse">
@@ -672,37 +688,37 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 55</span></h3>
-<p>The ultimate life recognize that your current success may not continue indefinitely, maintaining humility about the temporary nature of achievements and status.</p>
+<p>Joa recognize that your current success may not continue indefinitely, maintaining humility about the temporary nature of achievements and status.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
 <p>Learn from children and younger people, recognizing that fresh perspectives and natural wisdom often come from those with less experience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
-<p>The ultimate life practice forgiveness toward yourself and others, understanding that everyone is doing their best with their current level of understanding.</p>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
+<p>Joa practice forgiveness toward yourself and others, understanding that everyone is doing their best with their current level of understanding.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
 <p>Avoid the temptation to judge others harshly for mistakes you've also made, remembering your own struggles and failures.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
-<p>The ultimate life stay connected to your roots and the people who knew you before you achieved success, maintaining perspective on who you really are.</p>
+<h3><span class="verse-number">💫 Verse 59</span></h3>
+<p>Joa stay connected to your roots and the people who knew you before you achieved success, maintaining perspective on who you really are.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
+<h3><span class="verse-number">💫 Verse 60</span></h3>
 <p>Accept that you cannot control how others perceive you, focusing on being authentic rather than managing your image or reputation.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 61</span></h3>
-<p>The ultimate life practice gratitude for the opportunity to contribute and serve, viewing your abilities as tools for helping others rather than personal advantages.</p>
+<p>Joa practice gratitude for the opportunity to contribute and serve, viewing your abilities as tools for helping others rather than personal advantages.</p>
 </div>
 
 <div class="verse">
@@ -712,7 +728,7 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 63</span></h3>
-<p>The ultimate life avoid the temptation to use your knowledge or skills to make others feel inferior, instead using your abilities to lift others up.</p>
+<p>Joa avoid the temptation to use your knowledge or skills to make others feel inferior, instead using your abilities to lift others up.</p>
 </div>
 
 <div class="verse">
@@ -722,11 +738,11 @@ nav_order: 58
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 65</span></h3>
-<p>The ultimate life practice humility as a strength rather than weakness, understanding that ego-driven behavior ultimately limits your effectiveness and relationships.</p>
+<p>Joa practice humility as a strength rather than weakness, understanding that ego-driven behavior ultimately limits your effectiveness and relationships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
+<h3><span class="verse-number">💫 Verse 66</span></h3>
 <p>Cultivate humility as a daily practice, recognizing that true confidence comes from knowing your place in the larger web of human connection and mutual dependence.</p>
 </div>
 

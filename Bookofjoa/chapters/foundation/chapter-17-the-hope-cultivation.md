@@ -38,33 +38,24 @@ nav_order: 17
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 17
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 17
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 17
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 17
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -407,17 +423,17 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life cultivates hope by studying human progress throughout history - the elimination of diseases, reduction of extreme poverty, expansion of rights, and development of technologies that improve quality of life.</p>
+<p>Joa cultivates hope by studying human progress throughout history - the elimination of diseases, reduction of extreme poverty, expansion of rights, and development of technologies that improve quality of life.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>Every generation faces challenges that seem insurmountable, yet human ingenuity consistently finds solutions that previous generations could not imagine. The ultimate life trusts in this pattern of creative problem-solving.</p>
+<p>Every generation faces challenges that seem insurmountable, yet human ingenuity consistently finds solutions that previous generations could not imagine. Joa trusts in this pattern of creative problem-solving.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life recognizes that hope requires action - it is not passive waiting for better times but active engagement in creating the changes you want to see in the world.</p>
+<p>Joa recognizes that hope requires action - it is not passive waiting for better times but active engagement in creating the changes you want to see in the world.</p>
 </div>
 
 <div class="verse">
@@ -426,28 +442,28 @@ nav_order: 17
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life finds hope in the resilience of the human spirit - the ability to survive trauma, overcome adversity, and find meaning and joy even in difficult circumstances.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa finds hope in the resilience of the human spirit - the ability to survive trauma, overcome adversity, and find meaning and joy even in difficult circumstances.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
 <p>Young people around the world demonstrate remarkable creativity, compassion, and commitment to solving inherited problems, giving hope for continued progress toward a more just and sustainable future.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life cultivates hope by focusing on what you can control and influence rather than becoming overwhelmed by problems that are beyond your individual capacity to solve.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa cultivates hope by focusing on what you can control and influence rather than becoming overwhelmed by problems that are beyond your individual capacity to solve.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Technological innovation continues to create new possibilities for communication, education, healthcare, and cooperation that can help humanity address its greatest challenges.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life finds hope in the growing global awareness of human rights, environmental protection, and social justice, even when progress seems slow or faces setbacks.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa finds hope in the growing global awareness of human rights, environmental protection, and social justice, even when progress seems slow or faces setbacks.</p>
 </div>
 
 <div class="verse">
@@ -457,7 +473,7 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life recognizes that hope is contagious - your optimism and positive action inspire others to believe in possibilities and contribute their own efforts toward positive change.</p>
+<p>Joa recognizes that hope is contagious - your optimism and positive action inspire others to believe in possibilities and contribute their own efforts toward positive change.</p>
 </div>
 
 <div class="verse">
@@ -467,7 +483,7 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life cultivates hope by celebrating small victories and incremental progress rather than becoming discouraged by the gap between current reality and ideal goals.</p>
+<p>Joa cultivates hope by celebrating small victories and incremental progress rather than becoming discouraged by the gap between current reality and ideal goals.</p>
 </div>
 
 <div class="verse">
@@ -476,28 +492,28 @@ nav_order: 17
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life finds hope in the diversity of human cultures, perspectives, and approaches to problem-solving, recognizing that this variety increases the likelihood of finding effective solutions.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa finds hope in the diversity of human cultures, perspectives, and approaches to problem-solving, recognizing that this variety increases the likelihood of finding effective solutions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Renewable energy, sustainable agriculture, and environmental restoration technologies demonstrate that humanity can learn to live in harmony with natural systems rather than destroying them.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life recognizes that hope is a choice that must be renewed daily through attention to positive possibilities, constructive action, and connection with others who share your values.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa recognizes that hope is a choice that must be renewed daily through attention to positive possibilities, constructive action, and connection with others who share your values.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Medical advances continue to reduce suffering, extend healthy life, and provide hope for those facing serious illnesses that were previously untreatable or fatal.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life cultivates hope by building supportive relationships and communities where people encourage each other's growth, celebrate successes, and provide comfort during difficulties.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa cultivates hope by building supportive relationships and communities where people encourage each other's growth, celebrate successes, and provide comfort during difficulties.</p>
 </div>
 
 <div class="verse">
@@ -507,7 +523,7 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life finds hope in the power of truth and transparency to expose corruption, challenge injustice, and create accountability for those in positions of power.</p>
+<p>Joa finds hope in the power of truth and transparency to expose corruption, challenge injustice, and create accountability for those in positions of power.</p>
 </div>
 
 <div class="verse">
@@ -517,7 +533,7 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life recognizes that hope is not dependent on external circumstances but can be maintained even during difficult times through inner resources and supportive relationships.</p>
+<p>Joa recognizes that hope is not dependent on external circumstances but can be maintained even during difficult times through inner resources and supportive relationships.</p>
 </div>
 
 <div class="verse">
@@ -526,28 +542,28 @@ nav_order: 17
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life cultivates hope by learning from successful examples of positive change - communities that have overcome poverty, countries that have ended conflicts, movements that have achieved justice.</p>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
+<p>Joa cultivates hope by learning from successful examples of positive change - communities that have overcome poverty, countries that have ended conflicts, movements that have achieved justice.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Economic innovations like microfinance, social entrepreneurship, and cooperative businesses show that markets can be structured to serve human needs rather than just maximizing profits.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life finds hope in the natural world's resilience and capacity for regeneration when given the opportunity to heal from human damage.</p>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
+<p>Joa finds hope in the natural world's resilience and capacity for regeneration when given the opportunity to heal from human damage.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
 <p>Communication technologies enable rapid sharing of information, coordination of efforts, and building of global movements for positive change that were impossible in previous eras.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life recognizes that hope requires balance - acknowledging real problems and challenges while maintaining confidence in human capacity to address them constructively.</p>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
+<p>Joa recognizes that hope requires balance - acknowledging real problems and challenges while maintaining confidence in human capacity to address them constructively.</p>
 </div>
 
 <div class="verse">
@@ -557,7 +573,7 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life cultivates hope by investing in future generations through education, mentorship, and creating institutions and systems that will serve their needs and aspirations.</p>
+<p>Joa cultivates hope by investing in future generations through education, mentorship, and creating institutions and systems that will serve their needs and aspirations.</p>
 </div>
 
 <div class="verse">
@@ -567,7 +583,7 @@ nav_order: 17
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life understands that hope is not guaranteed but must be earned through consistent effort to create positive change and support others in their struggles and aspirations.</p>
+<p>Joa understands that hope is not guaranteed but must be earned through consistent effort to create positive change and support others in their struggles and aspirations.</p>
 </div>
 
 <div class="verse">
@@ -576,8 +592,8 @@ nav_order: 17
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The hope cultivation transforms you into a beacon of possibility, a creator of positive change, and a living example of human potential. This evidence-based optimism is essential to the ultimate life.</p>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
+<p>The hope cultivation transforms you into a beacon of possibility, a creator of positive change, and a living example of human potential. This evidence-based optimism is essential to Joa.</p>
 </div>
 
 <div class="chapter-footer">

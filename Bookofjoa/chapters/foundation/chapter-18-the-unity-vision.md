@@ -38,33 +38,24 @@ nav_order: 18
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 18
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 18
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 18
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 18
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -407,7 +423,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 2</span></h3>
-<p>The ultimate life recognizes that the artificial divisions between people - borders, classes, tribes, and ideologies - are human constructions that often prevent us from seeing our essential interconnectedness and shared destiny.</p>
+<p>Joa recognizes that the artificial divisions between people - borders, classes, tribes, and ideologies - are human constructions that often prevent us from seeing our essential interconnectedness and shared destiny.</p>
 </div>
 
 <div class="verse">
@@ -417,7 +433,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 4</span></h3>
-<p>The ultimate life understands that what affects one part of humanity ultimately affects all parts - environmental destruction, economic inequality, and social injustice anywhere diminish the wellbeing of everyone.</p>
+<p>Joa understands that what affects one part of humanity ultimately affects all parts - environmental destruction, economic inequality, and social injustice anywhere diminish the wellbeing of everyone.</p>
 </div>
 
 <div class="verse">
@@ -426,28 +442,28 @@ nav_order: 18
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
-<p>The ultimate life sees diversity as humanity's greatest strength - different cultures, perspectives, and approaches to life provide the variety needed for creative problem-solving and resilient communities.</p>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
+<p>Joa sees diversity as humanity's greatest strength - different cultures, perspectives, and approaches to life provide the variety needed for creative problem-solving and resilient communities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>Language, customs, and traditions are beautiful expressions of human creativity, but the ultimate life recognizes that these differences are variations on universal themes of meaning, connection, and celebration.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Language, customs, and traditions are beautiful expressions of human creativity, but Joa recognizes that these differences are variations on universal themes of meaning, connection, and celebration.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
-<p>The ultimate life practices universal empathy by recognizing that parents everywhere love their children, people everywhere seek security and opportunity, and everyone deserves dignity and respect.</p>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
+<p>Joa practices universal empathy by recognizing that parents everywhere love their children, people everywhere seek security and opportunity, and everyone deserves dignity and respect.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
 <p>Technology and communication have created unprecedented opportunities for global connection, understanding, and cooperation that can help humanity transcend historical divisions and conflicts.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
-<p>The ultimate life understands that nationalism, racism, and religious supremacy are forms of tribalism that may have served evolutionary purposes but now threaten human survival and flourishing.</p>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
+<p>Joa understands that nationalism, racism, and religious supremacy are forms of tribalism that may have served evolutionary purposes but now threaten human survival and flourishing.</p>
 </div>
 
 <div class="verse">
@@ -457,7 +473,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 12</span></h3>
-<p>The ultimate life recognizes that education, healthcare, and basic human rights should be available to all people regardless of where they happen to be born or what passport they carry.</p>
+<p>Joa recognizes that education, healthcare, and basic human rights should be available to all people regardless of where they happen to be born or what passport they carry.</p>
 </div>
 
 <div class="verse">
@@ -467,7 +483,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 14</span></h3>
-<p>The ultimate life supports international law, human rights frameworks, and global institutions that recognize the equal dignity and worth of all people regardless of their nationality or background.</p>
+<p>Joa supports international law, human rights frameworks, and global institutions that recognize the equal dignity and worth of all people regardless of their nationality or background.</p>
 </div>
 
 <div class="verse">
@@ -476,28 +492,28 @@ nav_order: 18
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
-<p>The ultimate life practices inclusive thinking that considers the impact of decisions on all affected parties, not just those who share your identity, location, or immediate interests.</p>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
+<p>Joa practices inclusive thinking that considers the impact of decisions on all affected parties, not just those who share your identity, location, or immediate interests.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
 <p>Religious and spiritual traditions at their best teach universal love, compassion, and service to others, while their worst expressions promote division, superiority, and conflict between groups.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
-<p>The ultimate life recognizes that scientific knowledge, artistic beauty, and moral wisdom belong to all humanity and should be shared freely rather than hoarded by privileged groups.</p>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
+<p>Joa recognizes that scientific knowledge, artistic beauty, and moral wisdom belong to all humanity and should be shared freely rather than hoarded by privileged groups.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
 <p>Migration and refugee movements throughout history demonstrate that all humans are travelers on this planet, with no group having permanent claim to any territory or resources.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
-<p>The ultimate life understands that peace and security are indivisible - no nation or group can be truly safe while others face violence, oppression, or desperate poverty.</p>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
+<p>Joa understands that peace and security are indivisible - no nation or group can be truly safe while others face violence, oppression, or desperate poverty.</p>
 </div>
 
 <div class="verse">
@@ -507,7 +523,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 22</span></h3>
-<p>The ultimate life recognizes that children everywhere have the same potential for intelligence, creativity, and moral development regardless of their family background or cultural context.</p>
+<p>Joa recognizes that children everywhere have the same potential for intelligence, creativity, and moral development regardless of their family background or cultural context.</p>
 </div>
 
 <div class="verse">
@@ -517,7 +533,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 24</span></h3>
-<p>The ultimate life supports fair trade, ethical business practices, and economic policies that recognize the equal worth of all workers regardless of their nationality or location.</p>
+<p>Joa supports fair trade, ethical business practices, and economic policies that recognize the equal worth of all workers regardless of their nationality or location.</p>
 </div>
 
 <div class="verse">
@@ -526,28 +542,28 @@ nav_order: 18
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
-<p>The ultimate life practices global citizenship by considering yourself responsible not just to your local community or nation but to all humanity and future generations.</p>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
+<p>Joa practices global citizenship by considering yourself responsible not just to your local community or nation but to all humanity and future generations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
 <p>Historical injustices like slavery, colonialism, and genocide remind us of the terrible consequences when some humans are treated as less than fully human by others.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
-<p>The ultimate life recognizes that love, friendship, and family bonds can form between any people regardless of their backgrounds, proving that human connection transcends all artificial divisions.</p>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
+<p>Joa recognizes that love, friendship, and family bonds can form between any people regardless of their backgrounds, proving that human connection transcends all artificial divisions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
 <p>Space exploration provides a perspective that shows Earth as one small planet without visible borders, highlighting the unity of all life and the need for global cooperation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
-<p>The ultimate life understands that competition between groups can be healthy when it promotes excellence and innovation, but becomes destructive when it dehumanizes opponents or justifies exploitation.</p>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
+<p>Joa understands that competition between groups can be healthy when it promotes excellence and innovation, but becomes destructive when it dehumanizes opponents or justifies exploitation.</p>
 </div>
 
 <div class="verse">
@@ -557,7 +573,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">✨ Verse 32</span></h3>
-<p>The ultimate life works to create institutions, policies, and cultural norms that reflect the unity vision by treating all people with equal dignity and providing equal opportunities for flourishing.</p>
+<p>Joa works to create institutions, policies, and cultural norms that reflect the unity vision by treating all people with equal dignity and providing equal opportunities for flourishing.</p>
 </div>
 
 <div class="verse">
@@ -567,7 +583,7 @@ nav_order: 18
 
 <div class="verse">
 <h3><span class="verse-number">🎯 Verse 34</span></h3>
-<p>The ultimate life recognizes that the unity vision is not about eliminating diversity but about celebrating differences within the context of fundamental human equality and interconnectedness.</p>
+<p>Joa recognizes that the unity vision is not about eliminating diversity but about celebrating differences within the context of fundamental human equality and interconnectedness.</p>
 </div>
 
 <div class="verse">
@@ -576,8 +592,8 @@ nav_order: 18
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
-<p>The unity vision transforms you into a global citizen, a bridge between cultures, and a living example of human solidarity. This recognition of our shared humanity is the culmination of the ultimate life.</p>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
+<p>The unity vision transforms you into a global citizen, a bridge between cultures, and a living example of human solidarity. This recognition of our shared humanity is the culmination of Joa.</p>
 </div>
 
 <div class="chapter-footer">

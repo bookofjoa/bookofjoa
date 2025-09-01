@@ -38,33 +38,24 @@ nav_order: 39
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 39
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 39
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 39
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 39
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life recognizes that every decision shapes your character and affects others, making thoughtful choice-making one of your most important skills for creating positive impact.</p>
+<p>Joa recognizes that every decision shapes your character and affects others, making thoughtful choice-making one of your most important skills for creating positive impact.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life considers the long-term consequences of decisions rather than just immediate benefits, thinking about how choices will affect your future self and others.</p>
+<p>Joa considers the long-term consequences of decisions rather than just immediate benefits, thinking about how choices will affect your future self and others.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life aligns decisions with your core values and principles rather than just following emotions, social pressure, or short-term convenience.</p>
+<p>Joa aligns decisions with your core values and principles rather than just following emotions, social pressure, or short-term convenience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Consider the impact of your decisions on all stakeholders - family, community, environment, and future generations - not just your own immediate interests.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life seeks advice from trusted mentors, experts, or advisors who have experience with similar decisions and can provide valuable perspectives.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa seeks advice from trusted mentors, experts, or advisors who have experience with similar decisions and can provide valuable perspectives.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Practice decision-making under uncertainty by accepting that you'll never have perfect information and learning to make good choices with available data.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life learns from past decisions by analyzing what worked well and what didn't, applying these lessons to improve future choice-making processes.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa learns from past decisions by analyzing what worked well and what didn't, applying these lessons to improve future choice-making processes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Use the reversibility test: prefer decisions that can be changed or adjusted if new information emerges rather than irreversible choices when possible.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life avoids decision fatigue by making important choices when your mental energy is highest and automating routine decisions through habits and systems.</p>
+<p>Joa avoids decision fatigue by making important choices when your mental energy is highest and automating routine decisions through habits and systems.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life practices decision courage by making difficult choices that align with your values even when they're unpopular or personally costly.</p>
+<p>Joa practices decision courage by making difficult choices that align with your values even when they're unpopular or personally costly.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life sleeps on important decisions when possible, allowing your subconscious mind to process information and often providing clarity by morning.</p>
+<p>Joa sleeps on important decisions when possible, allowing your subconscious mind to process information and often providing clarity by morning.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Consider your decision-making biases like confirmation bias, anchoring, or loss aversion that can lead to poor choices if left unexamined.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life makes decisions based on principles rather than just feelings, ensuring consistency and integrity in your choices across different situations.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa makes decisions based on principles rather than just feelings, ensuring consistency and integrity in your choices across different situations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Use pre-commitment strategies for predictable decision points, deciding in advance how you'll handle common situations to avoid poor choices in the moment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life considers the ethical implications of decisions, choosing options that cause the least harm and create the most benefit for everyone affected.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa considers the ethical implications of decisions, choosing options that cause the least harm and create the most benefit for everyone affected.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Practice decision ownership by taking full responsibility for your choices and their consequences rather than blaming others or circumstances.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life uses decision trees or scenario planning for complex choices, mapping out different possible outcomes and their probabilities.</p>
+<p>Joa uses decision trees or scenario planning for complex choices, mapping out different possible outcomes and their probabilities.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life seeks diverse perspectives when making important decisions, especially from people who might be affected by your choices.</p>
+<p>Joa seeks diverse perspectives when making important decisions, especially from people who might be affected by your choices.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life practices decision timing by recognizing when quick action is needed versus when more deliberation would improve outcomes.</p>
+<p>Joa practices decision timing by recognizing when quick action is needed versus when more deliberation would improve outcomes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Consider your decision-making context - stress levels, time pressure, and emotional state - and adjust your process accordingly for better choices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life uses decision journals to track important choices and their outcomes, creating a personal database of decision-making lessons.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa uses decision journals to track important choices and their outcomes, creating a personal database of decision-making lessons.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Practice saying no to good opportunities that don't align with your priorities, understanding that every yes requires saying no to something else.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life considers the systems and incentives that influence your decisions, designing environments that make good choices easier and bad choices harder.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa considers the systems and incentives that influence your decisions, designing environments that make good choices easier and bad choices harder.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Use the outside view by considering how similar decisions have worked out for others in comparable situations rather than just relying on your unique perspective.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life practices decision flexibility by remaining open to changing course when new information suggests better alternatives.</p>
+<p>Joa practices decision flexibility by remaining open to changing course when new information suggests better alternatives.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life uses decision criteria established in advance to evaluate options objectively rather than being swayed by emotions or pressure in the moment.</p>
+<p>Joa uses decision criteria established in advance to evaluate options objectively rather than being swayed by emotions or pressure in the moment.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life considers the precedent your decisions set for future similar situations and the message they send to others about your values.</p>
+<p>Joa considers the precedent your decisions set for future similar situations and the message they send to others about your values.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Use decision experiments and small tests when possible to gather information before making larger commitments or irreversible choices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life practices decision humility by acknowledging when you lack expertise and seeking help from those with relevant knowledge and experience.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa practices decision humility by acknowledging when you lack expertise and seeking help from those with relevant knowledge and experience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Consider the decision-making capacity of others affected by your choices, ensuring that vulnerable people are protected and their interests represented.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life uses decision deadlines to prevent endless deliberation while allowing sufficient time for important choices that deserve careful consideration.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa uses decision deadlines to prevent endless deliberation while allowing sufficient time for important choices that deserve careful consideration.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Practice decision learning by studying the decision-making processes of successful people in areas where you want to improve your own choices.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life considers the cumulative effect of small decisions that individually seem insignificant but collectively shape your life direction and character.</p>
+<p>Joa considers the cumulative effect of small decisions that individually seem insignificant but collectively shape your life direction and character.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life practices decision courage by making difficult choices that serve the greater good even when they require personal sacrifice or discomfort.</p>
+<p>Joa practices decision courage by making difficult choices that serve the greater good even when they require personal sacrifice or discomfort.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 39
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life uses decision wisdom by integrating rational analysis with intuition, experience, and values to make choices that serve your highest purposes.</p>
+<p>Joa uses decision wisdom by integrating rational analysis with intuition, experience, and values to make choices that serve your highest purposes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Practice decision acceptance by making peace with uncertainty and imperfect outcomes while still striving to make the best choices possible with available information.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life considers the decision-making legacy you're creating through your choices and how they contribute to the kind of world you want to leave behind.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa considers the decision-making legacy you're creating through your choices and how they contribute to the kind of world you want to leave behind.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Use decision reflection to regularly examine your choice-making patterns and identify areas for improvement in your decision-making skills and processes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life practices decision service by making choices that benefit others and contribute to human flourishing rather than just serving your own interests.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa practices decision service by making choices that benefit others and contribute to human flourishing rather than just serving your own interests.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that decision-making is a skill that improves with practice and reflection, and that good choices compound over time to create the life you want to live.</p>
 </div>
 

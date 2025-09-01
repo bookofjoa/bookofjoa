@@ -38,33 +38,24 @@ nav_order: 50
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 50
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 50
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 50
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 50
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life pursues entrepreneurship to solve real problems and serve human needs rather than just to accumulate wealth or achieve status through business ownership.</p>
+<p>Joa pursues entrepreneurship to solve real problems and serve human needs rather than just to accumulate wealth or achieve status through business ownership.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life rejects the false belief that entrepreneurial success is determined by gender, race, or background. Business skills can be learned by anyone with dedication and access to resources.</p>
+<p>Joa rejects the false belief that entrepreneurial success is determined by gender, race, or background. Business skills can be learned by anyone with dedication and access to resources.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life builds businesses that treat employees, customers, suppliers, and communities fairly rather than maximizing profits through exploitation or unethical practices.</p>
+<p>Joa builds businesses that treat employees, customers, suppliers, and communities fairly rather than maximizing profits through exploitation or unethical practices.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Start small and test your business ideas with minimal investment before committing significant resources, learning from failures and iterating based on customer feedback.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life recognizes that entrepreneurial success often depends on access to capital, networks, and resources that are not equally available to all potential business owners.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa recognizes that entrepreneurial success often depends on access to capital, networks, and resources that are not equally available to all potential business owners.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Build businesses that create jobs and opportunities for others rather than just generating income for yourself, contributing to economic development in your community.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life avoids business models that depend on maintaining others in poverty, ignorance, or desperation to create demand for your products or services.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa avoids business models that depend on maintaining others in poverty, ignorance, or desperation to create demand for your products or services.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Develop financial literacy and business skills through education, mentorship, and experience rather than relying solely on intuition or following get-rich-quick schemes.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life builds businesses that can operate ethically and sustainably rather than requiring constant growth or exploitation of resources to remain viable.</p>
+<p>Joa builds businesses that can operate ethically and sustainably rather than requiring constant growth or exploitation of resources to remain viable.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life creates businesses that contribute to environmental sustainability and social responsibility rather than just maximizing short-term profits regardless of broader impact.</p>
+<p>Joa creates businesses that contribute to environmental sustainability and social responsibility rather than just maximizing short-term profits regardless of broader impact.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life recognizes that business failure is common and often results from factors beyond the entrepreneur's control, not just personal inadequacy or poor planning.</p>
+<p>Joa recognizes that business failure is common and often results from factors beyond the entrepreneur's control, not just personal inadequacy or poor planning.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Seek mentorship and advice from experienced entrepreneurs while also mentoring others who are starting their business journeys, sharing knowledge and resources generously.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life builds businesses that enhance rather than exploit local communities, supporting local suppliers and contributing to regional economic development.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa builds businesses that enhance rather than exploit local communities, supporting local suppliers and contributing to regional economic development.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Understand that some business practices that are legal may still be unethical, and choose to operate according to higher standards than just legal compliance.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life creates businesses that provide products or services that genuinely improve people's lives rather than just convincing them they need things they don't actually need.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa creates businesses that provide products or services that genuinely improve people's lives rather than just convincing them they need things they don't actually need.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Plan for business succession and legacy, ensuring that your enterprise can continue to serve others and provide opportunities even after your direct involvement ends.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life builds businesses that can adapt to changing market conditions and social needs rather than becoming rigid systems that resist necessary evolution.</p>
+<p>Joa builds businesses that can adapt to changing market conditions and social needs rather than becoming rigid systems that resist necessary evolution.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life creates businesses that respect workers' rights, provide fair wages and benefits, and maintain safe working conditions rather than cutting costs through exploitation.</p>
+<p>Joa creates businesses that respect workers' rights, provide fair wages and benefits, and maintain safe working conditions rather than cutting costs through exploitation.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life builds businesses that contribute to innovation and progress in ways that benefit society rather than just creating competitive advantages for your company.</p>
+<p>Joa builds businesses that contribute to innovation and progress in ways that benefit society rather than just creating competitive advantages for your company.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Use business success to support causes and organizations that promote equality, justice, and opportunity rather than just accumulating personal wealth and status.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life creates businesses that can provide financial security for your family while also creating opportunities and security for employees and their families.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa creates businesses that can provide financial security for your family while also creating opportunities and security for employees and their families.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Understand that some business models depend on regulatory capture, monopolistic practices, or other anti-competitive strategies that harm consumers and society.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life builds businesses that enhance your ability to serve others and contribute to positive change rather than isolating you from community needs and responsibilities.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa builds businesses that enhance your ability to serve others and contribute to positive change rather than isolating you from community needs and responsibilities.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Develop leadership skills that inspire and empower employees rather than controlling or micromanaging them, creating workplaces where people can grow and contribute meaningfully.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life creates businesses that can operate transparently and honestly rather than requiring secrecy, deception, or manipulation to maintain profitability.</p>
+<p>Joa creates businesses that can operate transparently and honestly rather than requiring secrecy, deception, or manipulation to maintain profitability.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life builds businesses that contribute to economic mobility and opportunity creation rather than just benefiting from existing inequalities and barriers.</p>
+<p>Joa builds businesses that contribute to economic mobility and opportunity creation rather than just benefiting from existing inequalities and barriers.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life creates businesses that respect intellectual property rights while also contributing to open innovation and knowledge sharing that benefits entire industries.</p>
+<p>Joa creates businesses that respect intellectual property rights while also contributing to open innovation and knowledge sharing that benefits entire industries.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Avoid business practices that depend on exploiting natural resources unsustainably or that contribute to environmental degradation and climate change.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life builds businesses that can maintain quality and integrity even as they grow and scale, rather than sacrificing values for expansion and profit maximization.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa builds businesses that can maintain quality and integrity even as they grow and scale, rather than sacrificing values for expansion and profit maximization.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Understand that entrepreneurial success often requires personal sacrifices and risks that affect family relationships and personal wellbeing, and plan accordingly.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life creates businesses that contribute to technological and social progress rather than just replicating existing solutions or competing on price alone.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa creates businesses that contribute to technological and social progress rather than just replicating existing solutions or competing on price alone.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Use business platforms to advocate for important social causes and to model ethical behavior rather than just focusing on marketing and profit generation.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life builds businesses that can provide meaningful work and career development opportunities for employees rather than just offering jobs that pay bills.</p>
+<p>Joa builds businesses that can provide meaningful work and career development opportunities for employees rather than just offering jobs that pay bills.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life creates businesses that enhance rather than replace human capabilities, using technology to augment human potential rather than just reducing labor costs.</p>
+<p>Joa creates businesses that enhance rather than replace human capabilities, using technology to augment human potential rather than just reducing labor costs.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 50
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life builds businesses that can contribute to community resilience and mutual support rather than just extracting value from local economies.</p>
+<p>Joa builds businesses that can contribute to community resilience and mutual support rather than just extracting value from local economies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Understand that business ownership provides platforms for influence and impact that come with obligations to use these platforms responsibly and ethically.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life creates businesses that can adapt to changing social values and expectations rather than resisting progress toward greater equality and sustainability.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa creates businesses that can adapt to changing social values and expectations rather than resisting progress toward greater equality and sustainability.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Use business success to create more opportunities for others to become entrepreneurs rather than maintaining barriers that limit access to business ownership.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life builds businesses that contribute to human flourishing and social progress rather than just generating financial returns for investors and owners.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa builds businesses that contribute to human flourishing and social progress rather than just generating financial returns for investors and owners.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Remember that entrepreneurship is ultimately about using business as a tool for solving problems and serving others, not just as a means for personal enrichment and status.</p>
 </div>
 

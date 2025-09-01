@@ -38,33 +38,24 @@ nav_order: 55
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 55
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 55
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 55
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 55
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life commits to truth above all else, recognizing that reality is the foundation upon which all genuine progress, relationships, and happiness must be built.</p>
+<p>Joa commits to truth above all else, recognizing that reality is the foundation upon which all genuine progress, relationships, and happiness must be built.</p>
 </div>
 
 <div class="verse">
@@ -412,7 +428,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 3</span></h3>
-<p>The ultimate life distinguishes between facts and opinions, presenting each clearly and avoiding the manipulation that comes from mixing personal beliefs with objective reality.</p>
+<p>Joa distinguishes between facts and opinions, presenting each clearly and avoiding the manipulation that comes from mixing personal beliefs with objective reality.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life faces uncomfortable truths about yourself, your relationships, and your circumstances rather than living in denial or wishful thinking.</p>
+<p>Joa faces uncomfortable truths about yourself, your relationships, and your circumstances rather than living in denial or wishful thinking.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Seek evidence for your beliefs and be willing to change your mind when presented with better information. Truth-seeking requires intellectual humility and courage.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life tells the truth kindly but directly, avoiding both brutal honesty that wounds unnecessarily and gentle lies that prevent necessary growth.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa tells the truth kindly but directly, avoiding both brutal honesty that wounds unnecessarily and gentle lies that prevent necessary growth.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Acknowledge your mistakes quickly and completely, taking full responsibility without excuses, blame-shifting, or minimization of the harm caused.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life creates environments where others feel safe telling you the truth, even when it's criticism or bad news you don't want to hear.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa creates environments where others feel safe telling you the truth, even when it's criticism or bad news you don't want to hear.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Question information sources and verify claims before accepting or sharing them. Truth requires active investigation, not passive acceptance of convenient narratives.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life distinguishes between privacy and secrecy, keeping appropriate boundaries while avoiding the deception and isolation that come from hiding important truths.</p>
+<p>Joa distinguishes between privacy and secrecy, keeping appropriate boundaries while avoiding the deception and isolation that come from hiding important truths.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life confronts lies and misinformation when you encounter them, speaking up for truth even when it's socially awkward or professionally risky.</p>
+<p>Joa confronts lies and misinformation when you encounter them, speaking up for truth even when it's socially awkward or professionally risky.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life practices radical honesty with yourself about your motivations, fears, and desires, creating the self-awareness necessary for genuine personal growth.</p>
+<p>Joa practices radical honesty with yourself about your motivations, fears, and desires, creating the self-awareness necessary for genuine personal growth.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Share credit honestly and take blame appropriately, neither inflating your contributions nor deflecting responsibility for your failures and mistakes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life tells children age-appropriate truths rather than comforting lies, preparing them for reality while maintaining their sense of security and wonder.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa tells children age-appropriate truths rather than comforting lies, preparing them for reality while maintaining their sense of security and wonder.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Correct your own false statements immediately when you discover them, prioritizing accuracy over ego and demonstrating that truth matters more than being right.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life avoids exaggeration and embellishment in storytelling, recognizing that truth is compelling enough without dramatic enhancement or fictional elements.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa avoids exaggeration and embellishment in storytelling, recognizing that truth is compelling enough without dramatic enhancement or fictional elements.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Research thoroughly before making important decisions, seeking multiple perspectives and primary sources rather than relying on secondhand information or assumptions.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life practices transparency in your dealings with others, sharing relevant information openly and avoiding the manipulation that comes from information hoarding.</p>
+<p>Joa practices transparency in your dealings with others, sharing relevant information openly and avoiding the manipulation that comes from information hoarding.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life chooses truth over comfort, facing difficult realities rather than retreating into pleasant fantasies or denial of challenging circumstances.</p>
+<p>Joa chooses truth over comfort, facing difficult realities rather than retreating into pleasant fantasies or denial of challenging circumstances.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life questions your own assumptions and biases regularly, recognizing that self-deception is often more dangerous than external lies.</p>
+<p>Joa questions your own assumptions and biases regularly, recognizing that self-deception is often more dangerous than external lies.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Speak up when you witness injustice or wrongdoing, even when it's easier to remain silent or when speaking truth puts you at personal risk.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life practices intellectual honesty in debates and discussions, representing opposing viewpoints fairly and acknowledging the strength of counterarguments.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa practices intellectual honesty in debates and discussions, representing opposing viewpoints fairly and acknowledging the strength of counterarguments.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Avoid gossip and rumor-spreading, refusing to participate in the destruction of reputations based on unverified information or malicious speculation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life maintains honesty in small matters as well as large ones, recognizing that integrity is built through consistent truthfulness in daily interactions.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa maintains honesty in small matters as well as large ones, recognizing that integrity is built through consistent truthfulness in daily interactions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Accept feedback and criticism gracefully, looking for the truth in negative comments rather than dismissing them defensively or taking them as personal attacks.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life practices financial honesty, accurately reporting income, expenses, and debts while avoiding the temptation to inflate or minimize financial realities.</p>
+<p>Joa practices financial honesty, accurately reporting income, expenses, and debts while avoiding the temptation to inflate or minimize financial realities.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life maintains honesty in romantic relationships, sharing your feelings, concerns, and needs directly rather than expecting partners to guess or assume.</p>
+<p>Joa maintains honesty in romantic relationships, sharing your feelings, concerns, and needs directly rather than expecting partners to guess or assume.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life practices emotional honesty, acknowledging and expressing your feelings appropriately rather than pretending to feel differently than you do.</p>
+<p>Joa practices emotional honesty, acknowledging and expressing your feelings appropriately rather than pretending to feel differently than you do.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Correct misconceptions about yourself when they arise, neither allowing false positive impressions nor accepting unfair negative characterizations to persist.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life maintains honesty about your past, sharing relevant history when appropriate while avoiding both unnecessary oversharing and deceptive omissions.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa maintains honesty about your past, sharing relevant history when appropriate while avoiding both unnecessary oversharing and deceptive omissions.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Seek truth in conflicts by listening carefully to all perspectives and looking for objective facts rather than simply defending your initial position.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life practices professional honesty, accurately representing your qualifications, experience, and work quality to employers, clients, and colleagues.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa practices professional honesty, accurately representing your qualifications, experience, and work quality to employers, clients, and colleagues.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Acknowledge when you've changed your mind or learned something new, demonstrating that growth and learning are more important than consistency or pride.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life maintains honesty in teaching and mentoring, sharing both successes and failures to provide realistic guidance and prevent unrealistic expectations.</p>
+<p>Joa maintains honesty in teaching and mentoring, sharing both successes and failures to provide realistic guidance and prevent unrealistic expectations.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life practices honesty in self-assessment, accurately evaluating your strengths and weaknesses without false modesty or inflated self-regard.</p>
+<p>Joa practices honesty in self-assessment, accurately evaluating your strengths and weaknesses without false modesty or inflated self-regard.</p>
 </div>
 
 <div class="verse">
@@ -622,37 +638,37 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life maintains honesty about your health, accurately reporting symptoms to medical professionals and following through on treatment recommendations.</p>
+<p>Joa maintains honesty about your health, accurately reporting symptoms to medical professionals and following through on treatment recommendations.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Challenge false narratives and stereotypes when you encounter them, using facts and evidence to counter misinformation and promote accurate understanding.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life practices honesty in creative work, clearly distinguishing between fiction and non-fiction while maintaining authenticity in your artistic expression.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa practices honesty in creative work, clearly distinguishing between fiction and non-fiction while maintaining authenticity in your artistic expression.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Admit when you're wrong quickly and completely, apologizing sincerely and taking concrete steps to correct any harm caused by your mistakes.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life maintains honesty about your motivations and intentions, examining why you do what you do and sharing this self-knowledge when appropriate.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa maintains honesty about your motivations and intentions, examining why you do what you do and sharing this self-knowledge when appropriate.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Seek truth through multiple sources and perspectives, avoiding echo chambers and confirmation bias that reinforce existing beliefs without challenge.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 51</span></h3>
-<p>The ultimate life practices honesty in parenting, admitting your mistakes to your children and modeling the behavior you want them to develop.</p>
+<p>Joa practices honesty in parenting, admitting your mistakes to your children and modeling the behavior you want them to develop.</p>
 </div>
 
 <div class="verse">
@@ -662,7 +678,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 53</span></h3>
-<p>The ultimate life tells the truth about your needs and boundaries, communicating clearly what you can and cannot do rather than overcommitting or people-pleasing.</p>
+<p>Joa tells the truth about your needs and boundaries, communicating clearly what you can and cannot do rather than overcommitting or people-pleasing.</p>
 </div>
 
 <div class="verse">
@@ -672,37 +688,37 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 55</span></h3>
-<p>The ultimate life practices honesty in consumption and lifestyle choices, accurately assessing the impact of your decisions on yourself, others, and the environment.</p>
+<p>Joa practices honesty in consumption and lifestyle choices, accurately assessing the impact of your decisions on yourself, others, and the environment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 56</span></h3>
+<h3><span class="verse-number">💫 Verse 56</span></h3>
 <p>Share knowledge and information freely when it can help others, avoiding the hoarding of truth that prevents collective progress and understanding.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 57</span></h3>
-<p>The ultimate life maintains honesty about your spiritual and philosophical beliefs, neither pretending to certainty you don't have nor hiding convictions you do hold.</p>
+<h3><span class="verse-number">💫 Verse 57</span></h3>
+<p>Joa maintains honesty about your spiritual and philosophical beliefs, neither pretending to certainty you don't have nor hiding convictions you do hold.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 58</span></h3>
+<h3><span class="verse-number">💫 Verse 58</span></h3>
 <p>Correct false information when you encounter it, providing accurate data and sources while maintaining respect for the people who were misinformed.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 59</span></h3>
-<p>The ultimate life practices honesty in conflict resolution, acknowledging your role in problems and working toward solutions based on accurate understanding of the situation.</p>
+<h3><span class="verse-number">💫 Verse 59</span></h3>
+<p>Joa practices honesty in conflict resolution, acknowledging your role in problems and working toward solutions based on accurate understanding of the situation.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 60</span></h3>
+<h3><span class="verse-number">💫 Verse 60</span></h3>
 <p>Maintain truthfulness under pressure, refusing to lie even when honesty is costly or when others are encouraging you to bend the truth.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 61</span></h3>
-<p>The ultimate life seeks truth about historical events and social issues, looking beyond convenient narratives to understand complex realities and their ongoing effects.</p>
+<p>Joa seeks truth about historical events and social issues, looking beyond convenient narratives to understand complex realities and their ongoing effects.</p>
 </div>
 
 <div class="verse">
@@ -712,7 +728,7 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 63</span></h3>
-<p>The ultimate life maintains honesty about your progress and setbacks, accurately assessing where you are in relation to your goals and what needs to change.</p>
+<p>Joa maintains honesty about your progress and setbacks, accurately assessing where you are in relation to your goals and what needs to change.</p>
 </div>
 
 <div class="verse">
@@ -722,12 +738,17 @@ nav_order: 55
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 65</span></h3>
-<p>The ultimate life recognizes that truth-telling is a skill that improves with practice, working consistently to become more honest, accurate, and authentic in all communications.</p>
+<p>Joa recognizes that truth-telling is a skill that improves with practice, working consistently to become more honest, accurate, and authentic in all communications.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 66</span></h3>
+<h3><span class="verse-number">💫 Verse 66</span></h3>
 <p>Commit to truth as a lifelong practice, understanding that honesty is not a destination but a continuous choice that shapes your character and relationships every day.</p>
+</div>
+
+<div class="verse">
+<h3><span class="verse-number">💫 Verse 67</span></h3>
+<p>Truth-telling becomes easier when you commit to accuracy, acknowledge uncertainty when present, and choose honesty even when convenient lies might provide temporary advantages.</p>
 </div>
 
 <div class="chapter-footer">

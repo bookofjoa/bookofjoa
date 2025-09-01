@@ -38,33 +38,24 @@ nav_order: 22
 
 .chapter-header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: #2c3e50;
   padding: 40px 30px;
   border-radius: 20px;
   margin: 20px 0 35px 0;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
 }
 
-.chapter-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, rgba(255,255,255,0.15), transparent, rgba(255,255,255,0.15));
-  pointer-events: none;
-}
+
 
 .chapter-header h1 {
   font-size: 2.2em;
   margin: 15px 0 10px 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  text-shadow: none;
 }
 
 .chapter-meta {
@@ -173,24 +164,19 @@ nav_order: 22
 }
 
 .verse {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-  padding: 30px;
-  margin: 25px 0;
-  border-radius: 18px;
-  border-left: 6px solid #3498db;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  position: relative;
-  transition: all 0.4s ease;
-  cursor: pointer;
-  font-size: 1.05em;
-  line-height: 1.7;
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 .verse:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-  border-left-color: #e74c3c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-left-color: #f5576c;
 }
 
 .verse::before {
@@ -315,29 +301,47 @@ nav_order: 22
     gap: 18px;
     padding: 20px;
   }
-  
+
   .nav-arrow {
     width: 100%;
     min-width: auto;
   }
-  
+
   .chapter-container {
     margin: 15px;
     padding: 20px;
   }
-  
+
   .chapter-header {
-    padding: 30px 20px;
-  }
-  
+  text-align: center;
+  background: white;
+  color: #2c3e50;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 20px 0 35px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid #667eea;
+}
+
   .chapter-header h1 {
-    font-size: 1.8em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 25px 20px;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -346,14 +350,22 @@ nav_order: 22
 
 @media (max-width: 480px) {
   .chapter-header h1 {
-    font-size: 1.6em;
-  }
-  
+  font-size: 2.2em;
+  margin: 15px 0 10px 0;
+  color: #2c3e50;
+  text-shadow: none;
+}
+
   .verse {
-    padding: 20px 15px;
-    font-size: 1em;
-  }
-  
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
   .verse-number {
     font-size: 1.2em;
   }
@@ -371,12 +383,16 @@ nav_order: 22
   .chapter-selector {
     display: none;
   }
-  
+
   .verse {
-    background: white;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
+  background: linear-gradient(135deg, #f8f9ff 0%, #fff5f5 100%);
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
 }
 </style>
 
@@ -402,7 +418,7 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 1</span></h3>
-<p>The ultimate life recognizes that not all relationships are meant to last forever, and ending a partnership with dignity, respect, and kindness honors the love you once shared while protecting everyone's wellbeing.</p>
+<p>Joa recognizes that not all relationships are meant to last forever, and ending a partnership with dignity, respect, and kindness honors the love you once shared while protecting everyone's wellbeing.</p>
 </div>
 
 <div class="verse">
@@ -422,37 +438,37 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 5</span></h3>
-<p>The ultimate life speaks honestly about your reasons for ending the relationship while avoiding unnecessary cruelty or detailed criticism that serves no constructive purpose.</p>
+<p>Joa speaks honestly about your reasons for ending the relationship while avoiding unnecessary cruelty or detailed criticism that serves no constructive purpose.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 6</span></h3>
+<h3><span class="verse-number">💫 Verse 6</span></h3>
 <p>Take responsibility for your own contributions to the relationship's problems rather than blaming your partner entirely for the failure of the partnership.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 7</span></h3>
-<p>The ultimate life expresses gratitude for the positive experiences, growth, and love you shared rather than focusing only on what went wrong or how you were hurt.</p>
+<h3><span class="verse-number">💫 Verse 7</span></h3>
+<p>Joa expresses gratitude for the positive experiences, growth, and love you shared rather than focusing only on what went wrong or how you were hurt.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 8</span></h3>
+<h3><span class="verse-number">💫 Verse 8</span></h3>
 <p>Respect your partner's emotional response to the breakup, whether they react with sadness, anger, or relief. Allow them to process the end of the relationship in their own way.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 9</span></h3>
-<p>The ultimate life avoids giving false hope about reconciliation if you're certain the relationship is over. Clarity, though painful, is kinder than ambiguity that prolongs suffering.</p>
+<h3><span class="verse-number">💫 Verse 9</span></h3>
+<p>Joa avoids giving false hope about reconciliation if you're certain the relationship is over. Clarity, though painful, is kinder than ambiguity that prolongs suffering.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 10</span></h3>
+<h3><span class="verse-number">💫 Verse 10</span></h3>
 <p>Handle practical matters like shared belongings, living arrangements, and financial obligations fairly and promptly to minimize ongoing conflict and contact during the healing process.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 11</span></h3>
-<p>The ultimate life protects your ex-partner's privacy and dignity by not sharing intimate details of your relationship or the reasons for your breakup with friends, family, or social media.</p>
+<p>Joa protects your ex-partner's privacy and dignity by not sharing intimate details of your relationship or the reasons for your breakup with friends, family, or social media.</p>
 </div>
 
 <div class="verse">
@@ -462,7 +478,7 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 13</span></h3>
-<p>The ultimate life gives yourself and your ex-partner space to heal by limiting contact, especially in the immediate aftermath of the breakup when emotions are raw and painful.</p>
+<p>Joa gives yourself and your ex-partner space to heal by limiting contact, especially in the immediate aftermath of the breakup when emotions are raw and painful.</p>
 </div>
 
 <div class="verse">
@@ -472,37 +488,37 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 15</span></h3>
-<p>The ultimate life learns from the relationship's failure by honestly examining your own patterns, mistakes, and areas for growth rather than just blaming your ex-partner.</p>
+<p>Joa learns from the relationship's failure by honestly examining your own patterns, mistakes, and areas for growth rather than just blaming your ex-partner.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 16</span></h3>
+<h3><span class="verse-number">💫 Verse 16</span></h3>
 <p>Resist the temptation to seek revenge or deliberately hurt your ex-partner, even if they hurt you. Revenge prolongs your own pain and prevents healthy healing.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 17</span></h3>
-<p>The ultimate life handles mutual friends diplomatically by not forcing them to choose sides or using them to gather information about your ex-partner's life after the breakup.</p>
+<h3><span class="verse-number">💫 Verse 17</span></h3>
+<p>Joa handles mutual friends diplomatically by not forcing them to choose sides or using them to gather information about your ex-partner's life after the breakup.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 18</span></h3>
+<h3><span class="verse-number">💫 Verse 18</span></h3>
 <p>Focus on rebuilding your individual identity and rediscovering interests, goals, and friendships that may have been neglected during the relationship.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 19</span></h3>
-<p>The ultimate life seeks professional help if you're struggling with depression, anxiety, or destructive behaviors following a significant breakup or divorce.</p>
+<h3><span class="verse-number">💫 Verse 19</span></h3>
+<p>Joa seeks professional help if you're struggling with depression, anxiety, or destructive behaviors following a significant breakup or divorce.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 20</span></h3>
+<h3><span class="verse-number">💫 Verse 20</span></h3>
 <p>Avoid idealizing the ended relationship or your ex-partner once the initial pain subsides. Remember both the good and problematic aspects realistically.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 21</span></h3>
-<p>The ultimate life handles co-parenting responsibilities with maturity and focus on the children's wellbeing rather than using kids as weapons against your ex-partner.</p>
+<p>Joa handles co-parenting responsibilities with maturity and focus on the children's wellbeing rather than using kids as weapons against your ex-partner.</p>
 </div>
 
 <div class="verse">
@@ -512,7 +528,7 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 23</span></h3>
-<p>The ultimate life forgives your ex-partner for their mistakes and shortcomings, not to excuse their behavior but to free yourself from the burden of ongoing resentment.</p>
+<p>Joa forgives your ex-partner for their mistakes and shortcomings, not to excuse their behavior but to free yourself from the burden of ongoing resentment.</p>
 </div>
 
 <div class="verse">
@@ -522,37 +538,37 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 25</span></h3>
-<p>The ultimate life handles divorce proceedings with integrity by being honest about assets, fair in negotiations, and focused on equitable solutions rather than punitive measures.</p>
+<p>Joa handles divorce proceedings with integrity by being honest about assets, fair in negotiations, and focused on equitable solutions rather than punitive measures.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 26</span></h3>
+<h3><span class="verse-number">💫 Verse 26</span></h3>
 <p>Seek support from friends, family, or support groups who can provide emotional comfort and practical help during the difficult transition period following a breakup.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 27</span></h3>
-<p>The ultimate life maintains your values and character during breakups rather than allowing hurt feelings to justify cruel, dishonest, or vindictive behavior toward your ex-partner.</p>
+<h3><span class="verse-number">💫 Verse 27</span></h3>
+<p>Joa maintains your values and character during breakups rather than allowing hurt feelings to justify cruel, dishonest, or vindictive behavior toward your ex-partner.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 28</span></h3>
+<h3><span class="verse-number">💫 Verse 28</span></h3>
 <p>Use the end of the relationship as an opportunity for personal growth, self-reflection, and developing better relationship skills for future partnerships.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 29</span></h3>
-<p>The ultimate life handles shared social circles gracefully by attending events where your ex-partner might be present with maturity and courtesy when necessary.</p>
+<h3><span class="verse-number">💫 Verse 29</span></h3>
+<p>Joa handles shared social circles gracefully by attending events where your ex-partner might be present with maturity and courtesy when necessary.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 30</span></h3>
+<h3><span class="verse-number">💫 Verse 30</span></h3>
 <p>Avoid rushing into new relationships before you've processed the grief and lessons from your ended partnership. Take time to heal and grow before seeking new love.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 31</span></h3>
-<p>The ultimate life creates closure for yourself through personal rituals, letters you don't send, or other meaningful activities that help you accept the relationship's end.</p>
+<p>Joa creates closure for yourself through personal rituals, letters you don't send, or other meaningful activities that help you accept the relationship's end.</p>
 </div>
 
 <div class="verse">
@@ -562,7 +578,7 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 33</span></h3>
-<p>The ultimate life maintains hope for future love while also developing contentment with single life and not depending on romantic relationships for your happiness and self-worth.</p>
+<p>Joa maintains hope for future love while also developing contentment with single life and not depending on romantic relationships for your happiness and self-worth.</p>
 </div>
 
 <div class="verse">
@@ -572,37 +588,37 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 35</span></h3>
-<p>The ultimate life handles holidays, anniversaries, and other significant dates that remind you of the relationship with self-care and support from people who care about you.</p>
+<p>Joa handles holidays, anniversaries, and other significant dates that remind you of the relationship with self-care and support from people who care about you.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 36</span></h3>
+<h3><span class="verse-number">💫 Verse 36</span></h3>
 <p>Learn to speak about your ex-partner neutrally or positively, especially around children or mutual friends, rather than expressing ongoing bitterness or resentment.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 37</span></h3>
-<p>The ultimate life focuses on gratitude for what you learned about yourself, love, and relationships rather than viewing the ended partnership as wasted time or failure.</p>
+<h3><span class="verse-number">💫 Verse 37</span></h3>
+<p>Joa focuses on gratitude for what you learned about yourself, love, and relationships rather than viewing the ended partnership as wasted time or failure.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 38</span></h3>
+<h3><span class="verse-number">💫 Verse 38</span></h3>
 <p>Develop new interests, friendships, and goals that help you create a fulfilling single life rather than just waiting for the next romantic relationship to begin.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 39</span></h3>
-<p>The ultimate life handles unexpected encounters with your ex-partner with grace and courtesy, treating them as you would any other person deserving of basic respect.</p>
+<h3><span class="verse-number">💫 Verse 39</span></h3>
+<p>Joa handles unexpected encounters with your ex-partner with grace and courtesy, treating them as you would any other person deserving of basic respect.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 40</span></h3>
+<h3><span class="verse-number">💫 Verse 40</span></h3>
 <p>Seek therapy or counseling to work through any patterns of choosing incompatible partners or contributing to relationship problems that you want to change.</p>
 </div>
 
 <div class="verse">
 <h3><span class="verse-number">💫 Verse 41</span></h3>
-<p>The ultimate life protects your children from adult conflicts and emotions by maintaining their relationship with both parents when safe and appropriate.</p>
+<p>Joa protects your children from adult conflicts and emotions by maintaining their relationship with both parents when safe and appropriate.</p>
 </div>
 
 <div class="verse">
@@ -612,7 +628,7 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">🌟 Verse 43</span></h3>
-<p>The ultimate life handles the practical aspects of separation - changing emergency contacts, updating legal documents, and informing relevant parties - promptly and thoroughly.</p>
+<p>Joa handles the practical aspects of separation - changing emergency contacts, updating legal documents, and informing relevant parties - promptly and thoroughly.</p>
 </div>
 
 <div class="verse">
@@ -622,31 +638,31 @@ nav_order: 22
 
 <div class="verse">
 <h3><span class="verse-number">💎 Verse 45</span></h3>
-<p>The ultimate life maintains your physical health during the stress of relationship endings through proper nutrition, exercise, sleep, and medical care as needed.</p>
+<p>Joa maintains your physical health during the stress of relationship endings through proper nutrition, exercise, sleep, and medical care as needed.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔮 Verse 46</span></h3>
+<h3><span class="verse-number">💫 Verse 46</span></h3>
 <p>Avoid using alcohol, drugs, or other substances to numb the pain of relationship loss. Face your grief directly with healthy coping mechanisms and professional support.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🌈 Verse 47</span></h3>
-<p>The ultimate life celebrates your strength and resilience in surviving the end of an important relationship and your commitment to learning and growing from the experience.</p>
+<h3><span class="verse-number">💫 Verse 47</span></h3>
+<p>Joa celebrates your strength and resilience in surviving the end of an important relationship and your commitment to learning and growing from the experience.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">⭐ Verse 48</span></h3>
+<h3><span class="verse-number">💫 Verse 48</span></h3>
 <p>Help others going through similar experiences by sharing your wisdom and support while respecting their unique circumstances and healing process.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">🔥 Verse 49</span></h3>
-<p>The ultimate life maintains faith in love and healthy relationships despite experiencing the pain of breakup, understanding that not all partnerships are meant to last forever.</p>
+<h3><span class="verse-number">💫 Verse 49</span></h3>
+<p>Joa maintains faith in love and healthy relationships despite experiencing the pain of breakup, understanding that not all partnerships are meant to last forever.</p>
 </div>
 
 <div class="verse">
-<h3><span class="verse-number">💡 Verse 50</span></h3>
+<h3><span class="verse-number">💫 Verse 50</span></h3>
 <p>Honor the love you shared by becoming a better person through the experience, treating future partners with greater wisdom and skill, and helping others navigate relationship challenges.</p>
 </div>
 
