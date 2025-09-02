@@ -626,8 +626,9 @@
             const queryWords = query.toLowerCase().split(/\s+/);
             const results = [];
             const activeFilters = getActiveFilters();
+            const chapterMatches = new Set();
             
-            // Search in verses (primary search)
+            // First, search in verses to find which chapters contain matches
             searchData.verses.forEach(verse => {
                 // Apply section filter if active
                 if (activeFilters.length > 0 && !activeFilters.includes(verse.section)) {
@@ -636,29 +637,27 @@
                 
                 const score = calculateRelevanceScore(verse, queryWords);
                 if (score > 0) {
-                    results.push({
-                        type: 'verse',
-                        data: verse,
-                        score: score,
-                        matchType: getMatchType(verse, queryWords)
-                    });
+                    chapterMatches.add(verse.chapter_number);
                 }
             });
             
-            // Search in chapter titles
+            // Then return only chapter results for matched chapters
             searchData.chapters.forEach(chapter => {
                 // Apply section filter if active
                 if (activeFilters.length > 0 && !activeFilters.includes(chapter.section)) {
                     return;
                 }
                 
+                // Include if chapter title matches OR if chapter contains matching verses
                 const titleScore = calculateTitleScore(chapter, queryWords);
-                if (titleScore > 0) {
+                const hasVerseMatches = chapterMatches.has(chapter.number);
+                
+                if (titleScore > 0 || hasVerseMatches) {
                     results.push({
                         type: 'chapter',
                         data: chapter,
-                        score: titleScore + 10, // Boost chapter title matches
-                        matchType: 'title'
+                        score: titleScore + (hasVerseMatches ? 5 : 0),
+                        matchType: titleScore > 0 ? 'title' : 'content'
                     });
                 }
             });
@@ -666,7 +665,7 @@
             // Sort by relevance score
             results.sort((a, b) => b.score - a.score);
             
-            return results.slice(0, 100); // Limit to top 100 results
+            return results.slice(0, 50); // Limit to top 50 chapter results
         }
         
         function calculateRelevanceScore(verse, queryWords) {
@@ -763,27 +762,12 @@
             
             let html = '<div class="results-container">';
             
-            // Group results by type
-            const verseResults = results.filter(r => r.type === 'verse');
-            const chapterResults = results.filter(r => r.type === 'chapter');
-            
-            // Show chapter matches first
-            if (chapterResults.length > 0) {
-                html += '<div class="result-section"><h3>📖 Chapter Matches</h3>';
-                chapterResults.forEach(result => {
-                    html += renderChapterResult(result, query);
-                });
-                html += '</div>';
-            }
-            
-            // Show verse matches
-            if (verseResults.length > 0) {
-                html += '<div class="result-section"><h3>📝 Verse Matches</h3>';
-                verseResults.forEach(result => {
-                    html += renderVerseResult(result, query);
-                });
-                html += '</div>';
-            }
+            // Only show chapter results
+            html += '<div class="result-section"><h3>📖 Chapter Results</h3>';
+            results.forEach(result => {
+                html += renderChapterResult(result, query);
+            });
+            html += '</div>';
             
             html += '</div>';
             resultsDiv.innerHTML = html;
@@ -801,7 +785,7 @@
                     <p class="chapter-description">${highlightSearchTerms(chapter.description, query)}</p>
                     <div class="result-meta">
                         <span>📝 ${chapter.total_verses} verses</span>
-                        <span class="match-type">Title Match</span>
+                        <span class="match-type">${getMatchTypeLabel(result.matchType)}</span>
                     </div>
                 </div>
             `;
@@ -830,9 +814,10 @@
         function getMatchTypeLabel(matchType) {
             const labels = {
                 'exact_phrase': '🎯 Exact Match',
-                'all_words': '✅ All Words',
+                'all_words': '✅ All Words', 
                 'partial': '📝 Partial Match',
-                'title': '📖 Title Match'
+                'title': '📖 Title Match',
+                'content': '📝 Content Match'
             };
             return labels[matchType] || 'Match';
         }

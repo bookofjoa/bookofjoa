@@ -383,7 +383,7 @@ body {
 <div class="top-nav">
   <div class="nav-container">
     <div class="nav-left">
-      <img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav">
+      <a href="../../../index.html"><img src="../../../assets/logo.png" alt="The Book of Joa" class="logo-nav"></a>
       <h1 class="book-title">The Book of Joa</h1>
     </div>
     
