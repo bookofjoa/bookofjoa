@@ -409,7 +409,7 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that financial education principles requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Teaching others about money is a sacred responsibility that helps them understand that money from good sources creates happiness, security, and the ability to contribute positively to the world. Share the wisdom that both partners should create income through ethical means, that financial partnership strengthens relationships, and that money earned through helping others brings lasting satisfaction. Teach by example, showing how good financial decisions create peace, opportunity, and the ability to serve others generously.</p>
 </div>
 
 <div class="verse">

@@ -409,12 +409,12 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that wealth-wellbeing balance requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Money from good sources is the foundation of happiness because it provides security, freedom, and the ability to help others while pursuing your dreams and values. When earned through honest work and ethical means, money eliminates the stress of financial insecurity, allows you to make choices based on what's right rather than what's affordable, and gives you resources to support causes and people you care about. Both partners contributing to financial wellbeing creates shared accomplishment and mutual respect that strengthens your relationship.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True wealth-wellbeing balance involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Financial happiness comes from using money to create experiences, relationships, and opportunities rather than just accumulating possessions that require maintenance and storage. Spend money on things that appreciate in value or improve your life significantly: education, health, relationships, travel that broadens your perspective, and tools that increase your productivity and earning capacity. Both partners should align on what brings true satisfaction versus what society says should make you happy.</p>
 </div>
 
 <div class="verse">

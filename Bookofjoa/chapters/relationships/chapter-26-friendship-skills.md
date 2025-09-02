@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that building meaningful friendships requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">True friends demonstrate their loyalty through consistent actions over time, not just words during good times. Good friends celebrate your successes without jealousy, support you during failures without judgment, and tell you hard truths when necessary. Fake friends only appear when they need something, disappear during your struggles, and gossip about your private matters behind your back.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of building meaningful friendships, making genuine love and trust impossible.</p>
+<p class="verse-text">Quality friendships require mutual investment of time, energy, and emotional support. Recognize the difference between genuine friends who make effort to maintain connection and fair-weather friends who only contact you when convenient for them. Healthy friendships involve reciprocal giving and receiving, shared experiences, and respect for each other's boundaries and life circumstances.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Learn to identify toxic friendship patterns: friends who constantly create drama, make everything about themselves, violate your confidentiality, or pressure you into uncomfortable situations. Set clear boundaries with such people and prioritize relationships with those who respect your values, support your growth, and contribute positively to your life rather than draining your emotional energy.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of building meaningful friendships means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Use mentalism and psychological understanding to better comprehend your friends' motivations, communication styles, and emotional needs. This deeper insight allows you to offer more meaningful support, avoid unnecessary conflicts, and strengthen bonds through empathy rather than assumptions. Understanding personality types and emotional patterns helps you connect more authentically with different kinds of people.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True building meaningful friendships involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Distinguish between friends who genuinely care about your wellbeing and those who maintain friendships for social status, networking opportunities, or entertainment value. True friends will inconvenience themselves to help you during emergencies, remember important details about your life, and maintain connection even when life gets busy or complicated for both of you.</p>
 </div>
 
 <div class="verse">

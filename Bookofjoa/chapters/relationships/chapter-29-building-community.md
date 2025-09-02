@@ -409,17 +409,17 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that social connection and cooperation requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Build genuine community by focusing on shared values and common goals rather than superficial similarities or social status. Strong communities form when people contribute their unique skills and resources for mutual benefit, support each other during challenges, and celebrate collective achievements. This requires moving beyond self-interest to consider how your actions affect the group's wellbeing, participating actively rather than just consuming benefits, and taking responsibility for helping maintain the community's health and growth.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of social connection and cooperation, making genuine love and trust impossible.</p>
+<p class="verse-text">Foster inclusive environments by welcoming newcomers, bridging differences between group members, and ensuring that everyone has opportunities to contribute and be heard. Prevent cliques and exclusionary behavior by actively including people who might otherwise be left out, facilitating introductions between compatible individuals, and addressing discriminatory attitudes when they arise. Strong communities thrive on diversity of perspectives, backgrounds, and skills rather than homogeneity and conformity.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Create lasting social connections by being reliable, trustworthy, and consistent in your interactions with others. Show up when you say you will, follow through on commitments, and maintain confidentiality when people share personal information with you. Build trust gradually through small, consistent actions rather than grand gestures, and demonstrate that you value relationships for their own sake rather than for what you can gain from them. Authentic community building requires patience, persistence, and genuine care for others' wellbeing.</p>
 </div>
 
 <div class="verse">

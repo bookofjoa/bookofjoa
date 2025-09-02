@@ -409,17 +409,17 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that financial planning skills requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Budget mastery means creating a conscious plan for how you will use your money to achieve your goals, support your values, and maximize the goodness that money can create in your life and others' lives. A good budget allocates money for necessities, savings, investments, charitable giving, and reasonable enjoyment while avoiding waste and impulse spending. Both partners should participate in budget creation and monitoring, ensuring that financial decisions reflect shared priorities and values.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True financial planning skills involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Track your spending patterns to understand where your money actually goes versus where you think it goes, identifying areas where small changes can create significant savings over time. Use budgeting tools, apps, or simple spreadsheets to monitor income and expenses regularly, adjusting your plan as circumstances change. Both partners should review the budget together monthly, celebrating successes and problem-solving challenges without blame or criticism when spending exceeds planned amounts.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of financial planning skills means making financial decisions based on long-term consequences rather than immediate emotions, social pressure, or advertising manipulation.</p>
+<p class="verse-text">Create budgets that reflect your values by allocating money for things that truly matter to you while cutting expenses that don't align with your goals or bring lasting satisfaction. Include categories for giving to others, investing in your future, and enjoying life responsibly rather than just covering basic expenses. A values-based budget helps you say no to spending that doesn't serve your priorities and yes to investments in your relationships, health, education, and long-term security.</p>
 </div>
 
 <div class="verse">

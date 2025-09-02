@@ -409,12 +409,12 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that smart financial growth requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Investment intelligence means using money earned through good means to create more money through ethical investments that align with your values while building long-term wealth. Invest in companies, funds, and assets that contribute positively to society rather than those that profit from exploitation, environmental destruction, or human suffering. Both partners should educate themselves about investment principles, risk management, and portfolio diversification to make informed decisions together about growing your wealth responsibly.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True smart financial growth involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Start investing early and consistently, even with small amounts, because compound interest and time are more powerful than large lump sums invested later. Understand the difference between speculation and investing - speculation is gambling on short-term price movements, while investing means buying assets that generate income or appreciate in value over years and decades. Both partners should participate in investment decisions, learning together and avoiding the mistake of one person making all financial choices for the family.</p>
 </div>
 
 <div class="verse">

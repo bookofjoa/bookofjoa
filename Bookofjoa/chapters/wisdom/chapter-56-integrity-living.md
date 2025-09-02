@@ -409,42 +409,42 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that alignment of values and actions develops through applying knowledge to real situations, learning from the results, and adjusting your approach based on what actually works.</p>
+<p class="verse-text">Integrity means aligning your actions with your stated values, even when no one is watching and especially when it costs you something. This alignment creates internal peace because you're not constantly fighting against your own conscience or trying to remember different versions of yourself for different audiences. Living with integrity means making decisions based on your core principles rather than convenience, social pressure, or immediate gratification. It requires clearly defining what you stand for, then consistently acting in ways that support those beliefs. When your behavior matches your values, you develop authentic self-respect and earn the trust of others who can predict your actions based on your character rather than your circumstances.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True alignment of values and actions involves admitting when you're wrong, apologizing sincerely for mistakes, and changing your behavior rather than just making promises or explanations.</p>
+<p class="verse-text">Integrity requires taking responsibility for all your actions and their consequences, without making excuses or blaming external circumstances. This means owning your mistakes completely, understanding how they occurred, and taking concrete steps to prevent them in the future. When you act with integrity, you don't try to escape accountability through manipulation, lies, or victim mentality. Instead, you face the results of your choices directly, learn from them, and use that knowledge to make better decisions going forward. This responsibility extends to both your successes and failures—giving credit where it's due and accepting criticism where it's deserved. Taking full responsibility empowers you because it puts you in control of your life rather than making you dependent on external validation or circumstances.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of alignment of values and actions means seeking to understand different perspectives before making judgments, recognizing that most people act from their own logic even when it seems irrational.</p>
+<p class="verse-text">Integrity in relationships means treating all people with consistent respect and fairness, regardless of their status, usefulness to you, or ability to reciprocate. This includes being polite to service workers, honest with people who can't catch you in lies, and fair to those who have less power than you. Your character is revealed not by how you treat your equals or superiors, but by how you interact with those who cannot benefit or harm you. Integrity also means keeping your word to everyone—not just to important people or when it's convenient. If you promise to call someone, follow up on commitments, or show up when expected, your integrity demands that you follow through regardless of how you feel later or what better opportunities arise.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective alignment of values and actions requires balancing confidence with humility, standing firm on important principles while remaining flexible on methods and details.</p>
+<p class="verse-text">Living with integrity means being the same person in private as you are in public, maintaining consistent standards for yourself regardless of who's watching. This includes being honest when you could easily get away with lying, working diligently when no one is supervising, and treating your family with the same respect you show to strangers. Your private behavior reveals your true character because it's driven by internal values rather than external expectations. Integrity also means not badmouthing people behind their backs while being friendly to their faces, not cheating on your partner when they're not around, and not cutting corners on work when your boss isn't looking. The goal is to become someone you can respect completely, knowing that your actions align with your values in every situation.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable alignment of values and actions involves choosing battles wisely, focusing your energy on changes you can actually influence rather than wasting time fighting unchangeable circumstances.</p>
+<p class="verse-text">Integrity requires making difficult choices when your values conflict with your desires or social pressures. This means choosing long-term character over short-term pleasure, doing the right thing even when it's costly, and standing up for your principles even when you're in the minority. Sometimes integrity demands saying no to opportunities that compromise your values, ending relationships that require you to be someone you're not, or speaking up in situations where silence would be easier. These choices often involve immediate sacrifice but build long-term self-respect and earn the trust of others. Integrity isn't about perfection—it's about consistently choosing your values over your impulses and being willing to pay the price for living authentically.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Advanced alignment of values and actions includes understanding the long-term consequences of your actions, considering how your choices affect others, and taking responsibility for your impact on future generations.</p>
+<p class="verse-text">Integrity extends to how you handle money, possessions, and resources, ensuring that your financial behavior reflects your stated values. This means paying debts promptly, not taking things that don't belong to you, being honest about your financial situation, and using resources responsibly. If you claim to value fairness, pay people what you owe them and charge fair prices for your services. If you value environmental responsibility, don't waste resources just because you can afford to replace them. Integrity with money also means not using financial pressure to manipulate others, not making promises you can't keep regarding payment, and being transparent about financial arrangements in relationships and business dealings.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of alignment of values and actions rests on continuous learning, seeking feedback from trusted sources, and updating your beliefs based on new evidence rather than defending outdated positions.</p>
+<p class="verse-text">Integrity requires admitting when you've acted against your own values and taking immediate steps to correct the situation. This means acknowledging when you've been hypocritical, made decisions based on fear rather than principle, or compromised your standards for temporary gain. Instead of rationalizing these lapses or pretending they didn't happen, integrity demands honest self-assessment and corrective action. This might involve apologizing to people you've wronged, changing behavior patterns that led to the compromise, or making restitution when possible. The goal isn't perfection but rather a commitment to continuous alignment between your values and actions, with honest acknowledgment and correction when you fall short.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Wise alignment of values and actions means helping others develop their own wisdom rather than creating dependency, sharing knowledge freely while teaching people to think for themselves.</p>
+<p class="verse-text">The highest level of integrity involves inspiring others through your example rather than your words, demonstrating that it's possible to live authentically in a world that often rewards compromise. When people see you consistently acting with integrity despite costs or pressures, they begin to believe that they too can live according to their values. This influence happens naturally when you focus on being rather than seeming, on character rather than reputation. Integrity becomes contagious when others witness its power to create inner peace, authentic relationships, and genuine self-respect. Your commitment to living with integrity becomes a gift to your community, showing others what's possible when someone chooses principle over convenience and authenticity over approval.</p>
 </div>
 </div>
 

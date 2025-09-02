@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that challenging relationship navigation requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">When dealing with difficult people, protect your energy by setting clear boundaries and refusing to engage in their drama, manipulation, or attempts to provoke emotional reactions from you. Recognize that you cannot change other people's behavior, only your response to it. Stay calm, speak factually rather than emotionally, and avoid taking their actions personally - their behavior reflects their character, not your worth. Document interactions when necessary, limit your exposure to toxic individuals, and prioritize your mental health over trying to fix or please everyone.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of challenging relationship navigation, making genuine love and trust impossible.</p>
+<p class="verse-text">Identify manipulative behavior patterns including guilt-tripping, gaslighting, emotional blackmail, playing victim when confronted, and using others' kindness against them. Manipulative people often test boundaries gradually, create crisis situations to gain attention, and use intermittent reinforcement (alternating kindness and cruelty) to keep you confused and hoping for change. Protect yourself by maintaining emotional distance, verifying their claims independently, and refusing to rescue them from consequences of their own actions.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Handle criticism and personal attacks by separating valid feedback from emotional abuse, responding to legitimate concerns while ignoring insults and character assassination attempts. When someone attacks you personally, stay focused on facts and behaviors rather than defending your character or getting drawn into emotional arguments. Ask yourself whether their criticism contains any truth worth considering, then address the valid points while dismissing the rest. Don't allow others' opinions to define your self-worth or derail your goals.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of challenging relationship navigation means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Deal with narcissistic individuals by understanding their need for constant admiration, their inability to empathize genuinely, and their tendency to exploit others for personal gain. Avoid trying to reason with them during their rage episodes, don't expect genuine apologies or behavior change, and protect sensitive information about yourself that they might use against you later. Maintain professional courtesy when necessary but don't invest emotionally in relationships with people who view others as objects to be used rather than individuals to be respected.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True challenging relationship navigation involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Prevent unwanted situations by trusting your intuition when something feels wrong, removing yourself from environments where you feel unsafe or uncomfortable, and saying no clearly without over-explaining or justifying your decisions. Learn to recognize early warning signs of problematic people and situations: excessive flattery, pressure to make quick decisions, attempts to isolate you from support systems, or requests that violate your values. Your comfort and safety matter more than being polite or avoiding conflict.</p>
 </div>
 
 <div class="verse">

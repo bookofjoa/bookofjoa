@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that influence through service requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Lead through example and service rather than position or authority, influencing others by demonstrating the values and behaviors you want to see rather than demanding compliance. True leadership earns respect through competence, integrity, and genuine care for others' development and success. This means taking initiative to solve problems, supporting team members' growth, and making decisions that benefit the group rather than just yourself. People follow leaders who serve their interests and help them achieve their goals.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of influence through service, making genuine love and trust impossible.</p>
+<p class="verse-text">Develop influence by becoming genuinely useful to others, sharing knowledge and resources freely, and helping people solve their problems without expecting immediate returns. Build your reputation through consistent delivery of value, reliability in commitments, and expertise in areas that matter to your community or organization. People naturally gravitate toward those who make their lives easier, help them grow, and contribute positively to their success and wellbeing.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Exercise leadership by facilitating collaboration rather than commanding obedience, helping groups reach consensus through discussion and compromise rather than imposing your will. Listen to all perspectives before making decisions, acknowledge good ideas regardless of their source, and give credit generously to team members for their contributions. Effective leaders create environments where others feel valued, heard, and empowered to contribute their best work rather than simply following orders.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of influence through service means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Lead by taking responsibility for problems and mistakes without blaming others, focusing on solutions rather than dwelling on who's at fault. When things go wrong, ask "How can we fix this?" and "What can we learn?" rather than "Who's to blame?" Take ownership of your role in difficulties while helping others learn from the situation constructively. This approach builds trust and encourages others to be honest about their own mistakes rather than hiding problems or shifting responsibility.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True influence through service involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Influence others by understanding their motivations, needs, and communication styles, then adapting your approach to connect with them effectively while maintaining your own authenticity. Use basic psychology and mentalism principles to read body language, recognize emotional states, and understand what drives people's behavior. This insight allows you to present ideas in ways that resonate with their values and interests, making them more likely to consider your perspective and work collaboratively toward shared goals.</p>
 </div>
 
 <div class="verse">

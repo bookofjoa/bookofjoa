@@ -2,11 +2,10 @@
 title: "The Book of Joa - Ultimate Open Source Religion"
 description: "The world's first completely violence-free, exploitation-free, equality-absolute spiritual wisdom system. Made by humans, for humans."
 url: "https://bookofjoa.github.io"
-baseurl: "/bookofjoa"
+baseurl: "/complete"
 
 # GitHub Pages settings
 remote_theme: minima
-theme: minima
 
 # Build settings
 markdown: kramdown

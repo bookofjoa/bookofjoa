@@ -409,12 +409,12 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Relationship sustainability requires both partners to actively choose love daily through small actions - making coffee, leaving notes, asking about each other's day rather than relying on initial passion.</p>
+<p class="verse-text">Relationship sustainability requires both partners to actively choose love daily through small actions - making coffee, leaving notes, asking about each other's day rather than relying on initial passion. Open communication becomes the foundation where both people share their true thoughts, fears, and desires without judgment, creating psychological safety for complete honesty about everything including sexual needs, financial worries, and personal insecurities.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Absolute equality means neither male nor female supremacy in decision-making, with both partners having equal say in major choices regardless of income or traditional role expectations.</p>
+<p class="verse-text">Absolute equality means neither male nor female supremacy in decision-making, with both partners having equal say in major choices regardless of income or traditional role expectations. Understanding evolutionary psychology helps explain why women may test for commitment and resources while men may test for loyalty and attraction - but conscious couples transcend these biological programs to build partnerships based on mutual respect and shared values rather than unconscious evolutionary drives.</p>
 </div>
 
 <div class="verse">
@@ -424,7 +424,7 @@ body {
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Household responsibilities should be distributed based on availability, preferences, and fairness rather than gender assumptions - both partners contribute to all life management areas equally.</p>
+<p class="verse-text">Household responsibilities should be distributed based on availability, preferences, and fairness rather than gender assumptions - both partners contribute to all life management areas equally. Ego battles destroy intimacy when partners prioritize being "right" over being connected - practice dropping defensive walls and admitting mistakes quickly to maintain emotional closeness and prevent resentment from building between you.</p>
 </div>
 
 <div class="verse">
@@ -479,7 +479,7 @@ body {
 
 <div class="verse">
 <span class="verse-number">💎 Verse 15</span>
-<p class="verse-text">Handle money as a team with regular discussions about spending, saving, and financial goals, avoiding secret purchases or financial decisions that affect you both.</p>
+<p class="verse-text">Handle money as a team with regular discussions about spending, saving, and financial goals, avoiding secret purchases or financial decisions that affect you both. Develop mind connection through understanding each other's thought patterns, emotional triggers, and communication styles - this deep mental intimacy creates unbreakable bonds beyond physical attraction and allows you to support each other through any challenge.</p>
 </div>
 
 <div class="verse">

@@ -409,12 +409,12 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that long-term financial success requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Wealth building through good means creates generational benefits that extend far beyond your own lifetime, allowing you to provide for your family, support worthy causes, and create opportunities for others to thrive. Build wealth systematically by earning good income, saving consistently, investing wisely, and avoiding debt that doesn't generate income. Both partners should work together toward wealth building goals, combining their earning power and financial discipline to create abundance that serves good purposes.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True long-term financial success involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Understand that wealth building is a marathon, not a sprint, requiring patience, discipline, and consistent action over years and decades rather than seeking quick riches through risky schemes or speculation. Focus on building assets that generate income or appreciate in value: real estate, businesses, investment portfolios, and intellectual property. Both partners should maintain long-term perspective, avoiding the temptation to spend wealth-building money on immediate gratification or lifestyle inflation.</p>
 </div>
 
 <div class="verse">

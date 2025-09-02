@@ -434,12 +434,12 @@ body {
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Watch how they handle disagreements during dating - do they listen, compromise, apologize when wrong, or become defensive, blame others, and use silent treatment manipulation?</p>
+<p class="verse-text">Watch how they handle disagreements during dating - do they listen, compromise, apologize when wrong, or become defensive, blame others, and use silent treatment manipulation? Open communication means sharing your true thoughts, fears, and desires without judgment - choose someone who creates psychological safety for complete honesty about everything. Ego conflicts destroy relationships - avoid partners whose pride prevents apologies, whose defensiveness blocks growth, or whose need to be "right" matters more than connection.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">Never choose someone based primarily on wealth, status, or financial support ability - this hypergamous thinking prevents authentic love and creates unhealthy dependency patterns.</p>
+<p class="verse-text">Never choose someone based primarily on wealth, status, or financial support ability - this hypergamous thinking prevents authentic love and creates unhealthy dependency patterns. Understanding female hypergamy from an evolutionary perspective helps: women historically needed resources for child-rearing survival, but modern partnerships should be based on mutual contribution, not resource extraction. Evolutionary psychology explains attraction patterns, but conscious choice transcends biology - seek partners who choose you for your character, values, and compatibility, not just genetic or status signals.</p>
 </div>
 
 <div class="verse">
@@ -459,7 +459,7 @@ body {
 
 <div class="verse">
 <span class="verse-number">💫 Verse 11</span>
-<p class="verse-text">When choosing a life partner, observe how they treat service workers, their own family members, and animals - this reveals their true character more than romantic words ever will.</p>
+<p class="verse-text">When choosing a life partner, observe how they treat service workers, their own family members, and animals - this reveals their true character more than romantic words ever will. Mind connection means understanding each other's thought patterns, emotional triggers, and communication styles - this deep mental intimacy creates unbreakable bonds beyond physical attraction. Learn basic mentalism and psychology to understand your partner's motivations, fears, and desires - not for manipulation, but for deeper empathy and more effective communication.</p>
 </div>
 
 <div class="verse">
@@ -494,7 +494,7 @@ body {
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 18</span>
-<p class="verse-text">Someone who truly loves you will want you to maintain your own interests, friendships, and personal growth rather than expecting you to revolve your life entirely around them.</p>
+<p class="verse-text">Someone who truly loves you will want you to maintain your own interests, friendships, and personal growth rather than expecting you to revolve your life entirely around them. Partners should be so connected mentally and emotionally that shame disappears - choose someone with whom you can share your darkest thoughts and deepest vulnerabilities without fear of judgment. This level of connection requires both people to drop their masks and defensive walls completely.</p>
 </div>
 </div>
 

@@ -409,17 +409,17 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that wealth accumulation methods requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Systematic saving creates the foundation for all financial goals and opportunities, allowing you to handle emergencies without debt, invest in income-generating assets, and pursue dreams that require capital. Both partners should participate in saving decisions, contributing according to their income and working together toward shared financial objectives. Saving money from good income sources creates compound benefits - not only does your money grow, but you develop discipline, delayed gratification, and financial wisdom that serves you throughout life.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True wealth accumulation methods involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Automate your savings by setting up systems that transfer money to savings accounts before you can spend it, making saving effortless and consistent rather than dependent on willpower or remembering. Start with small amounts that don't strain your budget, then gradually increase as your income grows. Both partners should have individual savings goals as well as joint savings targets, respecting each other's financial autonomy while working toward common objectives like home ownership, children's education, or retirement security.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of wealth accumulation methods means making financial decisions based on long-term consequences rather than immediate emotions, social pressure, or advertising manipulation.</p>
+<p class="verse-text">Save money by distinguishing between needs and wants, focusing your spending on things that truly improve your life while avoiding impulse purchases and status-driven consumption. Before major purchases, wait at least 24 hours to ensure the decision aligns with your values and goals rather than temporary emotions. Both partners should discuss and agree on spending limits for individual purchases while maintaining some personal financial freedom for smaller decisions.</p>
 </div>
 
 <div class="verse">

@@ -409,12 +409,12 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that professional development requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Career building means developing your professional life as a source of good income, personal fulfillment, and positive contribution to society. Choose careers that align with your values and allow you to earn money through helping others, solving problems, or creating value rather than just collecting a paycheck. Both partners should actively build their careers, supporting each other's professional growth and advancement while maintaining work-life balance that strengthens rather than strains your relationship.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True professional development involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Invest in your career development through continuous learning, skill acquisition, and professional networking that opens doors to better opportunities and higher income. This includes formal education, certifications, conferences, mentorship relationships, and staying current with industry trends and technologies. Both partners should budget for career development expenses and support each other's professional growth as an investment in your shared financial future.</p>
 </div>
 
 <div class="verse">

@@ -409,42 +409,42 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that endurance and persistence develops through applying knowledge to real situations, learning from the results, and adjusting your approach based on what actually works.</p>
+<p class="verse-text">Patience is the ability to remain calm and maintain perspective during delays, setbacks, and frustrations, understanding that most worthwhile achievements require time and sustained effort. This means accepting that growth, learning, and meaningful change happen gradually rather than instantly, and that rushing often leads to mistakes or superficial results. Patient people understand the difference between things that can be hurried and things that must unfold in their natural time—you can't force a seed to grow faster, a wound to heal immediately, or a person to change before they're ready. Developing patience allows you to persist through difficulties without becoming bitter or giving up, and to appreciate the process of development rather than focusing only on end results.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True endurance and persistence involves admitting when you're wrong, apologizing sincerely for mistakes, and changing your behavior rather than just making promises or explanations.</p>
+<p class="verse-text">Patience with others means accepting that people have different paces of learning, different communication styles, and different levels of ability or experience. This includes being tolerant of mistakes, repetitive questions, and the need for multiple explanations when teaching or training someone. Patient people understand that everyone is fighting battles you know nothing about, carrying burdens that may slow them down or affect their performance. This doesn't mean accepting poor behavior or avoiding necessary conversations, but rather approaching others with compassion and giving them reasonable time and support to improve. Patience with others often requires managing your own expectations and remembering that your timeline is not necessarily their timeline.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of endurance and persistence means seeking to understand different perspectives before making judgments, recognizing that most people act from their own logic even when it seems irrational.</p>
+<p class="verse-text">Self-patience involves treating yourself with the same compassion you would show a good friend who is struggling or learning something new. This means avoiding harsh self-criticism when you make mistakes, recognizing that personal growth takes time, and celebrating small improvements rather than demanding perfection immediately. Patient people understand that changing habits, developing skills, or healing from trauma requires consistent effort over extended periods, and they don't abandon their goals just because progress feels slow. Self-patience also means forgiving yourself for past mistakes while taking responsibility for making better choices going forward, and accepting that some aspects of yourself may always require ongoing attention and management.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective endurance and persistence requires balancing confidence with humility, standing firm on important principles while remaining flexible on methods and details.</p>
+<p class="verse-text">Patience in difficult circumstances means maintaining hope and continuing to take positive action even when results are not immediately visible. This includes persisting through financial hardship, health challenges, relationship problems, or career setbacks without becoming paralyzed by frustration or despair. Patient people understand that some situations require endurance rather than immediate solutions, and they focus on controlling their responses rather than trying to force outcomes. This type of patience often involves breaking large problems into smaller, manageable steps and celebrating small victories along the way. It also means seeking support when needed rather than trying to handle everything alone.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable endurance and persistence involves choosing battles wisely, focusing your energy on changes you can actually influence rather than wasting time fighting unchangeable circumstances.</p>
+<p class="verse-text">Patience involves learning to tolerate discomfort, uncertainty, and the natural rhythms of life without constantly seeking escape through distractions, substances, or impulsive actions. This means sitting with difficult emotions rather than immediately trying to fix or avoid them, accepting that some questions don't have quick answers, and understanding that boredom, frustration, and waiting are normal parts of human experience. Patient people develop the ability to be present in uncomfortable moments without making them worse through resistance or panic. This tolerance for discomfort allows you to make better decisions because you're not rushing to escape difficult feelings, and it builds resilience for handling future challenges.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Advanced endurance and persistence includes understanding the long-term consequences of your actions, considering how your choices affect others, and taking responsibility for your impact on future generations.</p>
+<p class="verse-text">Strategic patience means knowing when to wait and when to act, understanding that timing can be as important as the action itself. This involves recognizing when you need more information, when circumstances are not yet favorable, or when others are not ready for change. Strategic patience is different from procrastination or avoidance—it involves active preparation and careful observation while waiting for the right moment. This might mean saving money before making a major purchase, building skills before pursuing a promotion, or allowing emotions to cool before having a difficult conversation. Patient people understand that sometimes the most productive thing you can do is wait for better conditions while continuing to prepare and improve.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of endurance and persistence rests on continuous learning, seeking feedback from trusted sources, and updating your beliefs based on new evidence rather than defending outdated positions.</p>
+<p class="verse-text">Patience with the process of change means understanding that meaningful transformation happens in stages, with setbacks and plateaus being normal parts of growth rather than signs of failure. This applies to personal development, relationship improvement, skill acquisition, and recovery from trauma or addiction. Patient people expect that progress will be uneven, that old patterns will sometimes resurface, and that breakthrough moments are often preceded by periods of apparent stagnation. This understanding helps you persist through difficult phases without losing faith in your ability to improve, and it prevents you from abandoning worthwhile goals just because they're taking longer than expected.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Wise endurance and persistence means helping others develop their own wisdom rather than creating dependency, sharing knowledge freely while teaching people to think for themselves.</p>
+<p class="verse-text">The highest form of patience is the acceptance of life's fundamental uncertainty and your limited control over outcomes, while continuing to act with purpose and hope. This means making your best effort while releasing attachment to specific results, planning for the future while accepting that circumstances may change, and loving deeply while acknowledging that loss is inevitable. This type of patience allows you to engage fully with life without being paralyzed by the fear of disappointment or the need for guarantees. It creates inner peace because you're not constantly fighting against the nature of existence, and it allows you to appreciate what you have while working toward what you want without desperation or anxiety.</p>
 </div>
 </div>
 

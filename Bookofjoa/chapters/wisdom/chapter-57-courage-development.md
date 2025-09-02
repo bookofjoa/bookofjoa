@@ -409,42 +409,42 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that bravery in facing challenges develops through applying knowledge to real situations, learning from the results, and adjusting your approach based on what actually works.</p>
+<p class="verse-text">Courage is not the absence of fear, but rather taking right action despite feeling afraid. True bravery involves acknowledging your fears honestly while refusing to let them control your decisions or prevent you from living according to your values. This means speaking up when you witness injustice, even when your voice shakes; pursuing your dreams despite the possibility of failure; and standing up for what's right even when you're outnumbered or facing opposition. Courage grows through practice—each time you act despite fear, you build confidence in your ability to handle difficult situations. Start with small acts of bravery in daily life, and gradually work up to bigger challenges as your courage muscle strengthens.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True bravery in facing challenges involves admitting when you're wrong, apologizing sincerely for mistakes, and changing your behavior rather than just making promises or explanations.</p>
+<p class="verse-text">Physical courage involves protecting yourself and others from harm, but it must be balanced with wisdom and restraint. This means learning to assess real threats accurately, avoiding unnecessary risks, and using the minimum force necessary to resolve dangerous situations. Physical courage also includes taking care of your health through proper nutrition, exercise, and medical care, even when these require discipline and temporary discomfort. It means not using substances to escape reality, not engaging in reckless behaviors that endanger yourself or others, and being willing to defend those who cannot defend themselves. True physical courage serves protection and preservation of life, not ego or the desire to appear tough.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of bravery in facing challenges means seeking to understand different perspectives before making judgments, recognizing that most people act from their own logic even when it seems irrational.</p>
+<p class="verse-text">Emotional courage requires facing your own feelings honestly, including pain, disappointment, anger, and grief, without numbing them through addictions, distractions, or denial. This means allowing yourself to feel the full range of human emotions while learning to respond to them wisely rather than react impulsively. Emotional courage also involves having difficult conversations, setting boundaries with people you care about, and expressing your authentic feelings even when they might be rejected or misunderstood. It includes the bravery to love deeply despite the risk of loss, to be vulnerable in relationships despite the possibility of betrayal, and to remain open-hearted even after experiencing hurt.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective bravery in facing challenges requires balancing confidence with humility, standing firm on important principles while remaining flexible on methods and details.</p>
+<p class="verse-text">Intellectual courage means pursuing truth even when it challenges your existing beliefs, admitting when you don't know something, and being willing to change your mind when presented with better evidence. This includes questioning authority when necessary, thinking independently rather than following the crowd, and expressing unpopular ideas when you believe they're true and important. Intellectual courage requires the humility to acknowledge your limitations while having the confidence to trust your own reasoning abilities. It means being willing to be wrong in order to eventually be more right, and choosing growth over the comfort of certainty.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable bravery in facing challenges involves choosing battles wisely, focusing your energy on changes you can actually influence rather than wasting time fighting unchangeable circumstances.</p>
+<p class="verse-text">Moral courage involves standing up for your principles even when it costs you personally, whether through lost opportunities, damaged relationships, or social ostracism. This means refusing to participate in activities that violate your values, speaking out against injustice even when it's unpopular, and maintaining your integrity even under pressure. Moral courage requires clarity about your core values and the strength to act on them consistently. It includes the willingness to be disliked, misunderstood, or criticized for doing what you believe is right. This type of courage often involves defending those who cannot defend themselves and choosing long-term character over short-term comfort or gain.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Advanced bravery in facing challenges includes understanding the long-term consequences of your actions, considering how your choices affect others, and taking responsibility for your impact on future generations.</p>
+<p class="verse-text">Courage in relationships means being authentic about who you are, expressing your needs and boundaries clearly, and refusing to compromise your core identity to gain acceptance or avoid conflict. This includes the bravery to end relationships that require you to be someone you're not, to have honest conversations about problems rather than avoiding them, and to love people without trying to control or change them. Relationship courage also means apologizing when you're wrong, forgiving when you've been hurt, and remaining open to love despite past disappointments. It requires the strength to be vulnerable while maintaining healthy boundaries.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of bravery in facing challenges rests on continuous learning, seeking feedback from trusted sources, and updating your beliefs based on new evidence rather than defending outdated positions.</p>
+<p class="verse-text">Creative courage involves pursuing your authentic self-expression despite the risk of criticism, failure, or rejection. This means sharing your ideas, art, writing, or innovations even when they might be misunderstood or dismissed. Creative courage requires faith in your own vision while remaining open to feedback and improvement. It includes the bravery to be original rather than copying what's safe or popular, to experiment with new approaches despite the possibility of failure, and to persist through criticism and setbacks. This type of courage contributes to human progress by bringing new ideas and perspectives into the world.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Wise bravery in facing challenges means helping others develop their own wisdom rather than creating dependency, sharing knowledge freely while teaching people to think for themselves.</p>
+<p class="verse-text">The ultimate courage is the willingness to face uncertainty and the unknown without guarantees of success or safety. This includes accepting that life involves risk, that you cannot control all outcomes, and that some degree of suffering is inevitable. This courage allows you to live fully despite the uncertainties, to take calculated risks in pursuit of meaningful goals, and to remain hopeful without naive optimism. It means making peace with your mortality while living with purpose, accepting that you cannot save everyone while still trying to help where you can, and finding meaning in the journey rather than demanding certainty about the destination. This courage transforms fear from a paralyzing force into fuel for growth and meaningful action.</p>
 </div>
 </div>
 

@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that income generation strategies requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Excellence in earning means developing valuable skills that solve real problems for others, creating income through service, innovation, and genuine contribution to society. Focus on becoming exceptionally good at something people need and are willing to pay for, whether through employment, business ownership, or freelance services. Both partners should pursue income generation actively, combining their unique talents and abilities to create financial security together. Excellence requires continuous learning, professional development, and commitment to delivering outstanding value in everything you do.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True income generation strategies involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Build your earning capacity by investing in education, certifications, and skills that increase your market value and ability to command higher compensation. This includes technical skills specific to your field, soft skills like communication and leadership, and business skills like marketing and financial management. Both partners should support each other's professional development, sharing household responsibilities to allow time for learning and career advancement. Your earning potential grows when you become more valuable to others through competence and expertise.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of income generation strategies means making financial decisions based on long-term consequences rather than immediate emotions, social pressure, or advertising manipulation.</p>
+<p class="verse-text">Create income through ethical means that align with your values and contribute positively to society. This means avoiding work that exploits others, harms the environment, or promotes destructive behaviors even if such work pays well. Choose careers and business opportunities that allow you to use your talents for good while earning sustainable income. When both partners earn through good means, your financial success becomes a source of pride and satisfaction rather than guilt or moral compromise.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective income generation strategies requires tracking your income and expenses accurately, understanding where your money goes, and making conscious choices about spending priorities.</p>
+<p class="verse-text">Network strategically by building genuine relationships with people in your field, helping others succeed, and maintaining professional connections that can lead to opportunities, partnerships, and referrals. Excellence in earning often comes through collaboration rather than competition - help others achieve their goals and they will help you achieve yours. Both partners should develop their own professional networks while supporting each other's career advancement and business development efforts.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable income generation strategies involves building multiple income streams, developing marketable skills, and creating systems that generate money while you sleep or focus on other activities.</p>
+<p class="verse-text">Develop multiple income streams to create financial security and reduce dependence on any single source of money. This might include employment income, business profits, investment returns, rental income, royalties, or freelance work. Both partners should work together to identify and develop diverse income opportunities that leverage your combined skills, interests, and resources. Multiple income streams provide protection against job loss, economic downturns, and industry changes while accelerating wealth building.</p>
 </div>
 
 <div class="verse">

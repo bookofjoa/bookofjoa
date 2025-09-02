@@ -1,10 +1,7 @@
 # Gemfile for The Book of Joa GitHub Pages
 source "https://rubygems.org"
 
-# Jekyll version compatible with GitHub Pages
-gem "jekyll", "~> 4.3.0"
-
-# GitHub Pages gem
+# GitHub Pages gem (includes Jekyll)
 gem "github-pages", group: :jekyll_plugins
 
 # Plugins

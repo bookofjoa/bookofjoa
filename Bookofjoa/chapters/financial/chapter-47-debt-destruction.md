@@ -409,17 +409,17 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that debt elimination strategies requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Debt destroys the goodness that money can bring by stealing your future income, limiting your choices, and creating stress that damages relationships and health. Eliminate debt aggressively because every dollar paid in interest is a dollar that can't be used for good purposes like helping others, investing in your future, or creating security for your family. Both partners must commit to debt destruction together, avoiding new debt while systematically paying off existing obligations through increased income and reduced expenses.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True debt elimination strategies involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Attack debt strategically by listing all debts with balances, interest rates, and minimum payments, then choosing either the debt snowball method (smallest balances first for psychological momentum) or debt avalanche method (highest interest rates first for mathematical efficiency). Both partners should work together to find extra money for debt payments through increased income, reduced expenses, or selling unnecessary possessions. Every extra dollar toward debt elimination buys you freedom and peace of mind.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of debt elimination strategies means making financial decisions based on long-term consequences rather than immediate emotions, social pressure, or advertising manipulation.</p>
+<p class="verse-text">Avoid creating new debt by living below your means, building an emergency fund to handle unexpected expenses, and saving for major purchases rather than financing them. Understand that debt for consumption (cars, vacations, clothes, electronics) is financial poison that prevents wealth building and creates ongoing stress. Only consider debt for investments that generate income or appreciate in value, like education that increases earning capacity or real estate that provides rental income.</p>
 </div>
 
 <div class="verse">

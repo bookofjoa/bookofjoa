@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that effective communication requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Master the art of active listening by giving people your full attention, making eye contact, asking clarifying questions, and reflecting back what you've heard to ensure understanding. Avoid interrupting, formulating your response while they're speaking, or multitasking during conversations. True listening means being genuinely curious about others' perspectives and experiences rather than just waiting for your turn to talk. This skill builds trust, makes people feel valued, and helps you understand situations more completely before responding.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of effective communication, making genuine love and trust impossible.</p>
+<p class="verse-text">Develop emotional intelligence in social situations by reading body language, facial expressions, and vocal tones to understand how others are really feeling beyond their words. Learn to recognize when someone is uncomfortable, excited, bored, or upset, and adjust your approach accordingly. Practice expressing your own emotions clearly and appropriately, using "I" statements to communicate your feelings without blaming or attacking others. This awareness prevents misunderstandings and helps you respond with empathy rather than assumption.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Practice the art of conversation by asking open-ended questions that encourage others to share their thoughts and experiences, showing genuine interest in their responses, and sharing relevant personal experiences that build connection. Avoid dominating conversations, constantly redirecting topics to yourself, or giving unsolicited advice unless specifically asked. Learn to be comfortable with silence and to gracefully transition between topics when conversations naturally flow in new directions.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of effective communication means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Master conflict resolution by addressing disagreements directly but respectfully, focusing on specific behaviors rather than character attacks, and seeking solutions that work for everyone involved. Learn to disagree without being disagreeable, to express your needs clearly without demanding compliance, and to find common ground even when perspectives differ significantly. Avoid personal attacks, bringing up past grievances, or using emotional manipulation to win arguments. The goal is understanding and resolution, not victory.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True effective communication involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Develop networking skills by building genuine relationships rather than transactional connections, offering help and value to others before asking for anything in return, and maintaining contact with people even when you don't immediately need their assistance. Focus on quality relationships over quantity, remember personal details about people's lives and interests, and follow up on previous conversations to show you care about them as individuals rather than just professional contacts.</p>
 </div>
 
 <div class="verse">

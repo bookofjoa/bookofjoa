@@ -27,9 +27,9 @@ class JoaVerseCounter:
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            # Count numbered verses (## Verse 1, ## Verse 2, etc.)
-            verse_pattern = r'^## Verse \d+'
-            verses = re.findall(verse_pattern, content, re.MULTILINE)
+            # Count numbered verses in HTML format (<span class="verse-number">💫 Verse 1</span>)
+            verse_pattern = r'<span class="verse-number">[^<]*Verse \d+</span>'
+            verses = re.findall(verse_pattern, content)
             return len(verses)
         except FileNotFoundError:
             return 0
@@ -101,5 +101,5 @@ class JoaVerseCounter:
 
 if __name__ == "__main__":
     counter = JoaVerseCounter()
-    results = counter.check_chapter_structure("chapters")
+    results = counter.check_chapter_structure("Bookofjoa/chapters")
     counter.generate_report(results)

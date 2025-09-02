@@ -409,42 +409,42 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that wisdom through modesty develops through applying knowledge to real situations, learning from the results, and adjusting your approach based on what actually works.</p>
+<p class="verse-text">Humility is the accurate assessment of your abilities, achievements, and limitations without false modesty or arrogant exaggeration. This means acknowledging your strengths honestly while recognizing that they often result from factors beyond your control, such as genetics, opportunities, education, or the help of others. True humility involves taking credit for your genuine efforts and contributions while giving appropriate recognition to those who helped you along the way. It means being confident in your abilities without feeling superior to others, and being honest about your limitations without diminishing your worth. Humility creates the foundation for continued learning and growth because it keeps you open to feedback, new information, and different perspectives.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True wisdom through modesty involves admitting when you're wrong, apologizing sincerely for mistakes, and changing your behavior rather than just making promises or explanations.</p>
+<p class="verse-text">Intellectual humility means recognizing the limits of your knowledge and being willing to say "I don't know" when you lack sufficient information or expertise. This includes resisting the urge to have opinions about everything, especially topics you haven't studied deeply. Intellectual humility involves distinguishing between what you know from direct experience, what you've learned from reliable sources, and what you're merely guessing about. It means being more interested in learning truth than in being right, more focused on understanding than on winning arguments. This type of humility allows you to learn from anyone, regardless of their age, education, or social status, because wisdom can come from unexpected sources.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of wisdom through modesty means seeking to understand different perspectives before making judgments, recognizing that most people act from their own logic even when it seems irrational.</p>
+<p class="verse-text">Humility in relationships means treating all people with respect and kindness regardless of their status, wealth, appearance, or ability to benefit you. This includes being polite to service workers, patient with people who are learning, and respectful to those who disagree with you. Relational humility involves listening more than you speak, asking questions to understand rather than to prove points, and assuming positive intent when someone's words or actions could be interpreted multiple ways. It means apologizing quickly when you're wrong, forgiving readily when others make mistakes, and avoiding the temptation to use people's vulnerabilities or past errors against them during conflicts.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective wisdom through modesty requires balancing confidence with humility, standing firm on important principles while remaining flexible on methods and details.</p>
+<p class="verse-text">Humility involves accepting constructive criticism gracefully and using it for improvement rather than becoming defensive or dismissive. This means listening carefully to feedback, thanking people for their honesty even when it's uncomfortable to hear, and looking for the grain of truth in criticism even when it's poorly delivered. Humble people seek out feedback actively because they understand that others often see blind spots that they cannot see themselves. This doesn't mean accepting all criticism as valid, but rather evaluating it honestly and using what's helpful while discarding what's not. The ability to receive criticism well makes you a better partner, friend, employee, and leader because people feel safe being honest with you.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable wisdom through modesty involves choosing battles wisely, focusing your energy on changes you can actually influence rather than wasting time fighting unchangeable circumstances.</p>
+<p class="verse-text">True humility recognizes that your success and achievements are built upon the contributions of countless others, including teachers, mentors, family members, colleagues, and even strangers who provided opportunities or inspiration. This awareness leads to gratitude rather than arrogance, and motivates you to help others in return rather than hoarding your advantages. Humble people understand that they are part of a larger human community and that their individual accomplishments are meaningful partly because of how they contribute to the collective good. This perspective prevents the isolation and burden that comes with believing you must succeed entirely through your own efforts, and it creates motivation to lift others up rather than compete against them.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Advanced wisdom through modesty includes understanding the long-term consequences of your actions, considering how your choices affect others, and taking responsibility for your impact on future generations.</p>
+<p class="verse-text">Humility includes accepting that you will make mistakes, sometimes significant ones, and that these errors are opportunities for learning and growth rather than reasons for shame or self-attack. This means approaching your failures with curiosity rather than self-condemnation, asking what you can learn rather than dwelling on regret. Humble people understand that making mistakes is part of being human and that the goal is not perfection but rather continuous improvement. This attitude allows you to take appropriate risks, try new things, and recover more quickly from setbacks because you're not devastated by the inevitable failures that come with attempting anything worthwhile.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of wisdom through modesty rests on continuous learning, seeking feedback from trusted sources, and updating your beliefs based on new evidence rather than defending outdated positions.</p>
+<p class="verse-text">Humility in leadership means serving those you lead rather than expecting them to serve you, making decisions based on what's best for the group rather than what enhances your own status or comfort. Humble leaders admit their mistakes publicly, give credit to their team members for successes, and take responsibility for failures without blaming others. They ask for input from people at all levels of the organization because they understand that good ideas can come from anywhere. Humble leaders are secure enough in themselves that they're not threatened by the success or intelligence of others, and they actively work to develop and promote talented people even when those people might eventually surpass them.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Wise wisdom through modesty means helping others develop their own wisdom rather than creating dependency, sharing knowledge freely while teaching people to think for themselves.</p>
+<p class="verse-text">The deepest humility comes from recognizing your place in the larger cosmos—understanding that you are simultaneously insignificant in the vastness of space and time, yet uniquely valuable as a conscious being capable of love, creativity, and positive impact. This cosmic perspective prevents both arrogance (thinking you're more important than you are) and despair (thinking you don't matter at all). Instead, it creates a balanced view that motivates you to use your brief time and limited influence wisely, to treat others with compassion because you're all sharing the same human condition, and to find meaning in contributing to something larger than yourself while accepting that you cannot control ultimate outcomes.</p>
 </div>
 </div>
 

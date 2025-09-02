@@ -409,42 +409,42 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that integrity in all relationships develops through applying knowledge to real situations, learning from the results, and adjusting your approach based on what actually works.</p>
+<p class="verse-text">Truth is the foundation of all meaningful relationships and personal growth. Speaking honestly means communicating your real thoughts, feelings, and experiences without manipulation, exaggeration, or deliberate omission. This includes being truthful about your mistakes, limitations, and uncertainties rather than projecting false confidence or perfection. Honest communication creates trust, allows others to make informed decisions about their relationships with you, and prevents the emotional damage caused by deception. When you commit to truthfulness, you free yourself from the exhausting burden of maintaining lies and create space for authentic connections with others.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True integrity in all relationships involves admitting when you're wrong, apologizing sincerely for mistakes, and changing your behavior rather than just making promises or explanations.</p>
+<p class="verse-text">Honesty requires the courage to admit when you are wrong, have made mistakes, or lack knowledge about something. This vulnerability strengthens rather than weakens your relationships because it demonstrates humility, self-awareness, and respect for others' intelligence. Apologizing sincerely means taking full responsibility without making excuses, explaining how you will prevent similar mistakes, and following through with changed behavior. Avoid false apologies that shift blame ("I'm sorry you felt hurt") or conditional apologies ("I'm sorry if I was wrong"). True honesty also means acknowledging when others are right, giving credit where it's due, and resisting the ego's urge to always appear knowledgeable or infallible.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of integrity in all relationships means seeking to understand different perspectives before making judgments, recognizing that most people act from their own logic even when it seems irrational.</p>
+<p class="verse-text">Truthfulness extends beyond just avoiding lies to actively seeking and sharing accurate information. This means fact-checking your beliefs before presenting them as truth, distinguishing between your opinions and objective reality, and being willing to research topics thoroughly before making claims. When discussing complex issues, acknowledge the limitations of your knowledge and present multiple perspectives when they exist. Avoid spreading rumors, gossip, or unverified information, even when it seems harmless or entertaining. In our age of information overload and misinformation, committing to truth means developing critical thinking skills, consulting reliable sources, and admitting uncertainty rather than guessing or repeating what you've heard without verification.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective integrity in all relationships requires balancing confidence with humility, standing firm on important principles while remaining flexible on methods and details.</p>
+<p class="verse-text">Honest self-reflection is essential for personal growth and authentic relationships. This means regularly examining your motivations, biases, and behavior patterns without defensive justification. Ask yourself difficult questions: Am I being honest about my role in conflicts? Do I take credit for others' work or ideas? Am I truthful about my capabilities and limitations? Do I manipulate situations to avoid uncomfortable truths? Self-honesty also involves acknowledging your emotional patterns, recognizing when fear, pride, or insecurity drives your actions, and being truthful about your needs and boundaries. This internal honesty creates the foundation for external honesty and prevents the self-deception that leads to harmful behaviors and damaged relationships.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable integrity in all relationships involves choosing battles wisely, focusing your energy on changes you can actually influence rather than wasting time fighting unchangeable circumstances.</p>
+<p class="verse-text">Compassionate honesty means delivering difficult truths with kindness, timing, and consideration for the other person's emotional state and ability to process the information. This doesn't mean avoiding hard conversations, but rather approaching them with empathy and genuine care for the person's wellbeing. Choose appropriate settings for serious discussions, use "I" statements to express your perspective rather than making accusations, and focus on specific behaviors rather than character attacks. Sometimes honesty means saying nothing at all when your truth would serve only to hurt someone unnecessarily. The goal of honest communication should be to improve relationships, solve problems, or prevent harm, not to punish, embarrass, or prove yourself right. True honesty serves love and growth, not ego or revenge.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">⭐ Verse 6</span>
-<p class="verse-text">Advanced integrity in all relationships includes understanding the long-term consequences of your actions, considering how your choices affect others, and taking responsibility for your impact on future generations.</p>
+<p class="verse-text">Living truthfully requires consistency between your private thoughts, public words, and actual actions. This alignment prevents the internal conflict and stress that comes from maintaining different personas in different situations. When your private beliefs match your public statements and your behavior reflects both, you develop integrity that others can trust and respect. This doesn't mean sharing every private thought, but rather ensuring that what you do share is genuine and that your actions support your stated values. Examine areas where you might be living inconsistently: Do you advocate for honesty while telling white lies? Do you claim to value equality while treating some people better than others? True integrity means closing these gaps and becoming the same person in private as you are in public.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌈 Verse 7</span>
-<p class="verse-text">The foundation of integrity in all relationships rests on continuous learning, seeking feedback from trusted sources, and updating your beliefs based on new evidence rather than defending outdated positions.</p>
+<p class="verse-text">Intellectual honesty means being willing to change your mind when presented with better evidence, acknowledging the limitations of your current understanding, and resisting the temptation to defend beliefs simply because you've held them for a long time. This requires separating your identity from your opinions, so that changing your mind doesn't feel like losing yourself but rather like growing and learning. Seek out information that challenges your assumptions, listen genuinely to people who disagree with you, and ask questions designed to understand rather than to win arguments. Admit when you don't know something rather than pretending expertise you lack. Intellectual honesty also means being transparent about your sources of information, acknowledging when your knowledge comes from limited experience or biased sources, and continuously updating your understanding as new information becomes available.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🔥 Verse 8</span>
-<p class="verse-text">Wise integrity in all relationships means helping others develop their own wisdom rather than creating dependency, sharing knowledge freely while teaching people to think for themselves.</p>
+<p class="verse-text">The ultimate test of your commitment to truth is how you handle situations where honesty comes at a personal cost. This includes speaking up when you witness injustice, even when it's uncomfortable; admitting mistakes that could damage your reputation; correcting misconceptions that benefit you; and standing by your values even when it means losing opportunities or relationships. True integrity isn't convenient or easy—it requires courage and often involves sacrifice. However, the long-term benefits of living truthfully far outweigh the temporary discomfort. People learn to trust your word completely, you develop unshakeable self-respect, and you create a life built on solid foundations rather than shifting sands of deception. Your commitment to truth becomes a gift to everyone around you and a model for how human beings can interact with genuine respect and trust.</p>
 </div>
 </div>
 

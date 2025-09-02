@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that adolescent development support requires absolute equality between partners, where neither male nor female supremacy has any place in a healthy relationship built on mutual respect and shared responsibility.</p>
+<p class="verse-text">Teenagers need guidance that respects their developing independence while providing clear boundaries and consistent support. Understand that adolescence involves biological brain changes that affect decision-making, emotional regulation, and risk assessment - this isn't defiance but natural development. Provide structure without control, guidance without micromanagement, and trust balanced with appropriate supervision. Help teens develop critical thinking skills by discussing real-world consequences rather than just imposing rules, and model the behavior you want to see rather than just demanding compliance.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">Violence against your partner - whether emotional, physical, or psychological - is absolutely forbidden and destroys the foundation of adolescent development support, making genuine love and trust impossible.</p>
+<p class="verse-text">Help teenagers identify and avoid toxic friendships by teaching them to recognize red flags: friends who pressure them into uncomfortable situations, violate their confidentiality, create unnecessary drama, or only contact them when they need something. Teach teens that healthy friendships involve mutual respect, shared interests, emotional support during difficulties, and friends who celebrate their successes without jealousy. Quality friendships require effort from both people and should enhance rather than complicate their lives.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">Both partners must share household responsibilities equally, recognizing that both work and home duties should be distributed based on ability, availability, and fairness rather than outdated gender roles.</p>
+<p class="verse-text">Teach teenagers to set and maintain healthy boundaries in all relationships, including saying no to peer pressure, refusing to participate in activities that violate their values, and protecting their time and energy from people who drain them. Help them understand that boundaries aren't walls but guidelines that protect their wellbeing and allow for authentic relationships. Show them how to communicate boundaries clearly and kindly, and support them when they need to enforce consequences for boundary violations.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">The practice of adolescent development support means rejecting the harmful idea that one partner should bear all financial stress while the other focuses only on entertainment or leisure - both must contribute to the partnership's success.</p>
+<p class="verse-text">Guide teenagers in developing emotional intelligence by helping them understand and name their feelings, recognize emotional triggers, and develop healthy coping strategies for stress, anxiety, and disappointment. Teach them that emotions are information, not commands - they can feel angry without acting aggressively, feel sad without becoming depressed, and feel attracted without making poor decisions. Help them practice emotional regulation through mindfulness, physical exercise, creative expression, and open communication about their inner experiences.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">True adolescent development support involves protecting each other from harm, including standing up against family members who show disrespect or abuse toward your partner, regardless of which side of the family they come from.</p>
+<p class="verse-text">Prepare teenagers for romantic relationships by teaching them about healthy relationship dynamics, consent, communication skills, and the difference between love and infatuation. Help them understand that real love involves respect, trust, shared values, and mutual support rather than jealousy, control, or dramatic intensity. Teach them to recognize warning signs of abusive relationships and give them permission to seek help if they ever feel unsafe or manipulated by a romantic partner.</p>
 </div>
 
 <div class="verse">

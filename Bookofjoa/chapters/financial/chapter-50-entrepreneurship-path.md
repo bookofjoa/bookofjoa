@@ -409,12 +409,12 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that business creation wisdom requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Entrepreneurship allows you to create income by solving problems, serving customers, and building businesses that generate good money through providing genuine value to society. Start businesses that align with your values and contribute positively to the world while creating financial independence and security for your family. Both partners can participate in entrepreneurial ventures, combining their skills and resources to build something meaningful together while supporting each other through the challenges and uncertainties of business ownership.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True business creation wisdom involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Build businesses that create win-win situations where your success depends on your customers' success, your employees' growth, and your community's wellbeing. Ethical entrepreneurship means providing products or services that genuinely improve people's lives, treating employees fairly, and operating with integrity even when shortcuts might be more profitable. Money earned through good business practices creates lasting satisfaction and sustainable growth.</p>
 </div>
 
 <div class="verse">

@@ -409,27 +409,27 @@ body {
 
   <div class="verse">
 <span class="verse-number">💫 Verse 1</span>
-<p class="verse-text">Joa teaches that financial truth and principles requires understanding that money is a tool for creating security, opportunities, and positive impact rather than a measure of personal worth or success.</p>
+<p class="verse-text">Money is the source of all goodness when earned through honest, valuable work that serves others and creates positive impact in the world. Joa teaches that financial abundance allows you to provide for your family's needs, support worthy causes, help those in crisis, and create opportunities for others to thrive. Money earned through good means brings happiness because it represents the value you've created, the problems you've solved, and the lives you've improved. Reject the false teaching that money is evil - poverty creates more suffering than wealth ever could when wealth is used wisely and compassionately.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">✨ Verse 2</span>
-<p class="verse-text">True financial truth and principles involves spending less than you earn while continuously increasing your earning capacity through skill development, networking, and strategic career decisions.</p>
+<p class="verse-text">Both partners in a relationship must actively create income through their unique talents, skills, and efforts rather than one person bearing the entire financial burden while the other remains financially dependent. This shared responsibility creates equality, security, and mutual respect while preventing resentment and power imbalances. Each person should develop marketable skills, pursue career growth, and contribute financially according to their abilities and circumstances. Financial partnership means planning together, working together, and building wealth together as a team.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🌟 Verse 3</span>
-<p class="verse-text">The practice of financial truth and principles means making financial decisions based on long-term consequences rather than immediate emotions, social pressure, or advertising manipulation.</p>
+<p class="verse-text">Earn money only through good means: providing genuine value to others, solving real problems, creating useful products or services, and helping people improve their lives. Avoid income from exploitation, deception, gambling, illegal activities, or anything that harms others for your benefit. Good money comes from honest work, fair exchanges, ethical business practices, and activities that make the world better rather than worse. The source of your income matters as much as the amount because it affects your character and the sustainability of your success.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">🎯 Verse 4</span>
-<p class="verse-text">Effective financial truth and principles requires tracking your income and expenses accurately, understanding where your money goes, and making conscious choices about spending priorities.</p>
+<p class="verse-text">Money from good sources creates lasting happiness because it aligns with your values, builds your character, and allows you to sleep peacefully knowing your success doesn't come at others' expense. When you earn money through helping others, solving problems, and creating value, you develop skills, relationships, and reputation that compound over time. This positive cycle creates sustainable wealth and genuine satisfaction that money obtained through shortcuts, deception, or exploitation can never provide.</p>
 </div>
 
 <div class="verse">
 <span class="verse-number">💎 Verse 5</span>
-<p class="verse-text">Sustainable financial truth and principles involves building multiple income streams, developing marketable skills, and creating systems that generate money while you sleep or focus on other activities.</p>
+<p class="verse-text">Understand that money represents stored time, energy, and value creation - treat it with respect by spending thoughtfully, investing wisely, and avoiding waste on things that don't improve your life or serve your goals. Every dollar you spend is a vote for the kind of world you want to create, so choose businesses and products that align with your values. Money should be used to buy freedom, security, experiences, and opportunities rather than just accumulating possessions that require maintenance and storage.</p>
 </div>
 
 <div class="verse">
